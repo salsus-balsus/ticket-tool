@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: EKORG
+* Variant: ITR_EKORG
+* User: VICKN
+* Date: 20250218 / Time: 131711
+* Selection does not restrict data
+*BUKRS;EKORG;EKOTX
+0001;0001;Einkaufsorg. 0001;
+0001;0002;Test Purch UPL;
+0001;0003;Test Purch UPL;

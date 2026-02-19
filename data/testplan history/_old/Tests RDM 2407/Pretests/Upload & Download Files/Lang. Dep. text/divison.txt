@@ -1,0 +1,16 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: SPART
+* Variant: ITR_SPARTT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 184329
+* Selection does not restrict data
+*SPART;LANGU;TXTSH
+01;DE;lang imp;
+01;EN;Product Division 2;
+12;DE;Test Sparte 12 Cha;
+12;EN;Test Division 12 Cha;
+D1;EN;Division 1;
+MK;DE;Test Sparte MK;
+MK;EN;Test Division MK;
+U;EN;Division U;

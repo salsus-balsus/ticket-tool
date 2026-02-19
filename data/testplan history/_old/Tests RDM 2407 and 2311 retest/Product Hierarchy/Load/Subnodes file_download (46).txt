@@ -1,0 +1,12 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PRODHL
+* Variant: ITR_PRODL
+* User: IT_ALL_01
+* Date: 20241104 / Time: 152557
+* Selection:
+* USMD_EDITION EQ | PRDH2021 |
+* Edition: PRDH2021
+*PRODHL;TXTLG;EXT_NUM
+00100001;Burger;;
+00100002;Chocolate Bunny;;

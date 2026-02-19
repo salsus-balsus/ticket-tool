@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CLASSDESC
+* Variant: ITR_CLASSD
+* User: IT_ALL_06
+* Date: 20250526 / Time: 111120
+* Selection does not restrict data
+*CLASSHEAD;KSCHL1;SPRAS_CL
+$52;upload test DE;DE;
+$52;upload test EN;EN;

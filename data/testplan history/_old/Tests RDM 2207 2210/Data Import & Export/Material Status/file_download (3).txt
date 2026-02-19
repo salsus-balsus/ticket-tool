@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MMSTA
+* Variant: NV_MATSTA
+* User: IT_ALL_06
+* Date: 20220909 / Time: 074657
+* Selection does not restrict data
+*MMSTA;DDISP;DTAUF;DTBED;TXTMI;AUPRF;DEINK
+M1;;;A;Material Status 1;;A;
+M2;B;B;;Material Status 2;;B;

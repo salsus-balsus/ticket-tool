@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: BLART
+* Variant: ITR_BLART
+* User: IT_ALL_06
+* Date: 20240726 / Time: 171558
+* Selection does not restrict data
+*BLART;LANGU;TXTSH
+1;EN;Test;
+ZX;DE;Interne  txt;
+ZX;EN;internal txt;

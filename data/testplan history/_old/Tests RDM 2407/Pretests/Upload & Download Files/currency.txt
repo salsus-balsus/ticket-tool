@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CURRENCY
+* Variant: ITR_CURNCY
+* User: IT_ALL_06
+* Date: 20240531 / Time: 074520
+* Selection does not restrict data
+*CURRENCY;TXTSH;TXTLG;ALTWR;ISOCD;XPRIMARY;GDATU
+ZWS;;Zimbabwean Dollar (alt);935;ZWR;;00.00.0000;
+ZWU;;Zimbabwean Dollar (UPLT);935;ZWR;;00.00.0000;

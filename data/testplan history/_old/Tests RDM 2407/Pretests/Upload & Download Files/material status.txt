@@ -1,0 +1,14 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MMSTA
+* Variant: ITR_MMSTA
+* User: IT_ALL_06
+* Date: 20240611 / Time: 135536
+* Selection does not restrict data
+*MMSTA;TXTMI;DSTLK;DSTLP;DLOCK;DPROG;DPBED;DBEST;DLFPL;DDISP;DERZK;DFAPO;DFAKO;DFHMI;DINST;AUPRF;DEINK;DQMPF;DAPLA;DTAUF;DTBED
+01;Blocked for procment/whse;;;;B;;B;;B;;;;;;;B;;;;;
+02;Blocked for task list/BOM;B;B;;;;;;;;;;;;;;;B;;;
+NV;Test Case upl;;;X;;;;;;;;;;;MAT_PRFL1;;;;;;
+16;Test Case 22.2 IT;;;X;;;;;;;;;;;MAT_PRFL1;;;;;;
+17;Test Case 22.2.1 DU;A;A;X;A;A;A;A;A;A;A;A;A;A;MAT_PRFL1;A;;A;A;A;
+81;MPN: Blocked f.BOM header;B;;;;;;;;;;;;;;;;;;;

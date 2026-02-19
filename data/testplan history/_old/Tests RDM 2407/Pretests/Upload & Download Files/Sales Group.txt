@@ -1,0 +1,29 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: VKGRP
+* Variant: ITR_SG
+* User: HOEWLERD
+* Date: 20240119 / Time: 165447
+* Selection does not restrict data
+*VKGRP;TXTSH
+001;Sales Group 011;
+002;Sales Group 022;
+006;Sales Group 021;
+008;Sales Group 032;
+009;Sales Group 035;
+019;Sales Group 023;
+100;Sales Group 101;
+101;Sales Group 102;
+109;Sales Group 109;
+200;Sales Group 201;
+202;Sales Group 202;
+209;Sales Group 209;
+300;Sales Group 301;
+303;Sales Group 302;
+309;Sales Group 309;
+400;Sales Group 401;
+404;Sales Group 402;
+409;Sales Group 409;
+410;Sales Group 410;
+S1;SalesGrp 1;
+U;SalesGrp U;

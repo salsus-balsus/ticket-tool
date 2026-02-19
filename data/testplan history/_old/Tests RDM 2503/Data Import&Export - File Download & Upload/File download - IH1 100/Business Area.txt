@@ -1,0 +1,14 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: GSBER
+* Variant: ITR_GSBER
+* User: VICKN
+* Date: 20250218 / Time: 132435
+* Selection does not restrict data
+*GSBER;TXTMI
+0001;BA 0001;
+0002;Business area 0002;
+0003;Business area 0003;
+0004;MRP AREA MDG 0004_EN;
+2500;BA 2500;
+UPL1;Business area UPL;

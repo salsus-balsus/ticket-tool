@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: COMPANY
+* Variant: ITR_COMPID
+* User: VICKN
+* Date: 20250924 / Time: 105823
+* Selection does not restrict data
+*COMPANY;TXTLG;TXTMI;CCODCOMP;CNTRY;CURRCOMP;LANGCOMP;CITY;POBOX;PSTLC;STRET
+V80001;Gesellschaft V80001;;;DE;EUR;DE;Walldorf;;69190;Neurottstrasse 16;
+800002; UPL 800002;;;DE;EUR;DE;Walldorf;;69190;Neurottstrasse 16;

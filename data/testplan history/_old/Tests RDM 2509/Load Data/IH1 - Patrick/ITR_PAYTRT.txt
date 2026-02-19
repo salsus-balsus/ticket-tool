@@ -1,0 +1,31 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PAYMNTTRM
+* Variant: ITR_PAYTRT
+* User: KLOSP
+* Date: 20250924 / Time: 091558
+* Selection does not restrict data
+*PAYMNTTRM;LANGU;TXTLG
+0001;EN;testu;
+0002;EN;14 days 2%, 30 net;
+0004;EN;as of end of month;
+0005;EN;testu;
+0007;EN;testu;
+0008;EN;testu;
+0009;EN;Payable in 3 installments;
+0099;EN;Payable in 3 installments;
+0100;EN;Test;
+F1;EN;F1;
+N1;EN;Term N;
+N2;EN;Payment Term N2;
+PT1;EN;Payment Term One;
+PT1A;DE;1% innerhalb von 3 Tagen;
+PT2;EN;Payment Term Two;
+T1;EN;testu;
+U;EN;PaymTerm U;
+U10;EN;10 days;
+U11;DE;11 tage;
+U11;EN;10 days;
+U2;EN;testu;
+X001;DE;sofort zahlbar ohne Abzug;
+X001;EN;14 Tage 2%, 30 netto;

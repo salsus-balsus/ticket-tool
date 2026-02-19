@@ -1,0 +1,17 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KTOKK
+* Variant: ITR_KTOKK
+* User: IT_ALL_06
+* Date: 20250825 / Time: 083114
+* Selection does not restrict data
+*KTOKK;TXTMI;XCPDS
+0001;Vendor lang;;
+0002;Goods supplier;;
+0003;Alternative payee;;
+0004;Invoicing Party;;
+0005;Forwarding agent;;
+0006;Ordering address;;
+0007;Plants;;
+0012;Hierarchy Node;;
+0013;UPL Test;X;

@@ -1,0 +1,16 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: ERKRS
+* Variant: ITR_ERKRS
+* User: IT_ALL_06
+* Date: 20240611 / Time: 134427
+* Selection does not restrict data
+*ERKRS;TXTMI;USEPER2I;MNDT;CREDA;CRERL;ER_WAERS;ALEACT;ENSTA;FLGCUR1;FLGCUR2;FLGCUR3;ER_PERIV;BRANC;MESTYP;LOGOID;CUST_STA;DS_STATUS;ENVIR_STA;SERKRS;BLOCKF;USEPER2P;PVERS;SAPRL;SYSTP;PATYPE
+OC1;OpConc1;;;00.00.0000;;;;0;;;;;;;;;;;;00;;000;;;1;
+OC2;OpConc2;;;00.00.0000;;;;0;;;;;;;;;;;;00;;000;;;2;
+OC3;OpConc3;;;00.00.0000;;;;0;;;;;;;;;;;;00;;000;;;3;
+S001;Example Operating Concern 1;;;00.00.0000;;;;0;;;;;;;;;;;;00;;000;;;0;
+S_AL;Route Profitability Template;;;00.00.0000;;;;0;;;;;;;;;;;;00;;000;;;0;
+S_CP;Template: Consumer Goods Ind.;;;00.00.0000;;;;0;;;;;;;;;;;;00;;000;;;0;
+S_GO;Quickstart Template;;;00.00.0000;;;;0;;;;;;;;;;;;00;;000;;;0;
+TEST;Just a upl;;;00.00.0000;;;;0;;;;;;;;;1;;;00;;000;;;1;

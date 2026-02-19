@@ -1,0 +1,22 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: VTWEG
+* Variant: ITR_VTWEGT
+* User: IT_ALL_06
+* Date: 20250207 / Time: 103505
+* Selection does not restrict data
+*VTWEG;LANGU;TXTSH
+01;DE;Vertriebsweg 01;
+01;EN;Distribtn Channel 01;
+AA;EN;Distribution Create;
+DT;EN;TC DU 28.1.2;
+DU;EN;TC DU 19.2;
+MK;DE;Test Vertriebsweg MK;
+MK;EN;Test dist. chan. MK;
+TE;DE;Test Vetr.weg TE Chg;
+TE;EN;Test dis.cha. TE Chg;
+TS;EN;Team Speak test;
+TY;DE;Test dis Vert. TY;
+TY;EN;Test dis.cha. TY Chg;
+U;EN;DistChannel U;
+X;EN;DistChannel X;

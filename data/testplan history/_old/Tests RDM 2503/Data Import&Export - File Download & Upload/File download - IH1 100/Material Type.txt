@@ -1,0 +1,60 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MTART
+* Variant: ITR_MTART
+* User: VICKN
+* Date: 20250218 / Time: 132011
+* Selection does not restrict data
+*MTART;TXTMI;KKREF;BEGRU;CLASS;CTYPE;ARANZ;BSEXT;ENVOP;FLREF;KZGRP;IZUST;BSINT;VMTPO;PSTAT;KZMPN;WMAKG;KZPRC;KZKFG;KZPIP;KZVPR;VPRSV;PRDRU;MTREF;MBREF;ARDEL;AMENGU;AWERTU;EKALR;MSTAE
+ABF;Waste/Glas;0007;;;;;2;;HALB;;;2;;CEGKLPQSVXZ;;;;;;X;S;;HALB;ROH;0000;;;;;
+BUND;Bundle Product;;;;;;0;;DIEN;;;0;SRVP;KV;;;;;;;;;DIEN;SERV;0000;;;;;
+CBAU;Compatible Unit;;;;;;0;;ROH;;;0;;CK;;;;;;;;;IBAU;ROH;0000;;;;;
+CH00;CH Contract Handling;0006;;;;;0;;DIEN;;;0;;KV;;;;;;;S;;DIEN;ROH;0000;;;;;
+CONT;Kanban Container;;;;;;0;X;VERP;;;0;;K;;;;;;;;;ROH;ROH;0000;;;;;
+COUP;Coupons;0005;0002;;;X;0;X;WERB;;;0;NORM;KQSVXZ;;6;;;;;V;;HAWA;COUP;0010;;;;;
+DIEN;Service;0006;;;;;2;;DIEN;;;0;LEIS;BDEKV;;;;;;;S;;DIEN;ROH;0000;;;;;
+EPA;Equipment Package;0004;;;;;2;;VERP;;;1;VERP;BDEKLPQSVXZ;;;;;;;V;;VERP;ROH;0000;;;;;
+ERSA;Spare Parts;0003;;;;;2;;ROH;;;0;;BCDEKLPQSXZ;;;;;;;V;;HIBE;ROH;0000;;;;;
+FERT;Finished Product;0009;;;;;1;;FERT;;;2;NORM;ABCDGKLPQSVXZ;;;;;;;S;;FERT;ROH;0000;;;X;;
+FFFC;Form-Fit-Function class;0007;;;;;0;X;FFFC;;;0;NORM;K;;;;;;;V;;ROH;FFFC;0000;;;;;
+FGTR;Beverages;0005;;;;X;2;X;HAWA;;;2;NORM;BCDEKLPQSVXZ;;;;;;X;V;X;HAWA;ROH;0005;;;;;
+FHMI;Production Resource/Tool;0008;;;;;2;;HALB;;;2;;ABCDEFKLPSXZ;;;;;;;S;;FHMI;ROH;0000;;;;;
+FOOD;Foods (excl. perishables);0005;;;;X;2;X;HAWA;;;2;NORM;BCDEKLPQSVXZ;;;;;;X;V;X;HAWA;ROH;0000;;;;;
+FRIP;Perishables;0005;;;;X;2;X;HAWA;;;2;NORM;BCDEKLPQSVXZ;;4;;;;X;V;X;HAWA;ROH;0000;;;;;
+GBRA;ETM usable material;0002;;;;;2;;HAWA;;;2;NORM;BDEKLQSVXZ;;;;;;;S;;HALB;ROH;0000;;;;;
+HALB;Semifinished Product;0008;;;;;2;;HALB;;;2;;ABCDEGKLPQSVXZ;;;;;;;S;;HALB;ROH;0000;;;X;;
+HAWA;Trading Goods;0005;;;;X;2;;HAWA;;;0;NORM;BCDEKLPQSVXZ;;;;;;;V;X;HAWA;ROH;0000;;;;;
+HERB;Interchangeable part;0001;;;;;2;X;HERB;;;2;NORM;BCDEGKLPQSVXZ;;;;;;;V;;ROH;HERB;0000;;;;;
+HERS;Manufacturer Part;;;;;;2;X;HERS;;;0;;CE;X;;;;;;;;HERS;HERS;0000;;;;;
+HIBE;Operating supplies;0002;;;;;2;;ROH;;;0;;BCDEKLPQSXZ;;;;;;;V;;HIBE;ROH;0000;;;;;
+IBAU;Maintenance assemblies;;;;;;0;;ROH;;;0;;CK;;;;;;;;;IBAU;ROH;0000;;;;;
+INTR;Intra materials;0001;;;;;0;;ROH;;;0;;BCKLQXZ;;;;;;;V;;INTR;ROH;0000;;;;;
+KMAT;Configurable materials;0008;;;;;0;;KMAT;;;2;0002;ACDGKQV;;;;X;;;S;;KMAT;ROH;0000;;;;;
+LEER;Empties;0004;;;;;2;;VERP;;;1;LEIH;BCDEKLPQSVXZ;;;;;;;V;;VERP;LEER;0000;;;;;
+LEIH;Returnable packaging;0004;;;;;2;X;VERP;;;1;VERP;BDEKLSVXZ;;;;;;;V;;VERP;ROH;0000;;;;;
+LGUT;Empties (retail);0004;;;;;2;;VERP;;;1;LEER;BCDEKLPQSVXZ;;2;;;;;V;;VERP;LEER;0000;;;;;
+MODE;Apparel (seasonal);0005;;;;X;2;X;HAWA;;;2;NORM;BCDEKLPQSVXZ;;;;;;X;V;X;HAWA;MODE;0000;;;;;
+MPO;Material Planning Object;0007;;;;;0;;MPO;;;2;;BCKVX;;;;;;;S;;INTR;MPO;0000;;;;;
+NLAG;Non-stock materials;;;;;;2;;NLAG;;;2;NLAG;BDEKV;;;;;;;;;NLAG;ROH;0000;;;;;
+NOF1;Nonfoods;0005;;;;X;2;X;HAWA;;;2;NORM;BCDEKLPQSVXZ;;;;;;X;V;X;HAWA;ROH;0005;;;;;
+PIPE;Pipeline materials;0001;;;;;0;;ROH;;;0;;BCEKXZ;;;;;X;;V;;PIPE;ROH;0000;;;;;
+PLAN;Trading goods (planned);0005;;;;;0;;HAWA;;;0;NORM;CEKV;;;;;;;V;;HAWA;PLAN;0000;;;;;
+PROC;Process materials;0009;;;;;0;;PROC;;;2;;ADGQ;;;X;;;;V;;PROC;ROH;0000;;;;;
+PROD;Product groups;0008;;;;;1;X;FERT;1;;1;;ADG;;;;;;;;;FERT;ROH;0005;;;;;
+ROH;Raw materials;0001;;;;;2;;ROH;;;0;;BCDEGKLPQSVXZ;;;;;;;V;;ROH;ROH;0000;;;X;;
+SERV;Service Product;0006;;;;;2;;SERV;;;0;;BCEKV;;;;;;X;S;;DIEN;SERV;0000;;;;;
+SUBC;Subscription Sharing Prd.;0006;;;;;2;;SUBS;;;0;;BCKV;;;;;;X;S;;DIEN;SUBS;0000;;;;;
+SUBP;Subscription Partner Prd.;0006;;;;;2;;SUBS;;;0;;BCKV;;;;;;X;S;;DIEN;SUBS;0000;;;;;
+SUBS;Subscription Product;0006;;;;;2;;SUBS;;;0;;BCKV;;;;;;X;S;;DIEN;SUBS;0000;;;;;
+TEST;Bundle Product;;;0000000002;001;;2;;DIEN;;;0;SRVP;KV;;;X;;;;;;DIEN;SERV;0000;;;;;
+UNBW;Nonvaluated materials;0007;;;;;2;;ROH;;;2;;DEKLPQSXZ;;;;;;;;;UNBW;ROH;0000;;;;;
+VBRA;ETM consumption material;0002;;;;;2;;HAWA;;;2;NORM;BDEKLQSVXZ;;;;;;;S;;HALB;ROH;0000;;;;;
+VEHI;;;;;;;;;;;;;;;;;;;;;;;;;0000;;;;;
+VERP;Packaging;0004;;;;;2;;VERP;;;1;VERP;BDEKLPQSVXZ;;;;;;;V;;VERP;ROH;0000;;;;;
+VKHM;Additionals;0005;;;;;2;X;VKHM;;;2;NORM;BCDEGKLPQSVXZ;;5;;;;;V;;HAWA;HAWA;0000;;;;;
+VOLL;Full products;0005;;;;;2;;HAWA;;;0;VOLL;BCDEKLPQSVXZ;;;;;;;V;;HAWA;ROH;0005;;;;;
+VVGR;Competitor Product;0004;;;;;0;;HAWA;;;0;GG05;BK;;;;;;;V;;WETT;ROH;0000;;;;;
+WERB;Product catalogs;0005;;;;;2;X;WERB;;;0;NORM;BCDEKLPQSVXZ;;3;;;;;V;;UNBW;ROH;0000;;;;;
+WERT;Value-only materials;0005;;;;X;0;X;WERT;;;0;NORM;BCDEKLPQSVXZ;;;;;;;V;X;HAWA;ROH;0000;;;;;
+WETT;Competitor products;;;;;;0;;WETT;;;0;;CK;;;;;;;;;WETT;ROH;0000;;;;;
+UPL1;UPL Test;0005;;;;X;0;X;WERT;;;0;NORM;BCDEKLPQSVXZ;;;;;;;V;X;HAWA;ROH;0000;;;;;

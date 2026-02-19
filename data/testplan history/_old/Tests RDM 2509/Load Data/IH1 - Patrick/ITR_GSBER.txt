@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: GSBER
+* Variant: ITR_GSBER
+* User: KLOSP
+* Date: 20250918 / Time: 100147
+* Selection does not restrict data
+*GSBER;TXTMI
+0001;Business area 0001;
+0002;Business area 0002;

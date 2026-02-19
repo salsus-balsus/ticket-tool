@@ -1,0 +1,2 @@
+-- Add change_type to ticket_history (code expects: ticket_id, change_type, old_value, new_value, created_at, created_by)
+-- Run via: php migrations/add_ticket_history_change_type.php

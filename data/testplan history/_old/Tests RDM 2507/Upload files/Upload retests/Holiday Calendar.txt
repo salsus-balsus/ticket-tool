@@ -1,0 +1,9 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: HIDENT
+* Variant: ITR_HC
+* User: IT_ALL_06
+* Date: 20250522 / Time: 103732
+* Selection does not restrict data
+*HIDENT;TXTLG;AKTBJAHR;AKTVJAHR;CRDAT;VJAHR;ABBR;BJAHR;CRUSR
+V2;Germany (Hamburg);;;09.11.2018;2000;;2050;SAP;

@@ -1,0 +1,45 @@
+# Timesheet page structure (timesheet.php)
+
+## Purpose
+Reference for the current architecture of the timesheet page so edits stay consistent.
+
+---
+
+## PHP: Data flow
+
+- **User / filters:** `$effectiveUserId` from cookie; filters are **forced to "all"**: `$monthFilter = false`, `$filterProjectIds = []`, `$filterTopicIds = []` (no filter UI on the page).
+- **Entries query:** `time_entries` with `LEFT JOIN ts_projects, ts_topics, ts_task_groups`; `ticket_id` list per entry from `time_entry_tickets`.
+- **Days for the grid:** Not only "days that have entries". A **continuous calendar** is built:
+  1. Loop from `$firstDay` to `$lastDay` (selected month). For each calendar day push a day object: `date`, `dateFormatted` (e.g. `d.m.Y (l)` with weekday), `isWeekend` (Sat/Sun), `entries` (array of entry rows for that date, or `[]`).
+  2. Any remaining `$groupedByDate` entries (e.g. outside the month) are appended as extra day blocks.
+  3. `usort($daysArray, date)` so the final list is ordered by date.
+- **Entry shape for JSON:** Each entry has: `id`, `entryDate`, `startTime`, `endTime`, `durationHours`, `projectId`, `topicId`, `taskGroupId`, `description`, `ticketIds`. No `projectCode`/`projectName` etc. in the entry; dropdown labels come from the shared `projects` / `topics` / `taskGroups` arrays.
+- **Grid config:** Single object `$gridConfig`: `days`, `projects`, `topics`, `taskGroups`, `tickets`, `nextDayDate`, `entriesCountLabel` (`'(total)'`), `actionUrl` (`timesheet_action.php`). Injected as `window.__TIMESHEET_GRID__` in a `<script>` (never inline in HTML attributes).
+
+---
+
+## Page layout
+
+1. **Overview card:** Month/Year dropdowns, table (project columns, Sum (h/d), To be, +/-, Vacation). No project/topic filter.
+2. **Time entries card:** Single Alpine root: `x-data="timesheetGrid(window.__TIMESHEET_GRID__)"`. No filter form.
+
+---
+
+## Alpine: Time entries grid
+
+- **Days:** `x-for="day in days"` → each `day` has `date`, `dateFormatted`, `isWeekend`, `entries`.
+- **Day block:** Bordered card; header shows `day.dateFormatted`; weekend days use `day.isWeekend` for styling (e.g. `bg-light opacity-75`).
+- **Entries:** `x-for="(entry, entryIdx) in day.entries"`. Row: from / to (inputs), duration (read-only), **Project / Topic / Task group** (native `<select>`), Description (input), **"+ Tasks"** button (`@click="openTaskModal(entry)"`), Delete.
+- **Selects:** Project, Topic, Task group are **not** built with `<template x-for>` inside `<select>` (invalid HTML). They use **one empty option** in HTML and **`fillSelectOptions($el, projects, 'id', 'code', 'name', entry.projectId)`** in `x-init` to append options and set the selected value.
+- **Add position:** Per day, button "+ Add position" at the bottom of that day’s block; pushes a new entry object into `day.entries`.
+- **Add day:** Single "+ Add day" at the bottom; appends a day with `date`, `dateFormatted` (with weekday), `isWeekend`, `entries: []`; updates `nextDayDate` for the next add.
+- **Persistence:** `saveEntry(entry, day)` and `deleteEntry(entry, day)` use `fetch` to `timesheet_action.php` (JSON); Toastify for feedback.
+
+---
+
+## Conventions to keep
+
+- Grid data only via `window.__TIMESHEET_GRID__` (no large JSON in `x-data` attributes).
+- Select option lists for Project/Topic/Task group: fill in `x-init` with `fillSelectOptions`; do not put `<template x-for>` inside `<select>`.
+- Entry IDs: `projectId` / `topicId` / `taskGroupId` are number or `''` for empty; backend expects integer or null.
+- Task assignment UI is triggered by `openTaskModal(entry)` (e.g. modal); per-entry Tom Select in the row is not used in the current layout.

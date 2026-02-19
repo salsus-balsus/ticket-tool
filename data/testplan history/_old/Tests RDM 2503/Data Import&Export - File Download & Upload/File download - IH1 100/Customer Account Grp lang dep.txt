@@ -1,0 +1,41 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KTOKD
+* Variant: ITR_KTOKDT
+* User: VICKN
+* Date: 20250218 / Time: 131935
+* Selection does not restrict data
+*KTOKD;LANGU;TXTMI
+0001;EN;Sold-to party;
+0002;EN;Goods recipient;
+0003;EN;Payer;
+0004;EN;Bill-to party;
+0005;EN;Prospective customer;
+0006;EN;Competitor;
+0007;EN;Sales partners;
+0012;EN;Hierarchy Node;
+0020;EN;Named List Of Accounts;
+0100;EN;Distribution center;
+0110;EN;Branch w/o intercomp.billing;
+0120;EN;Branch with intercomp.billing;
+0130;EN;Branch with external billing;
+0140;EN;Assortment (obsolete,don't use;
+0150;EN;Franchisee;
+0160;EN;Wholesale customer;
+0170;EN;Consumer;
+CPD;EN;One-time cust.(int.no.assgnmt);
+CPDA;EN;One-time cust.(ext.no.assgnmt);
+DEBI;EN;Customer (general);
+J3G;EN;Construction site;
+KUNA;EN;Customer (ext.number assgnmnt);
+LCMS;EN;Customer(Portal Role), Minimal;
+LCMX;EN;Customer (Portal Role), Maxim.;
+T1;EN;AccGrp1;
+T10;EN;CustAccGrp 10;
+T3;EN;CustAccGrp 3;
+T8;EN;CustAccGrp 8;
+VVD;EN;TR-LO customer;
+Z001;DE;SCY - DE;
+Z001;EN;GRoup Z001;
+Z001;ES;SCY - ES;
+UPL1;DE;UPL DE Test;

@@ -1,0 +1,15 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: STLAN
+* Variant: ITR_STLAN
+* User: KLOSP
+* Date: 20250919 / Time: 074124
+* Selection does not restrict data
+*STLAN;TXTMI;PMPKA;PMPKO;SANKO;PMPVS;SANVS;PMPIN;SANIN;PMPFE;SANFE;SANKA;RVREL;PMPRV;ERSKZ;PMPER
+8;Stability Study;;;;;;;;;;;;;;;
+C;Configuration Control;;;;;;;;;;;;;;;
+J;JIT production line supply;;;;;;;;;;;;;;;
+M;External Munitions Display;;;;;;;;;;;;;;;
+S;Customer Management;;;;;;;;;;;;;;;
+U;IUID Embedded Items;;;;;;;;;;;;;;;
+T;Test;;;;;;;;;;;;;;;

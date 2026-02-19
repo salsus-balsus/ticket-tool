@@ -1,0 +1,455 @@
+-- Struktur für Tabelle: app_users
+CREATE TABLE `app_users` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) NOT NULL,
+  `first_name` varchar(255) DEFAULT NULL,
+  `last_name` varchar(255) DEFAULT NULL,
+  `initials` varchar(10) DEFAULT NULL,
+  `role_id` int(10) unsigned NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp(),
+  `based_state_id` varchar(2) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uq_username` (`username`),
+  KEY `idx_role` (`role_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: author_display
+CREATE TABLE `author_display` (
+  `author_raw` varchar(255) NOT NULL,
+  `display_name` varchar(255) NOT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp(),
+  PRIMARY KEY (`author_raw`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: clients
+CREATE TABLE `clients` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `system_id` int(11) NOT NULL,
+  `client` varchar(10) NOT NULL,
+  `description` varchar(100) DEFAULT NULL,
+  `role` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `system_id` (`system_id`),
+  CONSTRAINT `fk_client_system` FOREIGN KEY (`system_id`) REFERENCES `systems` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: comment_author_override
+CREATE TABLE `comment_author_override` (
+  `comment_id` int(10) unsigned NOT NULL,
+  `display_name` varchar(255) NOT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp(),
+  PRIMARY KEY (`comment_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: customer_scopes
+CREATE TABLE `customer_scopes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `customer_id` int(11) NOT NULL,
+  `object_id` int(11) NOT NULL,
+  `phase` varchar(100) DEFAULT NULL,
+  `status` varchar(100) DEFAULT NULL,
+  `info_date` varchar(50) DEFAULT NULL,
+  `comment` text DEFAULT NULL,
+  `is_active` tinyint(1) DEFAULT 1,
+  PRIMARY KEY (`id`),
+  KEY `customer_id` (`customer_id`),
+  KEY `object_id` (`object_id`),
+  CONSTRAINT `customer_scopes_ibfk_1` FOREIGN KEY (`customer_id`) REFERENCES `customers` (`id`),
+  CONSTRAINT `customer_scopes_ibfk_2` FOREIGN KEY (`object_id`) REFERENCES `objects` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=97 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: customers
+CREATE TABLE `customers` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `short_code` varchar(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: federal_states
+CREATE TABLE `federal_states` (
+  `id` varchar(2) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: holidays
+CREATE TABLE `holidays` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `state_id` varchar(2) NOT NULL,
+  `date` date NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `comment` text DEFAULT NULL,
+  `is_augsburg` tinyint(1) DEFAULT 0,
+  `is_catholic` tinyint(1) DEFAULT 0,
+  PRIMARY KEY (`id`),
+  KEY `idx_holiday_state` (`state_id`),
+  KEY `idx_holiday_date` (`date`),
+  CONSTRAINT `fk_holiday_state` FOREIGN KEY (`state_id`) REFERENCES `federal_states` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=176 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: objects
+CREATE TABLE `objects` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `sector_id` int(11) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `description` text DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `sector_id` (`sector_id`),
+  CONSTRAINT `obj_sec_fk` FOREIGN KEY (`sector_id`) REFERENCES `sectors` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=59 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: roles
+CREATE TABLE `roles` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `description` text DEFAULT NULL,
+  `color_code` varchar(31) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: sectors
+CREATE TABLE `sectors` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: systems
+CREATE TABLE `systems` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(10) NOT NULL,
+  `rdm_version` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `sys_name_idx` (`name`)
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: test_cases
+CREATE TABLE `test_cases` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `object_id` int(11) NOT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `step_description` text DEFAULT NULL,
+  `expected_result` text DEFAULT NULL,
+  `initial_priority` varchar(50) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `created_by` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `object_id` (`object_id`),
+  CONSTRAINT `test_obj_fk` FOREIGN KEY (`object_id`) REFERENCES `objects` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: test_cycles
+CREATE TABLE `test_cycles` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) DEFAULT NULL,
+  `start_date` date DEFAULT NULL,
+  `end_date` date DEFAULT NULL,
+  `status` varchar(50) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: test_executions
+CREATE TABLE `test_executions` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `test_case_id` int(11) NOT NULL,
+  `test_cycle_id` int(11) NOT NULL,
+  `tester` varchar(100) DEFAULT NULL,
+  `overall_status` varchar(50) DEFAULT 'Open',
+  `comment` text DEFAULT NULL,
+  `started_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
+  PRIMARY KEY (`id`),
+  KEY `test_case_id` (`test_case_id`),
+  KEY `test_cycle_id` (`test_cycle_id`),
+  CONSTRAINT `te_case_fk` FOREIGN KEY (`test_case_id`) REFERENCES `test_cases` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `te_cycle_fk` FOREIGN KEY (`test_cycle_id`) REFERENCES `test_cycles` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: test_history
+CREATE TABLE `test_history` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `execution_id` int(11) NOT NULL,
+  `changed_by` varchar(100) DEFAULT NULL,
+  `event_type` varchar(50) DEFAULT NULL,
+  `old_value` varchar(255) DEFAULT NULL,
+  `new_value` varchar(255) DEFAULT NULL,
+  `timestamp` timestamp NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`),
+  KEY `execution_id` (`execution_id`),
+  CONSTRAINT `thist_exec_fk` FOREIGN KEY (`execution_id`) REFERENCES `test_executions` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: ticket_comments
+CREATE TABLE `ticket_comments` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ticket_id` int(11) NOT NULL,
+  `author` varchar(100) DEFAULT NULL,
+  `comment_text` text DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`),
+  KEY `ticket_id` (`ticket_id`),
+  CONSTRAINT `tc_ticket_fk` FOREIGN KEY (`ticket_id`) REFERENCES `tickets` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=890 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: ticket_history
+CREATE TABLE `ticket_history` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ticket_id` int(11) NOT NULL,
+  `changed_by` varchar(100) DEFAULT NULL,
+  `field_changed` varchar(50) DEFAULT NULL,
+  `old_value` text DEFAULT NULL,
+  `new_value` text DEFAULT NULL,
+  `changed_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `change_type` varchar(64) NOT NULL DEFAULT 'status_change',
+  `created_at` datetime DEFAULT NULL,
+  `created_by` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `ticket_id` (`ticket_id`),
+  CONSTRAINT `th_ticket_fk` FOREIGN KEY (`ticket_id`) REFERENCES `tickets` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: ticket_objects
+CREATE TABLE `ticket_objects` (
+  `ticket_id` int(11) NOT NULL,
+  `object_id` int(11) NOT NULL,
+  PRIMARY KEY (`ticket_id`,`object_id`),
+  KEY `object_id` (`object_id`),
+  CONSTRAINT `ticket_objects_ibfk_1` FOREIGN KEY (`ticket_id`) REFERENCES `tickets` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `ticket_objects_ibfk_2` FOREIGN KEY (`object_id`) REFERENCES `objects` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: ticket_participants
+CREATE TABLE `ticket_participants` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ticket_id` int(11) NOT NULL,
+  `ticket_no` int(11) DEFAULT NULL,
+  `person_name` varchar(100) NOT NULL,
+  `role` enum('REP','RES') NOT NULL COMMENT 'REP = Reporter, RES = Responsible',
+  `assignment_date` timestamp NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`),
+  KEY `tp_ticket_fk` (`ticket_id`),
+  CONSTRAINT `tp_ticket_fk` FOREIGN KEY (`ticket_id`) REFERENCES `tickets` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=1385 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: ticket_relationships
+CREATE TABLE `ticket_relationships` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `source_ticket_id` int(11) NOT NULL,
+  `target_ticket_id` int(11) NOT NULL,
+  `relation_type` varchar(50) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`),
+  KEY `source_ticket_id` (`source_ticket_id`),
+  KEY `target_ticket_id` (`target_ticket_id`),
+  CONSTRAINT `tr_src_fk` FOREIGN KEY (`source_ticket_id`) REFERENCES `tickets` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `tr_tgt_fk` FOREIGN KEY (`target_ticket_id`) REFERENCES `tickets` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: ticket_statuses
+CREATE TABLE `ticket_statuses` (
+  `id` int(11) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `explanation` text DEFAULT NULL,
+  `is_terminal` tinyint(1) DEFAULT 0,
+  `color_code` varchar(20) DEFAULT 'blue',
+  `is_color_overridden` tinyint(1) NOT NULL DEFAULT 0,
+  `stage_role_id` int(10) unsigned DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: ticket_test_relations
+CREATE TABLE `ticket_test_relations` (
+  `ticket_id` int(11) NOT NULL,
+  `test_execution_id` int(11) NOT NULL,
+  `relation_type` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`ticket_id`,`test_execution_id`),
+  KEY `ttr_exec_fk` (`test_execution_id`),
+  CONSTRAINT `ttr_exec_fk` FOREIGN KEY (`test_execution_id`) REFERENCES `test_executions` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `ttr_ticket_fk` FOREIGN KEY (`ticket_id`) REFERENCES `tickets` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: ticket_types
+CREATE TABLE `ticket_types` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `code` varchar(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: tickets
+CREATE TABLE `tickets` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NOT NULL,
+  `goal` text DEFAULT NULL,
+  `type_id` int(11) NOT NULL,
+  `status_id` int(11) NOT NULL DEFAULT 10,
+  `customer_id` int(11) DEFAULT NULL,
+  `priority` varchar(50) DEFAULT 'Medium',
+  `working_prio` int(11) DEFAULT NULL,
+  `current_role_id` int(11) DEFAULT 1,
+  `lock_type` enum('OBS','ONH','RED') DEFAULT NULL,
+  `redirect_ticket_id` int(10) unsigned DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `created_by` varchar(100) DEFAULT NULL,
+  `source` varchar(10) DEFAULT NULL,
+  `fix_dev_type` varchar(10) DEFAULT NULL,
+  `ticket_no` int(11) DEFAULT NULL,
+  `affected_object_count` int(11) DEFAULT NULL,
+  `affected_object_note` varchar(255) DEFAULT NULL,
+  `client_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `type_id` (`type_id`),
+  KEY `status_id` (`status_id`),
+  KEY `customer_id` (`customer_id`),
+  KEY `idx_redirect_ticket_id` (`redirect_ticket_id`),
+  CONSTRAINT `t_cust_fk` FOREIGN KEY (`customer_id`) REFERENCES `customers` (`id`),
+  CONSTRAINT `t_status_fk` FOREIGN KEY (`status_id`) REFERENCES `ticket_statuses` (`id`),
+  CONSTRAINT `t_type_fk` FOREIGN KEY (`type_id`) REFERENCES `ticket_types` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=711 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: time_entries
+CREATE TABLE `time_entries` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL,
+  `entry_date` date NOT NULL,
+  `start_time` time DEFAULT NULL,
+  `end_time` time DEFAULT NULL,
+  `duration_hours` decimal(5,2) NOT NULL,
+  `project_id` int(10) unsigned DEFAULT NULL,
+  `topic_id` int(10) unsigned DEFAULT NULL,
+  `task_group_id` int(10) unsigned DEFAULT NULL,
+  `description` text DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`),
+  KEY `idx_te_user` (`user_id`),
+  KEY `idx_te_date` (`entry_date`),
+  KEY `idx_te_project` (`project_id`),
+  KEY `idx_te_topic` (`topic_id`),
+  KEY `fk_te_task_group` (`task_group_id`),
+  CONSTRAINT `fk_te_project` FOREIGN KEY (`project_id`) REFERENCES `ts_projects` (`id`) ON DELETE SET NULL,
+  CONSTRAINT `fk_te_task_group` FOREIGN KEY (`task_group_id`) REFERENCES `ts_task_groups` (`id`) ON DELETE SET NULL,
+  CONSTRAINT `fk_te_topic` FOREIGN KEY (`topic_id`) REFERENCES `ts_topics` (`id`) ON DELETE SET NULL,
+  CONSTRAINT `fk_te_user` FOREIGN KEY (`user_id`) REFERENCES `app_users` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=1755 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: time_entry_tickets
+CREATE TABLE `time_entry_tickets` (
+  `time_entry_id` int(10) unsigned NOT NULL,
+  `ticket_id` int(11) NOT NULL,
+  PRIMARY KEY (`time_entry_id`,`ticket_id`),
+  KEY `fk_tet_ticket` (`ticket_id`),
+  CONSTRAINT `fk_tet_entry` FOREIGN KEY (`time_entry_id`) REFERENCES `time_entries` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `fk_tet_ticket` FOREIGN KEY (`ticket_id`) REFERENCES `tickets` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: ts_projects
+CREATE TABLE `ts_projects` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `code` varchar(10) DEFAULT NULL,
+  `name` varchar(255) NOT NULL,
+  `is_active` tinyint(1) DEFAULT 1,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: ts_task_groups
+CREATE TABLE `ts_task_groups` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `code` varchar(10) DEFAULT NULL,
+  `name` varchar(255) NOT NULL,
+  `is_active` tinyint(1) DEFAULT 1,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: ts_topics
+CREATE TABLE `ts_topics` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `code` varchar(10) DEFAULT NULL,
+  `name` varchar(255) NOT NULL,
+  `is_active` tinyint(1) DEFAULT 1,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: user_employment_data
+CREATE TABLE `user_employment_data` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL,
+  `weekly_hours` decimal(5,2) NOT NULL DEFAULT 40.00 COMMENT 'Wöchentliche Arbeitszeit laut Vertrag',
+  `vacation_days_per_year` decimal(4,1) NOT NULL DEFAULT 30.0 COMMENT 'Urlaubsanspruch pro Jahr in Tagen',
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp(),
+  `effective_from` date NOT NULL DEFAULT '2000-01-01',
+  `effective_to` date DEFAULT NULL,
+  `hours_per_day` decimal(5,2) NOT NULL DEFAULT 8.00,
+  `days_per_week` decimal(3,2) NOT NULL DEFAULT 5.00,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uq_emp_user` (`user_id`),
+  CONSTRAINT `fk_emp_user` FOREIGN KEY (`user_id`) REFERENCES `app_users` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: user_leaves
+CREATE TABLE `user_leaves` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(10) unsigned NOT NULL,
+  `start_date` date NOT NULL,
+  `end_date` date NOT NULL,
+  `comment` varchar(255) DEFAULT NULL,
+  `is_sickness` tinyint(1) NOT NULL DEFAULT 0,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NULL DEFAULT NULL ON UPDATE current_timestamp(),
+  PRIMARY KEY (`id`),
+  KEY `idx_leave_user` (`user_id`),
+  CONSTRAINT `fk_leave_app_user` FOREIGN KEY (`user_id`) REFERENCES `app_users` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: work_package_items_tests
+CREATE TABLE `work_package_items_tests` (
+  `package_id` int(11) NOT NULL,
+  `execution_id` int(11) NOT NULL,
+  PRIMARY KEY (`package_id`,`execution_id`),
+  KEY `wpit_exec_fk` (`execution_id`),
+  CONSTRAINT `wpit_exec_fk` FOREIGN KEY (`execution_id`) REFERENCES `test_executions` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `wpit_tpkg_fk` FOREIGN KEY (`package_id`) REFERENCES `work_packages` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: work_package_items_tickets
+CREATE TABLE `work_package_items_tickets` (
+  `package_id` int(11) NOT NULL,
+  `ticket_id` int(11) NOT NULL,
+  PRIMARY KEY (`package_id`,`ticket_id`),
+  KEY `wpit_tkt_fk` (`ticket_id`),
+  CONSTRAINT `wpit_pkg_fk` FOREIGN KEY (`package_id`) REFERENCES `work_packages` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `wpit_tkt_fk` FOREIGN KEY (`ticket_id`) REFERENCES `tickets` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: work_packages
+CREATE TABLE `work_packages` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NOT NULL,
+  `assigned_to` varchar(100) DEFAULT NULL,
+  `status` varchar(50) DEFAULT 'Open',
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Struktur für Tabelle: workflow_transitions
+CREATE TABLE `workflow_transitions` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `flow_type_id` int(11) NOT NULL,
+  `current_status_id` int(11) NOT NULL,
+  `next_status_id` int(11) NOT NULL,
+  `allowed_role_id` int(11) NOT NULL,
+  `target_owner_role_id` int(11) NOT NULL,
+  `button_label` varchar(50) NOT NULL,
+  `edge_type` varchar(20) DEFAULT 'normal',
+  PRIMARY KEY (`id`),
+  KEY `wf_curr_fk` (`current_status_id`),
+  KEY `wf_next_fk` (`next_status_id`),
+  KEY `wf_role_fk` (`allowed_role_id`),
+  CONSTRAINT `wf_curr_fk` FOREIGN KEY (`current_status_id`) REFERENCES `ticket_statuses` (`id`),
+  CONSTRAINT `wf_next_fk` FOREIGN KEY (`next_status_id`) REFERENCES `ticket_statuses` (`id`),
+  CONSTRAINT `wf_role_fk` FOREIGN KEY (`allowed_role_id`) REFERENCES `roles` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+

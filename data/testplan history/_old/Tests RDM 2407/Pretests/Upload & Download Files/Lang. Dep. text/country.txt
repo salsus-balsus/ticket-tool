@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: LAND1
+* Variant: ITR_LAND1T
+* User: IT_ALL_06
+* Date: 20240726 / Time: 180801
+* Selection does not restrict data
+*LAND1;LANGU;TXTSH;TXTLG
+AB;DE;And.;lang imp;
+AB;EN;AndorraB;Andorra Isl. D;
+

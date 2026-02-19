@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PLSEQ
+* Variant: ITR_PLSEQ
+* User: IT_ALL_06
+* Date: 20250826 / Time: 080622
+* Selection does not restrict data
+*PLSCO;COUNT;MRPA_PL;PLANT_PL
+SOP2;001;0003;;
+SOP7;001;0003;;

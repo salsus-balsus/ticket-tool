@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KALSM_TAX
+* Variant: ITR_TAX
+* User: IT_ALL_06
+* Date: 20250902 / Time: 042706
+* Selection does not restrict data
+*MWSKZ_TAX;TXTLG;KALSM_TAX;J1BTAXL4;LSTML;LAND1_TAX;PRUEF;EGRKZ;J1BTAXL1;J1BTXICE;J1BTAXL2;J1BTXIPE;XINACT1;NEWDEFTA;OSS_CLASS;MOSSC1;J1BTAXL5;PROCD;J1BISS;XMSTU;XSLTA1;AUFTL;ZMWSK;TXIND;MWART;TXREL;ZMWSKESE;ZMWSKESA;TOLERANC;J1BUSAGE
+00;Output VAT - 0% (not relevant for tax reports);TAXE;;;BE;;;;;;;;;;;;;;;;;;;A;;;;0,0;;
+00;Outside sales area;TAXIT;;;IT;X;;;;;;;;;;;;;;;;;;A;;;;0,0;;
+00;Output VAT - 0% (not relevant for tax reports);TAXLU;;;LU;;;;;;;;;;;;;;;;;;;A;;;;0,0;;

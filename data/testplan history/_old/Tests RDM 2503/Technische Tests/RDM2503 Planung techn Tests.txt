@@ -1,0 +1,24 @@
+
+IH1 Installation 2503
+	14.03. Backup IH1 mit aktuellen Fehlerfällen für 2 Monate 
+	14.03. Restore auf 2407, Sprachen ES, PT - Andreas (waiting for Go!) ....
+	17.03. RDM Installation und 
+		Auslieferung an Intel als Beta
+	17.03./18.03. Nacharbeiten: User, Systemverbindungen, Konfiguration (neues Menue, DRF für neue Objekte, Verteilung in 100, ... basierend auf Transporten) 
+	18.03. Sicherung 2503
+	19.03. bis 20.03. a. Laden von Testdaten; b. neue Tests (High + Very High),
+	20.03. Sicherung 2503 mit Daten
+	
+
+S02 Installation 2503
+	17./18.03.
+
+S02 Enhancement Tests
+	18./19.03.
+
+Upgrade
+	20.03. S02 SAP Upgrade?
+	25.03. Backup und Restore von S02 auf S/4 2021
+
+Smoketest S03 
+	26.03. oder früher S03: Deinstallation und Installation (Neukundentest)

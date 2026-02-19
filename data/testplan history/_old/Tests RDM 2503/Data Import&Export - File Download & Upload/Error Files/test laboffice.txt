@@ -1,0 +1,20 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
+
+  <tt:root name="RESULT"/>
+
+  <tt:template>
+    <MDG_LABOR_ECC>
+      <tt:loop name="LINE" ref=".RESULT">
+        <LABOR_ECC tt:lax="deep">
+          <LABOR>
+            <tt:value ref="$LINE.LABOR"/>
+          </LABOR>
+
+        </LABOR_ECC>
+      </tt:loop>
+    </MDG_LABOR_ECC>
+
+  </tt:template>
+
+</tt:transform>

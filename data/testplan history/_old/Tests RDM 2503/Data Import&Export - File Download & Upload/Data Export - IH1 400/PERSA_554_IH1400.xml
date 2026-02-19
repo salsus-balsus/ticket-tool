@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_PERSA_ECC System="IH1_400">
+	<PERSA_ECC>
+		<PERSA>AE01</PERSA>
+		<MOLGA>AE</MOLGA>
+		<BUKRS>AE01</BUKRS>
+		<NAME1>Personnel Area AE01 *</NAME1>
+		<NAME2>AE Model Personnel Area</NAME2>
+		<STRAS/>
+		<PFACH/>
+		<PSTLZ/>
+		<ORT01>Dubai</ORT01>
+		<LAND1>AE</LAND1>
+		<REGIO/>
+		<COUNC/>
+		<CITYC/>
+	</PERSA_ECC>
+		<PERSA_ECC>
+		<PERSA>IMP1</PERSA>
+		<MOLGA>AE</MOLGA>
+		<BUKRS>AE01</BUKRS>
+		<NAME1>Personnel Area AE01</NAME1>
+		<NAME2>AE Model Personnel Area</NAME2>
+		<STRAS/>
+		<PFACH/>
+		<PSTLZ/>
+		<ORT01>Dubai</ORT01>
+		<LAND1>AE</LAND1>
+		<REGIO/>
+		<COUNC/>
+		<CITYC/>
+	</PERSA_ECC>
+</MDG_PERSA_ECC>

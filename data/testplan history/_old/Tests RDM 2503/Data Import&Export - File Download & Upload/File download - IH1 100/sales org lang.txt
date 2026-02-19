@@ -1,0 +1,12 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: SALESORG
+* Variant: ITR_SAORGT
+* User: IT_ALL_06
+* Date: 20250212 / Time: 134832
+* Selection does not restrict data
+*SALESORG;LANGU;TXTSH
+0001;DE;Verkaufsorg. 0001;
+0001;EN;Sales Org. 001;
+0002;DE;Verkaufsorg. UPL;
+0002;EN;Sales Org. 002;

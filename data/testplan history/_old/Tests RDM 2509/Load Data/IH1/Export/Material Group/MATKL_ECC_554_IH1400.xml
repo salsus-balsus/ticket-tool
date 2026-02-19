@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_MATKL_ECC System="IH1_400">
+	<MATKL_ECC>
+		<MATKL>01</MATKL>
+		<SPART/>
+		<BEGRU/>
+		<GEWEI>KG</GEWEI>
+		<BKLAS/>
+		<ABTNR/>
+		<ANLKL/>
+	</MATKL_ECC>
+	<MATKL_ECC>
+		<MATKL>02</MATKL>
+		<SPART/>
+		<BEGRU/>
+		<GEWEI/>
+		<BKLAS/>
+		<ABTNR/>
+		<ANLKL/>
+	</MATKL_ECC>
+	<MATKL_ECC>
+		<MATKL>V1</MATKL>
+		<SPART/>
+		<BEGRU/>
+		<GEWEI>KG</GEWEI>
+		<BKLAS/>
+		<ABTNR/>
+		<ANLKL/>
+	</MATKL_ECC>
+</MDG_MATKL_ECC>

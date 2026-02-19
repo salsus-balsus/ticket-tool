@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: TFAIN
+* Variant: ITR_FCSR
+* User: IT_ALL_06
+* Date: 20250522 / Time: 074347
+* Selection does not restrict data
+*IDENT;WERT;VON;X_LTEXT;BIS;JAHR
+D7;X;22.05.2025;test;22.05.2026;2025;
+D7;X;20.05.2022;test;22.05.2027;2025;

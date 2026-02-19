@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_DISPR_ECC System="IH1_400">
+	<DISPR_ECC>
+		<DISPR>V3</DISPR>
+		<ALTSL/>
+		<AUFTL/>
+		<AUSSS>0.00 </AUSSS>
+		<BESKZ/>
+		<BSTFE>0.000 </BSTFE>
+		<BSTMA>0.000 </BSTMA>
+		<BSTMI>0.000 </BSTMI>
+		<BSTRF>0.000 </BSTRF>
+		<DISGR/>
+		<DISLS/>
+		<DISMM/>
+		<DISPO/>
+		<DZEIT>0 </DZEIT>
+		<EISBE>0.000 </EISBE>
+		<EISLO>0.000 </EISLO>
+		<EKGRP1/>
+		<FHORI/>
+		<FXHOR>000</FXHOR>
+		<KAUSF>0.00 </KAUSF>
+		<KZBED/>
+		<KZDIE/>
+		<KZECH/>
+		<LAGPR/>
+		<LFRHY/>
+		<LGFSB/>
+		<LGPRO/>
+		<LGRAD>0.0 </LGRAD>
+		<LOSFX>0.00 </LOSFX>
+		<MAABC/>
+		<MABST>0.000 </MABST>
+		<MDACH/>
+		<MEINS/>
+		<MINBE>0.000 </MINBE>
+		<MISKZ/>
+		<MRPPP/>
+		<MTVFP/>
+		<PERIV1/>
+		<PERKZ/>
+		<PLIFZ>0 </PLIFZ>
+		<PLIFZX/>
+		<RDPRF/>
+		<RGEKZ/>
+		<RWPRO/>
+		<SAUFT/>
+		<SBDKZ/>
+		<SCHGT/>
+		<SFEPR/>
+		<SHFLG/>
+		<SHZET>00</SHZET>
+		<SOBSL/>
+		<STRGR/>
+		<TAKZT>0 </TAKZT>
+		<USEQU/>
+		<VINT1>000</VINT1>
+		<VINT2>000</VINT2>
+		<VPMAT/>
+		<VPREF/>
+		<VPWRK/>
+		<VRMOD/>
+		<WAERS1/>
+		<WEBAZ>0 </WEBAZ>
+		<WZEIT>0 </WZEIT>
+	</DISPR_ECC>
+	<DISPR_ECC>
+		<DISPR>V2</DISPR>
+		<ALTSL/>
+		<AUFTL/>
+		<AUSSS>0.00 </AUSSS>
+		<BESKZ/>
+		<BSTFE>0.000 </BSTFE>
+		<BSTMA>0.000 </BSTMA>
+		<BSTMI>0.000 </BSTMI>
+		<BSTRF>0.000 </BSTRF>
+		<DISGR/>
+		<DISLS/>
+		<DISMM/>
+		<DISPO/>
+		<DZEIT>0 </DZEIT>
+		<EISBE>0.000 </EISBE>
+		<EISLO>0.000 </EISLO>
+		<EKGRP1/>
+		<FHORI/>
+		<FXHOR>000</FXHOR>
+		<KAUSF>0.00 </KAUSF>
+		<KZBED/>
+		<KZDIE/>
+		<KZECH/>
+		<LAGPR/>
+		<LFRHY/>
+		<LGFSB/>
+		<LGPRO/>
+		<LGRAD>0.0 </LGRAD>
+		<LOSFX>0.00 </LOSFX>
+		<MAABC/>
+		<MABST>0.000 </MABST>
+		<MDACH/>
+		<MEINS/>
+		<MINBE>0.000 </MINBE>
+		<MISKZ/>
+		<MRPPP/>
+		<MTVFP/>
+		<PERIV1/>
+		<PERKZ/>
+		<PLIFZ>0 </PLIFZ>
+		<PLIFZX/>
+		<RDPRF/>
+		<RGEKZ/>
+		<RWPRO/>
+		<SAUFT/>
+		<SBDKZ/>
+		<SCHGT/>
+		<SFEPR/>
+		<SHFLG/>
+		<SHZET>00</SHZET>
+		<SOBSL/>
+		<STRGR/>
+		<TAKZT>0 </TAKZT>
+		<USEQU/>
+		<VINT1>000</VINT1>
+		<VINT2>000</VINT2>
+		<VPMAT/>
+		<VPREF/>
+		<VPWRK/>
+		<VRMOD/>
+		<WAERS1/>
+		<WEBAZ>0 </WEBAZ>
+		<WZEIT>0 </WZEIT>
+	</DISPR_ECC>
+	<DISPR_ECC>
+		<DISPR>V4</DISPR>
+		<ALTSL/>
+		<AUFTL/>
+		<AUSSS>0.00 </AUSSS>
+		<BESKZ/>
+		<BSTFE>0.000 </BSTFE>
+		<BSTMA>0.000 </BSTMA>
+		<BSTMI>0.000 </BSTMI>
+		<BSTRF>0.000 </BSTRF>
+		<DISGR/>
+		<DISLS/>
+		<DISMM/>
+		<DISPO/>
+		<DZEIT>0 </DZEIT>
+		<EISBE>0.000 </EISBE>
+		<EISLO>0.000 </EISLO>
+		<EKGRP1/>
+		<FHORI/>
+		<FXHOR>000</FXHOR>
+		<KAUSF>0.00 </KAUSF>
+		<KZBED/>
+		<KZDIE/>
+		<KZECH/>
+		<LAGPR/>
+		<LFRHY/>
+		<LGFSB/>
+		<LGPRO/>
+		<LGRAD>0.0 </LGRAD>
+		<LOSFX>0.00 </LOSFX>
+		<MAABC/>
+		<MABST>0.000 </MABST>
+		<MDACH/>
+		<MEINS/>
+		<MINBE>0.000 </MINBE>
+		<MISKZ/>
+		<MRPPP/>
+		<MTVFP/>
+		<PERIV1/>
+		<PERKZ/>
+		<PLIFZ>0 </PLIFZ>
+		<PLIFZX/>
+		<RDPRF/>
+		<RGEKZ/>
+		<RWPRO/>
+		<SAUFT/>
+		<SBDKZ/>
+		<SCHGT/>
+		<SFEPR/>
+		<SHFLG/>
+		<SHZET>00</SHZET>
+		<SOBSL/>
+		<STRGR/>
+		<TAKZT>0 </TAKZT>
+		<USEQU/>
+		<VINT1>000</VINT1>
+		<VINT2>000</VINT2>
+		<VPMAT/>
+		<VPREF/>
+		<VPWRK/>
+		<VRMOD/>
+		<WAERS1/>
+		<WEBAZ>0 </WEBAZ>
+		<WZEIT>0 </WZEIT>
+	</DISPR_ECC>
+	<DISPR_ECC>
+		<DISPR>V1</DISPR>
+		<ALTSL/>
+		<AUFTL/>
+		<AUSSS>0.00 </AUSSS>
+		<BESKZ/>
+		<BSTFE>0.000 </BSTFE>
+		<BSTMA>0.000 </BSTMA>
+		<BSTMI>0.000 </BSTMI>
+		<BSTRF>0.000 </BSTRF>
+		<DISGR/>
+		<DISLS/>
+		<DISMM/>
+		<DISPO/>
+		<DZEIT>0 </DZEIT>
+		<EISBE>0.000 </EISBE>
+		<EISLO>0.000 </EISLO>
+		<EKGRP1/>
+		<FHORI/>
+		<FXHOR>000</FXHOR>
+		<KAUSF>0.00 </KAUSF>
+		<KZBED/>
+		<KZDIE/>
+		<KZECH/>
+		<LAGPR/>
+		<LFRHY/>
+		<LGFSB/>
+		<LGPRO/>
+		<LGRAD>0.0 </LGRAD>
+		<LOSFX>0.00 </LOSFX>
+		<MAABC/>
+		<MABST>0.000 </MABST>
+		<MDACH/>
+		<MEINS/>
+		<MINBE>0.000 </MINBE>
+		<MISKZ/>
+		<MRPPP/>
+		<MTVFP/>
+		<PERIV1/>
+		<PERKZ/>
+		<PLIFZ>0 </PLIFZ>
+		<PLIFZX/>
+		<RDPRF/>
+		<RGEKZ/>
+		<RWPRO/>
+		<SAUFT/>
+		<SBDKZ/>
+		<SCHGT/>
+		<SFEPR/>
+		<SHFLG/>
+		<SHZET>00</SHZET>
+		<SOBSL/>
+		<STRGR/>
+		<TAKZT>0 </TAKZT>
+		<USEQU/>
+		<VINT1>000</VINT1>
+		<VINT2>000</VINT2>
+		<VPMAT/>
+		<VPREF/>
+		<VPWRK/>
+		<VRMOD/>
+		<WAERS1/>
+		<WEBAZ>0 </WEBAZ>
+		<WZEIT>0 </WZEIT>
+	</DISPR_ECC>
+</MDG_DISPR_ECC>

@@ -1,0 +1,71 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: BLART
+* Variant: ITR_BLARTT
+* User: IT_ALL_06
+* Date: 20250212 / Time: 163430
+* Selection does not restrict data
+*BLART;LANGU;TXTSH
+AA;EN;Asset Posting;
+AB;EN;Accounting Document;
+AF;EN;Depreciation Pstngs;
+AN;EN;Net Asset Posting;
+CH;EN;Contract Settlement;
+CO;EN;CO Posting;
+D1;EN;Document Type;
+D2;EN;Document Type D2 Cha;
+D3;EN;Document Type D3;
+DA;EN;Customer Document;
+DG;EN;Customer Credit Memo;
+DR;EN;Customer Invoice;
+DZ;EN;Customer Payment;
+EU;EN;Euro Rounding Diff.;
+EX;EN;External Number;
+KA;EN;Vendor Document;
+KG;EN;Vendor Credit Memo;
+KN;EN;Net Vendors;
+KP;EN;Account Maintenance;
+KR;EN;Vendor Invoice;
+KZ;EN;Vendor Payment;
+M1;EN;MCA Journal;
+M2;EN;FX Swap;
+M3;EN;P&L Lock;
+M4;EN;P&L Close;
+M5;EN;P&L Transformation;
+M6;EN;FX Valuation;
+M7;EN;MAR & Restatement;
+M8;EN;IFX Correction;
+M9;EN;Reversal;
+MB;EN;MB Document Type;
+MD;EN;Data Load;
+ME;DE;32.2 DE;
+ME;EN;32.2;
+MK;EN;MK Test EN;
+ML;EN;ML Settlement;
+PR;EN;Price Change;
+RA;EN;Sub.Cred.Memo Stlmt;
+RB;EN;Reserve for Bad Debt;
+RE;EN;Invoice - Gross;
+RN;EN;Invoice - Net;
+RV;EN;Billing Doc.Transfer;
+SA;EN;G/L Account Document;
+SB;EN;G/L Account Posting;
+SK;EN;Cash Document;
+SU;EN;Adjustment Document;
+UE;EN;Data Load;
+WA;EN;Goods Issue;
+WE;EN;Goods Receipt;
+WI;EN;Inventory Document;
+WL;EN;Goods Issue/Delivery;
+WN;EN;Net Goods Receipt;
+WP;EN;Warranty Credit;
+WR;EN;Warranty Debit;
+ZG;EN;Document Type ZG;
+ZP;EN;Payment Posting;
+ZR;EN;Bank Reconciliation;
+ZS;EN;Payment by Check;
+ZV;EN;Payment Clearing;
+ZX;EN;Test doc type;
+ZY;EN;Test doc type;
+ZZ;EN;Asset Posting;
+ZZ;DE;DE PL;

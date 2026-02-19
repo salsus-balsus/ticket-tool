@@ -1,0 +1,9 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: FTGID_HOL
+* Variant: ITR_PHID
+* User: IT_ALL_06
+* Date: 20250923 / Time: 061248
+* Selection does not restrict data
+*FTGID_HOL;TXTSH;TXTLG;DAY;WOTAG;ABSTD;GARANT;GUARANTED;HOLTYP;KLASS;REGEL;MONAT;ANZNO;ANZVO;KONFE;SORT;MOTAG_HOL
+V10;UPL Test;New;;0;0;;;;1;F;12;0;0;;210;31;

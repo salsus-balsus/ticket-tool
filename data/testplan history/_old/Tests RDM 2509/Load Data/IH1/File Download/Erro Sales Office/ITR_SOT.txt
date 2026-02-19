@@ -1,0 +1,12 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: VKBUR
+* Variant: ITR_SOT
+* User: IT_ALL_06
+* Date: 20250826 / Time: 071852
+* Selection does not restrict data
+*VKBUR;LANGU;TXTSH
+0001;DE;Verkaufsbüro Süd;
+0001;EN;Sales Office South;
+1124;DE;UPL DE;
+1124;EN;1124 saloffice;

@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CHARHEAD
+* Variant: ITR_CHARHT
+* User: IT_ALL_06
+* Date: 20250829 / Time: 061506
+* Selection does not restrict data
+*CHARHEAD;LANGU;TXTCHAR;TXTMI;CHR_ADZHL;TXTNR
+0000000807;EN;;SST3_en_ff;0000;0000;
+

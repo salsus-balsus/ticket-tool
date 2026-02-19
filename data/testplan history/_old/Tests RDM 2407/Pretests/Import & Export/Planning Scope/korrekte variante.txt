@@ -1,0 +1,36 @@
+
+
+passt:
+
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
+
+  <tt:root name="RESULT"/>
+
+  <tt:template>
+    <MDG_PLSCO_SEQ_ECC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <tt:loop name="LINE" ref=".RESULT">
+        <PLSCO_SEQ_ECC tt:lax="deep">
+
+          <PLSCO>
+            <tt:value ref="$LINE.PLSCO"/>
+          </PLSCO>
+          <PUCNT>
+            <tt:value ref="$LINE.COUNT"/>
+          </PUCNT>
+          <PLWRK>
+            <tt:value ref="$LINE.PLANT_PL"/>
+          </PLWRK>
+          <BERID>
+            <tt:value ref="$LINE.MRPA_PL"/>
+          </BERID>
+
+        </PLSCO_SEQ_ECC>
+      </tt:loop>
+    </MDG_PLSCO_SEQ_ECC>
+  </tt:template>
+</tt:transform>
+
+
+MDMGX:
+PUWNR=PLSCO,PUCNT=COUNT,PLWRK=PLANT_PL,BERID=MRPA_PL

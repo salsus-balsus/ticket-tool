@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: OPVAR_EN
+* Variant: ITR_PPV
+* User: VICKN
+* Date: 20250924 / Time: 105934
+* Selection does not restrict data
+*OPVAR_EN;TXTMI
+V001;Variant V001;
+0002;Variant U002;

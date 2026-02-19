@@ -1,0 +1,42 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PRODH
+* Variant: ITR_PRODNT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 183338
+* Selection:
+* USMD_EDITION EQ | PRDH2021 |
+* Edition: PRDH2021
+*PRODH;LANGU;TXTLG
+00001;DE;Werkzeuge lang;
+00001;EN;Tools;
+00002;DE;Getränke;
+00002;EN;Drinks;
+00003;EN;Food;
+00005;EN;Sweets;
+00006;EN;Test;
+1;DE;Werkzeuge;
+1;EN;Tools;
+2;DE;Getränke;
+2;EN;Drinks;
+5000;DE;Elektrische Geräte;
+5000;EN;Electrical parts;
+50000;DE;Elektrische Geräte;
+50000;EN;Electrical parts;
+50001;DE;Druckluftgetrieben;
+50001;EN;Compressors;
+50002;DE;Alkoholisch;
+50002;EN;Alcoholic;
+50003;DE;Alkoholfrei;
+50003;EN;Non-alcoholic;
+50004;DE;Zubehör;
+50004;EN;Accessories;
+50005;EN;Chocolate;
+5001;DE;Druckluftgetrieben;
+5001;EN;Compressors;
+5002;DE;Alkoholisch;
+5002;EN;Alcoholic;
+5003;DE;Alkoholfrei;
+5003;EN;Non-alcoholic;
+5004;DE;Zubehör;
+5004;EN;Accessories;

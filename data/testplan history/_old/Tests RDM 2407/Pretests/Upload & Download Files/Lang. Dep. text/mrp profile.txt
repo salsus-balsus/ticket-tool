@@ -1,0 +1,16 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: DISPR
+* Variant: ITR_MRPPT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 173709
+* Selection does not restrict data
+*DISPR;LANGU;TXTMI
+P1;EN;lang imp;
+P2;EN;Profile2;
+P3;EN;MRP Profile 3;
+P1;DE;lang imp;
+P2;DE;Profile2;
+P3;DE;MRP Profile 3;
+
+

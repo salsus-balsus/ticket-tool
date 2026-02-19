@@ -1,0 +1,15 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: STLAN
+* Variant: ITR_STLANT
+* User: KLOSP
+* Date: 20250919 / Time: 074214
+* Selection does not restrict data
+*STLAN;LANGU;TXTMI
+8;EN;Stability Study;
+C;EN;Configuration Control;
+J;EN;JIT production line supply;
+M;EN;External Munitions Display;
+S;EN;Customer Management;
+U;EN;IUID Embedded Items;
+T;DE;Test;

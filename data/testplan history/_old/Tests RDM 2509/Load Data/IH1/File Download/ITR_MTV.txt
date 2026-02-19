@@ -1,0 +1,9 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MTART_VA
+* Variant: ITR_MTV
+* User: IT_ALL_06
+* Date: 20250919 / Time: 072622
+* Selection does not restrict data
+*MTART;XPIZU;KZPIP_M;MENGU;BWKEY;WERTU
+ABX;;;X;0001;X;

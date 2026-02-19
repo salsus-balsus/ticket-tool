@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_LABOR_ECC System="IH1_100">
+	<LABOR_ECC>
+		<LABOR>001</LABOR>
+	</LABOR_ECC>
+	<LABOR_ECC>
+		<LABOR>002</LABOR>
+	</LABOR_ECC>
+	<LABOR_ECC>
+		<LABOR>003</LABOR>
+	</LABOR_ECC>
+	<LABOR_ECC>
+		<LABOR>UPL</LABOR>
+	</LABOR_ECC>
+</MDG_LABOR_ECC>

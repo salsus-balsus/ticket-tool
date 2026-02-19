@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MMSTA
+* Variant: ITR_MMSTAT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 181717
+* Selection does not restrict data
+*MMSTA;LANGU;TXTMI
+M1;EN;MatStatus 1;
+M1;DE;LANG IMP;

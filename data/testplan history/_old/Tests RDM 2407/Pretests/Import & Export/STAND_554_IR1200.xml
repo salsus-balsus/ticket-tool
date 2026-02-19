@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_STAND_ECC System="IR1_200">
+	<STAND_ECC>
+		<PLANT>0001</PLANT>
+		<STAND>0001</STAND>
+		<TXTMI>Werk 0001 Standort 0001 (new Adress)</TXTMI>
+	</STAND_ECC>
+	<STAND_ECC>
+		<PLANT>0001</PLANT>
+		<STAND>1111</STAND>
+		<TXTMI>Home import</TXTMI>
+	</STAND_ECC>
+	<STAND_ECC>
+		<PLANT>0002</PLANT>
+		<STAND>0002</STAND>
+		<TXTMI>Test import</TXTMI>
+	</STAND_ECC>
+</MDG_STAND_ECC>

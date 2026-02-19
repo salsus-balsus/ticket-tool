@@ -1,0 +1,35 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PAYMNTTRM
+* Variant: ITR_PAYTRT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 183036
+* Selection does not restrict data
+*PAYMNTTRM;LANGU;TXTLG
+0001;DE;lang imp;
+0001;EN;;
+0002;EN;14 days 2%, 30 net;
+0003;EN;;
+0004;EN;as of end of month;
+0005;EN;;
+0006;EN;;
+0007;EN;;
+0008;EN;14 days 2%, 30/1,5%, 45 net;
+0009;DE;zahlbar in 3 Teilbeträgen;
+0009;EN;Payable in 3 installments;
+0099;EN;Payable in 3 installments;
+F1;EN;F1;
+N1;EN;Term N;
+N2;EN;Payment Term N2;
+PT1;EN;Payment Term One;
+PT2;EN;Payment Term Two;
+PT3;DE;testu;
+PT3;EN;;
+PT4;DE;testu;
+T1;DE;testu;
+T1;EN;;
+U;EN;PaymTerm U;
+U1;EN;;
+U2;DE;;
+U2;EN;;
+U3;EN;;

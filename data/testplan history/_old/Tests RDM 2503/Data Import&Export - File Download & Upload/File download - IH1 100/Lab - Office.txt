@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: LABOR
+* Variant: ITR_LABOR
+* User: VICKN
+* Date: 20250218 / Time: 132840
+* Selection does not restrict data
+*LABOR;TXTMI
+001;Laboratory 1;
+002;Laboratory 002;
+UPL;UPL Test;

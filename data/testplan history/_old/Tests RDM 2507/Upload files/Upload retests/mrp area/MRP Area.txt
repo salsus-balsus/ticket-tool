@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MRPAREA
+* Variant: ITR_MRPAR
+* User: IT_ALL_06
+* Date: 20250522 / Time: 153458
+* Selection does not restrict data
+*MRPAREA;TXTMI;BERTY;SPE_BNTYP;WERZG;ORTZG
+NV3;NV03 Description;02;;0001;0001;
+U1222;MRP Area Test 1;02;;2000;U1;
+U1333;MRP Area U1333;02;;2000;U1;

@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CHARREST
+* Variant: ITR_CHARR
+* User: VICKN
+* Date: 20250522 / Time: 123645
+* Selection does not restrict data
+*CHARHEAD;CHR_ADZHL;KLART_CL;ARTXT
+$29;0000;001;;
+$29;0000;005;;
+$29;0000;019;;

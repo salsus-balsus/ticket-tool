@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MATKL
+* Variant: ITR_MATKLT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 181445
+* Selection does not restrict data
+*MATKL;LANGU;TXTSH;TXTLG
+005;EN;Accessories 005;;
+006;DE;lang imp;;

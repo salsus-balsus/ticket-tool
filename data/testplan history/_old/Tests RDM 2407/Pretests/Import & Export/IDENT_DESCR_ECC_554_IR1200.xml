@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_IDENT_DESCR_ECC System="IR1_200">
+	<IDENT_DESCR_ECC>
+		<IDENT>01</IDENT>
+		<LANGU>D</LANGU>
+		<TXTLG>Deutschland (Standard)</TXTLG>
+	</IDENT_DESCR_ECC>
+	<IDENT_DESCR_ECC>
+		<IDENT>01</IDENT>
+		<LANGU>E</LANGU>
+		<TXTLG>Germany (Standard - imp)</TXTLG>
+	</IDENT_DESCR_ECC>
+	<IDENT_DESCR_ECC>
+		<IDENT>$2</IDENT>
+		<LANGU>D</LANGU>
+		<TXTLG>Deutschland (Speyer)</TXTLG>
+	</IDENT_DESCR_ECC>
+	<IDENT_DESCR_ECC>
+		<IDENT>$2</IDENT>
+		<LANGU>E</LANGU>
+		<TXTLG>Germany (Speyer)</TXTLG>
+	</IDENT_DESCR_ECC>
+</MDG_IDENT_DESCR_ECC>

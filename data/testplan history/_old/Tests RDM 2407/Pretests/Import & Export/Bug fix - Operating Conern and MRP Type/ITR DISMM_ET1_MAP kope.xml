@@ -1,0 +1,82 @@
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
+
+  <tt:root name="RESULT"/>
+
+  <tt:template>
+    <MDG_DISMM_ET1_ECC>
+      <tt:loop name="LINE" ref=".RESULT">
+        <DISMM_ET1_ECC tt:lax="deep">
+          <DISMM_ET1>
+            <tt:value ref="$LINE.DISMM_ET1"/>
+          </DISMM_ET1>
+          <DISVF>
+            <tt:value ref="$LINE.DISVF"/>
+          </DISVF>
+          <PROKZ>
+            <tt:value ref="$LINE.PROKZ"/>
+          </PROKZ>
+          <PROVB>
+            <tt:value ref="$LINE.PROVB"/>
+          </PROVB>
+          <PROOS>
+            <tt:value ref="$LINE.PROOS"/>
+          </PROOS>
+          <KZSIB>
+            <tt:value ref="$LINE.KZSIB"/>
+          </KZSIB>
+          <KZMEB>
+            <tt:value ref="$LINE.KZMEB"/>
+          </KZMEB>
+          <PRRED>
+            <tt:value ref="$LINE.PRRED"/>
+          </PRRED>
+          <FXART>
+            <tt:value ref="$LINE.FXART"/>
+          </FXART>
+          <RESPL>
+            <tt:value ref="$LINE.RESPL"/>
+          </RESPL>
+          <KZREG>
+            <tt:value ref="$LINE.KZREG"/>
+          </KZREG>
+          <ICBED>
+            <tt:value ref="$LINE.ICBED"/>
+          </ICBED>
+          <RYBED>
+            <tt:value ref="$LINE.RYBED"/>
+          </RYBED>
+          <DYFOL>
+            <tt:value ref="$LINE.DYFOL"/>
+          </DYFOL>
+          <CBPPT>
+            <tt:value ref="$LINE.CBPPT"/>
+          </CBPPT>
+          <BBBED>
+            <tt:value ref="$LINE.BBBED"/>
+          </BBBED>
+          <U1BED>
+            <tt:value ref="$LINE.U1BED"/>
+          </U1BED>
+          <U2BED>
+            <tt:value ref="$LINE.U2BED"/>
+          </U2BED>
+          <U4BED>
+            <tt:value ref="$LINE.U4BED"/>
+          </U4BED>
+          <A1BED>
+            <tt:value ref="$LINE.A1BED"/>
+          </A1BED>
+          <A2BED>
+            <tt:value ref="$LINE.A2BED"/>
+          </A2BED>
+        </DISMM_ET1_ECC>
+
+      </tt:loop>
+    </MDG_DISMM_ET1_ECC>
+
+
+
+  </tt:template>
+
+</tt:transform>

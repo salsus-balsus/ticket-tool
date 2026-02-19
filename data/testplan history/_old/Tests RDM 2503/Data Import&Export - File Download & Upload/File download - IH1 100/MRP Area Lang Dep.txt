@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MRPAREA
+* Variant: ITR_MRPART
+* User: IT_ALL_06
+* Date: 20250212 / Time: 171654
+* Selection does not restrict data
+*MRPAREA;LANGU;TXTMI
+0001;EN;0001 Description;
+0003;EN;0003 Description;

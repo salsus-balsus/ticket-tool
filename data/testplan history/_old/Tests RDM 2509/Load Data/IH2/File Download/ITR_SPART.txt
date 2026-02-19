@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: SPART
+* Variant: ITR_SPART
+* User: IT_ALL_06
+* Date: 20250825 / Time: 085845
+* Selection does not restrict data
+*SPART;TXTSH
+01;Division 01;
+02;Division 02;
+

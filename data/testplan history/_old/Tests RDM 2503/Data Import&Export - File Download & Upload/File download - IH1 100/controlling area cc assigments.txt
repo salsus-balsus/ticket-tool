@@ -1,0 +1,15 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KO_ASSIGN
+* Variant: ITR_CACCA
+* User: IT_ALL_06
+* Date: 20250207 / Time: 103958
+* Selection does not restrict data
+*KOKRS;COMPCODE;BUTXT;KO_DUMMY1
+0001;0001;SAP SE;;
+0MB1;0MB1;IS-B Musterbank Deutschl.;;
+AE01;AE01;Country Template AE;;
+AE01;AR01;;;
+AR01;AR01;Country Template AR;;
+CA01;CA01;Country Template CA;;
+AR01;EG01;;;

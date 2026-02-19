@@ -1,0 +1,9 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MRPSUBCN
+* Variant: ITR_MRPASC
+* User: VICKN
+* Date: 20250825 / Time: 105907
+* Selection does not restrict data
+*MRPAREA;LBEAR;WERKS_S;COUNT
+00003;100000;0091;002;

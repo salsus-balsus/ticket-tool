@@ -1,0 +1,160 @@
+"Date
+TT.MM.JJJJ";"from
+hh:mm";"to
+hh:mm";" hours
+autom. calculated ";Project;Topic;Task Group;Description;Task ID
+02.01.2026;14:00;15:30;1.5;9M Misc;OR Organization;;Update through Mails;
+02.01.2026;15:30;17:15;1.75;1C RDM - RDM Classic;DV Development;IN Investigation;Exxon Issue 1189 and ..90;1189
+05.01.2026;08:20;09:10;0.83;9M Misc;OR Organization;;Start Systems, Email Check, Sorting of TODOs;
+05.01.2026;09:10;11:30;2.33;1C RDM - RDM Classic;DV Development;IN Investigation;Exxon Issue 1189 - Deep Dive;1189
+05.01.2026;11:30;12:20;0.83;1C RDM - RDM Classic;OR Organization;AL Alignment;Sara, Farida, Mike Call - Listening In;
+05.01.2026;12:50;14:00;1.17;1C RDM - RDM Classic;DV Development;IN Investigation;Exxon Issue 1189 - Deep Dive Continue;1189
+05.01.2026;14:00;16:55;2.92;1C RDM - RDM Classic;OR Organization;AL Alignment;Mike Call Search Query;1189
+07.01.2026;08:45;09:00;0.25;9M Misc;OR Organization;;Start Systems, Setup of Equipment;
+07.01.2026;09:00;11:15;2.25;2C RDM C - RDM Cloud Ready;DV Development;AL Alignment;Jean-Marc Update on Cloud Ready State;
+07.01.2026;11:00;12:15;1.25;1C RDM - RDM Classic;DV Development;IN Investigation;Code Comprehension of Mikes Code;1189
+07.01.2026;12:50;14:40;1.83;1C RDM - RDM Classic;DV Development;TE Testing and Quality;Testing of Mikes Code;1189
+07.01.2026;14:40;15:00;0.33;9M Misc;OR Organization;AL Alignment;Quick 1:1 Michael <-> Maxi;
+07.01.2026;15:00;16:45;1.75;1C RDM - RDM Classic;DV Development;CO Coding;Coding Adaptation for Characterstics aswell + Testing;1189
+08.01.2026;09:00;10:00;1;2C RDM C - RDM Cloud Ready;DV Development;CO Coding;Country 9903;
+08.01.2026;10:00;10:30;0.5;9M Misc;OR Organization;AL Alignment;Michael <-> Maxi;
+08.01.2026;10:30;12:30;2;2C RDM C - RDM Cloud Ready;DV Development;CO Coding;Country 9903;
+08.01.2026;13:00;16:00;3;2C RDM C - RDM Cloud Ready;DV Development;CO Coding;Country 9903;
+08.01.2026;16:00;17:20;1.33;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready Daily Alignment;
+09.01.2026;09:00;10:00;1;9M Misc;;;Community Breakfast;
+09.01.2026;10:00;11:00;1;2C RDM C - RDM Cloud Ready;DV Development;IN Investigation;Troubleshooting Eclipse after Update (AAAAARGH!!!);
+09.01.2026;11:00;11:30;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;Team Meating;
+09.01.2026;11:30;13:10;1.67;2C RDM C - RDM Cloud Ready;DV Development;CO Coding;9903 CDS Stack;
+09.01.2026;13:40;16:00;2.33;2C RDM C - RDM Cloud Ready;DV Development;CO Coding;9903 CDS Stack;
+09.01.2026;16:00;17:00;1;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready Daily Alignment;
+12.01.2026;08:30;11:30;3;2C RDM C - RDM Cloud Ready;DV Development;CO Coding;9903 ABAP Stack;
+12.01.2026;11:30;11:45;0.25;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Jean-Marc - View Cluster Maintanance;
+12.01.2026;11:45;13:30;1.75;2C RDM C - RDM Cloud Ready;DV Development;IN Investigation;Troubleshooting Process Step Blockage during Customizing;
+12.01.2026;15:00;16:15;1.25;2C RDM C - RDM Cloud Ready;DV Development;IN Investigation;9903 Process Chain;
+12.01.2026;16:15;17:15;1;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready Daily Alignment;
+13.01.2026;08:45;09:00;0.25;9M Misc;OR Organization;;Timesheet Maintanance of last day - because of not pushed state;
+13.01.2026;09:00;09:30;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;RDM Dev Topics (Short);
+13.01.2026;09:30;10:30;1;2C RDM C - RDM Cloud Ready;DV Development;CO Coding;Auxilary Class, Saver Class;
+13.01.2026;10:30;11:30;1;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready SAP Alignment;
+13.01.2026;12:00;16:00;4;2C RDM C - RDM Cloud Ready;DV Development;CO Coding;;
+13.01.2026;16:00;17:00;1;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready Daily Alignment;
+14.01.2026;09:00;17:00;8;1C RDM - RDM Classic;BD Business Development;;Cloud Ready Workshop;
+15.01.2026;09:00;09:30;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;RDM Dev Topics (Short);
+15.01.2026;09:30;10:00;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;1:1 Michael Maxi;
+15.01.2026;10:00;10:30;0.5;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;1:1 Mike Maxi;1177 & 1196
+15.01.2026;13:00;15:15;2.25;1C RDM - RDM Classic;DV Development;TE Testing and Quality;Testing of Mikes Code / Fix in IH2 - Mails Org.;1177 & 1196
+16.01.2026;08:30;16:30;8;9M Misc;TR Travel;;Itego Firmenfeier 10th Anniversary;
+19.01.2026;09:50;10:15;0.42;9M Misc;OR Organization;;;
+19.01.2026;10:15;11:00;0.75;9M Misc;OR Organization;AL Alignment;Michael <-> Maxi;
+19.01.2026;11:00;11:45;0.75;2C RDM C - RDM Cloud Ready;DV Development;IN Investigation;Process Automation - Getting rid of hardcoded VARs inside workflow coding;
+19.01.2026;12:05;12:50;0.75;1C RDM - RDM Classic;DV Development;IN Investigation;Bayer - Reproduction of Error inside ID1. Maintaining OT Document;1202
+19.01.2026;12:50;13:30;0.67;1C RDM - RDM Classic;OR Organization;AL Alignment;Bayer Call - CHAR and CLASS regarding ITR Scope +/- SAP Scope;
+19.01.2026;13:30;15:00;1.5;2C RDM C - RDM Cloud Ready;DV Development;IN Investigation;Debugging of Single Gov ABAP Stack;
+19.01.2026;15:00;16:00;1;1C RDM - RDM Classic;OR Organization;AL Alignment;Tester Meeting;
+19.01.2026;16:00;17:00;1;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Daily Cloud Ready Alginment;
+20.01.2026;09:15;10:00;0.75;1C RDM - RDM Classic;OR Organization;AL Alignment;Dev Topics (Long);
+20.01.2026;10:00;10:30;0.5;9M Misc;OR Organization;MI Misc;Mails Update;
+20.01.2026;10:30;11:00;0.5;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready Alignment;
+20.01.2026;11:00;13:30;2.5;2C RDM C - RDM Cloud Ready;OR Organization;IN Investigation;Mail to JM -> PA, Debugging of Single Gov;
+21.01.2026;08:45;13:30;4.75;1C RDM - RDM Classic;DV Development;;Big Block - Mails, Debugging Single Gov, Requesting Help -> SCS2, Start of Testing;
+26.01.2026;08:15;08:32;0.28;9M Misc;OR Organization;;Mails , Start Systems, etc;
+26.01.2026;08:32;09:20;0.8;1C RDM - RDM Classic;OR Organization;AL Alignment;Conarum Call -> Talk w. Hieu;
+26.01.2026;09:20;10:30;1.17;1C RDM - RDM Classic;DV Development;;SEGW, ODATA Wrapping;
+26.01.2026;10:30;11:00;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;1:1 Michael Maxi;
+26.01.2026;11:00;12:30;1.5;1C RDM - RDM Classic;DV Development;;SEGW, ODATA Wrapping;
+26.01.2026;13:00;15:00;2;1C RDM - RDM Classic;DV Development;TE Testing and Quality;;
+26.01.2026;15:00;16:00;1;1C RDM - RDM Classic;OR Organization;AL Alignment;Tester Meeting;
+26.01.2026;16:00;17:00;1;2C RDM C - RDM Cloud Ready;DV Development;IN Investigation;CLR Issue;
+27.01.2026;08:45;09:30;0.75;1C RDM - RDM Classic;OR Organization;AL Alignment;Mails, RDM DEV Short;
+27.01.2026;09:30;10:30;1;9M Misc;OR Organization;;"Starting to look into tools that make our process more clear without using a ""one size fits all"" result";
+27.01.2026;10:30;11:00;0.5;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready Jour Fixe - SAP Alignment;
+27.01.2026;11:00;13:00;2;2C RDM C - RDM Cloud Ready;DV Development;IN Investigation;Debugging of MaSchmi's recommendations;
+27.01.2026;13:30;16:00;2.5;2C RDM C - RDM Cloud Ready;DV Development;CO Coding;Duplication of Namespace Object. Navigation Message BAS Coding;
+27.01.2026;16:00;17:00;1;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Daily Cloud Ready Alginment;
+28.01.2026;08:30;12:00;3.5;2C RDM C - RDM Cloud Ready;DV Development;IN Investigation;Process Issue Single Gov;
+28.01.2026;12:30;15:00;2.5;2C RDM C - RDM Cloud Ready;DV Development;IN Investigation;Process Issue Single Gov;
+28.01.2026;15:00;16:00;1;1C RDM - RDM Classic;OR Organization;AL Alignment;Testmeeting;
+28.01.2026;16:00;17:15;1.25;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready Daily Alignment;
+28.01.2026;17:15;17:25;0.17;1C RDM - RDM Classic;OR Organization;;Creating User for Conarum IS1;
+29.01.2026;08:30;09:30;1;1C RDM - RDM Classic;OR Organization;AL Alignment;RDM Dev Topics (Short);
+29.01.2026;09:30;10:30;1;2C RDM C - RDM Cloud Ready;DV Development;IN Investigation;;
+29.01.2026;10:30;11:00;0.5;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready Jour Fixe;
+29.01.2026;11:00;14:35;3.58;2C RDM C - RDM Cloud Ready;DV Development;IN Investigation;Fixed Process Issue !;
+29.01.2026;14:35;14:50;0.25;1C RDM - RDM Classic;OR Organization;AL Alignment;Selly Update;625
+29.01.2026;14:50;15:30;0.67;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;JM, Vogt, MaSchmi, Pfisterer, UI Topics;
+29.01.2026;15:30;16:00;0.5;2C RDM C - RDM Cloud Ready;DV Development;CO Coding;NAV Message;
+29.01.2026;16:00;17:15;1.25;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready Daily Alignment;
+30.01.2026;08:30;10:00;1.5;9M Misc;DV Development;;Tool;
+30.01.2026;10:00;10:30;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;Michael <-> Maxi;
+30.01.2026;10:30;11:00;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;basis Meeting;
+30.01.2026;11:00;11:30;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;Team Meeting;
+30.01.2026;11:30;11:55;0.42;9M Misc;DV Development;;Tool;
+30.01.2026;12:25;16:00;3.58;9M Misc;DV Development;;Tool;
+30.01.2026;16:00;17:00;1;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready Daily Alignment;
+30.01.2026;17:00;18:30;1.5;9M Misc;DV Development;;Tool;
+02.02.2026;08:30;10:30;2;9M Misc;DV Development;;Ticket Tool, Mails, Start Systems, Replication of errors;1177, 1216
+02.02.2026;10:30;11:30;1;1C RDM - RDM Classic;OR Organization;AL Alignment;Michael <-> Maxi;
+02.02.2026;11:30;12:15;0.75;1C RDM - RDM Classic;DV Development;;Client Contact Mails;1177, 1216
+02.02.2026;12:45;15:00;2.25;1C RDM - RDM Classic;DV Development;;Client Contact Mails;1177, 1216
+02.02.2026;15:00;16:00;1;1C RDM - RDM Classic;OR Organization;AL Alignment;Tester Meeting;
+02.02.2026;16:00;17:00;1;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready Daily Alignment;
+03.02.2026;08:30;09:00;0.5;9M Misc;;;Tool Dev;
+03.02.2026;09:00;10:00;1;1C RDM - RDM Classic;OR Organization;AL Alignment;;
+03.02.2026;10:00;10:30;0.5;1C RDM - RDM Classic;OR Organization;;Tool Dev, Transport Management;
+03.02.2026;10:30;11:00;0.5;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready SAP alignment;
+03.02.2026;11:00;11:15;0.25;9M Misc;;;Time Sheet Maintanance;
+03.02.2026;11:15;11:30;0.25;1C RDM - RDM Classic;OR Organization;AL Alignment;Pre Bayer Call;1177
+03.02.2026;11:30;12:00;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;Bayer Call;1177
+03.02.2026;12:00;12:30;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;Günter <-> Maxi;625
+03.02.2026;13:00;16:00;3;1C RDM - RDM Classic;DV Development;IN Investigation;"Code Comparison Bayer <-> ID1; Farida Call (quick); CLR Single Gov";
+03.02.2026;16:00;17:40;1.67;2C RDM C - RDM Cloud Ready;OR Organization;CO Coding;Daily Cloud Ready Alignment - Successfully implementing Editable Keys for Texts;
+04.02.2026;08:30;12:00;3.5;2C RDM C - RDM Cloud Ready;DV Development;IN Investigation;Activation Error Debugging;
+04.02.2026;12:30;13:45;1.25;2C RDM C - RDM Cloud Ready;DV Development;IN Investigation;Activation Error Debugging;
+04.02.2026;13:45;14:00;0.25;1C RDM - RDM Classic;OR Organization;AL Alignment;Quick Talk w. Michael about Open Prod. Hier. Tickets;
+04.02.2026;14:00;15:00;1;1C RDM - RDM Classic;OR Organization;IN Investigation;Prod Hier Tickets - Sichtung;
+04.02.2026;15:00;16:00;1;1C RDM - RDM Classic;OR Organization;AL Alignment;Tester Meeting;
+04.02.2026;16:00;17:35;1.58;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready Daily Alignment;
+05.02.2026;08:30;09:00;0.5;1C RDM - RDM Classic;OR Organization;;TODO;1162
+05.02.2026;09:00;09:30;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;TODO;
+05.02.2026;09:30;10:30;1;1C RDM - RDM Classic;DV Development;IN Investigation;TODO;
+05.02.2026;10:30;11:00;0.5;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;TODO;
+05.02.2026;11:00;13:30;2.5;1C RDM - RDM Classic;DV Development;IN Investigation;TODO;1162
+05.02.2026;14:00;14:25;0.42;1C RDM - RDM Classic;OR Organization;;TODO;
+05.02.2026;14:25;16:30;2.08;1C RDM - RDM Classic;OR Organization;IN Investigation;TODO;
+06.02.2026;08:30;11:00;2.5;1C RDM - RDM Classic;DV Development;CO Coding;;1216
+06.02.2026;11:00;11:30;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;Team Meeting;
+06.02.2026;11:30;12:30;1;1C RDM - RDM Classic;OR Organization;AL Alignment;Michael <-> Maxi;
+06.02.2026;12:30;13:30;1;1C RDM - RDM Classic;DV Development;IN Investigation;;1222
+06.02.2026;14:30;15:30;1;1C RDM - RDM Classic;DV Development;TE Testing and Quality;;1216
+06.02.2026;16:00;17:30;1.5;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready Daily Alignment;
+11.02.2026;09:15;10:30;1.25;9M Misc;OR Organization;;Mails;
+11.02.2026;10:30;11:15;0.75;1C RDM - RDM Classic;OR Organization;AL Alignment;Mike <-> Maxi: Prod Hier.;1222
+11.02.2026;11:15;12:15;1;2C RDM C - RDM Cloud Ready;DV Development;IN Investigation;Text Entries not persisted;
+11.02.2026;12:15;15:00;2.75;2C RDM C - RDM Cloud Ready;DV Development;CO Coding;Text Entries now Work. Features Instance. Check Method and DQM Infrastructure;
+11.02.2026;15:00;16:00;1;1C RDM - RDM Classic;OR Organization;AL Alignment;Tester Meeting;
+11.02.2026;16:00;17:30;1.5;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;Cloud Ready Daily Alignment;
+12.02.2026;08:30;09:00;0.5;9M Misc;OR Organization;;Mails and Bayer Access;
+12.02.2026;09:00;10:30;1.5;1C RDM - RDM Classic;OR Organization;AL Alignment;Dev Meeting & Mike <-> Maxi;
+12.02.2026;10:30;11:30;1;9M Misc;OR Organization;;Bayer Access;
+12.02.2026;11:50;12:30;0.67;9M Misc;OR Organization;;Bayer Access & Hotline Call - Access Successful !;
+12.02.2026;12:30;15:30;3;1C RDM - RDM Classic;DV Development;AL Alignment;Mike <-> Maxi. Various Topics and Tickets - Deep Dive;
+12.02.2026;15:45;17:00;1.25;9M Misc;OR Organization;;Bayer Acess. Conarum Mail;
+13.02.2026;08:40;10:00;1.33;9M Misc;DV Development;CO Coding;Tool;
+13.02.2026;10:00;10:30;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;Michael <-> Maxi;
+13.02.2026;10:30;11:00;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;Basis Meeting;
+13.02.2026;11:00;11:30;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;Team Meeting;
+13.02.2026;11:30;12:45;1.25;1C RDM - RDM Classic;OR Organization;AL Alignment;Bayer Call;
+13.02.2026;13:15;18:15;5;9M Misc;DV Development;CO Coding;Tool;
+15.02.2026;13:15;18:00;4.75;9M Misc;DV Development;CO Coding;Tool;
+15.02.2026;21:45;23:59;2.23;9M Misc;DV Development;CO Coding;Tool;
+16.02.2026;00:00;01:00;1;9M Misc;DV Development;CO Coding;Tool;
+16.02.2026;09:40;10:00;0.33;9M Misc;OR Organization;;Mails;
+16.02.2026;10:00;12:40;2.67;9M Misc;DV Development;CO Coding;Tool;
+16.02.2026;13:00;14:30;1.5;9M Misc;DV Development;CO Coding;Tool;
+16.02.2026;14:30;15:00;0.5;1C RDM - RDM Classic;OR Organization;AL Alignment;Bayer Call;1231
+16.02.2026;15:00;18:30;3.5;9M Misc;DV Development;CO Coding;Tool;
+16.02.2026;22:30;23:59;1.48;9M Misc;DV Development;CO Coding;Tool;
+17.02.2026;09:40;10:30;0.83;9M Misc;DV Development;CO Coding;Tool;
+17.02.2026;10:30;11:15;0.75;2C RDM C - RDM Cloud Ready;OR Organization;AL Alignment;SAP Alignment;
+17.02.2026;11:15;12:15;1;9M Misc;DV Development;CO Coding;Tool;
+17.02.2026;12:55;16:00;3.08;9M Misc;DV Development;CO Coding;Tool;

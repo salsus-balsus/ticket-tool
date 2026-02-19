@@ -1,0 +1,17 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CHARDESC
+* Variant: ITR_CHARD
+* User: IT_ALL_06
+* Date: 20250207 / Time: 120700
+* Selection does not restrict data
+*CHARHEAD;ATBEZ;TXTCHAR;CHR_ADZHL;SPRAS_CL
+0000000001;sst_01 deutsch;;0000;DE;
+0000000001;char 10;;0000;EN;
+0000000803;sst2 num deutsch;;0000;DE;
+0000000803;sst2 num engl;;0000;EN;
+0000000805;ref data overwrite;;0000;EN;
+0000000806;sst value help test;;0000;EN;
+0000000807;sst3_de;;0000;DE;
+0000000807;SST3_en_ff;;0000;EN;
+0000000808;Carbohydrate;;0000;EN;

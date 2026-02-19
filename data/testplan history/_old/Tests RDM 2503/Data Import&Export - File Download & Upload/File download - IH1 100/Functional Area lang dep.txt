@@ -1,0 +1,15 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: FKBER
+* Variant: ITR_FKBERT
+* User: VICKN
+* Date: 20250218 / Time: 132642
+* Selection does not restrict data
+*FKBER;LANGU;TXTMI
+0001;EN;Functional area 0001;
+0002;EN;Functional area 0002;
+0003;DE;FKB 003;
+0003;EN;Functional area 0003;
+0004;EN;Functional area 4;
+UPL1;DE;Test UPL DE;
+

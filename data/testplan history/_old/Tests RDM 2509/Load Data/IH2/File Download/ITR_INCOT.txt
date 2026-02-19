@@ -1,0 +1,26 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: INCO1
+* Variant: ITR_INCOT
+* User: IT_ALL_06
+* Date: 20250825 / Time: 091051
+* Selection does not restrict data
+*INCO1;LANGU;TXTMI
+CFR;DE;Inco lang;
+CFR;EN;Inco lang;
+CIF;EN;Costs, insurance & freight;
+CIP;EN;Carriage and insurance paid to;
+CPT;EN;Carriage paid to;
+DAF;EN;Delivered at frontier;
+DDP;EN;Delivered Duty Paid;
+DDU;EN;Delivered Duty Unpaid;
+DEQ;EN;Delivered ex quay (duty paid);
+DES;EN;Delivered ex ship;
+EXW;EN;Ex Works;
+FAS;EN;Free Alongside Ship;
+FCA;EN;Free Carrier;
+FH;EN;Free house;
+FOB;EN;Free on board;
+I2;EN;Inco 2;
+I2;DE;Inco 2 DE;
+UN;EN;Not Free;

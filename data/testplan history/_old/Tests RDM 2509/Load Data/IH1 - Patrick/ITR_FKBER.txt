@@ -1,0 +1,17 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: FKBER
+* Variant: ITR_FKBER
+* User: KLOSP
+* Date: 20250924 / Time: 132535
+* Selection does not restrict data
+*FKBER;TXTMI;AUTHGRP;DATE_EXP;FNSUB1;FNSUB2;FNSUB3;STR_ID;DATAB;DATBIS
+0001;Functional area 0001;;00.00.0000;;;;;00.00.0000;00.00.0000;
+0002;Functional area 0002;;00.00.0000;;;;;00.00.0000;00.00.0000;
+0003;Functional area 0003;;00.00.0000;;;;;00.00.0000;00.00.0000;
+0004;Functional area 4;;00.00.0000;;;;;00.00.0000;00.00.0000;
+0005;Functional area 5;;00.00.0000;;;;;00.00.0000;00.00.0000;
+T1;FunctArea T1;;28.09.2025;;;;;31.10.2025;12.11.2025;
+TSC1;;;00.00.0000;;;;;00.00.0000;00.00.0000;
+U1;FunctArea U12;;28.09.2025;;;;;31.10.2025;12.11.2025;
+X1;FunctArea X1;;28.09.2025;;;;;31.10.2025;12.11.2025;

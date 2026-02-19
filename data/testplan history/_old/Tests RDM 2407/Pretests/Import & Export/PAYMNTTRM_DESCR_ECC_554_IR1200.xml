@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_PAYMNTTRM_DESCR_ECC System="IR1_200">
+	<PAYMNTTRM_DESCR_ECC>
+		<SPRAS>E</SPRAS>
+		<ZTERM>$001</ZTERM>
+		<VTEXT>Pay immediately w/o deduction</VTEXT>
+	</PAYMNTTRM_DESCR_ECC>
+	<PAYMNTTRM_DESCR_ECC>
+		<SPRAS>E</SPRAS>
+		<ZTERM>0002</ZTERM>
+		<VTEXT>14 days 2%, 30 net</VTEXT>
+	</PAYMNTTRM_DESCR_ECC>
+</MDG_PAYMNTTRM_DESCR_ECC>

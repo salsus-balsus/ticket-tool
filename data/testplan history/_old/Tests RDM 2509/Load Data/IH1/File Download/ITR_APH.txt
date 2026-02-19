@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: THOCD
+* Variant: ITR_APH
+* User: IT_ALL_06
+* Date: 20250923 / Time: 060052
+* Selection does not restrict data
+*HIDENT;FTGID;ABJAHR;BISJAHR
+V1;003;2002;2024;
+V1;004;2003;2024;
+

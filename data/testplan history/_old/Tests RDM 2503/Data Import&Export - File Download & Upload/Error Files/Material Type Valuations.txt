@@ -1,0 +1,14 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MTART_VA
+* Variant: ITR_MTV
+* User: VICKN
+* Date: 20250218 / Time: 132142
+* Selection does not restrict data
+*MTART;XPIZU;KZPIP_M;MENGU;BWKEY;WERTU
+ABF;;;X;0001;;
+BUND;;;;0001;;
+LEIH;;;;0001;;
+ABF;;;;0003;;
+BUND;;;;0003;;
+LEIH;;;;0003;;

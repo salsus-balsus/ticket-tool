@@ -1,0 +1,14 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MATKL
+* Variant: ITR_MATKL
+* User: IT_ALL_06
+* Date: 20240521 / Time: 190909
+* Selection does not restrict data
+*MATKL;TXTSH;TXTLG;EKWSL;GEWEI;SPART;BKLAS;ANLKL;EKWSL;GEWEI;BKLAS;BEGRU;ABTNR;WWGDA
+004;;;;G;;3040;1000;;0001;;
+009;;;;;;3000;;;;;
+01;Material group 1;;;TON;;;;;;;
+02;Material group 2;Matgrp022;;;;7920;;;;;
+05;;;;TON;;3040;2000;;0003;;
+06;;;;KG;;3040;;;;;

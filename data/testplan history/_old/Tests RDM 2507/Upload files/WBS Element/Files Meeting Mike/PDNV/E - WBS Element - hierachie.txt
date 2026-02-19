@@ -1,0 +1,19 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: POSID
+* Variant: ITR_WBSEH
+* User: VICKN
+* Date: 20250604 / Time: 105308
+* Selection on Hierarchy:
+* PSPID EQ | WBS_NV |
+* Edition:
+* Hierarchy Name:
+*PSPID:PDNV
+*PSPID
+PDNV;
+*POSID;POSID
+WBSE_L1.1;WBSE_L1.2;
+WBSE_L1.1;WBSE_L2.1.1;
+WBSE_L1.1;WBSE_L2.1.2;
+WBSE_L1.2;WBSE_L2.2.1;
+WBSE_L2.1.1;WBSE_L3.1.1.1;

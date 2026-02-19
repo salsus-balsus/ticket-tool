@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_PERSA_ECC System="IH1_400">
+	<PERSA_ECC>
+		<PERSA>AE01</PERSA>
+		<MOLGA>AE</MOLGA>
+		<BUKRS>AE01</BUKRS>
+		<NAME1>Personnel Area AE01 imp</NAME1>
+		<NAME2>AE Model Personnel Area</NAME2>
+		<STRAS/>
+		<PFACH/>
+		<PSTLZ/>
+		<ORT01>Dubai</ORT01>
+		<LAND1>AE</LAND1>
+		<REGIO/>
+		<COUNC/>
+		<CITYC/>
+	</PERSA_ECC>
+	<PERSA_ECC>
+		<PERSA>AR01</PERSA>
+		<MOLGA>29</MOLGA>
+		<BUKRS>AR01</BUKRS>
+		<NAME1>Oficina central Argentina</NAME1>
+		<NAME2/>
+		<STRAS>San Martin 575</STRAS>
+		<PFACH/>
+		<PSTLZ/>
+		<ORT01>Capital Federal</ORT01>
+		<LAND1>AR</LAND1>
+		<REGIO>00</REGIO>
+		<COUNC/>
+		<CITYC/>
+	</PERSA_ECC>
+	<PERSA_ECC>
+		<PERSA>AR02</PERSA>
+		<MOLGA>29</MOLGA>
+		<BUKRS>AR01</BUKRS>
+		<NAME1>Plantas Zona Norte Argentina</NAME1>
+		<NAME2/>
+		<STRAS>Belgrano 567</STRAS>
+		<PFACH/>
+		<PSTLZ/>
+		<ORT01>Resistencia</ORT01>
+		<LAND1>AR</LAND1>
+		<REGIO>16</REGIO>
+		<COUNC/>
+		<CITYC/>
+	</PERSA_ECC>
+	<PERSA_ECC>
+		<PERSA>AR03</PERSA>
+		<MOLGA>29</MOLGA>
+		<BUKRS>AR01</BUKRS>
+		<NAME1>Plantas Zona Sur Argentina</NAME1>
+		<NAME2/>
+		<STRAS>Roca 345</STRAS>
+		<PFACH/>
+		<PSTLZ/>
+		<ORT01>Comodoro Rivadavia</ORT01>
+		<LAND1>AR</LAND1>
+		<REGIO>17</REGIO>
+		<COUNC/>
+		<CITYC/>
+	</PERSA_ECC>
+</MDG_PERSA_ECC>

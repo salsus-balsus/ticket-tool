@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_PLSCO_ECC System="IH1_400">
+	<PLSCO_ECC>
+		<PLSCO>SOV2</PLSCO>
+		<PUWTX/>
+	</PLSCO_ECC>
+	<PLSCO_ECC>
+		<PLSCO>SOV7</PLSCO>
+		<PUWTX>Description SOP07</PUWTX>
+	</PLSCO_ECC>
+</MDG_PLSCO_ECC>

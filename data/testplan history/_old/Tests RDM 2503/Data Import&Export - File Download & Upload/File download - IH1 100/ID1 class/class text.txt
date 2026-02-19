@@ -1,0 +1,62 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CLASSTEXT
+* Variant: ITR_CLASST
+* User: VICKN
+* Date: 20250320 / Time: 165548
+* Selection does not restrict data
+*CLASSHEAD;TXTCLASS;TXTBZ;INDSTD;SPRAS_CL;STDTITLE;TXTID_CL
+0000000001;Test Text Long;Test Text Long;;EN;;0000;
+0000000001;Test Text Std;Test Text Std;;EN;;0002;
+0000000004;Test Class Text;Class Text;;EN;;0000;
+0000000007;test;test;;EN;;0000;
+0000000010;ger desc;test;;DE;;0000;
+0000000010;eng desc;test;;EN;;0000;
+0000000010;Test FR;test FR;;FR;;0000;
+0000000016;Test MK2 Lang;Test MK2 Lang;;DE;;0000;
+0000000016;Test MK2 DE;Test MK2 DE;;DE;;0002;
+0000000016;Test MK2 Long;Test MK2 Long;;EN;;0000;
+0000000016;Test MK2 Std;Test MK2 Std;;EN;;0002;
+0000000017;Test MK1 Lang;Test MK1 Lang;;DE;;0000;
+0000000017;Test MK1 DE;Test MK1 DE;;DE;;0002;
+0000000017;Test MK1 Long;Test MK1 Long;;EN;;0000;
+0000000017;Test MK1 Std;Test MK1 Std;;EN;;0002;
+0000000022;Langtxt;LangTxt;;DE;;0000;
+0000000022;LongText;LongTxt;;EN;;0000;
+0000000025;Longtext to Class 1000;Tex Class 1000;;EN;;0000;
+0000000028;Test Text Long;Test Text Long;;EN;;0000;
+0000000028;Ind. St. Text;Class Text;;EN;;0001;
+0000000028;Test Text Std;Test Text Std;;EN;;0002;
+0000000029;Test Text Long;Test Text Long;;EN;;0000;
+0000000029;Ind. St. Text;Class Text;;EN;;0001;
+0000000029;Test Text Std;Test Text Std;;EN;;0002;
+0000000037;Test Text Long;Test Text Long;;EN;;0000;
+0000000037;Test Text Std;Test Text Std;;EN;;0002;
+0000000040;test;test;;EN;;0000;
+0000000041;test;test;;EN;;0000;
+0000000043;Test This;Test CT;;EN;;0000;
+0000000044;test;test;;EN;;0000;
+0000000045;test;test;;EN;;0000;
+0000000046;Test This;Test CT;;EN;;0000;
+0000000047;test;test;;EN;;0000;
+0000000051;test;test;;EN;;0000;
+0000000052;test;test;;EN;;0000;
+0000000053;test;test;;EN;;0000;
+0000000055;test;test;;EN;;0000;
+0000000056;test;test;;EN;;0000;
+0000000058;Test Class Text;Class Text;;EN;;0000;
+0000000061;Test LT;Test LT;;EN;;0000;
+0000000061;Test;Test ISD;X;EN;;0001;
+0000000061;Test ST;Test ST;;EN;;0002;
+0000000064;test;test;;EN;;0000;
+0000000065;test;test;;EN;;0000;
+0000000066;test;test;;EN;;0000;
+0000000067;test;test;;EN;;0000;
+0000000069;test;test;;EN;;0000;
+0000000070;test;test;;EN;;0000;
+0000000071;test;test;;EN;;0000;
+0000000073;Test Class Text;Class Text;;EN;;0000;
+0000000074;test;test;;EN;;0000;
+0000000077;test;test;;EN;;0000;
+0000000079;Test Class Text;Class Text;;EN;;0000;
+0000000081;Test Class Text;Class Text;;EN;;0000;

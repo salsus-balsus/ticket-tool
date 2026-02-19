@@ -1,0 +1,14 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CLKEYWORD
+* Variant: ITR_CLASSK
+* User: VICKN
+* Date: 20240531 / Time: 133223
+* Selection does not restrict data
+*CLASSHEAD;SPRAS_CL;KLPOS;KSCHL;KSCHL_CL
+0000000007;EN;02;test one;test one;
+0000000010;EN;02;test one;test one;
+0000000016;DE;02;Test DE MK2;Test DE MK2;
+0000000016;EN;02;Test MK2;Test MK2;
+0000000017;DE;02;Test DE MK1;Test DE MK1;
+0000000017;EN;02;Test MK1;Test MK1;

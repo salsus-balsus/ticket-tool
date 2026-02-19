@@ -1,0 +1,11 @@
+{
+    "name": "ticket-tool/app",
+    "description": "Ticket & Test Tool",
+    "require": {
+        "php": ">=7.4",
+        "phpoffice/phpword": "^1.0"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

@@ -1,0 +1,18 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: EKGRP
+* Variant: ITR_EKGRP
+* User: IT_ALL_06
+* Date: 20250207 / Time: 102810
+* Selection does not restrict data
+*EKGRP;EKNAM;SMTP_ADDR;EKTEL;TEL_NUMBE;TELFX;STATUS_EK;STREMARKS;STVALIDFR;TEL_EXTEN
+001;Einkäufer upl;dieter@Hoewler.com;2222222;;;;;00.00.0000;+49;
+002;Einkäufer 2;;06227/341285;;;;;00.00.0000;;
+003;Einkäufer 3;;06227/341285;;;;;00.00.0000;;
+010;Einkäufer 10 Test;;06227/341285;;;;;00.00.0000;;
+011;Einkäufer UPL;;06227/341285;;;;;00.00.0000;;
+S01;ek1 sabine;info@test.com;450870;;;;;00.00.0000;777;
+ST1;st1 EKgroup;st1@test.de;+49610240506;008976545QQERW;+49330123zx;;;00.00.0000;9999999998;
+ST2;st2 ekgrp;info@test.com;334455;;;;;00.00.0000;110;
+ST3;ST3 notruf;info@test.com;;;;;;00.00.0000;999;
+ST4;derive;info@test.com;;;;;;00.00.0000;;

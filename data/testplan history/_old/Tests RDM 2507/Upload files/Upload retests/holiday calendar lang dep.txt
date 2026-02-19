@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: HIDENT
+* Variant: ITR_HCT
+* User: IT_ALL_06
+* Date: 20250522 / Time: 082638
+* Selection does not restrict data
+*LANGU;HIDENT;TXTLG
+DE;V2;DE upl;
+EN;V2;test1;

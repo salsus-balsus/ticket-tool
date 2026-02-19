@@ -1,0 +1,15 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: EKGRP
+* Variant: PGRP NV
+* User: IT_ALL_06
+* Date: 20220909 / Time: 081135
+* Selection does not restrict data
+*EKNAM;SMTP_ADDR;TELFX;EKGRP;EKTEL
+Einkäufer 1;;;001;06227/341285;
+Einkäufer 2;;;002;06227/341285;
+Einkäufer 3;;;003;06227/341285;
+;;;12;;
+PurGrp 1;example1@gmail.com;;P1;654321;
+PurGrp 2;example2@gmail.com;;P2;159753147;
+PurGrp 3;bestpurchasinggroup@gmail.com;;P3;0176/589456;

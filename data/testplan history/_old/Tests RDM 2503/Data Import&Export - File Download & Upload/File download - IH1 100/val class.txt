@@ -1,0 +1,29 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: BKLAS_VAL
+* Variant: DE_VALCLAS
+* User: IT_ALL_06
+* Date: 20250227 / Time: 150849
+* Selection does not restrict data
+*BKLAS_VAL;TXTMI;KKREF
+0710;Equipment 1;0001;
+0720;Equipment 2;0001;
+1210;Spec.complex fixed assets;0002;
+3000;Raw materials 1;0001;
+3001;Raw materials 2;0001;
+3002;Raw materials 3;0001;
+3003;Raw materials 4;0001;
+3030;Operating supplies;0002;
+3031;Operating supplies 2;0002;
+3040;Spare parts;0003;
+3050;Packaging and empties;0004;
+3100;Trading goods;0005;
+3200;Services;0006;
+3300;Nonvaluated material;0007;
+7900;Semifinished products;0008;
+7920;Finished products;0009;
+DT;ME DT;0002;
+IH1;IH1 Retest;0002;
+IMP1;IMP Equipment;0001;
+ME;ME 44.1;0002;
+UL02;UL02 Description;0001;

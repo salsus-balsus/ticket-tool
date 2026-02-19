@@ -1,0 +1,28 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: LGORT
+* Variant: ITR_LGORT
+* User: IT_ALL_06
+* Date: 20250212 / Time: 140959
+* Selection does not restrict data
+*PLANT;LGORT;TXTSH;XBLGO;MESBS;LGOBE;LG_VTWEG;LG_SPART;XBUFX;XHUPF;OIG_ITRFL;MESST;OIH_LICNO;XLONG;DISKZ;LG_VKORG;VSTEL;XRESS;CFGDEP
+0001;0001;;;;Lagerstätte 0001;;;;;;;;;;;;;;
+0001;0006;;;;Lag.ort. 0006;;;;;;;;X;;;0003;;;
+0001;0088;;;;Lager 0088 (WM);;;;;;;;;;;;;;
+0001;0200;;;;SCM-EWM;;;;;;;;;;;;;;
+0001;MB71;;;;MB71 Description;;;;;;;;;;;;;;
+0001;MB72;;;;MB72 Descr;;;;;;;;;;;;;;
+0001;MB75;;;;MB75 Descr;;;;;;;;;;;;;;
+0001;MB76;;;;MB76 Description;;;;;;;;;;;;;;
+0001;MB80;;;;MB80 descr;;;;;;;;;;;;;;
+0001;SCY1;;;;scy;;;;;;;;;;;;;;
+0001;ST1;;;;Location 1;;;X;;;;;;;;0001;;;
+0002;MB70;;;;MB70 Description;;;;;;;;;;;0001;;;
+0002;MB90;;;;MB90 Description;;;;X;;;;;;;0001;;;
+0002;US1;;;;Test US 2010 Ch;;;;;;;;X;;;0003;X;;
+0003;0001;;;;Lager 0001;;;;;;;;;;;;;;
+0003;0005;;;;Lag.ort. 0005;;;;X;;;;;;;0001;;;
+0003;0088;;;;Lager 0088 (WM);;;;;;;;;;;;;;
+0003;S1;;;;St Loc 1;;;;;;;;;;;0001;;;
+Z003;US2;;;;Test US direct;;;X;;;;;;;;;;;
+Z003;UPL;;;;Test US UPL;;;X;;;;;;;;;;;

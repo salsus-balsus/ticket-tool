@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_SPART_ECC System="IR1_200">
+	<SPART_ECC>
+		<SPART>$1</SPART>
+	</SPART_ECC>
+	<SPART_ECC>
+		<SPART>02</SPART>
+	</SPART_ECC>
+</MDG_SPART_ECC>

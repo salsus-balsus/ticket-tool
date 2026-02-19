@@ -1,0 +1,13 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: FKBER
+* Variant: FANV
+* User: IT_ALL_06
+* Date: 20220909 / Time: 075530
+* Selection does not restrict data
+*APPRVON;TXTMI;DATE_EXP;FKBER;FNSUB1;FNSUB2;FNSUB3
+26.07.2022 14:34:41;Functional Area 01;00.00.0000;FA01;;;;
+26.07.2022 14:35:38;Functional Area 02;00.00.0000;FA02;;;;
+26.07.2022 14:35:48;Functional Area 03;00.00.0000;FA03;;;;
+05.08.2022 10:39:28;FunctArea 99;00.00.0000;FA99;;;;
+26.07.2022 14:34:41;Functional Area NV;00.00.0000;NV01;;;;

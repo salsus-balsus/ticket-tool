@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KO_ASSIGN
+* Variant: ITR_CACCA
+* User: IT_ALL_06
+* Date: 20250922 / Time: 133647
+* Selection does not restrict data
+*KOKRS;COMPCODE;BUTXT;KO_DUMMY1
+0001;0001;;;
+0004;0003;;;

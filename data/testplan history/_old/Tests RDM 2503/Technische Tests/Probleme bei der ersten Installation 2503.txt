@@ -1,0 +1,20 @@
+
+
+Nachträgliche Generierung 
+	Upgrade würde es diese Holiday Calendar Strukturen löschen
+
+im SAP KAR Auftrag müsste diese drin sein
+	Checkprogramm hat aber etwas gefunden
+
+Ggf. S03 noch einmal zurücksetzen und noch einmal installieren?	
+	Fehler im SAP Standard? 43 hatten nicht den SAP User drin?
+	Nachgeliefert, Nachgeneriert, ...
+	=> OSS Meldung aufmachen ...
+
+Vorschlag:
+	- ggf. Differenz wg. $TMP Einträgen => Ggf. hat Farida hat dies nachträglich gemacht
+		aber HIDENT sind nirgendwo drin 
+	- noch einmal auf S03 installieren ... 
+	- und wenn der Fehler noch einmal auftritt 
+
+

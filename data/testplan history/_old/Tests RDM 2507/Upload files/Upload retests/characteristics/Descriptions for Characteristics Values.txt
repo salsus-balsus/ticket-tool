@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CHVALDESC
+* Variant: ITR_CHARVD
+* User: VICKN
+* Date: 20250522 / Time: 123851
+* Selection does not restrict data
+*CHARHEAD;CHR_ADZHL;ATZHL_CH;AENNR_VD;VALTXT;LKENZ_VD;SPRAS_CL;TECHV_VD;DATUV_DES;ATWTB
+$29;0000;0001;;;;DE;;00.00.0000;Blau;
+$29;0000;0001;;;;EN;;00.00.0000;Blue;
+

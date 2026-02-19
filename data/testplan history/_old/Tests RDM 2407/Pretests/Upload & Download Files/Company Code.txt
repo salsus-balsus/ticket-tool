@@ -1,0 +1,77 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: COMPCODE
+* Variant: ITR_COMPC
+* User: IT_ALL_06
+* Date: 20240521 / Time: 183857
+* Selection does not restrict data
+* Fields not in Governance Scope: KOKFI, RCOMP, XPROD, XBBKO, XKKBI, KOPIM, XCOS, KTOP2, KKBER, XFMCB, DTAXR, XVALV, XSKFN, BUVAR, DTAMTC, DTTAXC, DTPROV, XBSPLT, WT_NEWWT, XEXTB, FIKRS, FMHRDATE, FSTVARE, FSTVA, XVVWA, BUKRS_GLO, XCOVR, IMPDA, DKWEG, INFMT, MWSKV, XBBBF, XJVAA, TXJCD, PST_PER_V, WAABW, OFFSACCT, XNEGP, XSLTA, EBUKR, MWSKA, XBBBE, XKDFT, PP_PDATE, XFMCO, XGJRV, OPVAR, XEINK, XBBBA, DTTDSP, MREGL, SURCCM, TXKRS, XSTDT, XVATDATE, XMWSN, UMKRS, XFMCA, XFDMM, XFDSD, STCEG, WFVAR, XCESSION, FM_DERIVE, ADRNR, BAPOVAR, XGSBE, XFDIS, FDBUK
+*COMPCODE;BUTXT;TXTMI;CCODLAND1;ORT01;BUTXT2;CCODECURR;CCODSPRAS;CCODKTOPL;CC_PERIV;CCODKTOPL;ORT01;KOKFI;RCOMP;XPROD;XBBKO;XKKBI;KOPIM;XCOS;KTOP2;CCODLAND1;KKBER;XFMCB;CCODECURR;DTAXR;XVALV;XSKFN;BUVAR;DTAMTC;DTTAXC;DTPROV;XBSPLT;WT_NEWWT;XEXTB;FIKRS;FMHRDATE;FSTVARE;FSTVA;XVVWA;CC_PERIV;BUKRS_GLO;XCOVR;IMPDA;DKWEG;INFMT;MWSKV;XBBBF;XJVAA;TXJCD;CCODSPRAS;PST_PER_V;WAABW;OFFSACCT;BUTXT2;XNEGP;XSLTA;EBUKR;MWSKA;XBBBE;XKDFT;PP_PDATE;XFMCO;XGJRV;OPVAR;XEINK;XBBBA;DTTDSP;MREGL;SURCCM;TXKRS;XSTDT;XVATDATE;XMWSN;UMKRS;XFMCA;XFDMM;XFDSD;STCEG;WFVAR;XCESSION;FM_DERIVE;ADRNR;BAPOVAR;XGSBE;XFDIS;FDBUK
+0001;;SAP SE;DE;Walldorf;;EUR;D;INT;K4;2;;;;X;;;;0001;;;;;;;;;;;;;00000000;FMRE;0001;X;00.00.0000;;1;;;V0;;;;;10;0;;;;A0;;;;;X;0001;;;;;;;;;;0001;;;;;0001;;;;;;;;
+0003;;SAP US (IS-HT-SW);US;Palo Alto;;USD;E;INT;K4;2;;;;;;;;AMER;;;X;;;;;;;;;;00000000;FMRE;0001;;00.00.0000;;1;;;V0;;;;;10;0;;;;A0;;;;;;0001;;;;;;;;;;0001;;;;;0001;;;;;;;;
+001;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;00000000;;;;00.00.0000;;;;;;;;;;00;0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+0MB1;;IS-B Musterbank Deutschl.;DE;Walldorf;;EUR;D;0MB1;K4;2;;;;;;;;;;;;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;;;;;;00;0;;;;;;;;;;0001;;;;;;;;;;;;;;;;;;;;;;;
+AE01;;Country Template AE;AE;Dubai;;AED;E;INT;K4;2;;;;;;;;;;;;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;;;;;;00;0;;;;;;;;;X;0001;;;;;;;;;;;;;;;;;;;;;;;
+AR01;;Country Template AR;AR;Argentinien;;ARS;S;INT;K4;2;;;;;;;;;;;X;;2;;;;;X;;;00000000;;0001;;00.00.0000;;;;;C0;;;;;00;0;;;;D0;;;;;X;0001;;;;;;;;;;;;;;;;;;;;;;;
+AT01;;Country Template AT;AT;Austria;;EUR;D;INT;K4;2;;;;;;;;;;;;;1;;;;;;;;00000000;;0001;X;00.00.0000;;;;;V0;;;;;10;0;;;;A0;;;;;X;0001;;;;;;;;;;;;;;;;X;;;;X;;;
+AU01;;Country Template AU;AU;Australia;;AUD;E;INT;V6;2;;;;;;;;;;;X;X;2;;;;;;;;00000000;;0001;;00.00.0000;;;;;P0;;;;;10;0;;;;S0;;X;;;;0001;;;;;;;;;X;AU01;;;;;;;;;;X;;;
+BE01;;Country Template BE;BE;Belgium;;EUR;E;CABE;K4;2;;;;;;;;0001;;;X;X;2;;;;;;;;00000000;;0001;;00.00.0000;;;;;V0;;;;;10;0;;;;A0;;;;;X;0001;X;;;;;;;;X;;;;;BE000009797;;;;;;X;;;
+BR01;;Country Template BR;BR;Brazil;;BRL;P;INT;K4;2;;;;;;;;;;;X;;2;;;;;X;;;00000000;;0001;;00.00.0000;;;;;I0;;;;;10;0;;;;A0;;;;;X;0001;;;;;;;;;;;;;;;;;;;;;;;
+CA01;;Country Template CA;CA;Canada;;CAD;E;CANA;K4;2;;;;;;2;;;;;X;;2;;;;;;;;00000000;;0001;X;00.00.0000;;;;;V0;;;;;10;0;;;;A0;;;;;;0001;;;;;;;;;;;;;;;;;;;;X;;;
+CH01;;Country Template CH;CH;Switzerland;;CHF;D;CACH;K4;2;;;;;;;;;;;X;;1;;;;;;;;00000000;;0001;X;00.00.0000;;;;;V0;;;;;10;0;;;;A0;;;;;;0001;;;;;;;;;;;;;;;;;;;;X;;;
+CL01;;Country Template CL;CL;Chile;;CLP;S;INT;K4;2;;;;;;;;;;;X;;2;;;;;X;;;00000000;;0001;;00.00.0000;;;;;C0;;;;;10;0;;;;D0;;;;;X;0001;;;;;;;;;;;;;;;;;;;;;;;
+CN01;;Country Template CN;CN;China;;CNY;1;CACN;K1;2;;;;;;;;0001;;;X;;2;;;;;;;;00000000;;0001;;00.00.0000;;;;;J0;;;;;10;0;X;;;X0;;;;;X;0001;;;;;;;;;;;;;;;;;;;;;;;
+CO01;;Country Template CO;CO;Colombia;;COP;S;CACO;K4;2;;;;;;;;;;;;;2;;;;;X;;;00000000;;0001;;00.00.0000;;;;CO01;V0;;;;;10;0;;;;A0;;;;;;0001;;;;;;;;;;;;;;;;;;;;X;;;
+CZ01;;Country Template CZ;CZ;Czech Republic;;CZK;C;CACZ;K4;2;;;;;;;;;;;;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;I0;;;;;05;0;X;;;E0;;;;;;0001;;;;;;;;;;;;;;CZ1234567890;;;;;;;;;
+DE01;;Country Template DE;DE;Germany;;EUR;D;GKR;K4;2;;;;;;;;;;;X;;;;;;;;;;00000000;;0001;X;00.00.0000;;;;;V0;;;;;10;0;;;;A0;;;;;;0001;;;;;;;;;;0001;;;;;;;;;;X;;;
+DE02;;Country Template DE;DE;Germany;;EUR;D;IKR;K4;2;;;;;;;;;;;X;;;;;;;;;;00000000;;0001;X;00.00.0000;;;;;V0;;;;;10;0;;;;A0;;;;;;0001;;;;;;;;;;0001;;;;;;;;;;X;;;
+DK01;;Country Template DK;DK;Denmark;;DKK;K;INT;K4;2;;;;;;;;;;;X;X;;;;;;;;;00000000;;0001;;00.00.0000;;;;;K0;;;;;10;0;;;;S0;;X;;;X;0001;;;;;;;;;;;;;;;;;;;;X;;;
+EG01;;Country Template Egypt;EG;Cairo;;EGP;;INT;K4;2;;;;;;;;;;;;;;;;;;;;;00000000;;;;00.00.0000;;;;;;;;;;00;0;;;;;;;;;;0001;;;;;;;;;;;;;;;;;;;;;;;
+ES01;;Country Template ES;ES;Spain;;EUR;S;CAES;K4;2;;;;;;;;0001;;;X;;2;;;;;X;;;00000000;;0001;;00.00.0000;;;;;S0;;;;;10;0;;;;R0;;;;;X;0001;;;;;;;;;;;;;;ESA58379629;;;;;;X;;;
+FI01;;Country Template FI;FI;Finland;;EUR;U;CAFI;K4;2;;;;;;;;;;;X;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;S0;;;;;00;0;;;;V0;;;;;X;0001;;;;;;;;;;;;;;FI12345678;;;;;;;;;
+FR01;;Country Template FR;FR;France;;EUR;F;CAFR;K4;2;;;;;;;;0001;;;X;X;2;;;;;;;;00000000;;0001;X;00.00.0000;;;;;V0;;;;;10;0;;;;A0;;;;;X;0001;;;;;;;;;;;;;;;;;;;;X;X;;
+GB01;;Country Template GB;GB;Great Britain;;GBP;E;INT;K4;2;;;;;;;;;;;X;X;2;;;;;X;;;00000000;;0001;;00.00.0000;;;;;V0;;;;;10;0;;;;A0;;X;;;;0001;;;;;;;;;X;;;;;GB123456788;;;;;;X;;;
+HK01;;Country Template HK;HK;Hong Kong;;HKD;E;INT;K4;2;;;;;;;;;;;X;;;;;;;;;;00000000;;0001;X;00.00.0000;;;;;;;;;;10;0;;;;;;;;;X;0001;;;;;;;;;;;;;;;;;;;;;;;
+HU01;;Country Template HU;HU;Hungary;;HUF;H;CAHU;K4;2;;;;;;;;;;;X;X;;;;;;;;;00000000;;0001;;00.00.0000;;;;;B0;;;;;10;0;;;;K0;;;;;;0001;;;;;;;;;;;;;;HU12345678;;;;;;X;;;
+ID01;;Country Template ID;ID;Jakarta;;IDR;E;INT;K4;2;;;;;;;;;;;;;;;;;;;;;00000000;;;;00.00.0000;;;;;;;;;;00;0;;;;;;;;;;0001;;;;;;;;;;;;;;;;;;;;;;;
+IE01;;Country Template IE;IE;Ireland;;EUR;E;INT;K4;2;;;;;;;;;;;;;2;;;;;;;;00000000;;0001;;00.00.0000;;;;;I0;;;;;10;0;;;;A0;;;;;;0001;;;;;;;;;;;;;;IE12345678;;;;;;;;;
+IT01;;Country Template IT;IT;Italy;;EUR;I;INT;K4;2;;;;;;;;;;;X;X;2;;;;;;;;00000000;;0001;;00.00.0000;;;;;A0;;;;;10;0;;;;V0;;;;;X;0001;;;;;;;;;;;;;;IT09417760155;;;;;;X;;;
+IT77;;Country Template IT;IT;Italy;;EUR;I;;K4;;;;;;;;;;;;;;;;;;;;;;00000000;;;;00.00.0000;;;;;;;;;;00;0;;;;;;;;;;0001;;;;;;;;;;;;;;;;;;;;;;;
+JP01;;Country Template JP;JP;Japan;;JPY;J;CAJP;V3;2;;;;;;;;0001;;;X;;2;;;;;;;;00000000;;0001;X;00.00.0000;;;;;V0;;;;;10;0;;;;A0;;X;;;;0001;;;;;;;;;;;;;;;;;;;;X;;;
+KR01;;Country Template KR;KR;Seoul;;KRW;3;CAKR;K4;2;;;;;;;;0001;;;X;;;;;;;X;;;00000000;;0001;;00.00.0000;;;;;V0;;;;;10;0;X;X;;A0;;;;;X;0001;;;;;;;;;;;;;;;;;;;;;;;
+KW01;;Country Template KW;KW;Kuwait City;;KWD;A;INT;K4;2;KW01;;;;;;;0001;;;;;;;;;;;;;00000000;;;;00.00.0000;;;;;;;;;;00;0;;;;;;;;;;0001;;;;;;;;;;;;;;;;;;;;;;;
+KZ01;;Country Template KZ;KZ;Astana;;KZT;R;CAKZ;K4;2;;;;;;;;0001;;;X;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;M0;;;;;10;0;X;;;A0;;;;;X;0001;;;;;;;;;;;;;;;;;;;;;;;
+LU01;;Country Template LU;LU;Luxembourg;;EUR;F;CABE;K4;2;;;;;;;;0001;;;X;X;2;;;;;;;;00000000;;0001;;00.00.0000;;;;;V0;;;;;02;0;;;;A0;;;;;X;0001;X;;;;;;;;X;;;;;LU000009797;;;;;;X;;;
+MCA1;;MCA Bank Backpack (bal.);DE;Walldorf;;USD;D;BKMG;K4;2;MCA;;;;;;;;;;;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;V0;;;;;00;0;;;;A0;;;;;X;MCA;;;;;;;;;;;;;;;;;;;;;;;
+MCA2;;MCA Bank Backpack (doc.);DE;Walldorf;;USD;D;BKMG;K4;2;MCA;;;;;;;;;;;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;V0;;;;;00;0;;;;A0;;;;;X;MCA;;;;;;;;;;;;;;;;;;;;;;;
+MCA3;;MCA Bank 4-pack (bal.);DE;Walldorf;;CHF;D;BKMG;K4;2;MCA;;;;;;;;;;;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;V0;;;;;00;0;;;;A0;;;;;X;MCA;;;;;;;;;;;;;;;;;;;;;;;
+MCA4;;MCA Bank 4-pack (doc.);DE;Walldorf;;CHF;D;BKMG;K4;2;MCA;;;;;;;;;;;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;V0;;;;;00;0;;;;A0;;;;;X;MCA;;;;;;;;;;;;;;;;;;;;;;;
+MX01;;Country Template MX;MX;Mexico;;MXN;S;INT;K4;2;;;;;;;;;;;;;;;;;;X;;;00000000;;0001;;00.00.0000;;;;MX01;V0;;;;;10;0;;;;A0;;;;;X;0001;;;;;;;;;;;;;;;;;;;;X;;;
+MX03;;Country Template MX;MX;Mexico;;MXN;S;;K4;;;;;;;;;;;;;;;;;;;;;;00000000;;;;00.00.0000;;;;;;;;;;00;0;;;;;;;;;;0001;;;;;;;;;;;;;;;;;;;;;;;
+MY01;;Country Template MY;MY;Kuala Lumpur;;MYR;E;INT;K4;2;;;;;;;;;;;X;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;V0;;;;;10;0;;;;A0;;;;;;0001;;;;;;;;;;;;;;;;;;;;;;;
+NL01;;Country Template NL;NL;The Netherlands;;EUR;N;INT;K4;2;;;;;;;;;;;;X;;;;;;;;;00000000;;0001;;00.00.0000;;;;;V0;;;;;00;0;;;;A0;;;;;;0001;;;;;;;;;;;;;;NL008209893B01;;;;;;;;;
+NO01;;Country Template NO;NO;Norway;;NOK;O;CANO;K4;2;;;;;;;;;;;X;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;I0;;;;;10;0;;;;U0;;X;;;;0001;;;;;;;;;;;;;;;;;;;;X;;;
+NZ01;;Country Template NZ;NZ;New Zealand;;NZD;E;INT;K4;2;;;;;;;;0001;;;X;X;2;;;;;;;;00000000;;0001;X;00.00.0000;;;;;P0;;;;;10;0;;;;S0;;;;;X;0001;;;;;;;;;X;;;;;;;;;;;;;;
+PE01;;Country Template PE;PE;Perú;;PEN;S;CAPE;K4;2;;;;;;;;;;;X;;2;;;;;X;;;00000000;;0001;;00.00.0000;;;;;C0;;;;;10;0;;;;D0;;;;;X;0001;X;;;;;;;;;;;;;;;;;;;;;;
+PH01;;Country Template PH;PH;Manila;;PHP;E;INT;K4;2;;;;;;;;;;;X;;;;;;;X;;;00000000;;0001;;00.00.0000;;;;;I0;;;;;10;0;;;;O0;;;;;X;0001;;;;;;;;;;;;;;;;;;;;;;;
+PL01;;Country Template PL;PL;Poland;;PLN;L;CAPL;K4;2;;;;;;;;;;;X;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;XV;;;;;00;0;X;;;XA;;;;;X;0001;;;;;;;;;;;;;;PL1234567890;;;;;;;;;
+PT01;;Country Template PT;PT;Portugal;;EUR;P;CAPT;K4;2;;;;;;;;0001;;;X;;2;;;;;;;;00000000;;0001;;00.00.0000;;;;;S0;;;;;10;0;;;;L0;;;;;X;0001;;;;;;;;;;;;;;;;;;;;;;;
+PT02;;Country Template PT (SNC);PT;Portugal;;EUR;P;SNC;K4;2;;;;;;;;0001;;;;;2;;;;;;;;00000000;;0001;;00.00.0000;;;;;;;;;;10;0;;;;;;;;;;0001;;;;;;;;;;;;;;;;;;;;;;;
+QA01;;Country Template QA;QA;Doha;;QAR;E;INT;K4;2;;;;;;;;;;;;;;;;;;;;;00000000;;;;00.00.0000;;;;;;;;;;00;0;;;;;;;;;;0001;;;;;;;;;;;;;;;;;;;;;;;
+RECO;;Sondereigentum (WEG);DE;Walldorf;;EUR;D;INT;K4;2;;;;X;;;;0001;;;;;;;;;;;;;00000000;FMRE;0001;X;00.00.0000;;1;;;V0;;;;;10;0;;;;A0;;;;;X;0001;;;;;;;;;;0001;;;;;0001;;;;;;;;
+REOB;;Referenz Objektmandate;DE;Walldorf;;EUR;D;INT;K4;2;;;;X;;;;0001;;;;;;;;;;;;;00000000;FMRE;0001;X;00.00.0000;;1;;;V0;;;;;10;0;;;;A0;;;;;X;0001;;;;;;;;;;0001;;;;;0001;;;;;;;;
+RERF;;WEG Referenzbuchungskreis;DE;Walldorf;;EUR;D;WEG;K4;2;;;;X;;;;0001;;;;;;;;;;;;;00000000;FMRE;0001;X;00.00.0000;;1;;;V0;;;;;10;0;;;;A0;;;;;X;0001;;;;;;;;;;0001;;;;;0001;;;;;;;;
+RS01;;Country template RS;RS;Serbia;;RSD;d;CARS;K4;2;;;;;;;;;;;X;X;;;;;;;;;00000000;;RS01;;00.00.0000;;;;;;;;;;10;0;X;X;;;;;;;X;RS01;;;;;;;;;;RS01;;;;;;;;;;;;;
+RU01;;Country Template RU;RU;Russia;;RUB;R;CARU;K4;2;;;;;;;;;;;X;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;V0;;;;;10;1;X;;;JA;;X;;;X;0001;;;;;;1;;;;;;;;;;;;;;X;;;
+SE01;;Country Template SE;SE;Sweden;;SEK;V;CASE;K4;2;;;;;;;;;;;;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;I0;;;;;00;0;;;;U0;;;;;;0001;;;;;;;;;;;;;;;;;;;;;;;
+SG01;;SAP Asia;SG;Singapore;;SGD;E;INT;K4;2;;;;X;;;;0001;;;X;;;;;;;;;;00000000;FMRE;0001;X;00.00.0000;;1;;;V0;;;;;10;0;;;;A0;;;;;X;0001;;;;;;;;;;SG01;;;;;0001;;;;;;;;
+SK01;;Country Template SK;SK;Slovak Republic;;EUR;Q;CASK;K4;2;;;;;;;;;;;;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;X0;;;;;05;0;X;X;;Y0;;;;;X;0001;;;;;;;;X;;;;;;SK1234567890;;;;;;;;;
+SLE0;;Musterbank;DE;Frankfurt;;EUR;;BKMG;K4;2;SLE0;;;;;;;;;;X;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;;;;;;00;0;;;;;;;;;X;0001;;;;;;;;;;;;;;;;;;;;;;;
+TH01;;Country Template TH;TH;Bangkok;;THB;2;INT;K4;2;;;;;;;;;;;X;X;;;;;;X;;;00000000;;0001;;00.00.0000;;;;;VX;;;;;10;0;X;;;OX;;;;;X;0001;;;;;;4;;;;;;;;TH3101247572;;;;;;;;;
+TR01;;Country Template TR;TR;Turkey;;TRY;T;CATR;K4;2;;;;;;;;;;;X;;;;;;;X;;;00000000;;0001;;00.00.0000;;;;TR01;V0;;;;;10;0;;;;A0;;;;;X;0001;;;;;;;;;;;;;;;;;;;;;;;
+TW01;;Country Template TW;TW;Taipei;;TWD;M;CATW;K4;2;;;;;;;;0001;;;;;2;;;;;;;;00000000;;0001;;00.00.0000;;;;;V0;;;;;00;0;;;;A0;;;;;;0001;;;;;;;;;;;;;;;;;;;;;;;
+UA01;;Country Template UA;UA;Ukraine;;UAH;8;CAUA;K4;2;;;;;;;;;;;X;;;;;;;;;;00000000;;0001;;00.00.0000;;;;;P4;;;;;00;0;;;;I0;;;;;;0001;;;;;;;;;;;;;;;;;;;;;;;
+US01;;Country Template US;US;U.S.A.;;USD;E;CANA;K4;2;;;;;;2;;;;;X;X;2;;;;;;;;00000000;;0001;X;00.00.0000;;;;;V0;;;;;10;0;;;;;;X;;;X;0001;;;;;;;;;;;;;;;;;;;;X;;;
+VE01;;Country Template VE;VE;Venezuela;;VEB;S;INT;K4;2;;;;;;;;;;;X;;;;;;;X;;;00000000;;0001;;00.00.0000;;;;VE01;V0;;;;;10;0;;;;A0;;;;;X;0001;;;;;;;;;;;;;;;;;;;;X;;;
+ZA01;;Country Template ZA - Test;ZA;South Africa;;ZAR;E;INT;K4;2;;;;;;;;0001;;;X;;1;;;;;;;0001;00000000;;0001;;00.00.0000;;;;;V0;;;;;10;0;;;;A0;;X;;;X;0001;;;;;;;;;;;;;;;;;;;;;X;;
+LU02;;Country Template LU;LU;Luxembourg;;EUR;F;CABE;K4;2;;;;;;;;0001;;;X;X;2;;;;;;;;00000000;;0001;;00.00.0000;;;;;V0;;;;;02;0;;;;A0;;;;;X;0001;X;;;;;;;;X;;;;;LU000009797;;;;;;X;;;

@@ -1,0 +1,15 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PRODH
+* Variant: PH_NO_HRY
+* User: IT_ALL_01
+* Date: 20241104 / Time: 151917
+* Hierarchy selection does not restrict data
+* Edition: PRDH2021
+* Hierarchy Name:
+*PRODHN:ProdHrchy
+ProdHrchy;;00001;;
+*PRODHN;PRODH;PRODH;PRODHL
+ProdHrchy;;00002;;
+ProdHrchy;;00003;;
+ProdHrchy;;00005;;

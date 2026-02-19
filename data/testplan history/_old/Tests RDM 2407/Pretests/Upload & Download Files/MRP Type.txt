@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: DISMM_ET1
+* Variant: ITR_MRP_TY
+* User: HOEWLERD
+* Date: 20240118 / Time: 160839
+* Selection does not restrict data
+*DISMM_ET1;TXTMI;PROVB;FXART;PROKZ;ICBED;DISVF;PROOS;A1BED;A2BED;KZREG;CBPPT;U2BED;PRRED;U1BED;KZMEB;RESPL;KZSIB;U4BED;DYFOL;BBBED;RYBED
+M1;MRP Type 1;U;3;*;;X;U;;;X;1;;1;;;1;X;;;;;
+M2;MRP Type 2;U;3;*;;X;U;;;X;1;;1;;;1;X;;;;;
+M3;MRP Type 03;U;3;*;;X;U;;;X;1;;1;;;1;X;;;;;

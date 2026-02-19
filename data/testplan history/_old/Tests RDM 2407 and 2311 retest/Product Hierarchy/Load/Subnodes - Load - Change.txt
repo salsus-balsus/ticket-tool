@@ -1,0 +1,21 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PRODHL
+* Variant: ITR_PRODL
+* User: IT_ALL_01
+* Date: 20241104 / Time: 152557
+* Selection:
+* USMD_EDITION EQ | PRDH2021 |
+* Edition: PRDH2021
+*PRODHL;TXTLG;EXT_NUM
+00100000;Burger;;
+00100001;Drilling machines;;
+00100002;Nailing machine;;
+00100003;Spraying tool;;
+00100004;Cleaning equipment;;
+00100005;Beer;;
+00100006;Wine;;
+00100007;Juice;;
+00100008;Water;;
+00100009;Glasses;;
+00100010;Barrels;;

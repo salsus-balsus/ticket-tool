@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MTART
+* Variant: ITR_MTARTT
+* User: IT_ALL_06
+* Date: 20250919 / Time: 072527
+* Selection does not restrict data
+*MTART;LANGU;TXTMI
+ABX;DE;DE UPPL;
+ABX;EN;EN UPL;

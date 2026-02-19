@@ -1,0 +1,20 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: VSBED
+* Variant: ITR_VSBEDT
+* User: IT_ALL_06
+* Date: 20250207 / Time: 111751
+* Selection does not restrict data
+*VSBED;LANGU;TXTSH
+01;DE;standard de;
+01;EN;standard;
+02;DE;Pick up DE;
+02;EN;Pick up;
+03;EN;pick upload;
+C1;EN;Shipping Cond1;
+ME;DE;ME 29.1 DE;
+ME;EN;ME 29.1;
+MR;DE;DEDE;
+MR;EN;ME Retest IR1;
+S7;EN;Shipp Cond 07 chg;
+ZA;EN;ME VAL MAPPING TEST;

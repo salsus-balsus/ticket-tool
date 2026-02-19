@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: LANGUAGE
+* Variant: ITR_LANGUT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 181039
+* Selection does not restrict data
+*LANGU;LANGUAGE;TXTSH
+EN;SR;Vietnamese lang;
+

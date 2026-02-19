@@ -1,0 +1,14 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: REGIO
+* Variant: ITR_REGIOT
+* User: IT_ALL_06
+* Date: 20250909 / Time: 084704
+* Selection does not restrict data
+*LAND1;REGIO;LANGU;TXTSH
+AD;VX;DE;UPL DE;
+AD;02;EN;Canillo T;
+AD;03;DE;Encamp;
+AD;03;EN;Encamp;
+AD;04;DE;La Massana;
+AD;04;EN;La Massana;

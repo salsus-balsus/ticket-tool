@@ -1,0 +1,21 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: ERKRS
+* Variant: ITR_ERKRST
+* User: IT_ALL_06
+* Date: 20240726 / Time: 173928
+* Selection does not restrict data
+*ERKRS;LANGU;TXTMI
+DU;EN;lang imp;
+DU;DE;lang imp;
+OC1;EN;OpConc1;
+OC2;EN;OpConc2;
+RE;EN;Retest IH2;
+S001;DE;Beispiel-Ergebnisbereich 1;
+S001;EN;Example Operating Concern 1;
+S_AL;DE;Template Streckenerfolg;
+S_AL;EN;Route Profitability Template;
+S_CP;DE;Template Konsumgüterindustrie;
+S_CP;EN;Template: Consumer Goods Ind.;
+S_GO;DE;Template Quickstart;
+S_GO;EN;Quickstart Template;

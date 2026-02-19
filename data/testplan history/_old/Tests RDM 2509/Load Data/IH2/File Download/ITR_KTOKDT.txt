@@ -1,0 +1,9 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KTOKD
+* Variant: ITR_KTOKDT
+* User: IT_ALL_06
+* Date: 20250825 / Time: 085100
+* Selection does not restrict data
+0042;DE;DE UPL
+0042;EN;EN UPL

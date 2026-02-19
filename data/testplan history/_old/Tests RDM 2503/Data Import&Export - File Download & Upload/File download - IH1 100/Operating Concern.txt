@@ -1,0 +1,17 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: ERKRS
+* Variant: ITR_ERKRS
+* User: VICKN
+* Date: 20250218 / Time: 133059
+* Selection does not restrict data
+*ERKRS;TXTMI;USEPER2I;MNDT;CREDA;CRERL;ER_WAERS;ALEACT;ENSTA;FLGCUR1;FLGCUR2;FLGCUR3;ER_PERIV;BRANC;MESTYP;LOGOID;CUST_STA;DS_STATUS;ENVIR_STA;SERKRS;BLOCKF;USEPER2P;PVERS;SAPRL;SYSTP;PATYPE
+DD;;;;00.00.0000;;AED;;0;;;;C3;;;;1;1;1;;00;;000;;;1;
+OC1;OpConc1;;;00.00.0000;;;;0;X;;;;;;;;1;;;00;;000;;;1;
+OC2;OpConc2;;;00.00.0000;;;;0;;;;;;;;;;;;00;;000;;;2;
+S001;Example Operating Concern 1;;;00.00.0000;;EUR;;2;;;;;KE;CPS0;;;;;;04;;000;;CUS;1;
+S_AL;Route Profitability Template;;;20.09.1999;46C;USD;;1;;;;;KE;CPS_;;;;;;01;;000;;SAP;1;
+S_CP;Template: Consumer Goods Ind.;;;00.00.0000;;USD;;1;;;;;KE;CPS_;;;;;;01;;000;;SAP;1;
+S_GO;Quickstart Template;;;22.11.1999;46C;USD;;1;;;;;KE;CPS_;;;;;;01;;000;;SAP;1;
+TEST;Just a test;;;00.00.0000;;;;0;;;;;;;;;1;;;00;;000;;;1;
+UPL1;UPL test 1;;;00.00.0000;;EUR;;2;;;;;KE;CPS0;;;;;;04;;000;;CUS;1;

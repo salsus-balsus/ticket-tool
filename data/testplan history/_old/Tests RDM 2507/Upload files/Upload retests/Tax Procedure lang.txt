@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KALSM_TAX
+* Variant: ITR_TAXPT
+* User: IT_ALL_06
+* Date: 20250522 / Time: 152234
+* Selection does not restrict data
+*MWSKZ_TAX;KALSM_TAX;LANGU;TXTLG
+VV;TAXB;DE;Ausgangssteuer DE UPL;
+VV;TAXB;EN;Output VAT - 0% (not relevant for tax reports);

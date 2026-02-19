@@ -1,0 +1,139 @@
+Customer,Object,Info Date,Status_Phase_Comment,Source
+ArcelorMittal,Characteristics,05 2024,"to be verified (05 2024), current problem (class type 300 configurable material, which is not supported by MDG-M so far)",ArcelorMittal
+ArcelorMittal,Material Group,05 2024,in production,ArcelorMittal
+ArcelorMittal,Storage Location,05 2024,"to be verified (05 2024), in Testsystem",ArcelorMittal
+ArcelorMittal,MRP Area,05 2024,"to be verified (05 2024), in Testsystem",ArcelorMittal
+ArcelorMittal,Plant,05 2024,"to be verified (05 2024), no governance defined yet",ArcelorMittal
+ArcelorMittal,Sales Organization,05 2024,"to be verified (05 2024), no governance defined yet",ArcelorMittal
+ArcelorMittal,MRP Controller,05 2024,"to be verified (05 2024), in Testsystem",ArcelorMittal
+ArcelorMittal,Valuation Class,05 2024,in production,ArcelorMittal
+ArcelorMittal,Purchasing Group,05 2024,in production,ArcelorMittal
+ArcelorMittal,Scope of Planning,05 2024,to be verified with the new release,ArcelorMittal
+ArcelorMittal,Material Type,05 2024,"to be verified (05 2024), in Testsystem",ArcelorMittal
+ArcelorMittal,FI Objects,05 2024,other FI objects might be interesting along ,ArcelorMittal
+Bayer,Material Group,2024 05,implemented,Bayer
+Bayer,Purchasing Group,2024 05,implemented,Bayer
+Bayer,Product Hierarchy,2024 05,"implemented, not tested",Bayer
+Bayer,Exchange Rate,2024 05,in verification,Bayer
+Bayer,Characteristics,2024 05,in verification,Bayer
+Shell,Plant,2024 05,implemented (Phase 1) - 17.05.: asked Johnny to verify,Shell
+Shell,Tax Code,2024 05,implemented (Phase 1) - 17.05.: asked Johnny to verify,Shell
+Shell,Payment Terms,2024 05,implemented (Phase 1) - 17.05.: asked Johnny to verify,Shell
+Shell,Company Code,2024 05,implemented (Phase 1) - 17.05.: asked Johnny to verify,Shell
+Shell,Chart of Accounts,2024 05,in verification (Phase 2),Shell
+Shell,Document Type,2024 05,in verification (Phase 2),Shell
+Shell,Unit of Measure,2024 05,in verification (Phase 2),Shell
+Shell,Factory Calendar,2024 05,in verification (Phase 2),Shell
+Shell,Incoterms,2024 05,"in verification (Phase 2), Prio: low",Shell
+ExxonMobil,Address,,Type: CRUD,ExxonMobil
+ExxonMobil,Master Inspection Characteristics (MO),,Type: CRUD,ExxonMobil
+ExxonMobil,Business Partner,,Type: CRUD,ExxonMobil
+ExxonMobil,Business Partner Customer,,Type: CRUD,ExxonMobil
+ExxonMobil,Business Partner Customer Contacts,,Type: CRUD,ExxonMobil
+ExxonMobil,Business Partner Customer Hierarchy,,Type: CRUD,ExxonMobil
+ExxonMobil,Equipment,,Type: CRUD,ExxonMobil
+ExxonMobil,Equipment Bill of Material,,Type: CRUD,ExxonMobil
+ExxonMobil,Equipment Hierarchy,,Type: CRUD,ExxonMobil
+ExxonMobil,Equipment Task List,,Type: CRUD,ExxonMobil
+ExxonMobil,Functional Location,,Type: CRUD,ExxonMobil
+ExxonMobil,Functional Location Task list,,Type: CRUD,ExxonMobil
+ExxonMobil,General Task list,,Type: CRUD,ExxonMobil
+ExxonMobil,Assembly,,Type: CRUD,ExxonMobil
+ExxonMobil,Maintenance Item,,Type: CRUD,ExxonMobil
+ExxonMobil,Maintenance Plan,,Type: CRUD,ExxonMobil
+ExxonMobil,Maintenance Plant,,Type: CRUD,ExxonMobil
+ExxonMobil,Maintenance Planning Plant,,Type: CRUD,ExxonMobil
+ExxonMobil,Work center,,Type: CRUD,ExxonMobil
+ExxonMobil,Measurement Point,,Type: CRUD,ExxonMobil
+ExxonMobil,Plant Maintenance Characteristic,,Type: CRUD,ExxonMobil
+ExxonMobil,Plant Maintenance Class,,Type: CRUD,ExxonMobil
+ExxonMobil,Profit Center,,Type: CRUD,ExxonMobil
+ExxonMobil,Cost Center Standard Hierarchy,,Type: CRUD,ExxonMobil
+ExxonMobil,Tax Code,,Type: CRUD,ExxonMobil
+ExxonMobil,Valuation Class,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Cost Element Hierarchy,,Type: CRUD,ExxonMobil
+ExxonMobil,GL Account including cost elements,,Type: CRUD,ExxonMobil
+ExxonMobil,Functional Area,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Account Group,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Currency,,Type: CRUD,ExxonMobil
+ExxonMobil,Document Type,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Profit Center Standard Hierarchy,,Type: CRUD,ExxonMobil
+ExxonMobil,Chart of Accounts,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Company,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Company Code,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Controlling Area,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Cost Center,,Type: CRUD,ExxonMobil
+ExxonMobil,Distribution Channel (Sales Area),,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Division (Sales Area),,Type: CRUD,ExxonMobil
+ExxonMobil,Sales Organization (Sales Area),,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Product Hierarchy,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Payment Terms,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Purchasing Group,,Type: CRUD,ExxonMobil
+ExxonMobil,Purchasing Org.,,Type: CRUD,ExxonMobil
+ExxonMobil,Vendor,,Type: CRUD,ExxonMobil
+ExxonMobil,Unit of Measure,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Storage Location,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Plants,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Shipping Conditions,,Type: CRUD,ExxonMobil
+ExxonMobil,Shipping Type,,Type: CRUD,ExxonMobil
+ExxonMobil,Region,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,MRP Area,,Type: CRUD,ExxonMobil
+ExxonMobil,MRP Profile,,Type: CRUD,ExxonMobil
+ExxonMobil,MRP Type,,Type: CRUD,ExxonMobil
+ExxonMobil,"GTS - Business Partner (Data provider, FTO, legal unit)",,Type: CRUD,ExxonMobil
+ExxonMobil,Country,,Type: CRUD,ExxonMobil
+ExxonMobil,Incoterms,,Type: CRUD,ExxonMobil
+ExxonMobil,Laboratory/Office,,Type: CRUD,ExxonMobil
+ExxonMobil,Material Master,,Type: CRUD,ExxonMobil
+ExxonMobil,Material Characteristic,,Type: CRUD,ExxonMobil
+ExxonMobil,Material Class,,Type: CRUD,ExxonMobil
+ExxonMobil,Material Group,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Material Status,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Material Type,,Type: CRUD | 2026: x,ExxonMobil
+ExxonMobil,Location,,Type: CRUD,ExxonMobil
+ExxonMobil,Location,,Type: nan | 2026: x,ExxonMobil
+Intel,Company Code,,Completed | Process: Muti step workflow governance Process ,Intel
+Intel,Chart of Accounts,,Completed | Process: Auto Approval workflow governance Process ,Intel
+Intel,Gen. Ledger Acc. Group,,Completed | Process: Auto Approval workflow governance Process,Intel
+Intel,Valuation Class,,Completed | Process: Auto Approval workflow governance Process,Intel
+Intel,Controlling Area,,Completed | Process: Auto Approval workflow governance Process,Intel
+Intel,Currency,,Completed | Process: Auto Approval workflow governance Process,Intel
+Intel,Functional Area,,Completed | Process: Auto Approval workflow governance Process,Intel
+Intel,Document Type,,Completed | Process: Auto Approval workflow governance Process,Intel
+Intel,Gen. Ledger Acc. Group,,Completed | Process: Auto Approval workflow governance Process,Intel
+Intel,Operating Concern,,Completed | Process: Auto Approval workflow governance Process,Intel
+Intel,Tax Code,,Completed | Process: Auto Approval workflow governance Process,Intel
+Intel,Country,,Completed | Process: Auto Approval workflow governance Process - Create/Update,Intel
+Intel,Language,,Completed | Process: Auto Approval workflow governance Process - Create/Update,Intel
+Intel,Region,,Completed | Process: Auto Approval workflow governance Process - Create/Update,Intel
+Intel,Plant,,Completed | Process: 2 step approval process,Intel
+Intel,Storage Location,,Completed | Process: 2 step approval process,Intel
+Intel,Asset Location,,Completed | Process: 2 step approval process,Intel
+Intel,Factory Calendar,,Completed | Process: Multi step workflow governance Process,Intel
+Intel,Purchasing Group,,Completed | Process: 2 step approval process,Intel
+Intel,Purchasing Org.,,Completed | Process: Auto approval with elevated access,Intel
+Intel,Vendor Account Group,,nan | Process: Auto Approval (Out of scope after code review sessions),Intel
+Intel,Sales Organization,,"Completed | Process: Parallel approver workflow with 3 approvers - Finance Approver, Supply Chain Approver and SMG Ops Approver",Intel
+Intel,Distribution Channel,,"Completed | Process: Parallel approver workflow with 3 approvers - Finance Approver, Supply Chain Approver and SMG Ops Approver",Intel
+Intel,Division (Sales Division),,"Completed | Process: Parallel approver workflow with 3 approvers - Finance Approver, Supply Chain Approver and SMG Ops Approver",Intel
+Intel,Customer Account Group,,nan | Process: One step approval process (Out of scope after code review sessions),Intel
+Intel,Incoterms,,Completed | Process: One step approval process,Intel
+Intel,Payment Terms,,On Hold - Product issue | Process: One step approval process (Out of scope till the time Itego product team comes with one consolidated app for payment terms as currently there are 2 apps. Intel would be owning the follow on activities considering handover),Intel
+Intel,Sales Group,,nan | Process: Out of scope,Intel
+Intel,Shipping Condition,,Completed | Process: One step approval process,Intel
+Intel,Laboratory/Office,,Completed | Process: Parallel approver workflow with 2 approvers,Intel
+Intel,Material Status,,Completed | Process: Parallel approver workflow with 2 approvers,Intel
+Intel,Material Type,,Completed | Process: Parallel approver workflow with 2 approvers,Intel
+Intel,Unit of Measure,,Completed | Process: Parallel approver workflow with 3 approvers,Intel
+Intel,Material Group,,Completed | Process: Parallel approver workflow with 3 approvers,Intel
+Intel,MRP Area,,nan | Process: Out of scope,Intel
+Intel,MRP Controller,,Completed | Process: Reason code based routing - sequential approval process. separate CR types for IF and IP,Intel
+Intel,MRP Profile,,nan | Process: Out of scope,Intel
+Intel,MRP Type,,nan | Process: Out of scope,Intel
+Intel,Product Hierarchy,,"On Hold - Product issue | Process: Sequential, 2 step approval",Intel
+Intel,Characteristics,,Completed | Process: Parallel approver workflow with 3 approvers,Intel
+Intel,Classes,,Completed | Process: Parallel approver workflow with 3 approvers,Intel
+Google,Financial Location,,Planned for 2021,Google
+Google,Plant and Storage Location,,Planned for 2022,Google
+Google,Enterprise Location,,Planned for 2023,Google
+Jungheinrich,Country,,In Scope,Manual

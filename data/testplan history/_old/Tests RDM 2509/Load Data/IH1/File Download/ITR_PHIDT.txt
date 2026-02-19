@@ -1,0 +1,9 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: FTGID_HOL
+* Variant: ITR_PHIDT
+* User: IT_ALL_06
+* Date: 20250923 / Time: 061314
+* Selection does not restrict data
+*LANGU;FTGID_HOL;TXTSH;TXTLG
+DE;V10;DE UL;New;

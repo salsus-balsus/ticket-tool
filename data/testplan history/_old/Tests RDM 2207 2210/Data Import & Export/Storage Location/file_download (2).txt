@@ -1,0 +1,22 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: LGORT
+* Variant: LGORT
+* User: IT_ALL_06
+* Date: 20220909 / Time: 071819
+* Selection does not restrict data
+*PLANT;LGORT;TXTSH;LGOBE;MESST;XBLGO;XBUFX;DISKZ;XHUPF;APPRVON;LG_SPART;OIH_LICNO;LG_VKORG
+0001;101;;Test;;;;;;31.08.2022 10:39:55;;;;
+0001;111;;Test;;;;;X;31.08.2022 10:39:55;;;;
+BW01;LG01;;Lagerort 01;;;;;X;31.08.2022 10:39:55;;;;
+BW02;L097;;Lagerort 02 09;;;;;X;31.08.2022 10:39:55;;;;
+BW02;L098;;Lagerort 02 98v2;;;;;X;31.08.2022 10:39:55;;;;
+BW02;L099;;Lagerort 02 99;;;;;X;31.08.2022 10:39:55;;;;
+BW02;LG02;;Lagerort 02;;;;;X;25.03.2022 13:54:31;;;;
+FB01;FB01;;FB Test 01;;;X;1;;31.08.2022 10:39:55;;;;
+FB02;FB02;;FB Test 02;;;X;;;31.08.2022 10:39:55;;;;
+FB03;FB03;;FB Test 03_ch;;;X;;X;31.08.2022 10:39:55;;;;
+JH01;JH01;;FB Test 01;;;X;1;;31.08.2022 10:39:55;;;;
+JH01;JH02;;FB Test 01;;;X;1;;31.08.2022 10:39:55;;;;
+JH01;JH03;;FB Test 01;;;X;1;;31.08.2022 10:39:55;;;;
+ST01;SL01;;Storage Loc 01;;;X;1;X;31.08.2022 10:39:55;;;;

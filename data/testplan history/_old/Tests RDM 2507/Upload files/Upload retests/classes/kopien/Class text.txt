@@ -1,0 +1,12 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CLASSTEXT
+* Variant: ITR_CLASST
+* User: IT_ALL_06
+* Date: 20250526 / Time: 110156
+* Selection does not restrict data
+*CLASSHEAD;TXTCLASS;TXTBZ;INDSTD;SPRAS_CL;STDTITLE;TXTID_CL
+$52;UPL test DE updated;Test MK2 DE;;DE;;0002;
+$52;UPL Test EN;Test MK2 Long;;EN;;0000;
+
+

@@ -1,0 +1,41 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: FKBER
+* Variant: ITR_FKBERT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 174127
+* Selection does not restrict data
+*FKBER;LANGU;TXTMI
+0001;EN;lang imp;
+0001;DE;lang imp;
+0002;EN;Functional area 0002;
+0003;EN;Functional area 0003;
+0004;EN;Functional area 4;
+0100;DE;Herstellung;
+0100;EN;Production;
+0300;DE;Vertrieb;
+0300;EN;Sales and Distribution;
+0400;DE;Verwaltung;
+0400;EN;Administration;
+0500;DE;Forschung und Entwicklung;
+0500;EN;Research & Development;
+0980;DE;Kalk. Kosten;
+0980;EN;Accrued costs;
+FA 1;EN;Functional Area 1;
+FB10;DE;FB10 Test;
+FB10;EN;FE10 Test (EN);
+PT01;DE;Verkaufs- und Servicekost;
+PT01;EN;Retirement/Service Costs;
+PT02;DE;Vertriebskosten;
+PT02;EN;Sales costs;
+PT03;DE;Verwaltungskosten;
+PT03;EN;Administration Costs;
+PT04;DE;Nettokosten Finanzierung;
+PT04;EN;Net Costs - Financing;
+PT05;DE;Abgaben andere Investitio;
+PT05;EN;Taxes - Other Investments;
+PT06;DE;Steuer laufendes Ergebnis;
+PT06;EN;Tax Current Profit/Loss;
+PT07;DE;Steuer Sonderergebnis;
+PT07;EN;Tax Extraordinary P/L;
+TSC1;EN;Test description;

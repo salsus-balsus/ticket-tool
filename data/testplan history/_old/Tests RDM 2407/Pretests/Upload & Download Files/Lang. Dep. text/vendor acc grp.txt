@@ -1,0 +1,46 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KTOKK
+* Variant: ITR_KTOKKT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 175531
+* Selection does not restrict data
+*KTOKK;LANGU;TXTMI
+0001;DE;Lieferant lang;
+0001;EN;Vendor lang;
+0002;DE;Warenlieferant;
+0002;EN;Goods supplier;
+0003;DE;Abweichender Zahlungsempfänger;
+0003;EN;Alternative payee;
+0004;DE;Rechnungssteller;
+0004;EN;Invoicing Party;
+0005;DE;Spediteur;
+0005;EN;Forwarding agent;
+0006;DE;Bestelladresse;
+0006;EN;Ordering address;
+0007;DE;Werke;
+0007;EN;Plants;
+0012;DE;Hierarchieknoten;
+0012;EN;Hierarchy Node;
+0100;DE;Lieferant-Verteilzentrum;
+0100;EN;Vendor distribution center;
+CPD;DE;CPD-Kreditoren (int.NrVergabe);
+CPD;EN;One-time vend.(int.no.assgnmt);
+CPDL;DE;CPD-Kreditoren (ext.NrVergabe);
+CPDL;EN;One-time vend.(ext.no.assgnmt);
+DARL;DE;Darlehensgeber;
+DARL;EN;Lender;
+HOL;DE;Adresse Übergabeort;
+HOL;EN;Handover Location Address;
+KRED;DE;Kreditoren (int. NrVergabe);
+KRED;EN;Vendor (int.number assgnmnt);
+LIEF;DE;Kreditoren (ext. NrVergabe);
+LIEF;EN;Vendor (ext.number assgnmnt);
+MNFR;DE;Hersteller (ext. NrVergabe).;
+MNFR;EN;Manufacturer (ext.no.assgnmnt);
+REIS;DE;Reisende;
+REIS;EN;Commercial traveller;
+U1;EN;VendorAcc U;
+V1;EN;Vendor Group One;
+VERT;DE;Vertreter;
+VERT;EN;Representative;

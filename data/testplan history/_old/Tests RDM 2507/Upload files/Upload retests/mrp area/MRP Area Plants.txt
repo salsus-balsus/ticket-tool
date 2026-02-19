@@ -1,0 +1,12 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MRPPLANT
+* Variant: ITR_MRPAP
+* User: IT_ALL_06
+* Date: 20250522 / Time: 153657
+* Selection does not restrict data
+*MRPAREA;WERKS_M;COUNT
+NV3;NV3;001;001;
+2000;2000;001;
+U1222;2000;001;
+U1333;2000;001;

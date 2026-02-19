@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_PL_ADRS_ECC System="IR1_200">
+	<PL_ADRS_ECC>
+		<AD_GROUP>CA01</AD_GROUP>
+		<PLANT>0001</PLANT>
+		<AD_CITY/>
+		<AD_CONAME/>
+		<AD_HSNM1/>
+		<AD_LAND1>DE</AD_LAND1>
+		<AD_NAME1/>
+		<AD_NAME2/>
+		<AD_NAME3/>
+		<AD_NAME4/>
+		<AD_POBX/>
+		<AD_PSTCD1>10966</AD_PSTCD1>
+		<AD_PSTCD2/>
+		<AD_REGIO/>
+		<AD_REGTXT/>
+		<AD_SORT1/>
+		<AD_SORT2/>
+		<AD_STREET>Berliner Alle 103</AD_STREET>
+		<AD_TITLE/>
+		<AD_TXJCD/>
+		<AD_TZONE>CET</AD_TZONE>
+	</PL_ADRS_ECC>
+		<PL_ADRS_ECC>
+		<AD_GROUP>CA01</AD_GROUP>
+		<PLANT>$001</PLANT>
+		<AD_CITY/>
+		<AD_CONAME/>
+		<AD_HSNM1/>
+		<AD_LAND1>DE</AD_LAND1>
+		<AD_NAME1/>
+		<AD_NAME2/>
+		<AD_NAME3/>
+		<AD_NAME4/>
+		<AD_POBX/>
+		<AD_PSTCD1>10966</AD_PSTCD1>
+		<AD_PSTCD2/>
+		<AD_REGIO/>
+		<AD_REGTXT/>
+		<AD_SORT1/>
+		<AD_SORT2/>
+		<AD_STREET>Berliner Alle 103</AD_STREET>
+		<AD_TITLE/>
+		<AD_TXJCD/>
+		<AD_TZONE>CET</AD_TZONE>
+	</PL_ADRS_ECC>
+	
+</MDG_PL_ADRS_ECC>

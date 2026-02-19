@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_OPVAR_ECC System="ID1_400">
+	<OPVAR_ECC>
+		<OPVAR>00V1</OPVAR>
+	</OPVAR_ECC>
+	<OPVAR_ECC>
+		<OPVAR>00V2</OPVAR>
+	</OPVAR_ECC>
+</MDG_OPVAR_ECC>

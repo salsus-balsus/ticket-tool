@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_CURRENCY_DESCR_ECC System="IR1_200">
+	<CURRENCY_DESCR_ECC>
+		<SPRAS>E</SPRAS>
+		<WAERS>AD$</WAERS>
+		<LTEXT>$ import</LTEXT>
+		<KTEXT>Peseta</KTEXT>
+	</CURRENCY_DESCR_ECC>
+	<CURRENCY_DESCR_ECC>
+		<SPRAS>E</SPRAS>
+		<WAERS>AED</WAERS>
+		<LTEXT>Vereinigter Arabische import</LTEXT>
+		<KTEXT>Dirham</KTEXT>
+	</CURRENCY_DESCR_ECC>
+</MDG_CURRENCY_DESCR_ECC>

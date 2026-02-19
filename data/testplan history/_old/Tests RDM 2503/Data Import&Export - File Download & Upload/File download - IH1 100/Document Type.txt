@@ -1,0 +1,72 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: BLART
+* Variant: DH_BLART
+* User: IT_ALL_06
+* Date: 20250212 / Time: 163514
+* Selection does not restrict data
+*BLART;TXTSH;KOARS;XALLOCACT;XKOAA;XUACPA;BRGRU;XSYBL;XDTCH;XKOAD;RECID;XNGBK;BLKLS;XMTXT;X_PP_PROC;XMGES;KURST3;XKOAS;XVORK;XGSUB;XMREF2;XKURSX;XKOAM;XNEGPB;XNETB;NUMKR;XKKPR;XALLOCPLA;XPLAN;XPOSACC;RECIC;XMREF;STBLA;XROLLUP;XRVUP;XKOAK
+AA;Asset Posting;ADKMS;;X;;;;;X;;;;;;;;X;;;;;X;;;01;;;;;;;;;;X;
+AB;Accounting Document;ADKMS;;X;;;;;X;;;;;;X;;X;;;;;X;;;01;;;;;;;AB;;;X;
+AF;Depreciation Pstngs;AS;;X;;;;;;;;;;;;;X;;;;;;;;03;;;;;;;AF;;;;
+AN;Net Asset Posting;AKMS;;X;;;;;;;;;;;;;X;;;;;X;;X;01;;;;;;;;;;X;
+CH;Contract Settlement;ADS;;X;;;;;X;;;;;;;;X;;;;;;;;01;;;;;;;;;X;;
+CO;CO Posting;S;;;;;;;;;;;;;;;X;;;;;;;;01;;;;;;;CO;;;;
+D1;Document Type;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+D2;Document Type D2 Cha;;;X;;;;;;;;;;;;;;;;;;X;;;;;;;;;;;;;;
+D3;Document Type D3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DA;Customer Document;DS;;;;;;X;X;;;;;;;;X;;;;;;;;16;;;;;;;AB;;;;
+DG;Customer Credit Memo;DS;;;;;;X;X;;;C;;;;;X;;;;;;;;16;;;;;;;DA;;;;
+DR;Customer Invoice;ADMS;;X;;;;X;X;;;A;;;;;X;;;;;X;;;18;;;;;;;;;;;
+DZ;Customer Payment;DS;;;;;;;X;;;B;;;;;X;;;;;;;;14;;;;;;;DA;;;;
+EU;Euro Rounding Diff.;ADKMS;;X;;;;;X;;;;;;;;X;;;;;X;;;02;;;;;;;;;;X;
+EX;External Number;DKS;;;;;;;X;;;;;;;;X;;;;;;;;02;;;;;;;AB;;;X;
+KA;Vendor Document;AKMS;;X;;;;;;;;;;;;;X;;;;;X;;;17;;;;;;;KA;;;X;
+KG;Vendor Credit Memo;AKMS;;X;;;;;;;;C;;;;;X;;;;;X;;;17;;;;;;;KA;;;X;
+KN;Net Vendors;ASK;;X;;;;;;;;;;;;;X;;;;;;;X;01;;;;;;;;;;X;
+KP;Account Maintenance;ASM;;X;;;;;;;;;;;;;X;;;;;X;;;48;;;;;;;KP;;;;
+KR;Vendor Invoice;AKMS;;X;;;;;;;;A;;;;;X;;;;;X;;;19;;;;;;;KA;;;X;
+KZ;Vendor Payment;KS;;;;;;X;;;;B;;;;;X;;;;;;;;15;;;;;;;KA;;;X;
+M1;MCA Journal;S;;;;;;;;;;;;;;;X;;X;;X;;;;01;;;;;;;M9;;;;
+M2;FX Swap;S;;;;;;;;;;;;;;;X;;X;;X;;;;01;;;;;;;M9;;;;
+M3;P&L Lock;S;;;;;;;;;;;;;;;X;;X;;X;;;;01;;;;;;;M9;;;;
+M4;P&L Close;S;;;;;;;;;;;;;;;X;;X;;X;;;;01;;;;;;;M9;;;;
+M5;P&L Transformation;S;;;;;;;;;;;;;;;X;;X;;X;;;;01;;;;;;;M9;;;;
+M6;FX Valuation;S;;;;;;;;;;;;;;;X;;X;;X;;;;01;;;;;;;M9;;;;
+M7;MAR & Restatement;S;;;;;;;;;;;;;;;X;;X;;X;;;;01;;;;;;;M9;;;;
+M8;IFX Correction;S;;;;;;;;;;;;;;;X;;X;;X;;;;01;;;;;;;M9;;;;
+M9;Reversal;S;;;;;;;;;;;;;;;X;;X;;X;;;;01;;;;;;;;;;;
+MB;MB Document Type;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+MD;Data Load;S;;;;;;;;;;;;;;;X;;X;;X;;;;01;;;;X;;;M9;;;;
+ME;32.2;;;;;EMEM;;;;;;;;;;2001;;;;;;;;;12;;;;;;;CO;;;;
+MK;MK Test EN;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ML;ML Settlement;MS;;;;;;;;;;;;;;;X;;;;;X;;;47;;;;;;;;;;;
+PR;Price Change;MS;;;;;;;;;;;;;;;X;;;;;X;;;48;;;;;;;;;;;
+RA;Sub.Cred.Memo Stlmt;AKMS;;X;;;;;;;;;;;;;X;;;;;X;;;51;;;;;;;RA;;;X;
+RB;Reserve for Bad Debt;S;;;;;;;;;;;;;;;X;;;;;;;;RB;;;;;;;;;;;
+RE;Invoice - Gross;AKMS;;X;;;;;;;;A;;;;;X;;;;;X;;;51;;;;;;;RE;;;X;
+RN;Invoice - Net;AKMS;;X;;0002;;;;;;A;;;;;X;;;;;X;;X;51;;;;;;;RN;;;X;
+RV;Billing Doc.Transfer;ADS;;X;;;;X;X;;;A;;;;;X;;;;;;;;00;;;;;;;AB;;X;;
+SA;G/L Account Document;ADKSM;;X;;;;;X;;;;;;;;X;;;;;X;;;01;;;;;;;AB;;;X;
+SB;G/L Account Posting;S;;;;;;;;;;;;;;;X;;;;;;;;12;;;;;;;AB;;;;
+SK;Cash Document;S;;;;;;;;;;B;;;;;X;;;;;;;;13;;;;;;;AB;;;;
+SU;Adjustment Document;S;;;;;;;;;;D;;;X;;X;;X;;;;;;01;;;;;;;SU;;;;
+TN;;AMS;;X;;;;;;;;;;;;;X;;;;;X;;X;50;;;;;;;;;;;
+UE;Data Load;ADKMS;;X;;;;;X;;;;;;;;X;;;;;X;;;04;;;;;;;;;;X;
+WA;Goods Issue;AMS;;X;;;;;;;;;;;;;X;;;;;X;;;49;;;;;;;;;;;
+WE;Goods Receipt;AMS;;X;;;;;;;;;;;;;X;;;;;X;;;50;;;;;;;;;;;
+WI;Inventory Document;AMS;;X;;;;;;;;;;;;;X;;;;;X;;;49;;;;;;;;;;;
+WL;Goods Issue/Delivery;AMS;;X;;;;;;;;;;;;;X;;;;;X;;;49;;;;;;;;;;;
+WN;Net Goods Receipt;AMS;;X;;;;;;;;;;;;;X;;;;;X;;X;50;;;;;;;;;;;
+WP;Warranty Credit;DKMS;;;;;;;X;;;;;;;;X;;;;;X;;;WY;;;;;;;;;;X;
+WR;Warranty Debit;DKMS;;;;;;;X;;;;;;;;X;;;;;X;;;WY;;;;;;;;;;X;
+WS;;AMS;;X;;;;;;;;;;;;;X;;;;;X;;;50;;;;;;;;;;;
+ZG;Document Type ZG;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ZP;Payment Posting;ADKMS;;X;;;;;X;;;B;;;;;X;;;;;X;;;20;;;;;;;ZP;;;X;
+ZR;Bank Reconciliation;;;;;;;;X;;;;;;;;X;;;;;;;;20;;;;;;;ZR;;;X;
+ZS;Payment by Check;DKS;;;;;;;X;;;;;;;;X;;;;;;;;05;;;;;;;;;;X;
+ZV;Payment Clearing;ADKMS;;X;;;;;X;;;;;;;;X;;;;;X;;;20;;;;;;;ZV;;;X;
+ZX;Test doc type;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ZY;Test doc type;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ZZ;Asset Posting;ADKMS;;X;;;;;X;;;;;;;;X;;;;;X;;;01;;;;;;;;;;X;
+UL;Upload test;ADKMS;;X;;;;;X;;;;;;;;X;;;;;X;;;02;;;;;;;;;;X;

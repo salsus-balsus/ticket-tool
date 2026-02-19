@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CLASSHEAD
+* Variant: ITR_CLASHT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 172410
+* Selection does not restrict data
+*CLASSHEAD;LANGU;TXTBZ;TXTMI;TXTCLASS
+0000000001;EN;;Class 01;;
+0000000001;DE;;Class lang de;;

@@ -1,0 +1,34 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: VKBUR
+* Variant: ITR_SOT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 185251
+* Selection does not restrict data
+*VKBUR;LANGU;TXTSH
+0001;EN;Cologne;
+0001;DE;lang imp;
+0002;EN;Munich;
+0003;EN;Berlin;
+0004;EN;Stuttgart;
+0005;EN;Dresden;
+0008;EN;Mannheim;
+0010;EN;Leipzig;
+0011;EN;Heidelberg;
+0100;EN;New York;
+0200;EN;Washington;
+0300;EN;Denver;
+0400;EN;Sales Office North;
+0500;EN;Sales Office West;
+0600;EN;Sales Office East;
+0700;DE;Verkaufsbüro Roanda;
+0700;EN;Sales Office Roanda;
+0800;DE;Verkaufsbüro Leipzip;
+0800;EN;Sales Office Leipzig;
+600;EN;Auckland;
+SO 1;EN;Brisbane;
+SO2;EN;Sydney;
+SO3;EN;Sydney 2;
+SO4;EN;Manila;
+TT;DE;Test D;
+TT;EN;Test;

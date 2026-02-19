@@ -1,0 +1,9 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: SALASSIGN
+* Variant: ITR_SGSO
+* User: IT_ALL_06
+* Date: 20250216 / Time: 163248
+* Selection does not restrict data
+*VKBUR;VKGRP;SA_HIDE
+MB02;002;;

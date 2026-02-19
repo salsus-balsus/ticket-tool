@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_GSBER_ECC System="IH1_400">
+	<GSBER_ECC>
+		<GSBER>0001</GSBER>
+	</GSBER_ECC>
+	<GSBER_ECC>
+		<GSBER>MEME</GSBER>
+	</GSBER_ECC>
+	<GSBER_ECC>
+		<GSBER>IMP1</GSBER>
+	</GSBER_ECC>
+</MDG_GSBER_ECC>

@@ -1,0 +1,31 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PAYMNTTRM
+* Variant: ITR_PAYTRM
+* User: IT_ALL_06
+* Date: 20250207 / Time: 103041
+* Selection does not restrict data
+*PAYMNTTRM;TXTLG
+0001;;
+0002;14 days 2%, 30 net;
+0003;;
+0004;as of end of month;
+0005;;
+0006;;
+0007;;
+0008;14 days 2%, 30/1,5%, 45 net;
+0009;Payable in 3 installments;
+0099;Payable in 3 installments;
+F1;F1;
+N1;Term N;
+N2;Payment Term N2;
+PT1;Payment Term One;
+PT2;Payment Term Two;
+PT3;;
+PT4;;
+PT5;Payment Term 5;
+T1;;
+U;PaymTerm U;
+U1;;
+U2;;
+U3;;

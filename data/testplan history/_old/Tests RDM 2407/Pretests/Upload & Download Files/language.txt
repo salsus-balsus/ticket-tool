@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: LANGUAGE
+* Variant: ITR_LANGU
+* User: IT_ALL_06
+* Date: 20240531 / Time: 093201
+* Selection does not restrict data
+*LANGUAGE;TXTSH;LAISO;LASPEZ;LAHQ
+9;Estonian -upl;ET;S;0;
+$;moneten;ET;S;0;
+

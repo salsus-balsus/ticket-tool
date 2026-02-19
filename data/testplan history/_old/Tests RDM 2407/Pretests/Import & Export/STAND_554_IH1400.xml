@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_STAND_ECC System="IH1_400">
+	<STAND_ECC>
+		<PLANT>0001</PLANT>
+		<STAND>0001</STAND>
+		<TXTMI>Werk 0001 import 0001</TXTMI>
+	</STAND_ECC>
+	<STAND_ECC>
+		<PLANT>0001</PLANT>
+		<STAND>0002</STAND>
+		<TXTMI>Werk 0002 Standort 0002</TXTMI>
+	</STAND_ECC>
+</MDG_STAND_ECC>

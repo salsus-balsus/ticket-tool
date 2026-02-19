@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MSSIE
+* Variant: ITR_MSSIET
+* User: IT_ALL_06
+* Date: 20250909 / Time: 080629
+* Selection does not restrict data
+*MSSIE;LANGU;TXTSH;TXTLG
+`;DE;`;UPL DE;
+`;EN;`;UPL EN;

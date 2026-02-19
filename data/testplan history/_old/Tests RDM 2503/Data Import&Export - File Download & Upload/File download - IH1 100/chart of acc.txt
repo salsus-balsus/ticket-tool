@@ -1,0 +1,47 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KTOPL
+* Variant: ITR_KTOPL
+* User: IT_ALL_06
+* Date: 20250207 / Time: 112310
+* Selection does not restrict data
+*KTOPL;TXTLG;LAYOUT_P;LAYOUT_S;ASPRA;XSPER;LAYOUT_0;INTEG_CO;KKTPL;SAKLN;DSPRA;NO_VBUND
+0MB1;IS-B Sample bank - Germany;;;EF;;;;;10;DE;;
+0MB2;upl;;;FI;;;;;10;DE;;
+BKMG;Bank Chart of Accounts - Multi-GAAP;;;;;;;;07;EN;;
+CABE;Chart of accounts - Belgium;;;;;;;;08;NL;;
+CACH;Chart of accounts - Switzerland;;;;;;;;05;DE;;
+CACN;Chart of accounts - China;;;;;;;;08;EN;;
+CACO;Sample chart of accounts for Colombia;;;;;;;;08;ES;;
+CACZ;Chart of accounts - Czech Republic;;;;;;;;06;EN;;
+CAES;Chart of accounts - Spain;;;;;;;;06;ES;;
+CAFI;Chart of accounts - Finland;;;;;;;;06;EN;;
+CAFR;Chart of accounts - France;;;;;;;;06;FR;;
+CAHU;Chart of accounts - Hungary;;;;;;;;06;DE;;
+CAIN;CAIN;;;;;;;;00;;;
+CAJP;Chart of accounts - Japan;;;;;;;;06;EN;;
+CAKR;Chart of accounts - Republic of Korea;;;3;;;;;08;EN;;
+CAKZ;Chart of accounts - Kazakhstan;;;;;;;;08;EN;;
+CANA;Chart of accounts - North America;;;;;;;;06;EN;;
+CANO;Chart of accounts - Norway;;;;;;;;06;EN;;
+CAPE;State chart of accounts Peru (Trade & industry);;;;;;;;10;ES;;
+CAPL;Chart of accounts - Poland;;;;;;;;06;EN;;
+CAPT;Plano Oficial de Contabilidade (PT)valid 'til 2010;;;;;;;;06;PT;;
+CARS;Cars;;;;;;;;06;SH;;
+CARU;Chart of accounts - Russia;;;;;;;;08;EN;;
+CASE;Chart of accounts - Sweden BAS99;;;;;;;;06;EN;;
+CASK;Chart of accounts - Slovakia;;;;;;;;06;EN;;
+CATR;Sample chart of accounts - Turkey;;;;;;2;;09;DE;;
+CATW;Chart of accounts - Taiwan;;;;;;;;00;EN;;
+CAUA;Chart of accounts - Ukraine;;;;;;;;08;EN;;
+GKR;German Joint Standard Accounting System;;;;;;;;06;DE;;
+IKR;Chart of accounts - industry;;;;;;;;06;DE;;
+INT;Sample chart of accounts;;;;;;;;06;DE;;
+NV;NV Oficial de Contabilidade (PT)valid from 2010;;;;;;;;06;PT;;
+SNC;Plano Oficial de Contabilidade (PT)valid from 2010;;;;;;;;06;PT;;
+US1;Test US 1;;;;;;;0MB1;01;ZH;;
+US2;Test US 2 Coa;;;;;;2;BKMG;01;KO;;
+US3;Test US3 Coa;;;;;;;CACO;07;TH;;
+US4;Test US4 Coa;;;;;;;0MB2;06;PL;;
+US5;Test US 5;;;;;;;;10;UK;;
+WEG;Sample Chart of Accounts WEG;;;;;;;;06;DE;;

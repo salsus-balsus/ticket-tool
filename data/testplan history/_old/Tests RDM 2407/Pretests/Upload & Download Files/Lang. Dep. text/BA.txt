@@ -1,0 +1,14 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: GSBER
+* Variant: ITR_GSBERT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 174315
+* Selection does not restrict data
+*GSBER;LANGU;TXTMI
+0001;EN;L imp;
+0001;DE;L imp;
+B1;EN;BusinessArea 1/2;
+BB1;EN;Business Area 5;
+BU;DE;Geschäftsbereich;
+BU;EN;Business Area U;

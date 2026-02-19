@@ -1,0 +1,58 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CLASSHEAD
+* Variant: ITR_CLASHT
+* User: VICKN
+* Date: 20250320 / Time: 165523
+* Selection does not restrict data
+*CLASSHEAD;LANGU;TXTBZ;TXTMI;TXTCLASS
+0000000001;;;Test Description CLX;;
+0000000004;;;Descript 1103 New;;
+0000000007;;;test;;
+0000000010;;;test;;
+0000000013;;;Class 01;;
+0000000016;;;Test Description MK2;;
+0000000017;;;Test Desc. 1103;;
+0000000019;;;Test Upload Change GEN;;
+0000000022;;;MC1 Descr;;
+0000000025;;;1000 Test Classes;;
+0000000028;;;Test Description CLZ;;
+0000000029;;;Test Description CLK;;
+0000000031;;;Test class mult. object;;
+0000000034;;;;;
+0000000035;;;;;
+0000000037;;;Test Description CLU;;
+0000000040;;;test;;
+0000000041;;;test;;
+0000000043;;;Test;;
+0000000044;;;test;;
+0000000045;;;test;;
+0000000046;;;Test;;
+0000000047;;;test;;
+0000000049;;;Test CLM;;
+0000000050;;;Test CLN;;
+0000000051;;;test;;
+0000000052;;;test;;
+0000000053;;;test;;
+0000000055;;;test;;
+0000000056;;;test;;
+0000000058;;;Descript CLO;;
+0000000061;;;Class 01;;
+0000000062;;;Test CLQ;;
+0000000064;;;test;;
+0000000065;;;test;;
+0000000066;;;test;;
+0000000067;;;test;;
+0000000068;;;;;
+0000000069;;;test;;
+0000000070;;;test;;
+0000000071;;;test;;
+0000000072;;;;;
+0000000073;;;Descript NEW CLY Frank;;
+0000000074;;;test;;
+0000000075;;;;;
+0000000076;;;;;
+0000000077;;;test;;
+0000000079;;;Descript;;
+0000000080;;;Test CL1103NAC;;
+0000000081;;;Descript 1103 New;;

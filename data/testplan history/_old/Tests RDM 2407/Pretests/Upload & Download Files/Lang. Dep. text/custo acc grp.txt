@@ -1,0 +1,60 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KTOKD
+* Variant: ITR_KTOKDT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 175411
+* Selection does not restrict data
+*KTOKD;LANGU;TXTMI
+0001;DE;Auftraggeber;
+0001;EN;Sold-to party;
+0002;DE;Warenempfänger;
+0002;EN;Goods recipient;
+0003;DE;Regulierer;
+0003;EN;Payer;
+0004;DE;Rechnungsempfänger;
+0004;EN;Bill-to party;
+0005;DE;Interessent;
+0005;EN;Prospective customer;
+0006;DE;Wettbewerber;
+0006;EN;Competitor;
+0007;DE;Vertriebspartner;
+0007;EN;Sales partners;
+0012;DE;Hierarchieknoten;
+0012;EN;Hierarchy Node;
+0020;DE;Kundenliste;
+0020;EN;Named List Of Accounts;
+0100;DE;Verteilzentrum;
+0100;EN;Distribution center;
+0110;DE;Filiale ohne int. Verrechnung;
+0110;EN;Branch w/o intercomp.billing;
+0120;DE;Filiale mit int. Verrechnung;
+0120;EN;Branch with intercomp.billing;
+0130;DE;Filiale mit ext. Verrechnung;
+0130;EN;Branch with external billing;
+0140;DE;Sortim., veraltet, nicht verw.;
+0140;EN;Assortment (obsolete,don't use;
+0150;DE;Franchisenehmer;
+0150;EN;Franchisee;
+0160;DE;Großhandelskunde;
+0160;EN;Wholesale customer;
+0170;DE;Konsument;
+0170;EN;Consumer;
+CPD;DE;CPD-Debitoren (int. NrVergabe);
+CPD;EN;One-time cust.(int.no.assgnmt);
+CPDA;DE;CPD-Debitoren (ext. NrVergabe);
+CPDA;EN;One-time cust.(ext.no.assgnmt);
+DEBI;DE;Debitor allgemein;
+DEBI;EN;Customer (general);
+GRP1;EN;Customer Group 1;
+J3G;DE;Baustelle;
+J3G;EN;Construction site;
+KUNA;DE;Debitoren (ext. NrVergabe);
+KUNA;EN;Customer (ext.number assgnmnt);
+LCMS;DE;Kunde (Portal Rolle), Minimal;
+LCMS;EN;Customer(Portal Role), Minimal;
+LCMX;DE;Kunde (Portal Rolle), Maximal;
+LCMX;EN;Customer (Portal Role), Maxim.;
+U1;EN;CustAccGrp U;
+VVD;DE;Debitor TR-LO;
+VVD;EN;TR-LO customer;

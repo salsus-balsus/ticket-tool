@@ -1,0 +1,90 @@
+
+IH1 Installation 2503
+	14.03. Backup IH1 mit aktuellen Fehlerfällen für 2 Monate 
+	14.03. Restore auf 2407, Sprachen ES, PT - Andreas (waiting for Go!) ....
+	17.03. RDM Installation und 
+		Auslieferung an Intel als Beta
+	16.03./17.03. Nacharbeiten: User, Systemverbindungen, Konfiguration (neues Menue, DRF für neue Objekte, Verteilung in 100, ... basierend auf Transporten) 
+
+S03 Installation 2503
+	16./17.03.
+
+---
+
+S03 Deinstallation / Installation inkl. Transport mit HIDENT Strukturen => ist der "Smoketest"!
+	18.03. Dieter
+
+IH1 
+	18.03. bis abends: Restore 2407 SP02 - Andreas
+	18.03./19.03.? 2503 Installation wenn S03 Installation funktioniert hat
+	19.03. Nacharbeiten (Aufwand: 0,5 h): User, Systemverbindungen, Konfiguration (neues Menue, DRF für neue Objekte, Verteilung in 100, ... basierend auf Transporten) 
+
+	19.03. bis 20.03. a. Laden von Testdaten; b. neue Tests (High + Very High)
+
+S02 Installation 2503
+	18.03. abends Backup Dauerhaft (Komplettsicherung inkl. Betriebssystem) - Andreas könnte "sofort" beginnen 
+	19./20.03. 2503 Installation
+
+20.03. --------------------------
+
+IH1
+	20.03. Sicherung IH1 2503 SP00 mit Daten - Andreas (Dauerhaft), wenn Dieter Bescheid gibt
+
+Empfänger - Herstellung der kompletten Testlandschaft (Dieter und Andreas stimmen sich ab)
+	IR1 21.03
+		Restore / Installation + Nacharbeiten
+
+21.03. ------------------------
+
+Empfänger
+	IR2 21.03
+		Restore / Installation + Nacharbeiten
+
+S02 Enhancement Tests
+	20.03./21.03 Mike, wenn Dieter Bescheid gegeben hat
+		
+Upgrade
+	21.03. S02 SAP Upgrade auf neuestes SP von SAP 2022 - Andreas, wenn Mike Bescheid gibt
+		Vorarbeiten bis wahrscheinlich Sonntag 23.03. 
+
+25.03. -------------------------
+
+	24.03. S02 "alles prüfen" ... "Smoketest" (Objektpflege für einige Objekte ohne Verteilung) => Dieter oder Thomas
+	25.03. (oder schnellstmöglich) 
+		Backup erstellen nach dem Smoketest (für 4 Wochen) - Andreas erhält Bescheid von Dieter
+		Backup einspielen und Restore von S02 auf S/4 2021 
+		Mitigation für Kundenprobleme: S03 für Auslieferung (Voraussetzung: Deinstallation / Installation)
+
+S03 Smoketest (25.03.: aktuell noch ohne Daten) - Basisdaten werden von Dieter importiert
+	21.03./24.03. Thomas
+
+(Smoketest S03
+	26.03. oder früher S03: Deinstallation und Installation (Neukundentest))
+
+Intel - 25.03.: Auslieferung "on hold" - Nachtests Maxi/Gerd und Load / Import von Dieter
+	(20.03. oder später Ggf. Intel Beta Auslieferung (echtes SP00) - Andreas, wenn Dieter Bescheid gibt - on hold)
+		Hinweis: Intel sollte die SAP Basis-Stände vorher herstellen (sollte so sein)
+
+Auslieferung (frühestens 25.03. / spätestens 28.03.)
+	2503 SP00 inkl. Hotfixes basieren SAP Fehlern, Kundenfehlern
+	
+28.03. ----------------------------
+
+Mike: letzten Transport 28.03.
+Andreas: IH1 zurücksetzen (Mike gibt Bescheid) auf SP00 von 2503 vom letzten WE
+Günter: Sa/So S03/IH1 2503 SP00 (v2) installieren
+Andreas: Ausliefern an Intel (Günter sagt Bescheid und sagt wo die Files liegen)
+Michael/Mike: Montag: Doku für Holiday Calendar (Nummernkreis 01 Holiday Calendar)
+	
+
+
+April: IH2 Nacharbeiten
+       IR1 & IR2 Sprachen installieren  
+
+April/Mai: Upgrade IR1 / IR2
+	IR1 "SAP 2022"
+	IR2 "06 2019"
+
+April bis Ende Juni (SP01)
+	=> Kunden erhalten Hotfixes via Transporten
+

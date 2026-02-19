@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_FTGID_DESCR_ECC System="IH1_400">
+	<FTGID_DESCR_ECC>
+		<FTGID_HOL>F11</FTGID_HOL>
+		<LANGU>D</LANGU>
+		<TXTLG>U Silvester</TXTLG>
+		<TXTK>UPL S</TXTK>
+	</FTGID_DESCR_ECC>
+	<FTGID_DESCR_ECC>
+		<FTGID_HOL>F11</FTGID_HOL>
+		<LANGU>E</LANGU>
+		<TXTLG>U New Year&apos;s Eve</TXTLG>
+		<TXTK>U NY Eve</TXTK>
+	</FTGID_DESCR_ECC>
+</MDG_FTGID_DESCR_ECC>

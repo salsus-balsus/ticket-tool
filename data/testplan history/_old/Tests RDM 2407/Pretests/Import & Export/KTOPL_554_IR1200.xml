@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_KTOPL_ECC System="IR1_200">
+	<KTOPL_ECC>
+		<KTOPL>0MB1</KTOPL>
+		<ASPRA>EF</ASPRA>
+		<DSPRA>D</DSPRA>
+		<INTEG_CO/>
+		<KKTPL/>
+		<LAYOUT_0/>
+		<LAYOUT_P/>
+		<LAYOUT_S/>
+		<NO_VBUND/>
+		<SAKLN>10</SAKLN>
+		<TXTLG/>
+		<XSPER/>
+	</KTOPL_ECC>
+	<KTOPL_ECC>
+		<KTOPL>$MB2</KTOPL>
+		<ASPRA>FI</ASPRA>
+		<DSPRA>D</DSPRA>
+		<INTEG_CO/>
+		<KKTPL/>
+		<LAYOUT_0/>
+		<LAYOUT_P/>
+		<LAYOUT_S/>
+		<NO_VBUND/>
+		<SAKLN>10</SAKLN>
+		<TXTLG/>
+		<XSPER/>
+	</KTOPL_ECC>
+</MDG_KTOPL_ECC>

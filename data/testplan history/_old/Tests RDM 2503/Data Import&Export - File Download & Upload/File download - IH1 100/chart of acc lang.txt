@@ -1,0 +1,92 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KTOPL
+* Variant: ITR_KTOPLT
+* User: IT_ALL_06
+* Date: 20250207 / Time: 112411
+* Selection does not restrict data
+*KTOPL;LANGU;TXTLG
+0MB1;DE;IS-B Musterbank Deutschland;
+0MB1;EN;IS-B Sample bank - Germany;
+0MB2;EN;upl;
+BKMG;DE;Bankenkontenplan Multi-GAAP;
+BKMG;EN;Bank Chart of Accounts - Multi-GAAP;
+CABE;DE;Kontenplan Belgien;
+CABE;EN;Chart of accounts - Belgium;
+CABE;FR;Plan comptable belge;
+CABE;NL;Rekeningstelsel Belgie;
+CABE;ES;Plan de cuentas Belgica;
+CACH;DE;Kontenplan Schweiz;
+CACH;EN;Chart of accounts - Switzerland;
+CACN;DE;Kontenplan China;
+CACN;EN;Chart of accounts - China;
+CACO;DE;Musterkontenplan für Kolumbien;
+CACO;EN;Sample chart of accounts for Colombia;
+CACZ;DE;Kontenplan Tschechische Republik;
+CACZ;EN;Chart of accounts - Czech Republic;
+CAES;DE;Kontenplan Spanien;
+CAES;EN;Chart of accounts - Spain;
+CAES;FR;Plan comptable espagnol;
+CAES;NL;Rekeningstelsel Spanje;
+CAES;ES;Plan de cuentas Espaöa;
+CAFI;DE;Kontenplan Finnland;
+CAFI;EN;Chart of accounts - Finland;
+CAFR;DE;Kontenplan Frankreich;
+CAFR;EN;Chart of accounts - France;
+CAFR;FR;Plan comptable francais;
+CAFR;NL;Rekeningstelsel Frankrijk;
+CAFR;ES;Plan de cuentas Francia;
+CAHU;DE;Kontenplan Ungarn;
+CAHU;EN;Chart of accounts - Hungary;
+CAIN;EN;CAIN;
+CAJP;DE;Kontenplan Japan;
+CAJP;EN;Chart of accounts - Japan;
+CAJP;FR;Plan comptable japonais;
+CAJP;NL;Rekeningstelsel Japan;
+CAJP;ES;Plan de cuentas Japon;
+CAKR;DE;Kontenplan Korea (Rep.);
+CAKR;EN;Chart of accounts - Republic of Korea;
+CAKZ;DE;Kontenplan Kasachstan;
+CAKZ;EN;Chart of accounts - Kazakhstan;
+CANA;DE;Kontenplan Nordamerika;
+CANA;EN;Chart of accounts - North America;
+CANO;DE;Kontenplan Norwegen;
+CANO;EN;Chart of accounts - Norway;
+CAPE;DE;Staatlicher Kontenplan Perú (Industrie & Handel);
+CAPE;EN;State chart of accounts Peru (Trade & industry);
+CAPL;DE;Kontenplan Polen;
+CAPL;EN;Chart of accounts - Poland;
+CAPT;DE;Plano Oficial de Contabilidade (PT)valid till 2010;
+CAPT;EN;Plano Oficial de Contabilidade (PT)valid 'til 2010;
+CARU;DE;Kontenplan Russland;
+CARU;EN;Chart of accounts - Russia;
+CASE;DE;Kontenplan Schweden BAS99;
+CASE;EN;Chart of accounts - Sweden BAS99;
+CASE;FR;Plan comptable suedois et finlandais;
+CASE;NL;Rekeningstelsel Zweden;
+CASE;ES;Plan de cuentas Suecia;
+CASK;DE;Kontenplan Slowakei;
+CASK;EN;Chart of accounts - Slovakia;
+CATR;DE;Musterkontenplan Türkei;
+CATR;EN;Sample chart of accounts - Turkey;
+CATW;DE;Kontenplan Taiwan;
+CATW;EN;Chart of accounts - Taiwan;
+CAUA;DE;Kontenplan Ukraine;
+CAUA;EN;Chart of accounts - Ukraine;
+GKR;DE;Gemeinschaftskontenrahmen;
+GKR;EN;German Joint Standard Accounting System;
+IKR;DE;Industriekontenrahmen;
+IKR;EN;Chart of accounts - industry;
+INT;DE;Muster-Kontenplan;
+INT;EN;Sample chart of accounts;
+NV;EN;NV Oficial de Contabilidade (PT)valid from 2010;
+SNC;DE;Plano Oficial de Contabilidade (PT)valid from 2010;
+SNC;EN;Plano Oficial de Contabilidade (PT)valid from 2010;
+US1;DE;Test US 1;
+US1;EN;Test US 1;
+US2;EN;Test US 2 Coa;
+US3;EN;Test US3 Coa;
+US4;EN;Test US4 Coa;
+US5;EN;Test US 5;
+WEG;DE;Muster-Kontenplan WEG;
+WEG;EN;Sample Chart of Accounts WEG;

@@ -1,0 +1,13 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MRPAREA
+* Variant: ITR_MRPART
+* User: IT_ALL_06
+* Date: 20240726 / Time: 181931
+* Selection does not restrict data
+*MRPAREA;LANGU;TXTMI
+0001;EN;lang imp;
+0001;DE;0001 lang imp;
+0003;EN;0003 Description;
+TSC3;DE;Planning Scope TSC3;
+Z003;EN;Test MRP Area V02;

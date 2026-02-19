@@ -1,0 +1,16 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: SALESORG
+* Variant: ITR_SAORGT
+* User: KLOSP
+* Date: 20250924 / Time: 092154
+* Selection does not restrict data
+*SALESORG;LANGU;TXTSH
+0001;DE;Verkaufsorg. 0001;
+0001;EN;Sales Org. 001;
+SO01;DE;Verkaufsorg.UPL SO01;
+SO01;EN;Sales Org. SO01;
+ST02;EN;alles testen im ände;
+STV;DE;DE STV;
+STV2;EN;E IMP;
+Test;EN;Test;

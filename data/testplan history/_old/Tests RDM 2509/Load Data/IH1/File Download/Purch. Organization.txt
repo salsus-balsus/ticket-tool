@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: EKORG
+* Variant: ITR_EKORG
+* User: IT_ALL_06
+* Date: 20250825 / Time: 031829
+* Selection does not restrict data
+*BUKRS;EKORG;EKOTX
+0001;0001;Einkaufsorg. 0001;
+0001;0002;Einkaufsorg. 0002;
+0001;0003;Einkaufsorg. 0003;

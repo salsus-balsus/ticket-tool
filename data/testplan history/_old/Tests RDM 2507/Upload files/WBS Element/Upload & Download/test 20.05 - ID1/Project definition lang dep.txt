@@ -1,0 +1,27 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PSPID
+* Variant:
+* User: VICKN
+* Date: 20250520 / Time: 084558
+* Selection does not restrict data
+*PSPID;LANGU;TXTLG
+SST_MAX_CHAR_12345678901;EN;sst max length;
+SST_RDM_PROFILING;EN;sst rdm 2 wbs root;
+SST_WBS01;DE;SST WBS 1;
+SST_WBS01;EN;sst wbs 1 top node;
+SST_WBS_CR01;DE;sst 01 direkte aktivierung;
+SST_WBS_CR01;EN;sst 01 simple cr;
+SST_WBS_CR02;DE;sst 02 mit Genehmigung;
+SST_WBS_CR02;EN;sst 02 CR with approval;
+SST_WBS_CR12;EN;sst wbs 12;
+WBS_01;EN;WBS_01 adjust;
+WBS_02;EN;Test WBs- 02;
+WBS_03;EN;WBS_03;
+WBS_04;EN;Project-WBS_04;
+WBS_05;EN;WBS_05;
+WBS_06;EN;Test WBS 05;
+WBS_07;EN;WBS_07;
+WBS_09;EN;Test WBS 09;
+WBS_A1;EN;Proj_DEF_a1;
+WBS_NV;EN;Proj_DEF_NV;

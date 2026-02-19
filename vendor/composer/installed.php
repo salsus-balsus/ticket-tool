@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'ticket-tool/app',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'd05c6d125b1fa873404b57aff0c9358933981834',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'laminas/laminas-escaper' => array(
+            'pretty_version' => '2.18.0',
+            'version' => '2.18.0.0',
+            'reference' => '06f211dfffff18d91844c1f55250d5d13c007e18',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laminas/laminas-escaper',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'phpoffice/phpword' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'reference' => '90a55955e6a772bb4cd9b1ef6a7e88c8976c2561',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpoffice/phpword',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'ticket-tool/app' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'd05c6d125b1fa873404b57aff0c9358933981834',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

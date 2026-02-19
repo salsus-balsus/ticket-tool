@@ -1,0 +1,50 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: BKLAS_VAL
+* Variant:
+* User: IT_ALL_06
+* Date: 20250227 / Time: 151112
+* Selection does not restrict data
+*LANGU;BKLAS_VAL;TXTMI
+DE;0710;Ausrüstungen 1;
+EN;0710;Equipment 1;
+DE;0720;Ausrüstungen 2;
+EN;0720;Equipment 2;
+DE;1210;Spezielles Wirtschaftsgut;
+EN;1210;Spec.complex fixed assets;
+DE;3000;Rohstoffe 1;
+EN;3000;Raw materials 1;
+DE;3001;Rohstoffe 2;
+EN;3001;Raw materials 2;
+DE;3002;Rohstoffe 3;
+EN;3002;Raw materials 3;
+DE;3003;Rohstoffe 4;
+EN;3003;Raw materials 4;
+DE;3030;Hilfs- u. Betriebsstoffe;
+EN;3030;Operating supplies;
+DE;3031;Hilfs- u. Betriebsstoffe2;
+EN;3031;Operating supplies 2;
+DE;3040;Ersatzteile;
+EN;3040;Spare parts;
+DE;3050;Verpackung u. Leergut;
+EN;3050;Packaging and empties;
+DE;3100;Handelsware;
+EN;3100;Trading goods;
+DE;3200;Dienstleistungen;
+EN;3200;Services;
+DE;3300;Unbewertetes Material;
+EN;3300;Nonvaluated material;
+DE;7900;Halbfabrikate;
+EN;7900;Semifinished products;
+DE;7920;Fertigerzeugnisse;
+EN;7920;Finished products;
+DE;DT;ME DT DE;
+EN;DT;ME DT;
+EN;IH1;IH1 Retest;
+DE;IMP1;IMP Ausrüstungen;
+EN;IMP1;IMP Equipment;
+DE;ME;ME 44.1 DE;
+EN;ME;ME 44.1;
+EN;UL02;UL02 Description;
+DE;UL02;DE UL02 beschreibung;
+

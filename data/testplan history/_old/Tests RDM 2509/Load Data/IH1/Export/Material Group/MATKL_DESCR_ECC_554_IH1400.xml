@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_MATKL_DESCR_ECC System="IH1_400">
+	<MATKL_DESCR_ECC>
+		<MATKL>V1</MATKL>
+		<LANGU>D</LANGU>
+		<TXTSH>Warengruppe 1</TXTSH>
+		<TXTLG/>
+	</MATKL_DESCR_ECC>
+	<MATKL_DESCR_ECC>
+		<MATKL>V1</MATKL>
+		<LANGU>E</LANGU>
+		<TXTSH>Material group 1</TXTSH>
+		<TXTLG/>
+	</MATKL_DESCR_ECC>
+	<MATKL_DESCR_ECC>
+		<MATKL>02</MATKL>
+		<LANGU>D</LANGU>
+		<TXTSH>Warengruppe 2</TXTSH>
+		<TXTLG/>
+	</MATKL_DESCR_ECC>
+	<MATKL_DESCR_ECC>
+		<MATKL>02</MATKL>
+		<LANGU>E</LANGU>
+		<TXTSH>Material group 2</TXTSH>
+		<TXTLG/>
+	</MATKL_DESCR_ECC>
+</MDG_MATKL_DESCR_ECC>

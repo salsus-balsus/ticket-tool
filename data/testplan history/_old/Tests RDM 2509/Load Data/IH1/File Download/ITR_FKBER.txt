@@ -1,0 +1,9 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: FKBER
+* Variant: ITR_FKBER
+* User: IT_ALL_06
+* Date: 20250919 / Time: 073702
+* Selection does not restrict data
+*FKBER;TXTMI;AUTHGRP;DATE_EXP;FNSUB1;FNSUB2;FNSUB3;STR_ID;DATAB;DATBIS
+X1;FunctArea U12;;28.09.2025;;;;;31.10.2025;12.11.2025;

@@ -1,0 +1,12 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: VSBED
+* Variant: ITR_VSBED
+* User: IT_ALL_06
+* Date: 20250825 / Time: 095156
+* Selection does not restrict data
+*VSBED;TXTSH
+01;standard;
+02;Pick up;
+03;UPL EN;
+

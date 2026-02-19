@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_GSBER_DESCR_ECC System="IH1_400">
+	<GSBER_DESCR_ECC>
+		<GSBER>0001</GSBER>
+		<LANGU>D</LANGU>
+		<TXTMI>Geschäftsbereich 0001</TXTMI>
+	</GSBER_DESCR_ECC>
+	<GSBER_DESCR_ECC>
+		<GSBER>0001</GSBER>
+		<LANGU>E</LANGU>
+		<TXTMI>Business area 01 imp</TXTMI>
+	</GSBER_DESCR_ECC>
+</MDG_GSBER_DESCR_ECC>

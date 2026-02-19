@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: EKORG
+* Variant: PORG NV
+* User: IT_ALL_06
+* Date: 20220909 / Time: 082639
+* Selection does not restrict data
+*BUKRS;EKOTX;EKORG
+0001;Einkaufsorg. 0001;0001;
+;;0002;

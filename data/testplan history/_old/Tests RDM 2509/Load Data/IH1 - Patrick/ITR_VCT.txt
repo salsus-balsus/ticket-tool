@@ -1,0 +1,26 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: BKLAS_VAL
+* Variant: ITR_VCT
+* User: KLOSP
+* Date: 20250919 / Time: 122757
+* Selection does not restrict data
+*LANGU;BKLAS_VAL;TXTMI
+EN;0710;Equipment 01;
+EN;0720;Equipment 2;
+EN;1210;Spec.complex fixed assets;
+EN;3000;Raw materials 1;
+EN;3001;Raw materials 2;
+EN;3002;Raw materials 3;
+EN;3003;Raw materials 4;
+EN;3030;Operating supplies;
+EN;3031;Operating supplies 2;
+EN;3040;Spare parts;
+EN;3050;Packaging and empties;
+EN;3100;Trading goods;
+EN;3200;Services;
+EN;3300;Nonvaluated material;
+EN;7900;Semifinished products;
+EN;7920;Finished products;
+EN;VC01;VC01 Description;
+DE;VC02;VC02 Description;

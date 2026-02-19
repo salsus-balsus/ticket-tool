@@ -1,0 +1,33 @@
+test version:
+
+MDMGX
+PUWNR,PUCNT=COUNT,PLWRK=WERKS_D,BERID        
+
+<?sap.transform simple?>
+<tt:transform xmlns:tt="http://www.sap.com/transformation-templates">
+
+  <tt:root name="RESULT"/>
+
+  <tt:template>
+    <MDG_PLSCO_SEQ_ECC xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <tt:loop name="LINE" ref=".RESULT">
+        <PLSCO_SEQ_ECC tt:lax="deep">
+
+          <PUWNR>
+            <tt:value ref="$LINE.PUWNR"/>
+          </PUWNR>
+          <PUCNT>
+            <tt:value ref="$LINE.COUNT"/>
+          </PUCNT>
+          <PLWRK>
+            <tt:value ref="$LINE.WERKS_D"/>
+          </PLWRK>
+          <BERID>
+            <tt:value ref="$LINE.BERID"/>
+          </BERID>
+
+        </PLSCO_SEQ_ECC>
+      </tt:loop>
+    </MDG_PLSCO_SEQ_ECC>
+  </tt:template>
+</tt:transform>

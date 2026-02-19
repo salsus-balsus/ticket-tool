@@ -1,0 +1,9 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: HIDENT
+* Variant: ITR_HC
+* User: IT_ALL_06
+* Date: 20250923 / Time: 055738
+* Selection does not restrict data
+*HIDENT;TXTLG;CRTIME;AKTBJAHR;AKTVJAHR;CRDAT;VJAHR;ABBR;BJAHR;CRUSR
+V1;test1;00:00:00;;;00.00.0000;2001;;2029;;

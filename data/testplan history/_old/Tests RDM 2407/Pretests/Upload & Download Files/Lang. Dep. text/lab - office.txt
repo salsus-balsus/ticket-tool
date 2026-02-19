@@ -1,0 +1,13 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: LABOR
+* Variant: ITR_LABORT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 180253
+* Selection does not restrict data
+*LABOR;LANGU;TXTMI
+001;DE;lang imp;
+001;EN;Laboratory 1 (New);
+002;EN;Laboratory 002;
+LAB;EN;Laboratory;
+U;EN;Office U;

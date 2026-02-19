@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_LAND1_DESCR_ECC System="IH1_400">
+	<LAND1_DESCR_ECC>
+		<LAND1>XD</LAND1>
+		<LANGU>D</LANGU>
+		<TXTSH>IMP Andorra</TXTSH>
+		<TXTLG>IMP Andorra</TXTLG>
+	</LAND1_DESCR_ECC>
+	<LAND1_DESCR_ECC>
+		<LAND1>AD</LAND1>
+		<LANGU>E</LANGU>
+		<TXTSH>IMP Andorra</TXTSH>
+		<TXTLG>IMP Andorra</TXTLG>
+	</LAND1_DESCR_ECC>
+</MDG_LAND1_DESCR_ECC>

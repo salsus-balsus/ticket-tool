@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: VKBUR
+* Variant: ITR_SO
+* User: IT_ALL_06
+* Date: 20250216 / Time: 164426
+* Selection does not restrict data
+*VKBUR;TXTSH;ADRNR;TXNAM_ADR;TXNAM_FUS;TXNAM_GRU;HIDE;TXNAM_KOP;TXNAM_SDB
+SO01;Sales Office 01;;;;;;;;
+SO02;Sales Office 02;;;;;;;;
+

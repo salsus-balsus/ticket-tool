@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CLASSTEXT
+* Variant: ITR_CLASST
+* User: VICKN
+* Date: 20240531 / Time: 132948
+* Selection does not restrict data
+*CLASSHEAD;TXTCLASS;TXTBZ;INDSTD;SPRAS_CL;STDTITLE;TXTID_CL
+$33;UPL test DE;Test MK2 DE;;DE;;0002;
+$33;UPL Test EN;Test MK2 Long;;EN;;0000;
+

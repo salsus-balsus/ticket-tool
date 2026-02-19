@@ -1,0 +1,12 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PAYMNTTRM
+* Variant: ITR_PAYTRM
+* User: IT_ALL_06
+* Date: 20240531 / Time: 071358
+* Selection does not restrict data
+*PAYMNTTRM;TXTLG
+PT3;Payment Term 3;
+PT5;Payment Term 5;
+
+

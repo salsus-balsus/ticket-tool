@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_SPART_ECC System="IH1_400">
+	<SPART_ECC>
+		<SPART>01</SPART>
+	</SPART_ECC>
+	<SPART_ECC>
+		<SPART>IP</SPART>
+	</SPART_ECC>
+</MDG_SPART_ECC>

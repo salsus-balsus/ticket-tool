@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PERSA
+* Variant: ITR_PERSA
+* User: KLOSP
+* Date: 20250918 / Time: 093310
+* Selection does not restrict data
+*PERSA;TXTMI;ORT01;CITYC;PA_CCODE;MOLGA;PA_LAND1;COUNC;REGTXT;NAME2;PFACH;PSTLZ;PA_REGIO;STRAS
+PA1;Description PA1;;;0001;01;DE;DE;;;;;07;Am Hasenlauf 16;
+PA2;Description Upl PA2;;;0001;01;DE;DE;;;;;07;Am Hasenlauf 16;
+PA3;Description PA3;;;0001;01;DE;DE;;;;;07;Am Hasenlauf 16;

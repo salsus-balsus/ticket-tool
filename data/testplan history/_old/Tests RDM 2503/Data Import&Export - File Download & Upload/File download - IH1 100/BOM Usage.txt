@@ -1,0 +1,24 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: STLAN
+* Variant: ITR_STLAN
+* User: VICKN
+* Date: 20250218 / Time: 132953
+* Selection does not restrict data
+*STLAN;TXTMI;PMPKA;PMPKO;SANKO;PMPVS;SANVS;PMPIN;SANIN;PMPFE;SANFE;SANKA;RVREL;PMPRV;ERSKZ;PMPER
+1;Production in preparation;;.;;-;;-;;+;X;X;;-;;.;
+2;Engineering/Design;;+;X;-;;-;;.;;;;-;;.;
+3;Universal;;.;;-;;-;;.;X;X;;.;;.;
+4;Plant Maintenance;;-;;-;;+;X;-;;X;;-;;.;
+5;Sales and Distribution;;.;;-;;-;;.;;;X;+;;.;
+6;Costing;;.;;-;;-;;.;;X;;.;;.;
+7;Empties;;-;;-;;-;;.;X;X;X;.;;-;
+8;Stability Study;;;;;;;;;;;;;;;
+A;Bom Usg01;;+;;+;;+;X;-;X;;;+;;-;
+B;Sales Bundles (IS-HT-SW);;.;;-;;-;;.;;X;X;+;;.;
+C;Configuration Control;;;;;;;;;;;;;;;
+J;JIT production line supply;;;;;;;;;;;;;;;
+M;External Munitions Display;;;;;;;;;;;;;;;
+S;Customer Management;;;;;;;;;;;;;;;
+U;IUID Embedded Items;;;;;;;;;;;;;;;
+

@@ -1,0 +1,17 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: SALESORG
+* Variant: ITR_SAORGT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 184121
+* Selection does not restrict data
+*SALESORG;LANGU;TXTSH
+0001;DE;V lang imp;
+0001;EN;Sales Org. 1;
+0003;EN;Sales org. 3;
+0004;EN;Sales org. 2;
+0005;DE;Verkaufsorg. 5;
+0005;EN;Sales org. 5;
+0005;ES;Org. comercial 5;
+0006;DE;Verkaufsorg. 0006;
+U1;EN;Sales Org U;

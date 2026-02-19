@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: THOLU
+* Variant: ITR_MDPH
+* User: IT_ALL_06
+* Date: 20250522 / Time: 092318
+* Selection does not restrict data
+*FTGID_HOL;TAG;KMONAT;JAHR
+003;5;05;2025;
+003;5;05;2040;

@@ -1,0 +1,14 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: VSART
+* Variant: ITR_VSARTT
+* User: VICKN
+* Date: 20250218 / Time: 132756
+* Selection does not restrict data
+*VSART;LANGU;TXTSH
+01;EN;Truck;
+02;EN;Mail;
+03;EN;Rail;
+04;EN;Sea;
+04;CA;CA;
+05;DE;UPL DE;

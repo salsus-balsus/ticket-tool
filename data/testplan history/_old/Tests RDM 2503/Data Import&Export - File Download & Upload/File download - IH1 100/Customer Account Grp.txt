@@ -1,0 +1,45 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KTOKD
+* Variant: ITR_KTOKD
+* User: VICKN
+* Date: 20250218 / Time: 131902
+* Selection does not restrict data
+*KTOKD;TXTMI;KALSM_C;XCPDS
+0001;Sold-to party;;;
+0002;Goods recipient;;;
+0003;Payer;;;
+0004;Bill-to party;;;
+0005;Prospective customer;;;
+0006;Competitor;;;
+0007;Sales partners;;;
+0012;Hierarchy Node;;;
+0020;Named List Of Accounts;DB0001;;
+0100;Distribution center;;;
+0110;Branch w/o intercomp.billing;;;
+0120;Branch with intercomp.billing;;;
+0130;Branch with external billing;;;
+0140;Assortment (obsolete,don't use;;;
+0150;Franchisee;;;
+0160;Wholesale customer;;;
+0170;Consumer;;;
+CPD;One-time cust.(int.no.assgnmt);;X;
+CPDA;One-time cust.(ext.no.assgnmt);;X;
+DEBI;Customer (general);;;
+J3G;Construction site;DB0001;;
+KUNA;Customer (ext.number assgnmnt);;;
+LCMS;Customer(Portal Role), Minimal;;;
+LCMX;Customer (Portal Role), Maxim.;;;
+T1;AccGrp1;;;
+T10;CustAccGrp 10;;;
+T11;;;;
+T12;;;;
+T13;;;;
+T3;CustAccGrp 3;;;
+T8;CustAccGrp 8;;;
+T9;;;;
+VVD;TR-LO customer;;;
+Z001;GRoup Z001;DB0001;;
+ZBPD;;;;
+ZMK;;;;
+UPL1;Named List Of UPL;DB0001;;

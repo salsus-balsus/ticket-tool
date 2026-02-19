@@ -1,0 +1,14 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: GSBER
+* Variant: ITR_GSBERT
+* User: KLOSP
+* Date: 20250918 / Time: 100754
+* Selection does not restrict data
+*GSBER;LANGU;TXTMI
+0001;DE;Geschäftsbereich 0001;
+0001;EN;Business area 0001;
+0001;FR;FR area de businesse;
+0002;DE;Geschäftsbereich 0002;
+0002;EN;Business area 0002;
+0002;FR;FR area de businesse 0002;

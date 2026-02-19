@@ -1,0 +1,12 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PLSCO
+* Variant: ITR_PLSCO
+* User: IT_ALL_06
+* Date: 20250219 / Time: 125923
+* Selection does not restrict data
+*PLSCO;PUWTX
+UPL1;Description UPL test;
+UPL2;Description UPL test;
+
+

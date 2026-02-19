@@ -1,0 +1,14 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CC_ADRS
+* Variant: ITR_CCADRS
+* User: IT_ALL_06
+* Date: 20250909 / Time: 085937
+* Selection does not restrict data
+*COMPCODE;AD_GROUP;AD_BLD;AD_CITY;CC_LAND;AD_REGTXT;AD_CITY2;AD_EMAIL;AD_TELEXT;AD_HSNM1;AD_NAME1;AD_NAME2;AD_NAME3;AD_NAME4;AD_POBX;AD_PSTCD2;AD_PSTCD1;CC_REGIO;AD_SORT1;AD_SORT2;AD_STREET;AD_STR2;AD_STR3;AD_STR4;AD_LOC;AD_HSNM2;AD_TXJCD;AD_TEL;AD_TZONE;AD_TITLE;AD_CONAME
+1NV1;CA01;;Mannheim;DE;Baden-Wurttemberg;;;;11;U1 GmbH;;;;;;68161;08;U1;;Hafenstraße;;;;;;01;;;0003;;
+U2;CA01;;Mannheim;DE;Baden-Wurttemberg;;;;19;U GmbH;;;;;;68161;08;;;Hafenstraße;;;;;;;;;0003;;
+Y001;CA01;;Tokio;JP;;;;;;Dr. Finance;Financial product advice for all cases;Stock exchanges overview;Debt advice;;;12345678;01;DR. FINANCE;FINANCIAL PRODUCT;DowTown;;;;;;;;JAPAN;0001;;
+ZZ01;CA01;;Walldorf;DE;;;;;;;;;;;;;;;;;;;;;;;;CET;;;
+ZZ02;CA01;;Walldorf;DE;;;;;;;;;;;;;;;;;;;;;;;;CET;;;
+ZZ03;CA01;;Bonn;DE;;;;;12;NAME1;NAME2;NAME3;NAME4;12345;54321;65432;08;SORT1;SORT2;STREET;;;;;;;;UTC;0001;CONAME;

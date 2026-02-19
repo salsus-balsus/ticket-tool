@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PSPID
+* Variant:
+* User: VICKN
+* Date: 20250520 / Time: 084558
+* Selection does not restrict data
+*PSPID;LANGU;TXTLG
+WBS_NV;EN;Proj_DEF_NV;
+WBS_NV1;EN;Proj_DEF_NV1;
+WBS_NV1;DE;Project Definition NV1 -DE;

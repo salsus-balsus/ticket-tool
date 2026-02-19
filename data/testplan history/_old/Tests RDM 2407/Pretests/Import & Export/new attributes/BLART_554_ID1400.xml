@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_BLART_ECC System="ID1_400">
+	<BLART_ECC>
+	  <BLART>V3</BLART>
+	  <BLKLS/>
+	  <BRGRU/>
+	  <KOARS>ADKMS</KOARS>
+	  <KURST3>1001</KURST3>
+	  <NUMKR>01</NUMKR>
+	  <RECIC/>
+	  <RECID/>
+	  <STBLA/>
+	  <TXTSH/>
+	  <XALLOCACT/>
+	  <XALLOCPLA/>
+	  <XAUSG>X</XAUSG>
+	  <XDTCH/>
+	  <XGSUB/>
+	  <XKKPR/>
+	  <XKOAA>X</XKOAA>
+	  <XKOAD>X</XKOAD>
+	  <XKOAK>X</XKOAK>
+	  <XKOAM>X</XKOAM>
+	  <XKOAS>X</XKOAS>
+	  <XKOASECC>X</XKOASECC>
+	  <XKURSX/>
+	  <XMGES/>
+	  <XMREF/>
+	  <XMREF2/>
+	  <XMTXT/>
+	  <XNEGPB>X</XNEGPB>
+	  <XNETB/>
+	  <XNGBK/>
+	  <XNMRL>X</XNMRL>
+	  <XPLAN/>
+	  <XPOSACC>X</XPOSACC>
+	  <XROLLUP/>
+	  <XRVUP/>
+	  <XSYBL/>
+	  <XUACPA/>
+	  <XVORK/>
+	  <X_PP_PROC/>
+	</BLART_ECC>
+
+	
+</MDG_BLART_ECC>

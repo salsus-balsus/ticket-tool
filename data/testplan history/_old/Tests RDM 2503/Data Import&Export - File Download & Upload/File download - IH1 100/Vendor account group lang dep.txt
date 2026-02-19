@@ -1,0 +1,29 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KTOKK
+* Variant: ITR_KTOKKT
+* User: VICKN
+* Date: 20250218 / Time: 131832
+* Selection does not restrict data
+*KTOKK;LANGU;TXTMI
+0001;EN;Vendor;
+0002;EN;Goods supplier;
+0003;EN;Alternative payee;
+0004;EN;Invoicing Party;
+0005;EN;Forwarding agent;
+0006;EN;Ordering address;
+0007;EN;Plants;
+0012;EN;Hierarchy Node;
+0100;EN;Vendor distribution center;
+CPD;EN;One-time vend.(int.no.assgnmt);
+CPDL;EN;One-time vend.(ext.no.assgnmt);
+DARL;EN;Lender;
+HOL;EN;Handover Location Address;
+KRED;DE;KRED;
+KRED;EN;Vendor (int.number assgnmnt);
+KRED;FR;FR;
+LIEF;EN;Vendor (ext.number assgnmnt);
+MNFR;EN;Manufacturer (ext.no.assgnmnt);
+REIS;EN;Commercial traveller;
+VERT;EN;Representative;
+UPL2;DE;UPL test DE;

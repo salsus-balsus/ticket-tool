@@ -1,0 +1,9 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: VTWEG
+* Variant: ITR_VTWEG
+* User: IT_ALL_06
+* Date: 20250922 / Time: 131829
+* Selection does not restrict data
+*VTWEG;TXTSH
+U1;DistChannel UPL1;

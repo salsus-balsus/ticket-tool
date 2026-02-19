@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_HIDENT_DESCR_ECC System="IH2_400">
+	<HIDENT_DESCR_ECC>
+		<IDENT>V9</IDENT>
+		<LANGU>D</LANGU>
+		<TXTLG>Deutschland (upl test)</TXTLG>
+	</HIDENT_DESCR_ECC>
+	<HIDENT_DESCR_ECC>
+		<IDENT>V9</IDENT>
+		<LANGU>E</LANGU>
+		<TXTLG>Germany (Schleswig-Holstein)</TXTLG>
+	</HIDENT_DESCR_ECC>
+	<HIDENT_DESCR_ECC>
+		<IDENT>01</IDENT>
+		<LANGU>F</LANGU>
+		<TXTLG>Allemagne (Schleswig-Holstein)</TXTLG>
+	</HIDENT_DESCR_ECC>
+	<HIDENT_DESCR_ECC>
+		<IDENT>01</IDENT>
+		<LANGU>P</LANGU>
+		<TXTLG>Alemanha (Schleswig-Holstein)</TXTLG>
+	</HIDENT_DESCR_ECC>
+</MDG_HIDENT_DESCR_ECC>

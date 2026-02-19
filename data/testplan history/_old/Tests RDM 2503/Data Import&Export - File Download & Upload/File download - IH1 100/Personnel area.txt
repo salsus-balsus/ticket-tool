@@ -1,0 +1,14 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PERSA
+* Variant: ITR_PERSA
+* User: VICKN
+* Date: 20250218 / Time: 132318
+* Selection does not restrict data
+*PERSA;TXTMI;ORT01;CITYC;PA_CCODE;MOLGA;PA_LAND1;COUNC;REGTXT;NAME2;PFACH;PSTLZ;PA_REGIO;STRAS
+PA01;Personnel Area 01;Mölsheim;6758;DE01;01;DE;DE;Rhineland Palatinate;;;;07;;
+PA02;Personnel Area 02;Offstein;7593;DE01;01;DE;DE;Rhineland Palatinate;;;;07;Bergstraße 1;
+PA03;Personnel Area 03;Hohen-Sülzen;7542;DE01;01;DE;DE;Rhineland Palatinate;Personnel Area 03;;;07;Postweg 1;
+PA1;Personnel Area 1;Mannheim;;0001;01;DE;;01;;;68161;;Itego Street 1;
+PA2;Personnel Area 2;Mannheim;;0001;;DE;;01;;;68161;;Itego Street 2;
+UPL;Personnel Area UPL;Mannheim;;0001;;DE;;01;;;68161;;Itego Street 2;

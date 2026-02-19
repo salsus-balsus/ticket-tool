@@ -1,0 +1,17 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PRODH
+* Variant: ITR_PRODH
+* User: IT_ALL_01
+* Date: 20241104 / Time: 152117
+* Selection:
+* USMD_EDITION EQ | PRDH2021 |
+* Edition: PRDH2021
+*PRODH;TXTLG;EXT_NUM;LEVEL;LEVEL
+00001;Tools;;1;
+00002;Drinks;;1;
+00003;Food;;1;
+00005;Sweets;;1;
+50003;Non-alcoholic;;2;
+50004;Accessories;;2;
+50005;Chocolate;;2;

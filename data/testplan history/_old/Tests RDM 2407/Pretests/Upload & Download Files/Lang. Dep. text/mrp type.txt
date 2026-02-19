@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: DISMM_ET1
+* Variant: ITR_MRPTT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 173402
+* Selection does not restrict data
+*DISMM_ET1;LANGU;TXTMI
+M2;EN;lang imp;
+M2;DE;lang imp;
+

@@ -1,0 +1,9 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CHVALDESC
+* Variant: ITR_CHARVD
+* User: IT_ALL_06
+* Date: 20250207 / Time: 121225
+* Selection does not restrict data
+*CHARHEAD;CHR_ADZHL;ATZHL_CH;AENNR_VD;VALTXT;LKENZ_VD;SPRAS_CL;TECHV_VD;DATUV_DES;ATWTB
+;0000;0002;;french long text;;FR;;00.00.0000;france;

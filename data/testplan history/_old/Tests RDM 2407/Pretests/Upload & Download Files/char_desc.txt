@@ -1,0 +1,16 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CHARDESC
+* Variant: ITR_CHARD
+* User: VICKN
+* Date: 20240531 / Time: 132312
+* Selection does not restrict data
+*CHARHEAD;ATBEZ;TXTCHAR;CHR_ADZHL;SPRAS_CL
+0000000001;german;;0000;DE;
+0000000001;test;;0000;EN;
+0000000001;test FR;;0000;FR;
+0000000806;german;;0000;DE;
+0000000806;test;;0000;EN;
+0000000809;Deutsche Beschreibung;;0000;DE;
+0000000809;Characteristic Description;;0000;EN;
+0000000810;test;;0000;EN;

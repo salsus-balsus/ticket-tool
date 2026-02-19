@@ -1,0 +1,23 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PL_ADRS
+* Variant: ITR_PLADRS
+* User: IT_ALL_06
+* Date: 20250915 / Time: 125202
+* Selection does not restrict data
+*PLANT;AD_REGTXT;AD_GROUP;AD_CITY;AD_LAND1;AD_HSNM1;AD_NAME1;AD_NAME2;AD_NAME3;AD_NAME4;AD_POBX;AD_PSTCD2;AD_PSTCD1;AD_REGIO;AD_SORT1;AD_SORT2;AD_STREET;AD_TXJCD;AD_TZONE;AD_TITLE;AD_CONAME;AD_BLD;AD_CITY2;AD_EMAIL;AD_TELEXT;AD_FLOOR;AD_ROOM;AD_STR2;AD_STR3;AD_STR4;AD_LOC;AD_HSNM2;AD_TEL
+0001;Schleswig-Holstein;CA01;Berlin;DE;;;;;;;;10966;01;;;Berliner Alle 103;;;0003;;;;;;;;;;;;;;
+0002;Schleswig-Holstein;CA01;St. leon;DE;;Lager 0002;;;;;;10966;01;;;Berliner Alle 103;;;0003;;;;;;;;;;;;;;
+0003;;CA01;;US;;;;;;;;94070;CA;;;123 main street;;;;;;;;;;;;;;;;;
+1;Schleswig-Holstein;CA01;;DE;12;Lager Ammmeland;;;;;;;01;;;Lagertrasse 12 12;;;0003;;;;;;;;;;;;;;
+1000;;CA01;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+12;Schleswig-Holstein;CA01;;DE;12;Lager Nord West;;;;;;;01;;;Lagertrasse 12;;;0003;;;;;;;;;;;;;;
+13;Schleswig-Holstein;CA01;Nürnberg;DE;22;Lager Süd;;;;;;80000;01;;;Lagertrasse Süd 22;;;0003;;;;;;;;;;;;;;
+14;Schleswig-Holstein;CA01;Berlin;DE;14;Lager Ost-Mecklenburg;;;;;;30000;01;LAGER OM;OM;Lagertrasse 14 14;;;0003;;;;;;;;;;;;;;
+15;Schleswig-Holstein;CA01;Berlin;DE;19;Lager Orttrup;;;;;;30001;01;LAGER OR;OR;Lagertrasse 98;;;0003;;;;;;;;;;;;;;
+2;Baden-Wurttemberg;CA01;;DE;10;Lager Süd West;;;;;;66111;10;LAGER SW;SW;Saarbrückener Streasse 10;;;0003;;;;;;;;;;;;;;
+2000;;CA01;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+A;Baden-Wurttemberg;CA01;Saarbrücken;DE;11;Lager Süd Ost;;;;;;66111;11;LAGER SW;SW;Saarbrückener Strasse;;;0003;;;;;;;;;;;;;;
+B1;Schleswig-Holstein;CA01;Saarbrücken;DE;98;Lager Ost West;;;;;;66111;01;LAGER SW;SW;Saarbrückener Strasse 98;;;0003;;;;;;;;;;;;;;
+BB1;Hamburg;CA01;Hannover;DE;98;Lager Ost West;;;;;;56111;02;LAGER SW;SW;Hannover Strasse 98 98 98;;;0003;;;;;;;;;;;;;;
+Z003;;CA01;;US;;;;;;;;94070;CA;;;123 main street;;;;;;;;;;;;;;;;;

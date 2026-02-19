@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: INCO1
+* Variant: ITR_INCOT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 174819
+* Selection does not restrict data
+*INCO1;LANGU;TXTMI
+CFR;EN;Inco lang;
+CFR;DE;Inco lang;
+UN;EN;Not Free;

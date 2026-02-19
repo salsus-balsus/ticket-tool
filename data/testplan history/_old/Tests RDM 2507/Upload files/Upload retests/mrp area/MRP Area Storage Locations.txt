@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MRPSTLOC
+* Variant: ITR_MRPAL
+* User: IT_ALL_06
+* Date: 20250522 / Time: 153829
+* Selection does not restrict data
+*MRPAREA;LGORT_M;WERKS_L;COUNT
+NV3;0001;NV3;001;
+U1222;U1;2000;001;
+U1333;U1;2000;001;

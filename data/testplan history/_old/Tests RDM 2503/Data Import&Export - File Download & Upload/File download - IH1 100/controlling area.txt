@@ -1,0 +1,18 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KOKRS
+* Variant: ITR_KOKRS
+* User: IT_ALL_06
+* Date: 20250211 / Time: 111113
+* Selection does not restrict data
+*KOKRS;KHINR_TXT;TXTMI;PCA_ALEMT;PCA_ACC_D;RCL_PRIMA;XBPALE;CVACT;KHINR;KO_KTOPL;KOKFI;KOMP1;KO_WAERS;CTYP;CVPROF;PCACURTP;XWBUK;ALEMT;CO_AUTH_S;KE_AUTH_S;BLART;PCBEL;FIKRS;LMONA;CO_ADD1;KE_ADD1;CO_ADD2;KE_ADD2;BPHINR;PHINR;MD_LOGSYS;LOGSYSTEM;BEZEI;ERKRS;VNAME;KOMP0;PCACUR;PCLDG;RCLAC;KOMP2;PCATRCUR;TP_VALOHB;PCA_VALU
+0001;ME 21.1;MB LSA v2 0001;;;;;;ME 21.1;BKMG;2;;AED;10;;;;;;;AB;;;24;X;X;;;;;;;;;DDIC;;;;;;;0;0;
+0002;Direct Table;TEST TEST DT;;;;;X;DT;CAIN;1;;AED;00;;;X;;X;X;AA;;;K1;X;X;X;X;;;;;;;ERLENBUSCHM;;;;X;;;0;0;
+0MB1;ME 22.2 IR1 Retest;ME 22.2 IR1 Retest;;;;;X;ME;BKMG;1;;AMD;11;;;X;;X;X;AB;;;C2;X;X;X;X;;;;;;;ERLENBUSCHM;;;;X;;;0;0;
+AE01;;TESTING MED TXT;;;;;;;CABE;1;;ANG;00;;;;;X;X;;;;BM;X;X;X;X;;;;;;;ERLENBUSCHM;;;;;;;0;0;
+AR01;ME DIRECT TABLE > IH1100;MB Country Template AR;;;;;X;DT;BKMG;1;;BSD;40;;;X;;X;X;AB;;;Z1;X;X;X;X;;;;;;;;;;;X;;;0;0;
+CA01;;RETEST IH1100;;;;;;;CABE;;;AFA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;0;0;
+CA1;;(medium text;;;;;;;CACH;1;;ANG;40;;;;;X;X;CH;;;K0;X;;;;;;;;;;;;;;;;;0;0;
+CA2;;medium upl;;;;;;;CACH;1;;ANG;40;;;;;X;X;CH;;;K0;X;;;;;;;;;;;;;;;;;0;0;
+ME;;ME TEST;;;;;;;0MB1;2;;ADP;;;;;;;;;;;;;;;;;;;;;;;;;;;;;0;0;
+US;;;;;;;;;0MB1;;;;00;;;;;;;;;;;;;;;;;;;;;IT_ALL_03;;;;;;;0;0;

@@ -1,0 +1,34 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: VKGRP
+* Variant: ITR_VKGRPT
+* User: IT_ALL_06
+* Date: 20250216 / Time: 163134
+* Selection does not restrict data
+*VKGRP;LANGU;TXTSH
+001;EN;Sales Group 011;
+002;EN;Sales Group 022;
+006;EN;Sales Group 021;
+008;EN;Sales Group 032;
+009;EN;Sales Group 035;
+019;EN;Sales Group 023;
+100;EN;Sales Group 101;
+101;EN;Sales Group 102;
+109;EN;Sales Group 109;
+200;EN;Sales Group 201;
+202;EN;Sales Group 202;
+209;EN;Sales Group 209;
+300;EN;Sales Group 301;
+303;EN;Sales Group 302;
+309;EN;Sales Group 309;
+400;EN;Sales Group 401;
+404;EN;Sales Group 402;
+409;EN;Sales Group 409;
+410;EN;Sales Group 410;
+420;DE;Sales Gruppe DE;
+MDT;DE;ME DT DE;
+MDT;EN;ME DT;
+ME;DE;ME 27.1 DE;
+ME;EN;ME 27.1;
+S1;EN;SalesGrp 1;
+U;EN;SalesGrp U;

@@ -1,0 +1,26 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: BKLAS_VAL
+* Variant: ITR_VALCT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 171323
+* Selection does not restrict data
+*BKLAS_VAL;LANGU;TXTMI
+0710;EN;Equipment 01 imp;
+0720;EN;Equipment 2;
+1210;EN;Spec.complex fixed assets;
+3000;EN;Raw materials 1;
+3001;EN;Raw materials 2;
+3002;EN;Raw materials 3;
+3003;EN;Raw materials 4;
+3030;EN;Operating supplies;
+3031;EN;Operating supplies 2;
+3040;EN;Spare parts;
+3050;EN;Packaging and empties;
+3100;EN;Trading goods;
+3200;EN;Services;
+3300;EN;Nonvaluated material;
+7900;EN;Semifinished products;
+7920;EN;Finished products;
+VC01;EN;VC01 Description;
+0710;DE;DE import test;

@@ -1,0 +1,1834 @@
+﻿No.;Fix/Dev;Ext/Int;Short description;Goal;"Created at 
+(via Makro)";Folder;Object Type;Priority;Working Prio;Status;Comments / Next steps;Reporter;Responsible;Solution approach / Comment;Transport;Detailed description
+863;Fix;Ext;Product Hierarchy - Moving Nodes;2507;;Link;Product Hierarchy;Very High;995;Closed;;Bayer ;Frank/Mike;"20.05. MX Frank betrachtet LSA und DRF und Direct Table Update Anteil.
+08.04. Mike untersucht";;
+896;Fix;Ext;Alphanumeric Product Hierarchy;2507;;Link;Product Hierarchy;Very High;990;Closed;;Bayer ;Mike;08.04. Mike untersucht;;
+989;Fix;Int;Product Hierarchy - MB Tests Anlage, Aenderung und Verschieben von Teilbäumen;2507;;Link;Product Hierarchy;High;990;Confirmed;;Michael;Mike;ReTest war OK im IH1/100;;
+1043;Fix;Ext;R2210, SAP Upgrade check complaining missing ITO SP02;2503;;Link;Payment Term;Very High;990;Solved;;Google;Dieter;"06.11. Mx auf Status Solved.
+09.09.25: MB CI-Include Problem; Google ist informiert
+28.08. MB: wurde gestern an Google ausgeliefert
+28.08. Telko Günter und Michael bezüglich Auslieferung an Kunden.
+27.08.2025 neuer Input von Google an uns 
+20.08. Told Google to create a SAP Ticket
+19.08. Erstes Problem mit Upgrade gelöst. Aber erneute Fehlermeldung wegen 2503. Unklare Fehlermeldung. Dieter versucht mit Günter Problem zu lösen.
+13.08. Kommunikation zunächst ohne Ticketerstellung durchgeführt. Zweimalige Nachfrage nach Status blieb bislang unbeantwortet";;
+1095;Fix;Ext;Itego add-on update issue on EMDH landscape;2510;29.09.2025 16:30;Link;Installation 2507;High;990;Automatically Confirmed;;Bayer;Dieter;30.09. MB: Gesendetes Protokoll ist unvollständig. ITR SP12 müsste ausgewählt werden, dann sollte es gehen (?) Heute Telko mit Bayer und Dieter/Günter.;;
+1110;Fix;Ext;Material Group and Purchasing Group issue;2507;14.10.2025 06:45:36;Link;Material Group;High;990;Confirmed;;Bayer;Dieter;"16.10.2025 MB: Nach Ausführung des Reports zur Neugenerierung der SMT Mapping Laufzeit ist der Dump verschwunden.
+14.10.2025 Mx Rückmeldung über Rel-Stände von Bayer. Dieter gebeten dies untersuchen.
+14.10.2025 MB: mehr informationen über die installierten Komponenten und den Dump angefragt";;
+1114;Fix;Ext;"Data Model Activation fails: 0D3-HDB is a text index; table must be in column store";2507;20.10.2025 10:12:26;Link;n/a;High;990;Automatically Confirmed;;Google;Frank;"28.10. Mx Lösungsvorschlag an Kunden gesendet. 
+23.10. MX Thomas klärt mit Frank. Mail an Frank über Problemfall und was evtl. zu Google kommunizieren.
+21.10.2025 MB: Kam wieder zurück. Wir hatten das Problem wohl auch schon einmal und Mike schaut wie Frank das wohl damals gelöst hat. Wenn er nochts findet, gibt er es an Frank weiter. 
+20.10.2025 MB: angelegt und mit Sabine besprochen, dass Google versuchen könnte den Typ der Tabelle zu ändern. ";;
+1161;Fix;Ext;Upgrade to R2507 fails in system GDE;;19.11.2025 17:05:53;Link;RDM Generell Settings;High;990;Confirmed;;ABI;;"01.12.25: R2507 konnte installiert werden, ITR konnte deinstalliert werde. Bei ITO gibt es noch ein internes ABI Problem, da eine Z-Programm gelöscht werden muss
+20.11.25 MSK: Optionen die aktuell möglich sind wurden dem Kunden via Mail kommuniziert
+19.11.25 MSK: ITR SWC SP 3 kann nicht installiert werden";;
+1167;Fix;Int;Shipping points Times_Fields are not filled in during direct distribution;2511;25.11.2025 19:01:44;Link;Shipping Point;Very High;990;Automatically Confirmed;;Gerd;Frank;"09.12.25 Mx Status in Solution Proposal. Dieter sagt Gerd aber noch Beschied, wenn im IR1 und IR2 eingespielt.
+8.12.25 MB Frank hat Nachfrage an Gerd gestellt ...
+4.12.25 MB Frank hat ID1K906440       SCORYF       R2511: DRF-ShippingPoint, T001-PF4 zur Verfügung gestellt
+27.11. Mx Frank hat Lösung gebaut und liefert heute noch für Release.";;
+1116;Fix;Ext;Replication issues with Purchasing Group and Material Group;2507;21.10.2025 17:38:50;Link;Purchasing Group and Material Group;High;985;Confirmed;;Bayer;Mike;"06.11.25 Mx Kunde hat Lösung bestätigt. 
+28.10. Mx BC-Set Fehler, Bayer Fehler bei Transport nach QM4, Mike hat Bayer informiert,  gelöst.
+21.10.25 MB: Mike hat herausgefunden dass wohl das BC Set /ITR/MDG_RDM_DRF_BUS_ALT_04 nicth aktiviert wurde. Generell müsste Bayer alle BC Sets mit den höchsten Nummern aktivieren. Wird aber bei 1117 und 1118 wohl nicht helfen bzw. ggf. die Situation verschlimmern. Siehe dort. Daher aktuell kein allgemeingültiger Hinweis an Bayer diesbzgl. Zunächst Untersuchung der ""RootCause"" für 1117 und 1118 ";;
+1065;Fix;Int;Data is not in System after replication;2510;;Link;Class;High;984;Solved;;Niklas;Frank;"28.10.25 Mx Frank prägt Outbound Customizing für CHRMAS  und CLMAS in IH1_100 aus. > Hat er sogar heute noch erledigt.
+02.10.2025 MX Anfrage bezüglich Fehler Verteilung IDOC an Frank. Es geht hier um das Entwicklungssystem.
+30.09.2025 Mx Anfrage an Niklas wer und wie der Defect bearbeitet werden soll.
+29.09.25 MB: Thomas hakt nochmal nach
+05.09.25 MB: Problem konnte nicht nachvollzogen werden (jedenfalls für Material Type und ProdH). Die Fehlerbeschreibung ist mangelhaft … Es zeigt keine Fehler in Material Type / ProdH. Für Klassen und Merkmale ALE Verbindung nicht richtig konfiguriert. Und generell scheint das Partnerprofil auch für das generische IDoc nicht konfiguriert sein. Günter sollte sich das anschauen und kann sich bei Fragen bei Frank melden. Es geht um IR1!
+03.09. Mx Replication issue assigend to Frank.
+01.09. Mx Defect open, Resp. Maxi";;
+1196;Fix;Ext;Assignment of node level 1 to node level 1 is possible;2507;13.01.2026 12:37:00;Link;Product Hierarchy;High;981;Solution Proposal;;Bayer;Mike;"20.01.2026 MSK: Note delivered
+14.01.2026 Mx Maxi führt Entwicklertest durch.";ID1K906546;
+908;Fix;Ext;Holiday calendar & Public Holiday import missing;2507;;Link;Holiday Calendar;Very High;980;Confirmed;;Niklas;Dieter;"23.06. MB noch offen
+14.04. MX Defect gelöst. ";;
+1005;Fix;Int;Duplicate key error;2507;;Link;Product Hierarchy;High;980;Confirmed;;Ulla;Mike;"14.07. MX In Tester Telko als ""Solved"" 
+ 11.07.25 MB: Does not show up always and needs to be checked after system refresh";;
+1090;Fix;Ext;Required to add the KOART(Account Type) field ;2503;23.09.2025 09:50:19;Link;Payment Terms Details;High;980;Automatically Confirmed;;Intel;Dieter;23.09.2025 MB: Dieter schaut es sich an;;
+1117;Fix;Ext;Issue with the Characteristics Search UI;2507;21.10.2025 18:21:39;Link;Characteristic;High;980;Confirmed;;Bayer;Mike;"29.10. Mx Mail von Grigor zu 1118 das es funktioniert. 
+28.10. Mx Duplicate Check fehlt Eintrag im Customizing, Vorschlag Einträge löschen
+23.10.25 MX Günter bereitet Paket für Kunden vor.
+21.10.25 MB: Mike vermutet Probleme mit dem BC-Set /ITR/MDG_RDM_BASIC_FRMWRK_*. Da fehlen wohl Einträge für CharHead in den letzten BC Sets?
+";;
+1118;Fix;Ext;Issue with the Classes Search UI;2507;21.10.2025 18:23:04;Link;Class;High;980;Confirmed;;Bayer;Mike;"06.11.25 Mx Kunde hat Lösung bestätigt.
+28.10. Mx BC-Set Fehler, Mike erneut Rückfrage an Bayer bezüglich nicht gelöschter Einträge
+24.10.25 MSK: Kunde wurde instruiert einen Customizing-Eintrag für die Konfiguration der Search UI zu ersetzen. Dieser wurde fehlerhaft ausgeliefert
+21.10.25 MB: Mike vermutet auch hier Probleme mit dem BC-Set /ITR/MDG_RDM_BASIC_FRMWRK_*. Da fehlen wohl Einträge für Class in allen BC Sets? Zusätzlich könnte der Fehler noch damit zu tun haben, dass Frank wohl den Duplicate Check auf diesem Objekt erlaubt haben. Ggf. gibt es da Wechselwirkungen.
+";;
+1131;Fix;Ext;Issue during generation of external number;;04.11.2025 18:13:57;Link;Product Hierarchy;High;980;Automatically Confirmed;;Intel? (Deloitte);Maren/Mike;"09.12.2025 Mx Status auf Auto. Conf.
+20.11.25 Mx Info bekommen, Thema ist bei Maren bezüglich Lösung über neues Release. Kunde hat 2311_01 und benötigt 2507.
+06.11.25 Mx More information from customer needed.";;
+1155;Con;Ext;Product Hierarchy open questions;;13.11.2025 07:21:58;Link;Product Hierarchy;Medium;980;Automatically Confirmed;;Bayer;Mike;"09.12.25 Mx Status auf Auto. Conf. gesetzt.
+13.11.25 MB: ist ein Mix aus ""Support"" und ""Consulting"". Entsprechend beantwortet und um weitere Infos gebten. Mike gebeten sich das anzusehen. Generell ist das nur ein ""Medium"" aber im Zusammenhang auch mit anderen Kunden natürlich sehr wichtig für uns.";;
+1173;Fix;Ext;Classes not created in active area;2311-01;04.12.2025 09:08:32;Link;Class;High;980;Automatically Confirmed;;ExxonMobil;Mike;"20.01.26 Mx Status auf Auto. Conf. 
+12.12.25 MSK: Transport has been provided to customer
+11.12. Mx Dieter macht Installationstest und Mike macht den funktionalen Test.
+09.12.25 Mx Exxon hat noch Rel. 2311 SP-01 und könnte auf 2511 umstellen. Steht im Upload bereit. 
+08.12.25 MB: Exxon hat eine Antwort geschickt, schon am 5.12. - haben wir aber anscheinend noch nicht drauf reagiert.
+04.12. MX Mike hat Defect eröffnet. Exxon hat Probleme beim Test/Abnahme und kann diesen nicht beenden. Ggf. Nummernkreis nicht gepflegt. Dieter hilft weil es Zugang hat.";ID1K906474;
+1193;Fix;Ext;“entered key already exists” error;2507;08.01.2026 15:39:02;Link;Product Hierarchy;High;980;Automatically Confirmed;;Bayer;Mike;"09.01.2026 MSK: Der Produkt Hierarchie Nummernkreis wurde nicht wie beschrieben eingerichtet, sondern wurde nach ""alter Fassung"" eingerichtet. Ebenfalls wurde beim Upload nicht der von uns im Guide vorgeschlagene Nummernkreis eingehalten, sondern stattdessen die internen Schlüssel automatisch generiert, was nun zu einem Key Konflikt führt. Eventuelle Beratungshilfe ist hier nicht ausgeschlossen
+08.01.2026 Mx Defect created and info to customer.";;
+1024;Dev;Ext;Company ID and Posting Period Variants Central distribution and responsibility for objects;2511;;Link;Company, Posting Period Variant;Very High;978;Done;;Shell;Sara;"06.10.2025: Test im IH1 geblockt, da Transport nicht ins IH1 lief wg. Abhängigkeiten zu WBS. Weitere Todos: UI Erweiterung durch Mike, Konfigurierbare F4s, Tests mit Abhängigkeiten, Weitere Verteiltests mit LSA und Direct Update.
+02.10.2025 Mx Rollen müssen noch gebaut werden. Test aktuell im ID1.  F4 Hilfen und Felder Company ID, Company code müssen noch auf dem  UI erweitert werden.
+25.09.2025: Dieter ist dran und hat den Dump erst einmal ""ausgeschaltet"" über Deaktivierung der Regeln. Frank schaut auch nochmal da er mit Mike an ähnlichen gearbeitet.
+23.09.2025: Postin Period Variant und Company aktuell schon im Test
+20.08. Farida hat Posting Period Variant fast fertig (Maren muss mit Shell klären ob ok), Company ID ggf. durch Sara
+31.07. Mx Michael hat die beiden kontaktiert und Mike ist ebenfalls eingebunden.
+24.07. Mx Erfassung Weiterentwicklung RDG Solution für Shell.";;
+1035;Fix;Ext;Deinstall RDM deliver class ;2301;;Link;RDM Deinstallation;High;977;Confirmed;;ABI;Dieter;"20.08.: to be automatically confirmed at 27.08.25
+13.08.missing objetc /ITG/OCS_SWC_IGN                                                                           04.08. ITG & ITO waren vorbereitet zum Löschen. Die Klasse hat aber noch gefehlt";S03K900107;
+1032;Fix;Ext;Plant Address issue after RDM Upgrade to R2503 on sandbox system Rel.. 2503;2503;;Link;Plant;High;975;Automatically Confirmed;;Shell;Dieter;"03.09.2025 Confirmed da es nur darum ging ein BC Set zu aktivieren
+19.08. Lösung an Shell wegen nicht Aktivierung von BC-Set. Noch keine Bestätigung von Shell.
+31.07. Support Inbox - new ticket";;
+1042;Fix;Ext;Mass Change for Payment Terms scenarios Rel. 2311 SP01;2311;;Link;Payment Term;Very High;975;Confirmed;;Shell;Dieter;"05.09.2025 Mx Mail von Shell approved.
+01.09.2025 Shell hat den Fix bekommen
+28.08. Thomas führt Test durch.
+20.08. Can be reproduced in 2507. Dieter working on it in ID1. Problem im produktiven System Working Prio erhöht
+19.08. MX Rückmeldung von Shell über Systemstatus.
+Mx 12.08. Defect open.";;
+1048;Fix;Ext;Runtime errors while Submitting CR for Language Key Change;2509;;Link;RDM ;Very High;975;Automatically Confirmed;;ArcelorMittal;Dieter;"09.12.2025 Mx Status auf Auto. Conf. gesetzt.
+23.09.25: Dieter hat reagiert, ist wieder zurück auf Customer Interaction
+09.09.25 MB: Steht im Zusammenhang mit ihrem Z0
+04.09.25 Kunde sagt, dass es auch mit unserem CR Type passiert. Dieter übernimmt. Kunde sollte auch den Dump schicken.
+03.09.25 Mike hat nach mehr Infos gefragt
+26.08. Mx Defect opened. ";;
+1150;Fix;Int;Objects in Multiobject CR cannot be selected after Submit ;2511;10.11.2025 16:27:28;Link;Company, Posting Period Variant;High;975;Automatically Confirmed;;Michael;Mike;"09.12.25 Mx Michael testet den Defekt. 
+8.12.25 MB Frank hat wohl den nächsten Lösungsvorschlag mit dem Transport aus dem 1167 zur Verfügung gestellt. Michael muss testen.
+4.12.25 MB: Muss als fix für 2511 raus ... Frank hat einen Report entwickelt bzw. weiterentwickelt, Mike bringt diesen IH1, Test, dann Auslieferung als Fix für 2511
+19.11. Mx Lösungsvorschlag von Mike und Frank in Bearbeitung.
+10.11.25 MB one idea: get the objects from the object list; another idea: solve it in parallel to ""remote validation"" task (work in progress by Frank for Shell)";;
+1050;Fix;Ext;Timeout Snapshot RDH;2311-01;;Link;RDH, LSA;Very High;972;On Hold;;Bechtle/CBS;Frank;"05.09. Mx Rückfrage an CBS-Consulting, auf Antwort warten. Kein Defect hierzu von Bechtle eingegangen.
+28.08. Mx Thomas macht Nachfrage an Kunden.
+27.08. Gerd hat mit Tabelle SKAT getestet. Parameter scheint zu funktionieren.
+26.08. Mx Defect opened. ";;
+977;Fix;Ext;Issue with RDH filtering & Staging entry filtering;2503;;Link;RDH, LSA;High;970;Solved;;Intel/Shell;Frank;"27.10.2025 Mx Auf Solved gesetzt.
+11.09.2025 ist ausgeliefert
+04.09.2025 Gerd hatte getestet. Dieter/Günter haben keine E-Mail erhalten.
+03.09.2025: Dieter klärt mit Thomas, wie wir das jetzt ""schnell"" ausliefern
+29.08. Getestet und kann ausgeliefert werden -> Günter, Dieter
+28.08. Mx Frank test im S01 führt Entwicklertest durch. Gerd muss noch Business Test vornehmen.
+22.08.25 MB Thema ist neu. Frank hat etwas eingebaut. Gerd hat 7 weitere Punkte vorgeschlagen. Frank hat geliefert. Gerd testet
+20.08. MB: Intel fragt nach der Lösung, insofern muss wohl noch die finale Lösung geliefert werden
+07.08. Mx Lieferung an Kunden geliefert.
+15.07. MX Abstimmung mit Gerd und Lieferung geplant heute.
+09.07. Mx Frank hat Lösung für Defect 1000 und 977 erstellt und beschrieben.
+12.06. Mx Defect erstellt. 
+17.07. ReTest NOK
+Korrekturen zu Rel. 2503 gewünscht.";;
+998;Fix;Int;Hry Level change using mass change leads to inconsistent hierachy;2507;;Link;Product Hierarchy;Very High;970;Confirmed;;Sabine;Frank;08.07. Mx Frank sucht nach Lösung Button auszubauen.;;
+1125;Fix;Int;multi object CR - new objects company and posting period variant cannot be used;2511;28.10.2025 10:24:54;Link;Company, Posting Period Variant;High;970;Confirmed;;Sabine;Mike/Sara;"4.11.25: MB Mike und Frank machen Anpassungen an den F4-Hilfen (bzw. dem Framework) so dass es am Mittwoch testbar ist
+30.10. Mx an Mike und Sara geroutet.";;
+1146;Fix;Int;LSA - Change -  Most Address Attr are not being updated;2511;10.11.2025 10:58:31;Link;Shipping Point;Very High;970;Confirmed;;Gerd;Frank;"11.11.25 Sara: Issue not seen in ID1
+10.11.25 MB: Replication Error
+14.11.25 GS: Test im IR1200 keine Probleme in der LSA Verteilung der Adressen festgestellt";;
+1157;Fix;Int;Include distributed tables Shipping Point as bundle in IDoc;2511;14.11.2025 18:23:51;Link;Shipping Point;Very High;970;In Development;;Gerd;Frank;"09.12.25 Mx Status auf Sol. Prop. gesetzt. MB wieder zurück auf ""In Process"" nachdem Frank sagte, dass er noch nicht dran gearbeitet hat. Schaut es sich aber jetzt an
+08.12.25 MB Ggf. auch im Zusammenhang mit 1167 zu sehen. Vielleicht ist der in 1167 genannte Transport auch hierfür gedacht
+02.12.25 MB Einspielen ergabe Syntax Fehler, wird dran gearbeitet
+14.11.25 Problem an Frank gemeldet.";;
+1170;Dev;Ext;Remote Validations;2603;02.12.2025 08:15:11;Link;all;High;970;In Development;;Shell;Frank;02.12.2025: MB Wird benötigt für Shell und generell als Szenario um unsere Lösung zu komlettieren;;
+1136;Fix;Int;IH2 and ID1 also affected - Descriptions not received in IR1 and IR2 ;2511;05.11.2025 13:02:49;Link;Company ;Very High;969;Confirmed;;Maxi;Sara;"17.11.25 Mx Maxi hat getestet und ich setze auf Confirmed .
+13.11.25 Sara: Solution proposal in transport, issue was not seen in ID1
+10.11.25 MB: Replication Error";;
+1177;Fix;Ext;Lang.-Dep. Text set as mandatory field not validated;2507;08.12.2025 10:28:48;Link;Product Hierarchy;Medium;950;In Development;;Bayer;Frank;"26.01.2026: Lösung greift nicht, MX: Frank gebeten sich das anzuschauen
+20.01.2026 Note delivered
+14.01.2026 Mx Maxi testet die Lösung. 
+07.01.2026 MSK: Note delivered
+11.12.2025 MDF Felder auf Mandatory setzen funktioniert. Aber greift nicht auf mehrsprachige Felder. Umbau erforderlich.
+09.12.2025 Mx Identisch mit 1172. Defect 1177 wird weitergeführt.
+08.12.25 MSK: Language dependent texts that are set to mandatory in MDF are not validated correctly (TXTLG, TXTMI, TXTSH)";ID1K906489;
+985;Fix;Ext;Itego RDH - Itego - ID1100 - Enhancement of the transport request function (Shell requirement);2507;;Link;RDH;Medium;968;Automatically Confirmed;;Gerd/Maren;Frank;"28.08. Mx Ulla hat Übersetzung geliefert und Frank baut es in den Button/Anwendung ein. Bereits erledigt. Gerd bitte Business Test durchführen.
+26.08. Englische Übersetzung fehlt noch . Ulla soll bitte übernehmen. Mail an Ulla gesendet.
+22.08. Online Doku => Gerd macht Vorschläge, Ulla könnte prüfen und übernehmen. Gerd testet noch einmal.
+07.08. Mx noch nicht an Kunden geliefert. Maren stimmt Liefertermin mit Michael ab.";;
+1083;Dev;Int;"Optimization with RDH filtering & Staging entry filtering	";2601;11.09.2025 09:53:59;Link;RDH, LSA;High;968;New;;Gerd/Maren;Frank;29.09.25: MB Maren, Michael und Gerd diskutieren morgen. Korrespondiert zu 1096.;;
+1047;Fix;Ext;RDH - Runtime error while creating snapshot ;2508;;Link;RDH, LSA;Very High;967;Automatically Confirmed;;Shell;Frank;"03.09.2025 Maren schaut nochmal ob Standard Problem oder Itego Problem, Maren fragt Gerd ob der Test gemacht wurde
+28.08. Mx Gerd bitte Business Test durchführen.
+26.08. Mx Frank gelöst in Status Solution Proposal gesetzt.
+26.08. Mx Rückfrage an Maren wegen Release Stand Kunde.
+26.08. Mx Defect opened. ";;
+1041;Fix;Int;Duplicate external number error after reuploading an existing hierarchy;2508;;Link;Product Hierarchy;Very High;965;Solved;;Niklas;Mike;"28.08. Mx Niklas bitte Business Test durchführen.
+26.08. Mx Mike plant Lösung diese Woche.
+20.08. Mike untersucht noch, muss aber wohl was umbauen
+MX 19.08. Mike startet Untersuchung.
+Mx 12.08. Defect open.";;
+1084;Fix;Ext;ITEGO production issue with object : Manage company code ;2503;11.09.2025 11:55:21;Link;Company Code;High;965;Automatically Confirmed;;Shell;Mike;"29.10. Mx Die Mails aus dem Support Account sind nicht bei Shell angekommen. Maren sendet Lösungsvorschlag direkt an Gupta. Siehe auch Support Postfach.
+ 23.10. Mx Reklamation von Shell zu dem Issue. Für Shell ist die Anfrage offen. Anfrage an Kunden, ob er die Lösung ausprobiert hat.
+09.10. Mx Mike hat Kunden mit Lösungsvorschlag angeschrieben.
+9.10.2025 MB: Nach dem Einspielen des Hinweises kommt es dazu dass Standard CR Typen auswählbar sind. Ggf. ein zusätzliches Berechtigungsproblem? Mail im Verzeichnis abgelegt, auf Mike umgestellt
+
+23.09.2025 im Dump wird das falsche Datenmodell ermittelt. Hinweis denen wir Ihnen geliefert haben, löst das Problem hoffentlich.";;
+1113;Fix;Int;Replication creates duplicate external numbers;2512;17.10.2025 12:27:49;Link;Product Hierarchy;Very High;965;In Development;;Gerd;Mike;"01.12.25 MB: Mike schaut wie der Stand ist
+Testcase 10.11";;
+1126;Fix;Int;MDG staging values company ID and posting period variant cannot be used;2510;28.10.2025 11:13:20;Link;Company Code;High;965;Confirmed;;Sabine;Mike/Sara;"03.11. Mx Mike hat Lösung über Customizing Transport unterwegs.
+31.10. Mx an Mike und Sara geroutet.";;
+1132;Fix;Int;No Shipping Point in IH1;2511;05.11.2025 09:27:30;Link;Shipping Point;Very High;965;Confirmed;;Ulla;Maxi;"17.11. Mx Bestätigung Ulla Status auf Confirmed.
+10.11.25 MB: needs to be added to Fiori Launchpad and Launchpad in NWBC (in ""Sales and Distribution"")";;
+1147;Fix;Int;Address cannot be maintained in Multi Object CR;2511;10.11.2025 14:02:12;Link;Company, Posting Period Variant;High;965;Confirmed;;Michael;Mike;"13.11.25 MB: looks good but waiting for Mike to fix 1150 for a complete test
+12.11.25 MSK: Solution implemented, but MDF ist not applicable on multi CR
+10.11.25 MB: maybe type 4 cannot be used in multi object CR";ID1K906298;
+1148;Fix;Int;URGENT -  Factory Calendar is defaulted to 01 Germany independent of previous selection after submission;2511;10.11.2025 14:14:57;Link;Shipping Point;Very High;963;Obsolete;;Maxi;;10.11.25 MB: duplicate to 1137;;
+994;Dev;Int;Add To Change Request dumps;2510;;Link;Product Hierarchy;High;960;Confirmed;;Michael;Dieter;"24.10.25 GS ReTest in IH1/100 Entwicklung erfolgreich getestet
+23.10.25 Mx 20.10.25:GS: Test im ID1/100 erfolgreich. Kein Add to change Request dumps mehr.
+20.10.25: MB: Dieter konnte etwas im IH1 einspielen und dort erfolgreich testen?? im IH1 sollte der Button aber nicht aktiv sein. Daher Dieter und Gerd gebeten nochmal im ID1 zu schauen.
+06.10.25: MB SAP Anfrage läuft immer noch
+08.09.25: MB: Mike schaut wie SAP das rekonstruieren kann
+21.08. Mx Dieter eröffnet OSS-Meldung, Mike unterstützt Dieter bei Aktivierung Button im ID1_100.
+19.08. Mx SAP benötigt System mit aktiviertem Button. Mögliche Systeme ID1 oder IS1. Dieter ist dran.
+11.08. Mx If CR create in process is available, problem will be solved. 
+14.07 MX Frank hat untersucht. OSS-Meldung an SAP (Dieter). 
+10.07. Funktionierendes Beispiel im MDG-F gefunden und im 994 dokumentiert.
+08.07. MX System erwartet Single CR. Debug von Frank. Problem SAP Framework. Dieter schaut nach dem Thema.";;
+1063;Fix;Int;Missing Description Text and LANGU Attribute in File Download;2509;;Link;Characteristic;Very High;960;Solved;;Niklas;Mike;"11.09.25 MB: Mike schickt gleich Transport raus
+08.09.25 MB Mike schaut es sich an. Liegt aber wohl im SAP Coding, im Zweifelsfall ein SAP Ticket.";;
+1089;Fix;Int;Multiple Object CR type dumps for company code maintenance;2511;22.09.2025 17:01:24;Link;Company, Posting Period Variant;High;960;Confirmed;;Sabine;Mike;"17.11. Sabine: retest IH1 ok
+12.11.25: MSK Should be ""cross-fixed"" with 1147; MDF is not applicable on multi CR
+06.11. Mx Thema von Dieter an Mike weitergegeben
+Testcase 101.1 u. 101.2
+3.11.2025: MB - Dieter krank, Mike müsste übernehmen
+23.09.2025: MB: Dieter arbeitet dran zusammen mit Frank";ID1K906298;
+1138;Fix;Int;Time format replication error;2511;05.11.2025 14:48:31;Link;Shipping Point;Very High;960;Confirmed;;Ulla;Sara;"19.11. Info Ulla gelöst, aber neues Problemchen in 1160 erfasst.
+19.11. Lösung in IH1 transportiert.
+19.11.25 Frank/Sara made changes. Shared for basic test in ID1 and in IH1.
+17.11.25 MB Asked Sara to involve Frank 
+10.11.25 MB: Replication Error";;
+1164;Fix;Ext;Location address not maintainable;2311;21.11.2025 09:13:46;Link;Location;High;960;Automatically Confirmed;;ExxonMobil;Dieter;"24.11.25 Test document "" ID1 - Test example for Itego ticket 1164"" in folder 1164                              25.11.25 Transport mit aktualisiertem BC-Set um 22:30h geschickt";;
+1194;Fix;Ext;Navigation issue on BP UI after uninstall;2507;13.01.2026 09:47:04;Link;Business Partner;High;960;Solution Proposal;;ABI;Günter;"22.01.2026 MSK: Note an ABI ausgeliefert
+14.01.2026 Mx Günter erstellt einen Fix.";;
+1099;Dev;Int;Provide Tile for creation of multiple object change request;;06.10.2025 13:07:04;Link;Multi object CR;High;955;Confirmed;;Sabine;;13.10.25: Retest in ID1 ok (Sabine);;
+1044;Dev;Ext;Shipping Point;2511;;Link;Shipping Point ;High;955;Solved;;Intel;Sara;"09.12. Mx Anforderung die Umgesetzt wird und mit 2511 ausgeliefert.
+06.11. Mx Status auf Sol. Pro. gesetzt.
+04.11.25 MB: Mike spricht mit Sara wg. Datenverteilung / ist noch nicht möglich
+23.10. Mx Sabine kann Shipping Point testen.
+06.10.25: Aktuell noch Probleme mit CBA, wird mindestens noch eine Woche dauern
+18.08. MB created after Meeting with Intel";;
+1013;Fix ;Int;Dump when moving nodes;2507;;Link;Product Hierarchy;Very High;950;Obsolete;;Michael;Mike;"17.07. MB: angelegt, obwohl aktuell der Fehler nicht auftritt => Daher ""obsolete"" gesetzt. Bei Bedarf reaktivieren.";;
+1025;Fix ;Int;ProdH double assignment;2507;;Link;Product Hierarchy;Very High;950;Confirmed;;Niklas;Mike;"31.07. Mx Niklas hat postiv getestet.
+30.07. Mx Niklas testet nach.
+29.07. MX 26.07. neu eröffnet, Fehler kann von Mike nicht nachgestellt werden. Anfrage an Niklas.";ID1K905405       KOLOSEIKEM   R2507-D896: ProdH Val. Changes F1025, F1028, F1030;
+622;Fix;Ext;Company code configuration issue ;2503;;Link;Company Code;High;950;Confirmed;;Shell;Dieter;"30.07. Mx Info von Dieter Test war erfolgreich und bereits in 2503 enthalten. Info an Maren wegen Lieferung per Release 2503.
+15.07. MX Dieter checkt und muss im Upgrade eingebaut werden.
+23.06.25: noch zu testen
+13.5.25: Frank baut in die Datenmodell-Generierung ein
+13.09. Ticket created / asked for RDM and S/4 Version and sent solution proposal … a user seems to be missing";;
+1091;Dev;Ext;Consulting: Combine Payment Term and Payment Term Details in one process;2512;24.09.2025 10:16:16;Link;Payment Terms Details;Medium;950;Confirmed;;Intel (Deloitte);Dieter;"09.10.2025 Mx  Aus diesem Defectmeldung ergibt sich eine Entwicklungsanforderung von Intel. Aufnahme weiterer Felder in Payment Term.Kunde wurde informiert, hat daher detailliert Anforderung gestellt.  Neuer Anforderung 1106.
+23.09.2025: ist ein Consulting Request und werde ich bearbeiten. Infos dazu von der Shell-Implementierung liegen hier: \\intern.itego.de\Public\Itego Reference Data Management\Customers\Shell\Payment Terms ";;
+1093;Fix;Ext;Display the Header with application name and values (Consulting Request);2511;25.09.2025 14:42:18;Link;Change Request ;High;950;Automatically Confirmed;;Intel;Michael/Thomas;"27.09. Mx Mail gesendet .
+25.09.2025 Prepairing Mail about no  Consulting Report. 
+26.09.2025 Mx Answer to Intel, no Consulting support.";;
+1109;Dev;Int;Replication Missing;;14.10.2025 04:44:24;Link;Company, Posting Period Variant  ;High;950;Solved;;Niklas;Maxi;"14.10.2025 MB: weiter an Maxi
+                   ME: Gelöst";;
+1129;Fix;Int;working times input help does not work - only calendar 01 supported;2511;03.11.2025 13:28:08;Link;Shipping Point;High;950;Obsolete;;Sabine;Sara;"10.11.25 Sabine: will be closed as it is a duplicate to issue 1137
+06.11.25 Sara:In solution proposal
+06.11. MX Sara untersucht verbunden mit anderem Fehler verbunden. ";;
+1105;Fix;Ext;BC-Set activation;;08.10.2025 17:21:50;Link;;High;950;Automatically Confirmed;;Jungheinrich;Dieter; Problem bei der BC-Set Aktivierung      08.10. Mail an Kunden;;
+1154;Con;Ext;Using DQM Rules with Itego Objects;2512;13.11.2025 06:42:39;Link;Characteristic;Medium;950;Confirmed;;Bayer;Maxi;"11.12.25 Mike untersucht noch. Problem bei DQM eigene Klassen anzulegen könnten bei Itego Update gelöscht werden. 
+03.12.25 MSK: Beispielhafte Implementierung an Bayer versandt; Lösung via Enhancement des Standard Rule Service
+28.11.25 MB: Bayer fragt jetzt nach Coding-Beispielen für MDF
+13.11.25 MB: wir hätten gestern ein Ticket anlegen sollen, jetzt mal angelegt, weitere Infos angefragt und Link zum  MDF Dokument und auch den RDM300, Teil 2 bzgl. Rule Management über MDF angehängt. Ist eiegentlich kein ""Support"" also kein ""Fix"" … daher als ""Con"" = Consulting angelegt und Maxi um Absprache mit Jean-Marc gebeten. Jean-Marc auch um weitere Infos gebeten.";;
+1172;Fix;Ext;MDF configured Mandatory field does not trigger error message;2512;02.12.2025 11:22:47;Link;Product Hierarchy;High;950;Obsolete;;Bayer;Mike;"09.12.2025 Mx Wird durch Defect 1177 ersetzt. Doppelt angelegt.
+02.12.2025 Mx Defekt eröffnet und Mike zugewiesen.";;
+1181;Fix;Int;When starting, a dump is created.;2512;09.12.2025 17:17:43;Link;Class;Very High;950;Solved;;Thomas;Mike;"11.12.2025 Mx Gelöst von Mike.
+09.12.2025 Mx Defect create.";;
+1017;Dev;Ext;List of change nodes;2603;;Link;Product Hierarchy;High;940;In Development;;Jungheinrich;Mike;"27.11. Mx Fehlt noch die Doku gelöschte Notes. Kommt von Mike.
+06.10.25: MB: Delete/Remove wird noch nicht fortgeschrieben
+11.09.25: MB: im ersten Wurf brauchen wir die /ITR/PRODH_CHG Tabelle mit Counter; dann müssen wir diese übertragen und Frank muss dann die LSA erweitern
+11.09.25: Prio erhöht, da es mit dem PoC JH langsam sehr knapp wird. Schulung startet ca. am 23.09.25 und bis dahin brauchen wir im besten Fall schon eine Lösung
+20.08. MB: Prio erhöht da Jungheinrich ab 15.09.25 in den PoC startet
+17.07. MB: mit Mike diskutiert - Jungheinrich Requirement";;
+1190;Fix;Ext;File Upload DUMP for Characteristics;2311-01;01.01.2026 14:02:11;Link;Characteristic;High;950;Confirmed;;Exxonmobil;Mike;"20.01. Mx  Dump ist behoben. Exxon sendet neuen Fehler für ein einzelnes System unter neuer Defekt 1203 eröffnet. 
+09.01.2026 MSK: Transport und Note ausgeliefert08.01.2026 Mx Info an Trejo keine Eskalation da im Testing und Lieferung morgen ansteht. 
+08.01.2026 MSK: Implementiert; im Test";ID1K906516;
+1191;Fix;Ext;Description Text not activated during mass change;2311-01;06.01.2026 09:59:02;Link;Class;High;950;Automatically Confirmed;;Exxonmobil;Mike;"08.01. Mx Kunde hat beim Upload die Beschreibungen vergessen separat zu laden. 
+07.01.2026 MSK: Vermutlich wurden die Beschreibungen der Klassen nicht separat und vollständig hochgeladen. Confirmation requested";;
+1070;Fix;Int;Description missing in Header  download;2601;08.09.2025;Link;Class;Very High;948;New;;Niklas;Mike;"08.09.25 Testcase 39.4
+ 08.09.25: MB: hoffentlich der gleiche Fehler wie 1063 (bei Characteristics)";;
+1192;Fix;Ext;Fields Class and Class Type are read only (process blocked);2507;07.01.2026 15:44:57;Link;Class;High;950;Solution Proposal;;Bayer;Mike;"27.01.2026 MB: wurde am Freitag noch diskutiert, ist damit in Solution Proposal
+22.01.2026 MSK: Neues Feedback; die Number Range für /ITR/CLF wurde angepasst, auf einen höheren Wert, der allerdings die Key-Länger der CLINT überschreitet. Rückantwort darauf erfolgt, dass die Number Range nach wie vor innerhalb der Grenzen des Keys bleiben muss abzüglich des Vorzeichens für temporäre Schlüssel
+07.01.2026 MSK: Mehr als 2500 Klassifikationen im System; Nummernkreis wurde nicht entsprechend angepasst - vermutlich wurden nicht alle Klassifikationen im System via RDM geladen, bzw. gepflegt. Kunde informiert, den Nummerkreis entsprechend anzupassen
+07.01.2026 Mx Defect created and Info to customer.";;
+925;Fix;Int;MRP Area submit not possible;2601;;Link;MRP Area;Very High;945;New;;Ulla;Mike;"08.09.25 MB: Mike schaut und schickt ggf. an Ulla zurück
+20.08. Priorität wg. Exxon erhöht
+11.07.25 MB: im Sande verlaufen??
+20.05. Mx Dieter schaut sich das Thema an.
+12.05. MX geändert Zuordnung auf Mike
+06.05. MX Defect zugeordnet.";;
+1046;Dev;Int;Checkbox for MRP Profile creation ;2601;;Link;MRP Profile;Very High;945;Automatically Confirmed;;Niklas;;27.01.26: Geschlossen wg. 27.08. Duplikat zu 822;;
+1049;Dev;Int;Continuation of 988 - Checking if SMT Mappings have ITR Staging Tables as Target Structure - Replication Tests if they do;2510;;Link;MOST;Very High;945;Confirmed;;Maxi;Maxi;"19.11.25 MX Status auf Confirmed gesetzt (Info Maxi). 
+4.11.25 MB: da müsste noch ein Report geschrieben würden, ""Flächendeckend"" SMT Mapping Runtime löschen / neu generieren; auch ggf. zu beachten: laufende CRs anpassen über SAP ""Adjust Staging"" - ist zu testen
+17.10. ME: Auf ""In Testing"" > Retests im IH2 erfolgen in kürze
+26.08. ME: 988 auf closed gesetzt, mich als Responsible eingetragen";;
+1051;Fix;Int;Sales Office Upload not possible - country field is missing;2601;27.08.2025;Link;Sales Office;Very High;945;New;;Niklas;Mike;"27.08.2025 Testcase 45.3
+ 06.11.25 Mx Lt. Test Excel hat Mike Thema übernommen.29.09.25 MB: siehe auch 1081
+04.09. 25 Mx Zuweisung an Niklas.";;
+1073;Fix;Int;Descriptions for Class download data missing;2601;;Link;Class;Very High;944;In Development;;Niklas;Mike;"11.09.25: MB: Frank hat die Lösung, müssen uns nur noch darüber unterhalten wie es getestet wird.
+11.09.25: MB: an Frank weitergegeben.";;
+943;Fix;Int;Itego RDM - Itego - IH100 - Upload Characteristics internal error - Objects_objref_not_assigned;2601;;Link;Characteristic;Very High;943;New;;Niklas;Mike;"09.09.2025 Fehler noch aktuell nach check von Niklas.
+08.09.25 MB: Niklas schaut nochmal ob das Problem noch exisitert
+11.07.2025 MB sollten wir für Exxon ""dringend fixen"" wenn es hier wirklich ein Problem gibt";;
+966;Dev;Int;"Use value mapping to guide the purchasing group based on material
+ group.";2509;;Link;Material Group;High;940;Automatically Confirmed;;ArcelorMittal;Frank;"04.09.25 Wir brauchen ein Programm (was wir erstellen müssen), das der Kunde nach dem Einspielen ausführen muss. Frank schickt Maxi die Informationen dazu. 
+28.08. Mx Maxi test aktuell.
+19.08. Mx Maxi anfragen wegen Test Durchführung.
+15.07. Mx Thomas führt Test durch.
+11.07.2025 MB: offen weil Frank eine Lösung bereit gestellt hat, die wir aber nicht ausgeliefter haben. sollten wir schauen, dass wir das in den Standard bringen und zwar für alle Objekttypen die da noch fehlen. Siehe 988.
+MB 02.07.2025 Nach Absprache mit Frank einen Lösungsvorschlag gesendet (Kundenspezifisches SMT Mapping und Zuordnung dessen in der Outbound Implementierung)";;
+1014;Fix;Int;External number still exists - validations need to check only active data;2507;;Link;Product Hierarchy;Very High;940;Confirmed;;Niklas;Mike;"31.07. Mx Niklas hat positiv getestet.
+29.07. MX Niklas bezüglich Test ansprechen.
+18.07. Mx Kann am Montag 21.07.  getestet werden. 
+17.07. MB Mike weiss wohl wie er es löst";ID1K905374 KOLOSEIKEM R2507-D896: Product Hierarchy Redesign F1010;
+1000;Dev;Ext;Change requests for the RDH functions (Shell request);2511;;Link;RDH;High;947;Automatically Confirmed;;Shell;Gerd;"22.08. Frank hat etwas geliefert, Gerd soll testen
+07.08. Noch nicht an Kunden, Maren stimmt Lieferung mit Michael ab.
+15.07. Aktuell mit Shell die Lösung in Diskussion.
+14.11. Test soweit Ok, Transport Online Selektion noch offen";;
+1040;Fix;Int;Assignment deleted, but the external number remains in the node;2601;;Link;Product Hierarchy;High;940;In Development;;Gerd;Mike;"11.09.25 MB: Mike ist dran
+11.08. Mx nach 2508 verschoben.";;
+1188;Fix;Ext;Valuation area of plants is updated in target system without scope;2603;23.12.2025 10:02:39;Link;Plants/Branches;High;938;Customer Action;;Shell;Mike;"27.01.2026 MB Mike hat den Zugang, aber ggf. fehlen noch Berechtigungen
+07.01.2026 Mx: Shell wird den Zugang für Itego einrichten (Fr. Luba). Sie melden sich bei uns.
+23.12.2025 MSK: Weitergeleitet an Frank; bezieht sich auf LSA Scope
+";;
+1127;Fix;Int;Upload validation for quotes with a value of zero;2601;30.10.2025 14:32:28;Link;Currency Exchange Rate;High;940;New;;Gerd;Frank;;;
+1137;Fix;Int;Wrong selection for working times;2511;05.11.2025 14:42:10;Link;Shipping Point;High;940;Confirmed;;Ulla;Sara;"26.11.25 Sara: Removed warning message, shared for testing
+17.11. Sabine: retest IH1 ok from my side as well 
+12.11. Mx auf confirmed gesetzt, Info from Ulla.
+11.11.25 Sara: In solution proposal - changes made as discussed.
+10.11.25 MB: also in 1148 (obsolete)
+10.11.25 Sabine: retest failed
+06.11.25 Sara:In solution proposal";;
+1097;Dev;Ext;Enhancement of the RDH-Online-Selection ;2511;02.10.2025 17:40:26;Link;RDH, LSA;High;940;Confirmed;;Shell;Frank;"27.11. Mx Auf confirmed gesetzt.
+23.10. Maren und Gerd definieren die Anforderung.
+02.10.25: Abgeleitet aus 1096";;
+1002;Fix;Int;External Number not changed after moving node and replication (/ITR/T179 del) and direct table update not del T0179;2601;;Link;Product Hierarchy;High;939;In Development;;Ulla;Frank;"22.08.25 Verbliebenes Thema: Intiale Löschung der /ITR/T0179 bei der LSA Verteilung. Frank und Mike sind dran
+20.08. ReTest Verteilung (Direkt/LSA) ist OK. Offen ist die initale Löschung /ITR/T179. Für Keycheck wurde 1045 eröffnet.
+19.08. Mx Gerd auch mit LSA getestet.
+11.08. MX Auch in der Direktverteilung wird die T0179 nicht gelöscht. Über LSA wird ITR/0179 nicht gelöscht. Gerd prüft ob die T0179 in der Direktverteilung tatsächlich nicht gelöscht wird.
+14.07. MX Mike untersucht Eingangsystem 
+08.07. MB ITR/T0179 + T0179 muss im Empfängersystem zum Zeitpunkt bei neu ankommenden Daten gelöscht werden.";;
+1012;Fix;Int;Deletion of hierarchy assignments and reassignment;2601;;Link;Product Hierarchy;High;938;In Process;;Gerd;Mike;"24.07.25 Mx Es gibt einen manuellen Workaround durch den User, wenn er die Aktion erneut bzw. neu aufruft.
+17.07. MB: für Gerd hier eingetragen";;
+1021;Fix;Int;Replication not correct - different nodes for external numbers;2601;;Link;Product Hierarchy;High;937;New;;Ulla;Mike;20.08. MB: ist das vielleicht erledigt?;;
+1022;Fix ;Int;Wrong External Number Calculation;2507;;Link;Product Hierarchy;Very High;935;Confirmed;;Niklas;Mike;"31.07. Auf Solved gestellt. 
+31.07. Mx Niklas konnte Fehler nicht nachstellen. Externe Nummern werden korrekt erstellt.
+24.07. Mx Niklas konnte Fehler erstellen, aber wegen gelöschter Daten nicht mehr nachvollziehbar. Wird morgen erneut von Niklas getestet.
+21.07. MB hat Defect erstellt. Mike hat bereits mit der Untersuchung begonnen.";;
+1096;Dev;Ext;Enhancements for RDH-Consistency Check Snapshot;2603;30.09.2025 13:40:16;Link;RDH, Snapshot;Very High;935;New;;Shell/Gerd/Maren;Frank;"27.11. Mx Info von Gerd, dass der Defekt noch nicht bearbeitet ist und mit 2512 geliefert werden soll. Responsible von Michael auf Frank geändert.
+06.10.25 MB: Anforderung hier noch: besserer Prozess beim Konsistenzcheck. Noch weiter mit Gerd und Frank abzusprechen.
+02.10.25 MB: Anforderungen für Online Selection und File Update aufgeteilt nach 1097 und 1098. 
+30.09. Mx Umfangreiche Anforderungen in der Mail von Shell. Nach dem angefügten Word Doc versucht Michael die  benannten Themen zu ordenen und spezifizieren. Korrespondiert zu 1083";;
+1100;Dev;Ext;RDH - Foreign key check during snapshot activation;2603;06.10.2025 20:38:20;Link;RDH, LSA;High;930;New;;Gerd/Maren;Frank;Anforderung Intel Mr. Anshul and Shalini;;
+1143;Fix;Int;Redesign shipping address fields and add house number;2511;07.11.2025 14:17:15;Link;Shipping Point;High;935;Confirmed;;Gerd;Sara;"11.11.25 Sara: Added house no.
+10.11.25 MB: Sara working on it - House number to be added
+13.11.25 GS: ReTest UI OK, tranlation in DE Missing";;
+1098;Dev;Ext;Enhancement of the RDH-Up/Download;2511;03.10.2025 12:16:19;Link;RDH, LSA;High;935;Confirmed;;Shell;Frank;"27.11. Mx Auf Confirmed gesetzt.
+23.10. Ulla hat Test-Cases beschrieben und muss fortgeführt werden. Gerd und Maren defenieren Anforderung.
+02.10.25: Abgeleitet aus 1096
+13.11.25: GS: Upload bei Tab. TCURR überarbeiten, Falls eine Konvertierung beim Upload nicht möglich ist, Meldung ausgeben und kein Dump";;
+1060;Fix;Int;Material Group not replicated;2509;;Link;Material Group;High;930;Solved;;Ulla;Frank;"04.09.25 Mx Info an Ulla mit der Bitte den Fehler noch einmal zu provozieren.
+04.09.25 MB das war das Beispiel von Arcelor Mittal. SMT Mapping wurde angepasst aber es musste noch etwas generiert werden
+03.09. Mx Replication Issue assigned to Frank.
+01.09. Mx Defect open.";;
+967;Fix;Ext;Itego Configure Search Methods RDM2407 - Search View Configuration Not Showing in UI;2407;;Link;Material Group;High;930;Closed;;ArcelorMittal;Mike;"MSK 12.06.: Answer sent to customer to remove existing entries in current customizing. By default the DB search should be used
+MX 03.06. Defect in template doc. Mike loggt sich im Kundensystem von AM für Analyse ein.";;
+1106;Dev;Ext;New UI Payment terms and Daylimit on one UI, within single change request;2603;09.10.2025 14:38:42;Link;Payment Term;High;920;In Development;;Intel;Sara;"27.01.2026 Sara arbeitet aktuell daran. Sollte morgen (28.1.) transportierbar sein
+27.11. Mx Datenmodell ist fertig. UI in Bearbeitung. 
+09.10.2025 MX Neue Anforderung vom Kunden Payment Term and Daylimit in einem CR. Basiert auf ursprünglichem Defect mit Consulting Anforderung 1091 der geschlossen wurde.";;
+1141;Fix;Int;Field length in the shipping point description is only 20 characters;2511;07.11.2025 13:24:20;Link;Shipping Point;High;930;Confirmed;;Gerd;Sara;"10.11.25 MB Sara hat es im ID1 gelöst, noch nicht im IH1, Sammeltransport. Das gilt auch für andere Felder. Sabine erstellt weitere Tickets
+Sara :10.11.25 In solution proposal now";;
+1153;Fix;Int;Data Source cant be selected in IH1 but possible in ID1 for Master Data Import ;2511;12.11.2025 13:22:04;Link;Shipping Point;High;930;Confirmed;;Patrick;Mike;"24.11. Mx Status Confirmed.
+18.11.25 MSK: Manuell im IH1 nachgearbeitet; Transport IH1K902028 wird Günter für zukünftige Refreshs zur Verfügung gestellt
+17.11. Mx Patrick hat nachgetestet.
+14.11. Michael thinks its a transport problem";IH1K902028;
+1160;Fix;Int;Maximum Length error ;2602;19.11.2025 15:52:05;Link;Shipping Point;High;930;Confirmed;;Ulla;Frank;"07.01.2026 Rückmeldung von Ulla Test positiv. Defect wird geschlossen.
+24.11. Mx Frank bearbeitet Lösung. Noch im Test.";;
+1151;Fix;Int;Length of input fields for number fields not correct;2511;10.11.2025 16:46:19;Link;Shipping Point;Medium;929;Confirmed;;Sabine;Sara;"13.11.25 MB kann nicht gefixt werden, Mike überprüft ob Sabine informiert ist
+12.11. MX Info von Mike, dass der Fehler vorerst hingenommen werden muss. Keine kurzfristige Lösung möglich.";;
+1120;Fix;Ext;IDOC error,  Initial load not successful;2507;23.10.2025 08:44:40;Link;Currency Exchange Rate;High;930;Automatically Confirmed;;Bayer;Frank;"11.11.25 MB: Note delivered to customer after test in IH1, IH2 and S03
+27.10. Mx Dump Report angefordert von Bayer. Kopie an Gerd senden.
+23.10.25 Mx Issue created. An Frank routen.";;
+1149;Fix;Int;invalid output type can be entered and saved;2511;10.11.2025 14:50:14;Link;Shipping Point;High;925;Confirmed;;Sabine;Sara;"17.11.25 Sabine: retest IH1  ok
+11.11.25 Sara: In solution proposal ";;
+986;Fix;Int;Missing Entries for Replication (PRODH);2507;;Link;Product Hierarchy;High;920;Confirmed;;Ulla;Mike;08.07. MX In IH1 Test to be done.;;
+1010;Fix;Int;Change via hierarchy processing not possible;2507;;Link;Product Hierarchy;High;920;Confirmed ;;Ulla;Mike;"18.07. Mx Fehler von Mike behoben. Präfix wurde gelöscht inder Verarbeitung. Kann getestet werden. 
+14.07. Mx Ulla hat Defect eröffnet.";;
+1058;Fix;Int;Storage Location Address not replicated;2509;;Link;Storage Location;High;920;Solved;;Ulla;Frank;"15.10. ME: Fehler weiterhin bestehend > Inbound Fehler! Sowohl LSA als DT keine Addresse. Doc Geupdated
+04.09.25: MB Fehler konnte nich nachvollzogen werden, bitte erneut testen
+03.09. Mx Replication issue assigned to Frank.
+28.08. Mx Defect opened.";;
+1075;Fix;Int;Payment Terms not replicated;2509;;Link;Payment Term;High;920;Solved;;Ulla;Frank;"15.10. ME Retested -- Issue Fixed
+05.09. MB Payment Term wird nur verteilt wenn man auch die details pflegt
+03.09. Mx Replication issue assigend to Frank.
+03.09. Mx Ulla Issue opened.";;
+1082;Fix;Int;Plant addresses are not processed in the LSA;2509;11.09.2025 09:44:45;Link;Plants/Branches;High;920;Confirmed;;Gerd;Frank;"11.09.25 vorabentwicklung von Frank im IH1
+11.09.25 erfolgreicher Test im IH1";;
+1121;Fix;Ext;Itego Add-Ons Compatibility Check with S/4 HANA RVU 2025 FPS00 (Feature Pack Stack 00) ;2507;23.10.2025 12:52:16;Link;SAP Release ;High;925;Automatically Confirmed;;Bayer;Günter;"27.11. Mx Basis Funktionen wie z.B.  Inst./Deinst. sind von Günter ausgiebig getestet worden. Die fachliche Nutzung der Itego Appl. auf diesem SAP Release allerdings nicht. 
+28.10. Mx Test auf S01, Günter baut System auf. 
+23.10.25 Mx Issue created. Dieter stimmt mit Günter und Andreas ab.";;
+1171;Dev;Ext;Import and Load based on F4 Configuration (T-Tables or MDG-Tables);2603;02.12.2025 08:23:01;Link;all;High;910;New;;Jungheinrich;Mike;02.12.2025: MB Wenn der Kunde die F4 Hilfen auf Customizing (T-Tabelle) umschaltet, erwartet er auch eine entsprechend angepasste Validierung im Import oder File Upload;;
+1124;Fix;Int;S/4 Upgrade auf 2025 Incl. Cloud Version Systemaufbau;2511;28.10.2025 10:08:15;Link;Release;High;920;Solved;;Maxi;Günter;28.10 Mx Test auf IS1, Günter baut System auf. Zuerst RDM, dann Upgrade auf S/4 Upgrade 2025;;
+1142;Fix;Int;Not all UI fields in the Determine Times block are displayed;2602;07.11.2025 13:39:41;Link;Shipping Point;High;920;In Process;;Gerd;Mike;"12.11. MX Problem könnte als Ursache alter System ID1 sein. Komplex Mike übernimmt
+10.11.25 MB: Gerd passt das Customizing an und schickt das Ticket zurück an Sara
+Sara :10.11.25 Issue not seen in my ID1, SAP logon 770";;
+1144;Fix;Int;Shipping Point is available in the SAP Fiori app library;2511;07.11.2025 14:46:14;Link;Shipping Point;High;920;Obsolete;;Gerd;Mike;10.11.2025 MB: duplicate to 1132;;
+987;Fix;Int;Subnodes CR 2-step No Hierarchy Assignment possible;2507;;Link;Product Hierarchy;High;915;Confirmed;;Ulla;Mike;08.07. Test IH1 to be done.;;
+1130;Fix;Int;LSA Report: Change Request Field Missing;2511;03.11.2025 16:15:33;Link;Company, Posting Period Variant;High;915;Confirmed;;Sabine;Frank;"17.11. Sabine: retest in IH1 ok
+06.11. Mx Status auf Solved gesetzt. 
+4.11.2025: MB: ist wohl ein Problem des Systemaufbaus, die CR Informationen müssen aufgebaut werden (Reports *SEND*CR*INFO* / *SHOW*CR*INFO*) 1) Grundkonfiguration erstellen 2) Initialversendung durchführen
+3.11.2025: MB - vollkommen unverständlich warum das Feld nicht da ist, war schonmal da, oder?";;
+1064;Fix;Int;Addresses are not being found in SPRO on Receiver;2601;;Link;Company Code;High;912;Closed;;Maxi;Maxi;"21.10.25 ME: Wird in Issue 1058 weitergeführt > Ticket closed 
+30.09.25 Mx: SMT Mapping Company Code Adress Daten kommen nicht im Ziel an.";;
+760;Fix;Int;Controlling Area Missing Checkbox Values in Receiver Data;2602;;Link;Controlling Area;High;910;New;;Maxi;;;;
+991;Fix;Int;Display of hierarchy processing locks hierarchy assignment;2507;;Link;Product Hierarchy;High;910;Confirmed;;Sabine;Mike;08.07. MX Entwicklung und Test haben sich gegenseitig im gleichen System blockiert.;;
+999;Fix;Int;Level 5 and 6 not replicated;2507;;Link;Product Hierarchy;High;910;Confirmed;;Ulla;Mike;"30.07. Mx Ulla testet nach.
+24.07. MX Replication funktioniert. 08.07. Mx Mike checkt, ob Fehler noch besteht.";ID1K905368/ID1K905312;
+1023;Fix;Int;Upload data for product hierarchy enable duplicate assignments ;2507;;Link;Product Hierarchy;Very High;910;Confirmed;;Niklas;Mike;"31.07. Mx Niklas hat positiv getestet.
+30.07. Mx Niklas testet nach.
+25.07. Transport an Dieter und Günter weitergeleitet für IH1/2
+24.07. Mx Nacherfassung Defect. Kein Topic Detail Dokument erstellt worden.";ID1K905418       KOLOSEIKEM   R2507-D896: ProdH Hierarchy Validation 1023;
+1029;Fix;Int;Report PRODH_EXPORT with a bug in Level 6;2507;;Link;Product Hierarchy;Very High;910;Confirmed;;Gerd;Niklas/ Mike;"31.07. Mx Bei Niklas sind die Ergebnisse korrekt. Gerd bitte Niklas dies noch einmal zu prüfen, das IH1_400 eventuell nicht den gleichen Lieferstand hat.
+ 30.07. Gerd baut den Fehlerfall auf und Niklas prüft technisch im IH1_400/100";;
+1030;Fix;Int;Validation upload file for the External Number Suffix field;2507;;Link;Product Hierarchy;Very High;910;Confirmed;;Gerd;Mike;"30.07. Mx Gerd testet nach.
+30.07. ReTest erfolgreich";ID1K905405       KOLOSEIKEM   R2507-D896: ProdH Val. Changes F1025, F1028, F1030;
+1034;Fix;Int;Validation at level with reference Length External number;2507;;Link;Product Hierarchy;Very High;910;Confirmed;;Gerd;Mike;"04.08. Mx Auf Status Solved gesetzt.
+01.08. Assignment Validation for new created nodes adjusted
+01.08. Mx Defect reported.";ID1K905446;
+1059;Fix;Int;Material Type Quantity value not replicated;2602;;Link;Material Type;High;910;In Process;;Ulla;Maxi;"Testcase 16.1 u. 16.2
+15.10. ME: Retested by me > Original Issue Resolved > New Issue (see Updated Doc) > Me as Responsible now 
+04.09. MB: mit Frank getestet / AMENGU wird nicht geschrieben
+03.09. Mx Replication isseu assigend to Frank
+29.08. MB: Excel-Entry created";;
+1061;Fix ;Int;Street Address not replicated;2511;;Link;Sales Office;High;910;Confirmed;;Ulla;Frank;"06.11.25 MX Defect geschlossen.
+08.09.25 Mx Mail von Ulla, Defect tritt nicht mehr auf.
+04.09.25: MB Problem konnte nicht reproduziert werden. Bitte wieder testen.
+03.09. Mx Replication Issue assigned to Frank.
+01.09. Mx Defect open.";;
+1080;Fix;Int;The database column MSEHI is unknown;2511;;Link;Unit Of Measure;High;910;Solved;;Niklas;Niklas;"07.10.25 sollte behoben sein, Thomas fragt Niklas nochmal nach dem ""letzten Test""
+30.09.25 Mx Info von Mike, dass der Topic im Zuge einer BC-Set Anpassung korrigiert wurde. Niklas gebeten kurz im IH1 zu testen.
+12.09.25 MB: Dump = sehr wichtig … müssen wir dann wohl in 2507 noch fixen …";;
+1134;Fix;Int;Company - File Upload Variant not in IH1;2511;05.11.2025 10:38:49;Link;Company;High;910;Confirmed;;Michael;Sara;"05.11.25 MSK: Wird via BC-Set transportiert; gemeldet an Günter zur Anpassung des BC-Sets und weitertransport
+5.11.25 MB: Die Variante ist in ID1 aber nicht im IH1; Transportfehler wohl";;
+1135;Fix;Int;No File Upload Variant exists for Shipping Point;2511;05.11.2025 11:15:02;Link;Shipping Point;Medium;910;Confirmed;;Michael;Sara;"13.11.25 MB: Günter hat transportiert. Michael kann retesten.
+12.11.25 Sara: Variants changed from default sorting order to UI fields order
+10.11.25 MB: Variants exists; but sequence of columns is bad, reduced priority
+05.11.25 MSK: Wird via BC-Set transportiert; gemeldet an Günter zur Anpassung des BC-Sets und weitertransport
+05.11.25 Sara: Variants created
+5.11.25 MB: no variant has been created";;
+1185;Fix;Int;"Change ""Create"" and ""Delete"" into ""Edit"", no EDIT avaialable";2603;17.12.2025 13:39:54;Link;Payment Term v2;Very High;910;Confirmed;;Sabine;Sara;"13.01.2026 Sabine: retest in ID1 ok
+02.01.2026 Sara: Issue fixed in ID1
+17.12. no 'Edit' of payment terms possible
+";;
+1056;Fix;Int;MRP Area Subcontract - Data was not saved;2602;;Link;MRP Area;High;907;New;;Niklas;;Testcase 42.3;;
+803;Fix;Int;MRP Profile - Minimum Safety Stock can be > Safety Stock;2602;;Link;MRP Profile;High;905;New;;Maxi;Dieter;;;
+838;Fix;Int;Company Code – mandatory field country not taken over into address screen – results in replication inconsistency;2602;;Link;Company Code;High;905;Confirmed;;Sabine;Sara;"10.12.25 Sabine: behaviour of field 'country' accepted, follow up issue 1182 for issue with cities.
+23.11.25 Sabine: updated issue with solution proposal
+18.11.25 Sara: Tested in standard, have shared a query/update mail 
+20.10.25 The issue that the two fields for country can have different values is part of this topic";;
+1066;Fix;Int;Assignment of characteristic to class does not work;2602;;Link;Class;High;905;New;;Sabine;;Testcase 39.1 u. 39.2;;
+1139;Fix;Int;Incomplete Data Transfer Configuration;2511;05.11.2025 16:17:45;Link;Company, Posting Period Variant, Shipping Point;High;905;Confirmed;;Michael;Mike;"10.11.25 MB one is still missing
+
+5.11.25 MB Archiving Directories not defined for Company and PPV, Object Type missing for Shipping Point";;
+1072;Fix;Int;XML transformation Error;2602;;Link;Sales Office;High;902;New;;Niklas;Niklas;;;
+544;Fix;Int;Material Status - Cross-plant settings aren't saved;2602;;Link;Material Status;High;901;New;;Maxi;;;;
+867;Fix;Int;IH1400 (other systems to be tested) - MRP Profile -Direct Table - Not replicated Fields;2602;;Link;MRP Profile;High;901;New;;Maxi;Frank;24.03.25: Retested by Maxi, issue persists      11.03. Prepare for retest.;;
+1052;Fix;Int;MRP Controller - Upload invalid profit center is possible ;2602;;Link;MRP Controller;High;901;New;;Niklas;Mike;Testcase 47.3;;
+1053;Fix;Int;Cust.Acc.Group not found in Search;2602;;Link;Customer Account Group;High;901;New;;Sabine;;Testcase 09.1 u. 09.2;;
+1111;Fix;Ext;Validation fails for Country from MDG Staging;2511;16.10.2025 10:01:27;Link;Company Code;High;920;Automatically Confirmed;;Shell;Michael;"23.10.25 MB: done (aus meiner Inbox da es einer Diskussion außerhalb des Transports mit Anshul entstammt). Danke an Frank und Dieter :-)
+23.10.25 Mx Michael sendet Note an Shell- Shell hat heute noch geantwortet und testet und gibt Rückmeldung.
+16.10.2025 MB: Frank hat das Problem wohl gefunden. Retested un Dieter gebeten den Transport in das S-System zu bringen.
+16.10.2025 MB Mike sagt ggf Problem mit ""Existence Check der Relationship"" … Frage an Frank weitergegeben, wenn Frank das bejaht kann Mike ggf. morgen weitermachen
+16.10.2025 MB: zusammen mit Maren auf dem ID1 nachvollzogen und an Mike übergeben";;
+1015;Fix;Int;Subnodes should be optional;2509;;Link;Product Hierarchy;Very High;900;Confirmed;;Michael;Mike;"30.07. Mx Subnote funktioniert nur wenn letztes  Level nicht nicht verwendet wird. Wird verschoben auf Release 2508.
+29.07. Defect bitte von Gerd testen, Gerd ansprechen.
+17.07. MB: mit Mike diskutiert - wie mit Deloitte / Intel diskutiert";;
+1204;Fix;Ext;Language creation not possible;2603;;;Language;High;920;obsolete;;Intel;Mike;"27.01.2026 MB: ist jetzt die Nummer 1209
+22.01.2026 MSK: Missing Conversion Exit ZISOL.";;
+1103;Fix;Int;MDF Validation null reference error;2602;;Link;Company Code;High;900;In Testing;;Ulla;Frank;19.01.26 Mx Frank hat Lösung erstellt.;;
+1128;Fix;Int;Deletion of language dependent text not replicated;2511;03.11.2025 11:28:33;Link;Posting Period Variant;High;900;confirmed;;Sabine;Sara;"10.11 Sabine: retest IH1 ok
+06.11. Mx Status Solution Proposal gesetzt.
+Testcase 50.1
+06.11. Mike noch einmal informiert. Da im Excel 2512 stand.";;
+1145;Fix;Int;LSA functionalities missing;2601;10.11.2025 10:45:44;Link;Shipping Point;High;900;Confirmed;;Michael;Frank;10.11.25 MB: angelegt ;;
+1209;Fix;Ext;Bug in Language Data Creation in R2407 vs R2511;2511;26.01.2026 09:36:22;Link;Language;High;910;Solution Proposal;;Intel;Frank (Dieter);"27.01.2026 Dieter hat eine Lösung geliefert
+26.01.2026 Ticket erfasst und Nummer an Kunden geschickt.
+26.02.2026 Habe Frank per Mail informiert, ID1 okay, IH1 Fehler, IH2 Dump, Frank hat korrigiert, Dieter hat im IH1 nachgetestet
+26.02.2026 Fix zum Kunden geschickt";;
+976;Fix;Ext;Itego UI: Search Selection via description does not work for Object Class;2507;;Link;Class;Very high;900;Closed;;Exxon;Dieter;13.06. 15:30 fix zum Kunden;;
+995;Fix;Int;Prevent replication of hierarchy in status Approve;2507;;Link;Product Hierarchy;High;895;Confirmed;;Gerd;Mike;"08.07. MX Fehlerfall ""leere Produkthierarchie"" abfangen. ReTest OK.";;
+1045;Dev;Int;ForeignKey Consistency check is executed incorrectly;2602;;Link;Product Hierarchy;Very High;895;In Process;;Gerd;Frank;"29.08. MB: Termin aufgesetzt mit Gerd und Thomas für Montag
+28.08. Zwei mögliche Optionen, Entscheidung fehlt noch von Michael.
+22.08.25: Frank hat etwas gemacht, gibt aber noch weiteren Bedarf
+20.08.25: Created";;
+988;Dev;Int;Adjust SMT Mappings to avoid additional effort for customers;2510;;Link;11 object types;High;890;Solved;;Michael;Maxi;"04.09.25 Wir brauchen ein Programm (was wir erstellen müssen), das der Kunde nach dem Einspielen ausführen muss. Frank schickt Maxi die Informationen dazu. 
+28.8. Mx Maxi pflegt die SMT Mappings. 
+Fix all SMT Mappings for object types which had an object type specific IDoc before (already done for Company Code T005) - See MATKL T023 example in issue 966 from ArcelorMittal";;
+996;Fix;Int;Description of notes/subnodes cannot be changed;2507;;Link;Product Hierarchy;High;890;Confirmed;;Gerd;Mike;08.07. Mx Validierungsproblem;;
+997;Fix;Int;2step creation and editing not possible;2507;;Link;Product Hierarchy;Very High;890;Confirmed;;Ulla;Mike;08.07. Mx Validierungsproblem;;
+1011;Fix;Int;No replication only for open hierarchy CRs;2507;;Link;Product Hierarchy;High;890;Confirmed;;Gerd;Mike;"30.07. Mx Es werden nur noch aktive Daten versendet. (Mike)
+18.07. Mx Mike hat aktuelle Logik erläutert. Bleibt bestehen. Gerd macht nachtest.";;
+1081;Fix;Int;Plant Address: Country needs to be mandatory;2602;11.09.2025 09:39:20;Link;Plants/Branches;Medium;890;New;;Gerd;Frank/Mike;"Testcase 12.1 u. 12.2
+29.09.25: MB: können wir nicht einfach hinzufügen, da Validierung auch greifen würde für Werke die keine Adresse haben. Siehe auch 1051. ";;
+1107;Fix;Int;RDH Online Selection Texttables not working;;13.10.2025 13:25:50;Link;RDH;High;890;Solved;;Ulla;Frank;14.10.2025 Mx Selektionsproblem Lösungsvorschlag von Frank. Keine Programmanpassung erforderlich.;;
+822;Fix;Int;MRP Profile - Select at leaset one checkbox for MRP Profile creation;2602;;Link;MRP Profile;Medium;889;New;;Niklas;Dieter;"Testcase 41.3 
+ 09.09.25 Mx Lt Niklas Fehler noch aktuell.
+08.09.25 MB: Niklas schaut ob noch existent und gibt Mike Bescheid
+27.08. Duplikat zu 1046. Dieser hier soll weitergeführt werden.
+24.03.2025: Dieter knows
+";;
+1033;Fix ;Ext;Laufzeitfehler im RDH Rel. 2407;2507;;Link;RDH;High;900;Confirmed;;Bechtle;Frank, Dieter;"07.08. Dieter hat Fix zu Bechtle geschickt. Frank hat weitere Verbesserungen, Nachtest.
+31.07. Frank hat Lösung erstellt.
+31.07. Support Inbox - new ticket";(ID1K905438), ID1K905494, ID1K905526, ID1K905531;
+620;Fix;Int;MRP Profile Check Box import is not working correct;2602;;Link;MRP Profile;Medium;887;New;;Niklas;Dieter;;;
+739;Fix;Int;RDM Object Valuation MRP Controller  PF4 Revise picklist Business Area;2602;;Link;MRP Controller;Medium;886;New;;Gerd;Frank;;;
+802;Fix;Int;"MRP Profile - ""Reorder level requires MRP type"" but it is not Maintainable in Data Screen 1 / 2";2602;;Link;MRP Profile;Medium;885;New;;Maxi;Mike;;;
+619;Fix;Int;Missing and wrong mapping for some fields;2602;;Link;Controlling Area;High;880;In Testing;;Mike;Ulla;02.10.25 Mx Maxi hat Problem gelöst. Kann nachgetestet werden. Ulla gebeten Restest kommende Woche vorzunehmen.;;
+843;Fix;Int;DE FR ES Translation -MRP Profile - Missing or Faulty Translations;2602;;Link;MRP Profile;Medium;880;New;;Maxi;;;;
+1189;Fix;Ext;Not able to search multiple classes using search filters;2311-01;01.01.2026 13:14:44;Link;Class;Medium;900;Solution Proposal;;Exxonmobil;Mike;"21.01.2026 MSK: Fix delivered
+20.01.26 Mx Wiedereröffnung für Merkmale, da analoger Fehler für dieses Objekt. Mike behebt bereits. Mike hat an Kunde geliefert, Info per Support Mail.
+09.01.2026 MSK: Transport und Note ausgeliefert
+08.01.2026 Mx Info an Trejo keine Eskalation da im Testing und Lieferung morgen ansteht. 
+08.01.2026 MSK: Weitergeleitet an Günter und Dieter zur Transport-Erstellung für die Note
+07.01.2026 MSK: Transport erstellt und durch Maxi getestet; Delivery sollte am 08.01.2026 erfolgen
+05.01.2025 ME: Als responsible gesetzt";"ID1K906512 - Class
+ID1K906548 - Char";
+1004;Fix;Int;The levels above already require validations;2507;;Link;Product Hierarchy;High;875;Confirmed;;Gerd;Mike;"14.07. MX Bereits von Gerd nachgetestet.
+08.07. Mx Ähnliches Problem,  wie in Defect 1003 beschrieben.";ID1K905312;
+1178;Dev;Int;Product Hierarchy Export: Limit Number of Files ;2601;09.12.2025 11:10:54;Link;Product Hierarchy;High;875;New;;Michael;Niklas;;;
+1055;Fix;Int;MRP Area Supplier with 1-4-digits blocks creation process;2602;;Link;MRP Area;Medium;870;New;;Niklas;;Testcase 42.3;;
+1179;Dev;Int;Product Hierarchy Export: Add option for Subnode Export ;2601;09.12.2025 11:12:26;Link;Product Hierarchy;High;870;New;;Michael;Niklas;;;
+1068;Fix;Int;Value help for change number missing;2602;;Link;Characteristic;Medium;860;New;;Sabine;;Testcase 38.1 u. 38.2 u. 38.3;;
+1069;Fix;Int;Value for class deleted after “enter”;2602;;Link;Class;Medium;860;New;;Sabine;;Testcase 39.1;;
+1162;Dev;Int;Optimization of T179 report /ITR/MDG_PRODH_EXPORT  extraction ;2602;19.11.2025 17:31:20;Link;Product Hierarchy;Medium;855;New;;Gerd;Niklas;;;
+1206;Fix;Ext;address data replication from Itego to standard tables;2603;23.01.2026 14:25;Link;RDM Address Distribution;High;900;Customer Action;;Intel;Frank;"26.01.2026 Mx Rückfrage an Kunden (Customer Action) bezüglich näheren Details.
+23.01.26 Mx Defekt eröffnet. Plant u.a. Objekte zu denen Adressen verteilt werden sollen.";;
+731;Fix;Int;RDM Object Characteristics PF4 Revise picklists ;2602;;Link;Characteristic;Medium;850;In Process;;Gerd;Frank;"Retest 29.825 (Sabine): issue immer noch da
+ReTest 06.02.2025 Switch for currency and 2 language fields are missing";;
+807;Fix;Int;Classes - wrong CR status after withdrawal;2512;;Link;all;High;850;In Process;;Sabine;Dieter;"3.12.25 Jungheinrich hat das Problem auch - Dieter kümmert sich
+04.04. Mx Dieter kann erst am 29.8.25 issue immer noch da, auch für andere Entitätstypen11.04. Defect bearbeiten. Problem erst nach 4 Jahren entdeckt. Bisher kein Kunde dieses Problem.
+31.03. Mx Mail an Dieter mit der Bitte  zu prüfen.
+27.03.25 Mx  Retest not succesfull.
+14.03. this issue is not related to not existing decision tables. Currently we have a general problem with withdrawel. Staus remains to 54 and is not changed to 06, as we have also with other objects. I set prio to medium. Same issue in ticket 832                                13.03.:: WF Status";;
+1028;Fix;Int;Wrong level upload possible;2507;;Link;Product Hierarchy;High;850;Confirmed;;Ulla;Mike;30.07. Mx Ulla hat getestet.;ID1K905405       KOLOSEIKEM   R2507-D896: ProdH Val. Changes F1025, F1028, F1030;
+1031;Fix;Int;Error msg multiple assignment when creating node;2507;;Link;Product Hierarchy;High;850;Confirmed;;Ulla;Mike;31.07. Mx Mike hat dopp. Assignment gelöscht. Fehler tritt nicht mehr auf.;;
+1038;Fix;Int;Upload validation on external suffix;2507;;Link;Product Hierarchy;High;850;Confirmed;;Gerd;Mike;"08.08. Mx Gerd ist bereits am Testen. 
+07.08. Mx Defect bereits gelöst.
+07.08. ReTest nicht erfolgreich
+08.08. ReTest nach Korrektur ID1K905529. ReTest OK.
+";ID1K905529       KOLOSEIKEM   R2507-D896: Product Hierarchy Redesign 1038;
+1108;Dev;Int;Enhancement of list display in prg /ITR/SHOW_STAGING;;13.10.2025 14:35:16;Link;LSA;Medium;850;New;;Gerd;Frank;;;
+1163;Dev;Ext;Missing Search Term and address related  Attributes;2603;20.11.2025 15:24:29;Link;Sales Organization;Medium;905;New;;Intel;Sara;"27.01.2026 MB Sara sollte in der Lage sein ab 29.01. damit anzufangen. Siehe auch 1152 
+20.11.25 Mx Basierend auf Defect 1152, für Release 2603, ";;
+1001;Fix ;Ext;ProdH  - Hry node cannot be inserted;2507;;Link;Product Hierarchy;High;880;Confirmed;;Sabine;Mike;"11.07. retest ok (Sabine)
+08.07. Validierungsproblem";;
+1198;Fix;Int;Adjust Search Screen: criteria and columns;2603;13.01.2026 14:01:23;Link;Code Value List;Medium;850;New;;Sabine;Farida;;;
+1201;Fix;Int;Order of posted generic IDOC tables;2603;16.01.2026 16:25:19;Link;Payment Term v2;Medium;850;New;;Gerd;Sara;Check the order of the processed IDOC tables;;
+574;Dev;Ext;Factory Calendar Fields - User, Changed at, Created at details are not showing ;2511;;Link;Factory Calendar;High;850;Confirmed;;Shell;Frank;28.10.2024 Boettcher Solved for Shell but IH1 Test Fails … see 574 IH1 Test;;
+1007;Fix;Int;Description of node/subnote’ field is not mandatory;2507;;Link;Product Hierarchy;High;840;Obsolete;;Gerd;Mike;14.07. MX Realisierung entspricht SAP Standard. Keine Anpassung.;;
+1062;Fix;Int;MRP-Type Description XML Transformation Error;2511;;Link;MRP Type;Medium;840;Solved;;Niklas;Niklas;"
+25.11 Im IH1-400 sind zu lange String enthalten - Data Model ggf. anpassen";;
+1074;Fix;Int;special rules outside validation period;2602;;Link;Factory Calendar;Medium;830;New;;Niklas;;;;
+1039;Dev;Int;Deletion of Node (s) during creation process ;2602;;Link;Product Hierarchy;High;825;New;;Gerd;Mike;08.08. Mx Neu, Gerd beschreibt Lösung für Löschung Node im Erstellungsprozess. Sieht es aus Business Gründen als erforderlich.;;
+1078;Fix;Int;no replication to IH1/400;2602;;Link;G/L Account Group;High;821;New;no staging entries created in IH1/400, same issue for customer account group;Sabine;Maxi;"05.01.2025 ME: Bearbeitung erfolgt in dieser Woche
+30.09.2025 Maxi hat das Thema auch wegen dem SMT Mapping.
+Testcase 07.1 und 07.2";;
+1016;Fix;Int;Deactivate or Change Internal Numbering;2507;;Link;Product Hierarchy;High;820;Confirmed;;Michael;Mike;"30.07. Mx Auf Solved gesetzt.
+17.07. MB: mit Mike diskutiert";;
+1079;Fix;Int;no entry check for reference sales organ. and movement type;2602;;Link;Sales Organization;High;820;New;;Sabine;Mike;30.09.2025 Defect assigned to Mike.;;
+1174;Fix;Int;Differences between ERP and S/4 lead to problems F4 Selection;2601;04.12.2025 14:17:58;Link;all;High;820;New;;Michael;Frank;04.12. MB im DevelopmentMeeting angelegt;;
+809;Fix;Int;Characteristics – characteristics name of copy overwrites existing characteristic while changing any characteristic;2602;;Link;Characteristic;High;805;In Process;;Sabine;Mike;"related to 898. issue does not occur ID1 any longer!
+20.08. wieso ""liefern wir das aus""? ist das fertig. Ggf. für Exxon wichtig
+11.07.25 MB: wohin liefern wir das aus?
+26.06.25: issue exists still in IH1, retest in ID1 w
+as ok (Sabine)
+12.05. issue exists in IH1 (Sabine)
+14.03.25: Retest was succesfull (Thomas)
+
+
+14.03.25: Transport in IH1 for Retest
+13.03: fixed and Dev tested
+";;
+898;Fix;Int;Itego RDM - Itego - IH1100 - Characterstics - Request is not initialized;2602;;Link;Characteristic;High;805;New;;Gerd;Mike;related to 809. issue does not occur ID1 any longer!;;
+921;Fix;Int;Itego RDM - Itego - IH200 - Classes – value help for Organizational area field;2602;;Link;Class;Medium;800;In Process;;Gerd;Mike;29.8.25 retest (Sabine) issue still exists;;
+940;Fix;Int; Itego RDM - Itego - IH100 - Classes - wrong title on search screen;2602;;Link;Class;Medium;800;New;;Sabine;Ulla;"29.08.25: retest (Sabine), issue exists
+exchange title - easy fix";;
+1006;Fix;Int;Limitation of field length Current Level ;2602;;Link;Product Hierarchy;High;800;New;;Gerd;Mike;14.07. Mx Bearbeitung erfolgt nach Bayer Präsentation.;;
+1122;Fix;Ext;Release Delivery CBS;2507;23.10.2025 15:28:55;Link;Release;High;850;Automatically Confirmed;;CBS;Thomas;23.10.25 MX Issue created. Softwarestand vom Kunden abgefragt. Kunde ist erst am 27.10. zurück.;;
+1101;Fix;Int;Multiple Obj CR - MRP Area not editable;2603;08.10.2025 11:57:51;Link;Plant;High;800;New;;Ulla;Dieter;"27.01.26: Dieter schaut nochmal
+29.10.25 Mx Problem an Dieter geroutet.
+Testcase 103.1 u. 103.2";;
+1180;Fix;Int;Wrong Language FR in EN UI;2512;09.12.2025 16:53:22;Link;Class;Medium;800;Solved;;Mike;Ulla;"17.12.2025 Rückmeldung Ulla gelöst.
+11.12.2025 Kommunikation zwischen Herve und Michael B. 
+09.12.2025 Mx Defect create.";;
+1183;Fix;Int;UI - improve handling of account type;2603;10.12.2025 11:58:15;Link;Payment Term v2;Medium;800;Confirmed;;Sabine;Sara;"13.01.2026 Sabine: retest in ID1 ok
+05.01.2025 Sara: Issue fixed in ID1";;
+1186;Fix;Int;UI Improvements;2603;17.12.2025 13:40:47;Link;Payment Term v2;Medium;800;Confirmed;;Sabine;Sara;"13.01.2026 Sabine: retest in ID1 ok
+06.01.2026 Sara: Issues fixed in ID1";;
+1187;Fix;Int;Adjust Search Screen: criteria and columns;2603;17.12.2025 15:07:44;Link;Payment Term v2;Medium;800;New;;Sabine;Sara;;;
+1195;Fix;Int;"mandatory field ""description"" not checked";2603;13.01.2026 11:24:23;Link;Code Value List;Medium;800;New;;Sabine;Farida;;;
+1037;Fix;Int;zeros missing to reupload exported nodes;2602;;Link;Product Hierarchy;High;795;New;;Niklas;Niklas;07.08. Mx Lösung für 2508 geplant. Beim Download gehen Werte verloren.;;
+1018;Fix;Int;Manual selection of Parent Node in Hierarchy Assignment via External Number;2602;;Link;Product Hierarchy;Medium;790;New;;Michael;Mike;17.07. MB: mit Mike diskutiert - Bayer Requirement oder besser: Wunsch;;
+1197;Fix;Int;download code type: selection criteria not considered correctly for language dependent texts;2603;13.01.2026 13:29:11;Link;Code Value List;Medium;790;New;;Sabine;Farida;Note: issue exists for other entity types as well (I tested it with document type);;
+1019;Fix;Int;More convenient File Upload;2602;;Link;Product Hierarchy;Medium;780;New;;Michael;Mike;17.07. MB: mit Mike diskutiert - Bayer Requirement  oder besser: Wunsch;;
+1165;Fix;Int;Fields on search screen missing;2602;24.11.2025 13:42:51;Link;Shipping Point;Medium;780;New;;Sabine;Mike/Sara;;;
+1169;Fix;Ext;No CR created during DTIMPORT;2512;27.11.2025 19:11:07;Link;Country;High;850;On hold;;Jungheinrich;Mike;27.01.2026 Konnten wir im PoC nicht lösen. Jungheinrich implementiert aber zunächst einmal nur die Produkthierarchie. Insofern nicht mehr ganz so wichtig.;;
+993;Fix;Int;Hierarchy Tree View in Search not possible;2602;;Link;Product Hierarchy;Medium;750;New;;Michael;Mike;08.07. Mx Bearbeitung folgt nach dem Level High.;;
+1003;Fix;Int;ProdH  - wrong error message;2602;;Link;Product Hierarchy;High;750;New;;Sabine;Mike;08.07. Mx Standardfehlermeldung in SAP passt nicht zum Prozess. Siehe auch Defect 1004, ähnliches Problem beschrieben.;;
+1026;Fix ;Int;ProdH Upload UI missing;2507;;Link;Product Hierarchy;Medium;750;Confirmed;;Niklas;;node übersicht wird wieder angezeigt;;
+1057;Fix;Int;MRP Area- Plant F4 help ;2602;;Link;MRP Area;Medium;750;New;;Niklas;Frank;28.08. Mx Defect opened.;;
+1102;Fix;Int;Description Texts (Own Explenation) are not recieved when replicating via. Direct Table;;08.10.2025 13:23:48;Link;Payment Terms Details;Medium;750;In Process;;Maxi;Maxi;14.10.25 MX SMT Verteilung, Maxi bearbeitet.;;
+1104;Fix;Int;Description not being replicated via. Direct Table;2602;08.10.2025 15:15:53;Link;Sales Organization;Medium;750;In Process;;Maxi;Maxi;"Testcase 15.1 u. 15.2
+ 14.10.25 MX SMT Verteilung, Maxi bearbeitet.";;
+1203;Fix;Ext;File upload just one Characteristic loaded in System M4Y.;2603;20.01.2026 09:35:29;Link;Characteristic;High;850;Solution Proposal;;Exxonmobil;Mike;"21.01.2026 MSK: Defect sollte sich automatisch mit 1189 auflösen. Es wurde hier seitens Exxon in einem System vergessen alle Fixes einzuspielen die in der Vergangenheit bereitgestellt wurden
+20.01.2026 Mx Defekt eröffnet da neuer Fehler in M4Y System von Exxon gemeldet. Alter Fehler unter 1190 wurde bereits gefixed. Infomail an Exxonmobil über neue Defekt Nummer.
+Mike hat Lösungsbeschreibung an Kunden geliefert. Fix 1189 stellt auch die Lösung für Problem in System M4Y.";;
+1027;Fix;Int;Searching in Hierarchy – no jump to record;2602;;Link;Product Hierarchy;Medium;740;New;;Ulla;Mike;28.07. Mx Defect von Ulla eröffnet. Wird auf 2508 verschoben.;;
+1168;Fix;Int;No description in other languages if only EN maintained;2603;26.11.2025 13:35:50;Link;Language;Medium;740;In Process;;Ulla;Dieter;27.11. Mx Dieter untersucht das Thema.;;
+1036;Fix;Int;Dump when uploading without file selection;2602;;Link;Product Hierarchy;Medium;730;New;;Gerd;Mike;"08.08. Mx Wird auf 2508 verschoben.
+07.08. Mx Mike baut noch Fehlermeldung für 2507. Generelles Problem bei Upload.";;
+971;Fix;Int;Itego RDM - Itego - ID1100 - WBS - checks for organizational units are missing;;;Link;Work Breakdown Structure;Very High;710;Confirmed;;Sabine;Farida/Mike;"11.7. retest Sabine: OK
+7.7. Farida will focus on this
+25.6. still a lot of effort - Farida still working on it";;
+942;Fix;Int;WBS Element Hierachie download - Edge from level 1 element to Project Def lvl 0 will not be output;2509;;Link;Work Breakdown Structure;Very High;700;Confirmed;;Niklas;Farida;"12.08. Mx SAP OSS Meldung nicht mehr erforderlich. Niklas testet aktuelle Lösung.
+30.7 SAP blocker / (Upload/ download function needs variants)
+11.7. MB: das ist der Export, ohne den können wir die WBS nicht ausliefern
+7.7. Sara working on it ";;
+1071;Dev;Int;Data Export and File Upload to be implemented;2603;;Link;Work Breakdown Structure;High;700;Development;;Michael;Farida;"2.12.25 MB: WBS ""parked in 2602""";;
+951;Fix;Int;Itego RDM - Itego - ID1100 - WBS – element can be assigned to different project;;;Link;Work Breakdown Structure;Very High;690;Confirmed;;Sabine;Farida/Mike;"11.7.  retest ok with reservation (User does not get an information…)
+26.6. Michael will discuss with Sabine, probably just an UI issue
+25.6. probably not an error - Farida will ask Sabine";;
+975;Fix;Int;Itego RDM - Itego - ID1100 - Distribution WBS-Hierarchy to Backend;2603;;Link;Work Breakdown Structure;Very high;690;Solution Proposal;;Sabine;Farida;"2.12.25 MB: WBS ""parked in 2602""
+27.10. Mx Sabine testet. 
+30.07 Issue solved can be tested ( Upload /download function needs variants) same as 942
+24.07 As per discussion the copy functionality is removed ( Same Internal number is copied over to new Proj definition which leads issue during DRF)
+15.07  Issue is the with the Copy button, need discussion
+25.6. Farida needs to check";;
+1166;Fix;Int;Add audit fields to search screen;2603;24.11.2025 13:49:09;Link;Posting Period Variant;Low;690;New;;Sabine;Mike/Sara;;;
+961;Fix;int;Itego RDM - Itego - ID1100 - WBS – Double WBS elements in the hierarchy;2509;;Link;Work Breakdown Structure;High;685;Confirmed;;Gerd/Sabine;Farida;"13.8 Gerd: ReTest retest successful, double assignment is hidden
+31.7 Retest Neeed .Duplicate Entry will be not added in the same hierarchy , system will through an error message its already exists 
+22.7 Validations for Hierarchy  assignemnt logic is to be added in the Rule service class which is under development
+25.6. not started";;
+962;Fix;int;Itego RDM - Itego - ID1100 - Validation for creation of WBS elements with the same name;2509;;Link;Work Breakdown Structure;High;684;Confirmed;;Gerd/Sabine;Farida;"20.10 Retest ok (Sabine)
+29.7 Retest needed. If same WBS Element name will be given by user it will clear the field and give error stating its already exist
+22.7 Validations for Hierarchy  assignemnt logic is to be added in the Rule service class which is under development
+25.6. not started
+";;
+970;Fix;Int;IH2100 - WBS Element Fiori - FPM application USMD_SEARCH was started with an invalid or without configuration;2602;;Link;Work Breakdown Structure;Very High;680;New;;Niklas;Sabine/Niklas;"2.12.25 MB: WBS ""parked in 2602""
+11.07. might work already … but does it work in all systems? Currently only in ID1?
+25.6. currently we should continue to work in ID1
+
+20.6.? The Fiori tiles and the nwbc entry do not work, because the search and data model configuration are missing. WBS Fiori must be removed if wbs is not delivered!";;
+972;Fix;Int;ID1100 - Project Definition - Time Unit search help;2509;;Link;Work Breakdown Structure;Very high;670;Confirmed;;Niklas;Farida;"30.7 Retest Needed
+11.7. should be a quick win to filter
+25.6 Farida wrote a e-mail to Mike/Frank
+20.6.? same issue as 938";;
+924;Fix;Int;Itego RDM - Itego - ID1100 - WBS mandatory fields not checked;;;Link;Work Breakdown Structure;High;650;Confirmed;;Sabine;Mike;"11.07. retest ok (Sabine)
+25.6. Farida working on it
+26.05. MX see 923";;
+992;Fix;Int;Direct display of error messages without creating a CR;2602;;Link;Product Hierarchy;High;650;New;;Gerd;Michael;08.07. MX User muss den Read-Only Button anwenden. Dann springt er wieder in die Hierachiebearbeitung. Lösung über Anwenderdokumentation.;;
+1076;Fix;Int;search fields - some are not working and default setting must be adjusted;2602;;Link;Class;Medium;650;In Testing;;Sabine;Frank;"23.01.2026: Sabine - status field still not working, other fields are ok. For default fields BC-Sets need to be adjusted (->Mike)
+19.01.2026 Anfrage, ob Frank ggf.  übernehmen kann.";;
+1077;Fix;Int;Administrative data: created by is overwritten with changed by;2602;;Link;Class;Medium;650;New;;Sabine;Frank;19.01.2026 Anfrage, ob Frank ggf. übernehmen kann.;;
+930;Fix;Int;Itego RDM - Itego - ID1100 - WBS - wrong value help for project definition;2602;;Link;Work Breakdown Structure;High;640;New;;Sabine;Frank/Mike;"2.12.25 MB: WBS ""parked in 2602""
+25.6. see 972 / Email to Mike/Frank
+26.05. MX Umschaltung F4-Hilfe auf Staging. PSP-Elem. Entität Frank muss etwas programmieren.";;
+948;Fix;Int;Itego RDM - Itego - ID1100 - WBS – deletion of hierarchy assignment not supported;;;Link;Work Breakdown Structure;High;630;Confirmed;;Sabine;Farida/Mike;"26.6.; retest ID1/100 ok (Sabine). Farida will check the replication as well.
+25.6. Farida working on it / checking MDG-F
+26.05. MX Defect open";;
+722;Fix;Int;UoM Validation Issue;2511;;Link;Unit of Measure;Medium;600;Obsolete;;Frank/Michael;Gerd;09.04. ReTest war soweit ok, jedoch wurden die Commercial and Technical fields nicht beim Change ins UI übertragen;;
+964;Fix;int;Create WBS element from the maintenance hierarchy;2603;;Link;Work Breakdown Structure;High;600;In Development;;Gerd;Farida;"2.12.25 MB: WBS ""parked in 2602""
+20.10. Retest not ok (Sabine) - see issue document
+29.7 Issue Fixed Retest Needed
+22.7 Validations for Hierarchy  assignemnt logic is to be added in the Rule service class which is under development
+25.6. not started";;
+1008;Fix;Ext;Errors while activating the BC set /ITR/MDG_RDM_WORKFLOW_07 and New Change request Types after Upgrade;2507;;Link;Workflow;High;800;Confirmed;;ArcelorMittal;Dieter;"31.07. Mx auf Solved gesetzt.
+15.07. MX Dieter hat Sup.Pak. 2 gesendet, erledigt.
+11.07. MB: wenn ArcelorMittal 2407 hat, dann sollten wir das für 2407 fixen. Bei Goal eingetragen.
+11.07. Mx Open defect. Dieter hat Untersuchung übernommen.";;
+981;Fix;Int;Itego RDM - Itego - ID1100 - WBS - applicant No of WBS element is overwritten with project definition applicant No;2603;;Link;Work Breakdown Structure;High;580;Solution Proposal;;Sabine;Farida;"2.12.25 MB: WBS ""parked in 2602""
+20.10. retest not ok (Sabine)
+15.7 Retest needs to be done.
+11.7. retest not ok (Sabine)
+25.6. Farida working on it. Should be easy to achieve";;
+938;Fix;Int;Itego RDM - Itego - ID1100 - WBS - wrong value  help for time unit;2509;;Link;Work Breakdown Structure;Medium;578;Confirmed;;Sabine;Farida;"20.10. retest ok (Sabine)
+30.7 Retest Needed
+25.6. same as 972 …. E-Mail to Mike/Frank
+Mx 26.05. Status auf Medium gesetzt.";;
+944;Fix;Int;Itego RDM - Itego - ID1400 - WBS - Missing Links to spro in admin staging content;;;Link;Work Breakdown Structure;Medium;576;Confirmed;;Sabine;Farida/Mike;"26.6.: retest ID1/400 ok (Sabine)
+25.6. is fixed, Farida will send an e-mail to inform Sabine soon";;
+947;Fix;Int;Itego RDM - Itego - ID1100 - WBS – Changing parent type in hierarchy assignment leads to inconsistent situation;2509;;Link;Work Breakdown Structure;Medium;574;Confirmed;;Sabine;Farida;"20.10. Retest - ok with limitation (discard deletion does not work, see issue document)
+31.7 Retest Needed - Whenever you try to change the parent type second entry will be created once you submit the CR and reopen the same WBSE you will see new parent and old entry would not be there 
+26.6. retest not ok (Sabine)
+25.6. Farida thinks that it works, more checks in MDG-F and after that Sabine will informed";;
+952;Fix;int; Itego RDM - Itego - ID1100 - WBS – hierarchy cannot be maintained during creation process;;;Link;Work Breakdown Structure;Medium;572;Confirmed;;Sabine;Farida/Mike;"26.6. Retest ID1/100 ok (Sabine)
+25.6. Farida will check it
+20.6.? could be seen as a limitation - hierarchy assignment as a second step after creating the elements in a CR before.";;
+982;Fix;Int;Itego RDM - Itego - ID1100 - WBS - WBS element UI fields too short and text missing;2507;;Link;Work Breakdown Structure;Medium;570;Confirmed;;Sabine;Farida/Mike;"11.7. retest ok (Sabine)
+25.6. not started yet";;
+1009;Fix;Int;project definition – value help for profit center not working;2603;;Link;Work Breakdown Structure;Medium;560;Solution Proposal;;Sabine;Farida;"2.12.25 MB: WBS ""parked in 2602""
+20.10.25 Retest not ok (ID1/100, Sabine) – behaviour changed but still not correct, see description at the end of the document.
+15.7. Fixed the issue .
+";;
+1094;Dev;Int;Usability and content testing of our website before final push;;29.09.2025 12:30:28;Link;Website;High;500;New;;Maxi;Patrick;30.09. Mx Maxi und Patrick optimieren und erweitern die Itego Website.;;
+1133;Fix;Int;"Edit specific Issue - When trying to Edit after creation all of ""Plant-Specific settings"" are in their respective inital Values";2602;05.11.2025 10:36:26;Link;Material Status;Medium;450;New;;Maxi;;;;
+920;Fix;Int;Itego RDM - Itego - IH200 - WBS Elements Download Role missing;2602;;Link;Work Breakdown Structure;Low;420;In Process;;Niklas;Mike;"2.12.25 MB: WBS ""parked in 2602""
+MX 06.11.2025 Da hatte jemand versehentlich eine die Nummer 920 mit einer  0 in die laufende Nummer des Defects überschrieben.
+ReTest 04.06.2025 The WBS element does not appear in the NWBC menu ";;
+979;Fix;Int;Itego RDM - Itego - ID1 100 - WBS - key of element cannot be changed during creation;2601;;Link;Work Breakdown Structure;High;410;Confirmed;;Sabine;Michael;"25.11. Sabine: ok, i.e. accepted that it will not be changed
+27.10. Mx Sabine testet diese Woche.
+26.6. seems to be fact which cannot be overcome easily. Michael will inform Sabine. Priority reduced
+26.6 This is the standard behaviour ( WBSE is primary key while creation so its can't be changed once given)
+25.6. not sure if we can solve this because of a double primary key";;
+1020;Fix;Int;Copy Button for nodes;2602;;Link;Product Hierarchy;Low;400;New;;Michael;Mike;17.07. MB erstellt;;
+1159;Fix;Int;Multi Object CR: approved on / by missing;2602;17.11.2025 17:39:42;Link;Multi Object CR;Medium;400;New;;Sabine;Mike;19.11. Mx Mike in  Bearbeitung.;;
+1115;Fix;Int;Master record does not contain a valid UI configuration;2602;20.10.2025 20:04:54;Link;Product Hierarchy;Low;390;New;;Gerd;;"06.11.25 MX Problem grundsätzlich für Multi CR und alle Objecte zu untersuchen, daher erst einmal auf Release 2512.
+20.10.25 Ausblenden Menü-Punkt ""creating of a new CR"" nach Submit ProHry-CR";;
+1085;Dev;Int;Replication hierarchy without nodes with internal error ;2602;12.09.2025 16:16:18;Link;Product Hierarchy;Low;380;New;;Gerd;Mike;;;
+911;Fix;Int;Tax code incorrect process and assign tax calculation schema (Process);2603;;Link;Tax Code;High;350;New;;Thomas;Frank;"15.05. Schemafeld als Mussfeld und kann sowieso nicht geändert werden. Shell setzt das wohl ein. Vorsichtig bei der Änderung …
+10.04. Mx Open defect. Solution after Easter.";;
+717;Dev;Ext;Shipping Point.txt;2511;;Link;Shipping Point ;Very High;750;Obsolete;;Intel;Michael;"18.08. MB: created new issue
+08.04. MX Planung neue Object für 2512";;11.07.2025: MB Intel would like to see it in 2511
+1067;Fix;Int;Valid to can be earlier than valid from;2603;;Link;Functional Area;Medium;200;New;;Ulla;;;;
+507;Fix;Int;Upload Error Char/Classes;2509;;Link;Class ;Very High;190;Solved;Michael (03.06.2024): Mike … as this might be Arcelor Mittal related … please check;Niklas;Mike;;;
+522;Fix;Int;Material Group Division Value Help Missing;2603;;Link;Material Group;High;180;New;;Maren;Mike;;;See Word document in Defect Details folder
+625;Fix;Int;Allow Changeable Keys;2603;;Link;Plant and more;High;170;In Testing;Rather a feature request;Michael;Ulla;"27.01.2026 MB: Testcase eingetragen 
+3.11.2025 MB: wurde von Selly erstellt, Doku findet sich unter dem Topic 625. Testcase müsste erstellt werden.";;11.07.2025 MB: still to be porperly tested and documented
+626;Fix;Int;Payment Term Own Explanation deletion;2603;;Link;Payment Term;High;140;New;;Michael;?;;;
+882;Fix;Int;Payment term details - percentage values not correctly transferred;2603;;Link;Payment Term;High;140;New;;Sabine;Dieter;12.05. MX Auf High gesetzt. ;;
+627;Fix;Int;Local Scope Payment Terms and maybe more;2603;;Link;Payment Term;High;130;New;;Michael;?;;;
+712;Fix;Int;RDM Object Tax Code-Type requires Must field;2603;;Link;Tax Code;Medium;130;New;;Gerd;Mike;;;
+541;Fix;Int;Data Export and Import: Add new attributes;2511;;Link;;High;120;Obsolete;;Michael;Niklas;;;
+730;Fix;Int;RDM Object Currency Exchange Rates PF4 Revise picklists ;2603;;Link;Exchange Rate;Medium;120;New;;Gerd;Frank;;;
+628;Fix;Int;Payment Term Avoid non Numeric entry for Daylimit;2603;;Link;Payment Term;Medium;110;New;;Michael;;23.09. to be clarified with Mike - what is the exact issue? ;;
+524;Fix;Int;Upload Field Error for Sales Office and Location;2603;;Link;Sales Office;High;100;New;;Niklas;Dieter;;;
+629;Fix;Int;Payment Term avoid higher discount for later payment;2603;;Link;Payment Term;Medium;100;New;;Michael;;23.09. to be clarified with Mike - why is the existing coding not executed?;;
+630;Fix;Int;Data Model Activation clears NoExistency Check Field;2603;;Link;all object types;High;100;New;;Michael;Frank?;;;
+657;Fix;Int;PaymentermDetails_PF4-Checkbox Description not listed;2603;;Link;Payment Term;Medium;100;New;;Gerd ;Frank;;;
+702;Fix;Int;Payment Term Data Replication fails;2511;;Link;Payment Term;High;100;Obsolete;;Michael;Mike;;;
+901;Fix;Int ;Itego RDM – Itego – IH1100  -  Classes – value help for characteristics incorrect;2509;;Link;Class ;High;100;Confirmed;;Sabine;Mike;"29.08. retest ok (Sabine) 
+23.04. Due to characteristics being locked in a CR they are not shown - no error?
+08.04. In process
+31.03. Topic analog 903 Refresh Daten. Info an Mike zu Übernahme. ";;
+1152;Fix;Ext;Missing address fields for Sales Organization;2603;11.11.2025 10:26:30;Link;Sales Organization;Medium;905;Obsolete;;Intel;Mike/Sara;"27.01.2026: Sara hat noch nicht begonnen, wahrscheinlich aber nächste Woche (wird mit 1163 bearbeitet)
+20.11.2025 Mx Rückmeldung an Kunden erfolgt.  Es fehlen Adressfelder und Search terms bei Itego Datenmodell gegenüber SAP Standard. Erweiterung Itego Datenmodel I1 erforderlich. Wenn Itego dies mit 2603 realisieren will. Dafür Defect 1162 eröffnet.";;
+931;Fix;Int;Itego RDM - Itego - IH1100 - Public Calendar - Missing validation in the description;2603;;Link;Holiday calendar;Medium;100;New;;Gerd;Mike;;;
+932;Fix;Int;Itego RDM - Itego - IH1100 - Holiday Calendar - Missing validation in the description;2603;;Link;Holiday calendar;Medium;100;New;;Gerd;Mike;;;
+968;Fix;Int;""" 9"" and ""09"" is an issue (916 follow up)";2603;;Link;Payment Term;High;100;New;;Gerd;Mike;03.06. Anforderung erstellt aus 916;;
+608;Dev;Ext;Country/Region Long Name Not matching with the latest ISO codes ;2603;;Link;Country/Region;Medium;590;On hold;;Intel;Michael;"06.10.2025: Stellen wir zurück. Könnten wir verbessern, aber aktuell zu wenig Priorität .
+25.09.2025: zurück zu Michael - eher ein Entwicklungsantrag
+23.09.2025: Frank schaut es sich an
+            Maxi: Verwechslung mit T005X -> T002X gemeint!!! 
+03.09.2025: MB to be checked if this is still a problem";;
+523;Fix;Int;Classes missing F4 Help for Doc Type;2603;;Link;Class ;Low;90;New;;Niklas;Dieter;29.8.25 (sabine): da wir kein Dokumentensystem angeschlossen haben, kann das gar nicht getestet werden. Aktuell nicht relevant;;
+939;Fix;Int;Itego RDM - Itego - IH1100 - Classes - copy of classes with assigned characteristics does not work;2603;;Link;Class;Low;90;New;;Sabine;;Funktionalität im gibt es im ERP so auch nicht. ;;
+957;Fix;Int;characteristics of a class authorization missing;2603;;Link;Class;High;90;New;;Niklas;;;;
+958;Fix;Int;Upload char head without mandatory description field;2603;;Link;Characteristic;High;90;New;;Niklas;;;;
+817;Fix;Ext;Edit button is not getting disabled at approver level;2511;;Link;several;Medium;300;Automatically Confirmed;;Intel;Dieter;"03.09.2025: Intel hat sich anscheinend nicht mehr gemeldet oder das Ganze ist ""versandet""
+14.02. waiting for system access
+";;
+592;Fix;Int;“Search Criteria” for the tax code object does not display the tax codes from the RDM;2603;;Link;Tax Code;Low;80;New;;Gerd;Mike;;;
+710;Fix;Int;Material Group Text Deletion;2603;;Link;Material Group;Medium;80;New;;Michael ;Frank;08.11.: maybe not a valid test at the moment;;
+974;Fix;Int;Usage of ITU MDFIMG and ITR RDM IMG is confusing ;2603;;Link;all;High;80;New;;Michael;;;;
+734;Fix;Int;RDM Object Tax Code PF4 Revise picklists;2602;;Link;Tax Code;Medium;60;In Process;;Gerd;Frank;The ERP/MDG switch is missing for three UI fields;;
+765;Fix;Int;Characteristics – Issue with parameter of error message;2602;;Link;Characteristic;Medium;60;In Process;;Sabine;Michael;"27.8..25 existiert noch , prio auf medium gesetzt
+6.2.25 geparkt bei Michael";;
+770;Fix;Int;Characteristics – Issues with reference table (value help and missing information message);2509;;Link;Characteristic;Low;60;Confirmed;"27.08.25 Retest ok (Sabine)
+23.03.25 Retest not successful
+13.03.25: transport to be created
+11.2.25 Suchhilfe eingebaut, ggf. Validierung fehlend
+7.2.25 Mike arbeitet dran";Sabine;Mike ;;ID1K904743;
+771;Fix;Int;Characteristics – wrong error message for language key;2509;;Link;Characteristic;Medium;60;Confirmed;"1.9.25 Nachtest OK (Sabine)
+27.8.25 Nachtesten wenn Transport ID1K905572 verfügbar
+6.2.25 geparkt bei Michael";Sabine;Mike;;;
+786;Fix;Int;RDM Object Material Group PF4 Revise picklists Language key;2603;;Link;Material Group;Medium;60;New;;Gerd;Frank;;;
+788;Fix;Int;RDM Object Company Code PF4 Revise picklists Country_Region;2603;;Link;Company Code;Medium;60;New;;Gerd;Frank;;;
+912;Fix;Ext ;Activation of BC-Set /ITR/MDG_RDM_DRF_BUS_ALT_01;2311;;Link;several;Very High;100;Closed;;Intel;Dieter;"11.07. MB: auf ""Closed"" gesetzt = ""automatically confirmed
+17.04. Mx Intel hat seine Mails nicht gelesen und trotzdem bei Dieter reklamiert.
+14.04. fix sent via email";"S02K900463
+ID1K904823";
+978;Fix;Ext ;Issue with Exchange rates factors for Single CR in table TCURR;2507;;Link;;Very high;100;Closed;;Bayer ;Frank;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed
+17.06.: Note created and delivered";;
+638;Fix;Int;suggestions to improve the user-friendliness of PF4 development;2603;;Link;all object types;Medium;50;New;;Michael;Frank;;;11.07.2025 MB: review again necessary (?)
+715;Fix;Int;Sales Office Data Replication Direct Update and Webservice fails;2603;;Link;Sales Office;Medium;50;New;;Michael;;13.11.24: still to be investigated further;;
+641;Fix;Ext;Add Transport Zone, Structure Group and Undeliverable flag to Storage Location Address;2603;;Link;Storage Location ;Medium;85;Confirmed;;Intel;;23.10.2024: Prio Very High => Medium after Intel told us that it is not needed by the business;;11.07.2025 MB: review again necessary (?)
+808;Fix;Int;Classes – class name of copy overwrites existing class name while changing any class;2503;;Link;Class ;High;50;Confirmed;;Sabine;Mike;"14.03.25: Solution tested and approved from Thomas
+13.03.25: Transport in IH1 for Retest
+13.03: fixed and Dev tested
+12.05: retest ok in IH1 (Sabine)";;
+511;;;Sales Office (Create);;;Link;;High;50;Closed;;Gerd;Mike;"Mike (04.07.2024): Adapter class assign to wrong package and software component; Reassigment done (Transport ID1K902936)
+Mike (02.07.2024): Missing adapter class /ITR/CL_ST_BTSO_ADAPTER for address processing
+Mike (19.06.2024): Frank contacted regarding solution
+The workflow does not work. The necessary status are not set or reached in the background steps.
+The address data is not available in transaction S_ALR_87007566 and is not transferred from the LSA to transaction S_ALR_87007566.  ";;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+850;Fix;Int;Scope of Planning – incomplete change documents;2603;;Link;Planning Scope;High;50;New;;Sabine;;12.05. Mx geändert auf High;;
+854;Fix;Int;Characterstics - Catalog Char. - Plant ERP S4 Help + Set Missing S4 Help;2602;;Link;Characteristic;High;50;In Process;;Maxi;Frank;"23.06. Varianten müssen ggf. noch angepasst werden
+12.05. MX Zuordnung auf Frank und von Medium auf High
+13.03.: List to be send to Frank
+";;
+903;Fix;int;F4 help does not show all entries;2503 Fix;;Link;MRP Area;High;50;Closed;;Ulla;Frank;"03.04. Werk wird nur angezeigt, wenn Werkadresse gepflegt ist.Ulla testet noch einmal.
+31.03. Topic analog 901 Refresh Daten";;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+907;Dev;Int;Incorrect search screen Classes;2503;;Link;Class ;High;50;Confirmed;;Sabine;Mike;"23.04. Was already fixed in ID1 - transport created for retesting in IH2
+15.04. MX Mike zugewiesen. Auf High gesetzt.";ID1K904910;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+517;;;Missing Scope of Plannig in Data Export;;;Link;;High;50;Closed;;Niklas;Dieter;;;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+752;Fix;Ext;Field Property BADI implementation does not read all rules setup in /ITR/RDMIMG;2407;;Link;;High;50;Closed;;ExxonMobil;Mike;"17.04. Transport in S02 für Lief. an Exxon geliefert. (siehe auch 762).
+11.04. Transport in IH2 for testing purposes
+10.02. waiting for system access
+10.02.25 Duplicate: 762
+Workaround: create Rule (to be verified)
+23.01.25 Michael: Created and requested SWC Component Versions and System Access";ID1K904815;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+815;Fix;Ext;Failed activation of class types with “Multiple objs allowed” ;2407;;Link;Class ;High;50;Closed;;ExxonMobil;Mike;12.03. waiting for system access;ID1K904767;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+916;Fix;Ext;Payment term error message when creating day limit;;;Link;Payment Term;High;50;Closed;;Shell;Dieter;"08.05. Dieter hatte E-Mail geschrieben dass der Einbau des Hinweises noch einmal überprüft wird
+24.04. Mx Mail von Gerd und Mike analysiert Eingabefeld.
+22.04. Mx Erfassung Defect Eing Sup. Postbox. Erste Analyse.";;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+949;Fix;Int;Itego RDM - Itego - ID1100 - WBS – adding new WBS element into hierarchy does not work;;;Link;Work Breakdown Structure;High;50;Confirmed;;Sabine;Farida/Mike;"MX 26.05. Defect open
+23.06.2025 retest in ID1 ok (Sabine)
+02.06.2025 Change implemented - transport not yet created; will be created after retest in ID1
+";;
+792;Fix;Int;IR1200 Storage Location Cust table only in cloud edition;2603;;Link;Storage Location ;Medium;40;New;;Ulla;Frank;;;
+917;Fix;Ext;Duplicate check for classification and Characteristics;2507;;Link;Class;High;50;Closed;;ExxonMobil;Frank;"12.06. Lieferung der neue entwickelten Lösung an Exxon. Aufnahme ebenfalls in Release 2507 für alle Kunden. 24.04. Mx Erklä. Doku zu Dupl.Check an Kunde.
+22.04. Mx Erfassung Defect Eing. Sup. Postbox. Erste Analyse.";;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+919;Fix;Ext;Itego UI: Search Criteria and Result List ohne Wirkung bei Obj. Classes  und Characteristics;2507;;Link;Class;High;50;Closed;;"ExxonMobil/
+Thomas";Dieter;"15.05. Die Korrektur per Mail geschickt14.05.Hallo Mike, ich kümmere mich darum     25.04. Mx Exxon möchte dies mit nutzen. Zusätzl. Anfrage aus Defect 917.
+24.04. Mx Defect eröffnet.";;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+783;Fix;Int;Characteristics - Translation to DE data element missing;2509;;Link;Characteristic;Medium;30;Confirmed;"25.8.25 retest ok (Sabine, IH1)
+10.2.25 Ulla sammelt die Übersetzungsthemen für sich selbst";Ulla;Ulla;;;
+796;Fix;Int;FR MDF some translations missing in IH1;2602;;Link;Translation;Low;30;In Process;;Ulla;Herve;10.2.25 Ulla sammelt die Übersetzungsthemen für sich selbst;;
+797;Fix;Int;ES RDH not translated;2602;;Link;Translation;Low;30;In Process;;Ulla;Herve;10.2.25 Ulla sammelt die Übersetzungsthemen für sich selbst;;
+900;Fix;Int;Itego RDM - Itego - UoM Validation - additional language version;2603;;Link;Unit of Measure;High;30;New;;Gerd;Mike;"15.05.25 Thomas klärt mit Gerd wenn er zurück ist
+08.04. Mike untersucht";;
+937;Fix;Ext ;Problems with initial replication of Exchange Rates (uploaded mass data);2503 Fix;;Link;Exchange Rate;High;50;Closed;;Bayer ;Frank, Dieter;MX 02.06. Status 99?;"ID1K905104 
+ID1K905107";"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+570;;;Missing enhancement for characteristics upload;;;Link;;Medium;30;Closed;Missing enhancement implementation in customer environment;ArcelorMittal;Mike;;;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+965;Fix;int; MRP-Type XML transformation.docx;;;Link;MRP Type;Medium;30;Closed;;Niklas;Niklas;;;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+508;Fix;Int;Missing German Translation in Operating Concern ;;;Link;Operating Concern;Low;10;Closed;ID1K903055 - has been fixed;Maxi;Maxi;;;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+721;;;Delete Data Records from S4 Issue;;;Link;;Medium;30;Closed;;Deloitte;Michael;;;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+959;Fix;Ext;Issue with short text for Public Holiday object;;;Link;Public Holiday;Medium;30;Closed;;Intel;Mike;"17.07. Mx Rückmeldung Kunde Goenka, Ayush can be closed.
+07.07. Mx Lieferung 08.07.2025 geplant. 
+04.07.2025 MX Sabine hat positiv getestet. 
+23.06.2025: Warten auf Feedback von Intel
+20.06.2025: Note delivered
+17.06.2025: Sabine: ok!
+11.06.2025: Development started
+";;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+960;Fix;Ext;Issue with number ranges for Public Holiday object;;;Link;Public Holiday;Medium;30;Closed;;Intel;Mike;"17.07. Mx Rückmeldung Kunde Goenka, Ayush can be closed.
+07.07.2025 Mx Lieferung für 08.07. geplant.
+04.07. 2025: MX Sabine hat positiv getestet. Status auf Solved.
+23.06.2025: Sabine testet noch einmal ob SNRO ok ist und wir warten auf Feedback von Intel
+20.06.2025: Note delivered
+11.06.2025: Development started
+";;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+527;;;Controlling Area - Search Help - Company Name is Empty;;;Link;;-;10;Closed;16.07.2024 (Mike): Correction of Company Name in search help Transport ID1K903028;Maxi;Mike;;;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+528;;;Controlling Area - Checkbox  - List of Values Error;;;Link;;-;10;Closed;16.07.2024 (Mike): Checkbox changed to pulldown menu Transport ID1K903026;Maxi;Mike;;;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+529;;;Controlling Area - Field Name - User -> Person;;;Link;;-;10;Closed;16.07.2024 (Mike): Search help added to field VNAME Transport ID1K903030;Maxi;Mike;;;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+531;;;Document Type Account Types(KOARS) not updated;;;Link;;;10;Closed;"12.06.2024: Dieter creates Transport / and tests in S02
+12.06.2024: Gerd retest in IH2 successful
+11.06.2024 Michael: Created, and attachments from Gerd linked. Mike/Michael to work on it / discuss further
+10.06.2024: Gerd: Error in the “Account Types” field. The wrong values “ADKMS” are set, depending on which account types are allowed (flagged). ";Shell;Mike;;;"11.07.25 MB: auf ""Closed"" gesetzt = ""automatically confirmed"
+1;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+2;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+3;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+4;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+5;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+6;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+7;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+8;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+9;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+10;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+11;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+12;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+13;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+14;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+15;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+16;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+17;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+18;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+19;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+20;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+21;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+22;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+23;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+24;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+25;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+26;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+27;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+28;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+29;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+30;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+31;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+32;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+33;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+34;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+35;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+36;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+37;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+38;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+39;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+40;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+41;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+42;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+43;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+44;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+45;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+46;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+47;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+48;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+49;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+50;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+51;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+52;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+53;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+54;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+55;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+56;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+57;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+58;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+59;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+60;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+61;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+62;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+63;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+64;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+65;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+66;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+67;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+68;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+69;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+70;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+71;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+72;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+73;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+74;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+75;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+76;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+77;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+78;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+79;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+80;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+81;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+82;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+83;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+84;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+85;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+86;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+87;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+88;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+89;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+90;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+91;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+92;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+93;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+94;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+95;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+96;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+97;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+98;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+99;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+100;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+101;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+102;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+103;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+104;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+105;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+106;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+107;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+108;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+109;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+110;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+111;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+112;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+113;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+114;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+115;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+116;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+117;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+118;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+119;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+120;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+121;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+122;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+123;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+124;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+125;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+126;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+127;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+128;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+129;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+130;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+131;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+132;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+133;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+134;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+135;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+136;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+137;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+138;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+139;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+140;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+141;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+142;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+143;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+145;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+146;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+147;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+148;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+149;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+150;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+151;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+152;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+153;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+154;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+155;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+156;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+157;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+158;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+159;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+160;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+161;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+162;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+163;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+164;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+165;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+166;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+167;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+168;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+169;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+170;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+171;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+172;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+173;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+174;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+175;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+176;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+177;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+178;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+179;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+180;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+181;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+182;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+183;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+184;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+185;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+186;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+187;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+188;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+189;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+190;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+191;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+192;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+193;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+194;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+195;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+196;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+197;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+198;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+199;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+200;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+201;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+202;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+203;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+204;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+205;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+206;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+207;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+208;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+209;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+210;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+211;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+212;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+213;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+214;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+215;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+216;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+217;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+218;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+219;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+220;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+221;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+222;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+223;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+224;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+225;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+226;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+227;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+228;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+229;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+230;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+231;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+232;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+233;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+234;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+235;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+236;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+237;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+238;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+239;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+240;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+241;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+242;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+243;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+244;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+245;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+246;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+247;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+248;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+249;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+250;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+251;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+252;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+253;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+254;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+255;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+256;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+257;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+258;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+259;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+260;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+261;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+262;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+263;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+264;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+265;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+266;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+267;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+268;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+269;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+270;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+271;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+272;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+273;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+274;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+275;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+276;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+277;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+278;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+279;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+280;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+281;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+282;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+283;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+284;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+285;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+286;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+287;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+288;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+289;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+290;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+291;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+292;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+293;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+294;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+295;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+296;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+297;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+298;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+299;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+300;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+301;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+302;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+303;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+304;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+305;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+306;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+307;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+308;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+309;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+310;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+311;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+312;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+313;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+314;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+315;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+316;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+317;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+318;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+319;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+320;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+321;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+322;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+323;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+324;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+325;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+326;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+327;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+328;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+329;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+330;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+331;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+332;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+333;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+334;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+335;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+336;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+337;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+338;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+339;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+340;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+341;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+342;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+343;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+344;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+345;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+346;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+346;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+348;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+349;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+350;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+351;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+352;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+353;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+354;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+355;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+356;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+357;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+358;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+359;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+360;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+361;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+362;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+363;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+364;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+365;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+366;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+367;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+368;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+369;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+370;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+371;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+372;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+373;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+374;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+375;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+376;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+377;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+378;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+379;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+380;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+381;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+382;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+383;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+384;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+385;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+386;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+387;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+388;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+389;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+390;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+391;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+392;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+393;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+394;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+395;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+396;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+397;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+398;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+399;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+400;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+401;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+402;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+403;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+404;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+405;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+406;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+407;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+408;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+409;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+410;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+411;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+412;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+413;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+414;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+415;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+416;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+417;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+418;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+419;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+420;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+421;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+422;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+423;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+424;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+425;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+426;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+427;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+428;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+429;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+430;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+431;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+432;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+433;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+434;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+435;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+436;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+437;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+438;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+439;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+440;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+441;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+442;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+443;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+444;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+445;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+446;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+447;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+448;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+449;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+450;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+451;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+452;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+453;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+454;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+455;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+456;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+457;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+458;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+459;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+460;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+461;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+462;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+463;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+464;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+465;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+466;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+467;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+468;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+469;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+470;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+471;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+472;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+473;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+474;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+475;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+476;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+477;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+478;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+479;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+480;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+481;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+482;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+483;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+484;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+485;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+486;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+487;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+488;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+489;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+490;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+491;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+492;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+493;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+494;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+495;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+496;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+497;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+501;Fix;Int;No staging Entrie in IR1 after Upload;;;Link;;Very High;0;Closed;"14.06.2024: Solution Proposal from Frank. Günter to transport it to IH2 for first Retest
+13.06.2024: almost solved … one remaining issue. Askd Frank to look into it
+03.06.2024: Under investigation";Niklas;Frank;;;
+498;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+499;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+500;;;ARCHIVE UP TO LINE 500;;;;Archive;;0;;;;;;;
+502;;;Scope of Planning is not active after 1 or 2 Step;;;Link;;Very High;0;Confirmed;"03.06.2024: Decision tables filled by Dieter - retest required
+03.06.2024: Decision tables of rule-based workflow are empty for all change request type";Niklas;Mike;;;
+506;Fix;Int;Internal server error caused opening certain material types;;;Link;Material Type;Very High;0;Closed;"Mike (06.06.2024): Forwarded to Frank
+Michael (03.06.2024): either it should not be possible to enter such a value or the direct update should not dump (best would be both :-). Mike: please forward to Frank if necessary";Maxi;Frank/Mike;;;
+503;;;Redundant Change Column;;;Link;;Medium;0;Closed;Michael (03.06.2024): all lists should have such a column. It is used to mark a change in the list (if someone changes a particular list item in a change);Maxi;Mike;;;"11.07.2025 MB: Closed because of ""old"" and ""low"" or ""medium"" "
+504;;;Company Name has no German translation in Search Criteria;;;Link;;Medium;0;Confirmed ;"Mike (02.07.2024): Additional adjustment für search results (Transport ID1K902898)
+Mike (18.06.2024): Feeder Class adjustment for search criteria (Transport ID1K902703)
+Michael (03.06.2024): Ulla … please check";Maxi;Ulla/Mike;;;
+505;;;Searchcriteria;;;Link;;Medium;0;Confirmed;Michael (03.06.2024): Ulla … please check;Maxi;Ulla;;;
+509;;;Missing German Translation for Pop-Up in Characteristics ;;;Link;;Medium;0;Confirmed;Michael (03.06.2024): Ulla … please check;Maxi;Ulla;;;
+510;;;Missing German Translation for ALL Check Boxes ;2507;;Link;;Medium;0;Closed;;Maxi;Ulla;Michael (03.06.2024): Ulla … please check;;"11.07.2025 MB: Closed because of ""old"" and ""low"" or ""medium"" "
+512;;;Material Group import ;;;Link;;Very High;0;Confirmed;;Niklas;;;;
+516;Fix;Int;No Data change after sucessful Data import;;;Link;Many;High;0;Automatically Confirmed;;Niklas;Dieter;;;
+513;;;Scope-Of_Planing (creade);;;Link;;Medium;0;Closed;In generally, the distribution works. Some errors in the translation, in the distribution CR number and in the S01/400 the /ITR tables are not available.;Gerd;Mike;;;"11.07.2025 MB: Closed because of ""old"" and ""low"" or ""medium"" "
+514;;;Purchasing Value Key empty in Material Group;;;Link;;Medium;0;Closed;;Niklas;Mike;;;"11.07.2025 MB: Closed because of ""old"" and ""low"" or ""medium"" "
+515;;;Changing the search texts for the plant object;;;Link;;Low;0;Closed;The field description Name1/Name2 in the maintenance UI does not match the overview with midium- /LongDescription. Could be optimized  ;Gerd;Mike;;;"11.07.2025 MB: Closed because of ""old"" and ""low"" or ""medium"" "
+518;;;Tax Code French Translation;;;Link;;Medium;0;Closed;;Christine;Christine/Ulla;;;"11.07.2025 MB: Closed because of ""old"" and ""low"" or ""medium"" "
+519;;;Class French Translation;;;Link;;Medium;0;Closed;;Christine;Christine/Ulla;;;"11.07.2025 MB: Closed because of ""old"" and ""low"" or ""medium"" "
+520;;;Translation Acc. Group vendor;;;Link;;Medium;0;Closed;;Christine;Christine/Ulla;;;"11.07.2025 MB: Closed because of ""old"" and ""low"" or ""medium"" "
+521;;;Change Scope of Planning;;;Link;;Medium;0;Confirmed;The test in this point is completed after the IH2 has been restarted. ;Gerd;Mike;;;
+525;;;MRP profile Upload Checkbox Error;;;Link;;High;0;Confirmed;;Niklas;Dieter;;;
+526;;;"MRP Type Import XML Transformation Error
+";;;Link;;High;0;Confirmed;;Niklas;Niklas;;;
+530;;;Controlling Area - Search Help - Currency and Valuation Profile;;;Link;;-;0;Confirmed;No Todo - no values in MDG means no search help shown;Maxi;Mike;;;
+532;;;Company Code throwing unwanted errors;;;Link;;High;0;Confirmed;11.06.2024: Michael: Created and asked Dieter to look into it;Shell;Dieter;;;
+533;;;UOM Primary Code not updated;;;Link;;High;0;Confirmed;"17.06.2024 Mike: Correction transports ID1K902649 & ID1K902676 tested in S02 (Shell environment) and will be transported to IH2/IH1
+12.06.2024 Mike: /ITR/T006 adjusted, but specific field name is forbidden (Field: PRIMARY); opened up discussion with Frank
+11.06.2024 Michael: Created and asked Frank to look into it";Shell;Frank/Mike;;;
+534;;;Exchange Rates - Datafeed;;;Link;;High;0;Confirmed;Was solved after Frank gave a hint about the TCURC entries. The retest was successful after removing the wrong entry in the TCURC.;Gerd;Frank;;;
+535;;;Replication_MaterialGroup_IR2;;;Link;;;0;Closed;;Maren;;;;See Word document in Defect Details folder
+536;;;NavigationCompleted_ChangRequests;;;Link;;;0;Closed;;Maren;;;;See Word document in Defect Details folder
+537;;;WIthdrawal_Workflow_will_not complete;2507;;Link;;Medium;0;Closed;;Maren;Ulla;;;"11.07.2025 MB: Closed because of ""old"" and ""low"" or ""medium"" "
+538;;;Unused or skipped row.;;;Link;;;0;Closed;;;;;;
+539;;;Unused or skipped row.;;;Link;;;0;Closed;;;;;;
+540;;;Unused or skipped row.;;;Link;;;0;Closed;;;;;;
+542;;;Factory Calendar missing Tables in LSA;;;Link;;Medium;0;Closed;;Michael;Frank;;;"11.07.2025 MB: Closed because of ""old"" and ""low"" or ""medium"" "
+543;;;remove PF4 selection for Street/House No;;;Link;;Low;0;Closed;;Gerd;Michael;;;"11.07.2025 MB: Closed because of ""old"" and ""low"" or ""medium"" "
+545;;;Configure Business Alternative in RDMIMG;;;Link;;-;0;Closed;;Maxi;;;;
+546;;;No German Translation for Fiori Tiles on S01;;;Link;;-;0;Closed;;Maxi;;;;
+550;Fix;Int;BC Set Delivery;;;Link;;High;0;Automatically Confirmed;;;Dieter/Michael;;;
+551;Fix;Int;Valuemapping does not work. ;;;Link;Incoterm;Medium;0;Automatically Confirmed;;Maren;Frank;03.09.2025 MB: Maren hat wahrscheinlich die zweite IMG Aktivität nicht gepflegt. Siehe Dokumentation dazu.;;
+547;;;Storage Location Enhancement: UI Customizing Error;;;Link;;High;0;Confirmed;;Michael;Mike;;;
+548;;;Document Type Enhancement;;;Link;;High;0;Confirmed;"Mike (02.07.2024): Second UI configuration created (Transport ID1K902896)
+to be discussed: 2nd UI Config + Attribute Overview Table";Michael;Mike;;;
+549;;;Change documents are not showing all changes;;;Link;;High;0;No Error;;Shell;Dieter;;;
+552;;;Scope of Planning - Missing German Translations;;;Link;;-;0;Closed;;Maxi;;;;
+553;;;Fiori - Tile Search - Purchasing Group /   groupe d'achats;;;Link;;-;0;Closed;;Maxi;;;;
+554;;;Missing French Method of Search Translation on ALL Search UIs;;;Link;;-;0;Closed;;Maxi;;;;
+555;;;Material Group - Leftover Change Request Type;;;Link;;-;0;Closed;;Maxi;;;;
+556;;;Fiori - Tile Search -Product hierarchy /   Hiérarchie des produits;;;Link;;-;0;Closed;;Maxi;;;;
+557;;;Document Type Enhancement - Secondary Cost indicator ;;;Link;;High;0;Confirmed;;Shell;Michael;;;
+558;;;Fiori - Tile Search - Sales Organization  - Organisation des ventes;;;Link;;Low;0;Confirmed;;Maxi;Niklas;;;
+559;;;Fiori - Tile Search - Material Type - Type de Matériaux;;;Link;;Low;0;Confirmed;;Maxi;Niklas;;;
+560;;;Fiori - Tile Search - Factory Calendar - Calendrier de l'Usine;;;Link;;Low;0;Confirmed;;Maxi;Niklas;;;
+561;;;Fiori - Tile Search - Personell Area - Domaines du Personnele;;;Link;;Low;0;Closed;Mismatch aswell! Domaine Persnonell in Search -> Zones de Personell on Search UI (and in Staging Cockpit);Maxi;Niklas, Christine;;;
+562;;;Fiori - Tile Search - Sales Group - Groupe de vente;;;Link;;Low;0;Confirmed;;Maxi;Niklas;;;
+563;;;Fiori - Tile Search - Shipping Type - Type d'expédition;;;Link;;Low;0;Closed;;Maxi;Niklas;;;
+564;;;Fiori - Mismatch Tile Name to Object - Shipping Type - Type d'expédition;;;Link;;Medium;0;Closed;;Maxi;Christine;;;
+565;;;Fiori - Tile Search - Document Type - Type de Document;;;Link;;Low;0;Confirmed;;Maxi;Niklas;;;
+566;;;Fiori - Mismatch Tile Name to Object - Operating Concern - Centre d'Exploitation;;;Link;;Medium;0;Closed;31.07.24 done in ID1, to be tested in IH1;Maxi;Christine;;;
+567;;;Fiori - Mismatch Tile Name to Object - Location - Localisation;;;Link;;Medium;0;Closed;31.07.24 done in ID1, but cannot be seen in Fiori Launchpad. Next Test on Friday.;Maxi;Christine;;;
+568;;;Missing FR Translation for Characteristics - Caractéristiques;;;Link;;Medium;0;Closed;31.07.24 Michael: problem still exists;Maxi;Christine;;;
+569;;;Missing FR Translation for MRP Type Checkboxes;;;Link;;High;0;Closed;;Maxi;Christine;;;
+571;;;PaymentTermReplication;;;Link;;;0;Closed;;Maren;;;;
+572;;;UOM Validation;;;Link;;Low;0;Confirmed;;Shell;;;;
+573;Fix;Ext;UOM Mass Create & Change Issues;;;Link;Unit of Measure;High;0;Automatically Confirmed;;Shell;;"03.09.2025: MB: Shell hat sich nicht mehr gemeldet ...
+Mike (09.07.2024): Mass Upload for Entity Type and corresponding Texts need to be done
+Mike (02.07.2024): Only the last entry of a mass upload is handled correctly (texts are not updated correctly)";;
+575;;;UOM Table Sync Issue_T006_OIB & T006;;;Link;;High;0;Confirmed;"13.08. can not be tested in IH1 (no IS Oil) … so: solved …. done
+13.08.2024: Delivery to Shell
+Oil and Gas Table";Shell;Frank;;;
+576;;;Fiori - Mismatch Tile Name to Object - MRP Area - Domaine de MRP;;;Link;;Medium;0;Closed;31.07.24 Michael: Done in ID1 but problem still in IH1;Maxi;Christine;;;
+577;;;Fiori - Tile Search - Tax Code - Code des Impôts;;;Link;;Low;0;Confirmed;;Maxi;Niklas;;;
+578;;;Fiori - Tile Search - Valuation Class - Classe d'Évaluation;;;Link;;Low;0;Confirmed;;Maxi;Niklas;;;
+579;;;Product Hierarchy - Missing CR Type;;;Link;;High;0;Closed;Mike (02.07.2024): BRF+ tables have not been exported correctly due to missing assignment to DM I1 in table USMD110C;Ulla;Dieter/Mike;;;
+583;Fix;Int;RDH: Client check erro;2602;;Link;RDH, Functional Area;High;0;New;;Gerd;Frank;;;
+580;;;Typo in Pop-Up in Characteristics Maintenancr;;;Link;;;0;Closed;;Maren;;;;
+581;;;;;;Link;;;0;Closed;;;;;;
+582;;;;;;Link;;;0;Closed;;;;;;
+584;;;Txt-Variants for all Upload/Downloads;;;Link;;Medium;0;Closed;;;Niklas;;;
+585;;;Enhancement Tests not working (missing Customer Include);;;Link;;High;0;Closed;;Maren;Mike;;;
+586;;;Class change issue with characteristic;;;Link;;High;0;Confirmed;;ExxonMobil;Mike;;;
+587;;;Company Code new attributes LSA Update errors;;;Link;;High;0;Confirmed;;Michael ;Mike/Frank?;;;
+588;;;Load of Product hierarchy and button for hierarchy processing;;;Link;;Medium;0;Closed;;Maren;;;;
+589;;;Product Hierarchy - Name, Numbering, 2 CRs;;;Link;;Medium;0;Closed;;Bayer ;Michael;;;
+590;;;Code Value List (timedependent);;;Link;;;0;Closed;;;;;;
+591;;;Missing Translations for Local Scope ;;;Link;;Medium;0;Closed;31.07.24 better but not final. To be discussed with Dieter;Michael;Christine;;;
+593;;;MDMGX for Planning Scope;;;Link;;Medium;0;Confirmed;;Michael;Niklas;seems to work;;
+594;;;Data Import for Planning Scope;;;Link;;Medium;0;Confirmed;;Michael;Niklas;;;
+595;;;Search UI for Country not consistent to others;;;Link;;Low;0;Confirmed;;Michael;Mike;;;
+596;;;Planning Scope Deletions from Sequence;;;Link;;High;0;Confirmed;4.11.24 new topic 701 raised;Michael;Frank;;;
+600;Fix;Int;Selected attribute Controlling Integration disappears;2407;;Link;Chart of Account;High;0;Automatically Confirmed;;Michael;Grigor;;;
+597;;;Planning Scope Create and Delete;;;Link;;High;0;Closed;26.07. to be tested in IH2;Michael;Mike;;;
+598;;;Document Type data extraction issue;;;Link;;Very High;0;Confirmed;;Shell;Niklas/Dieter;;;
+599;;;Valuation Class - No change identification in the UI active;;;Link;;Low;0;Confirmed;;Gerd;Grigor;Günter and Mike have corrected the table USMD0090 and set the HighLight flags. ReTest by Gerd ok!;;
+601;;;Configurable Searchhelps;;;Link;;High;0;Closed;;Michael;Frank;;;
+602;;;CR Types based on SAP Standard only;;;Link;;High;0;Closed;"copy to ""all"" missing";Michael;Grigor;;;
+603;;;Local Scope - Translation to ES (Spanish);;;Link;;Medium;0;Closed;;Michael;Christine;;;
+604;;;Document Type Replication issue;;;Link;;High;0;Confirmed;;Shell;Mike;;;
+605;;;Deletion of dependent objects (texts and more);;;Link;;High;0;Closed;;Michael;Frank;;;
+606;;;More findings for UoM - SAP_TO_ISO ;;;Link;;Medium;0;Confirmed;13.08.2024: Gerd to retest in IH1;Gerd;Frank;"Retest_OK: 
+The Retest in the IH1/400 is ok. Here the normal case without OIL-Akti was tested; as the negative case.";;
+607;;;Spanish Translation for User Interface;;;Link;;Medium;0;Closed;;Michael ;Christine;;;
+609;;;Data Model Documentation;;;Link;;High;0;Closed;;Michael;Niklas;;;
+613;Fix;Int;BRF Content in German;2511;;Link;all object types;Low;0;Obsolete;;Michael;Dieter;;;
+614;Fix;Int;BRF Content Mismatch;2511;;Link;all object types;Low;0;Obsolete;;Michael;Dieter;;;
+610;;;"UoM - Validation for Field ""Technical"" ";;;Link;;Medium;0;Confirmed;;Gerd/Michael;Grigor;;;
+616;Fix;Int;Deletion not working with manual replication;2602;;Link;;Medium;0;New;;Michael;Frank;03.09.2025 MB: da müssten wir noch einmal prüfen wir da ein SAP Ticket aufmachen müssen. Weil: funktioniert im MDG-F aber nicht bei uns, siehe Dokument dazu;;
+611;;;UoM - More findings - UoM ***, Exponent not transferred, Add. Constant, ADDKO, ErrMsg;;;Link;;Medium;0;Closed;;Gerd;Grigor;;;
+612;;;BRF Content Incomplete for Product Hierarchy;;;Link;;Medium;0;Confirmed;;Ulla/Michael;Dieter;;;
+615;;;Issue with Itego Framework when Creating Hierarchy Data;;;Link;;Medium;0;Confirmed;;Intel;Michael/Maren/Mike;;;
+617;Fix;Ext;Reference Data Harmonization & RDM-Replication;2603;;Link;RDH;Medium;0;Automatically Confirmed;;Deloitte;Frank/Mike;03.09.2025 MB: this was probably a SAPGUI Error on Deloitte System;;
+618;;;Payment terms multiple issues;;;Link;;High;0;Confirmed;"03.09.2024: Frank taking care of solution in outbound implementation / Dieter is looking into validation issue of Daylimit 00
+03.09.2024: Implementation for solution done - needs to be tested";Shell;Mike/Frank/Dieter;;;
+621;;;WorkBreakdownStructure;;;Link;;Medium;0;Closed;;Farida;;;;
+623;;;Arcelor Mittal Missing Delta PAT Files for 2407;;;Link;;Very High;0;Confirmed;;;Dieter;;;
+624;;;Adjust Documentation for 2407 => full BC Sets now;;;Link;;Very High;0;Confirmed;;;Michael;;;
+631;;;BC Sets for Upgrade;;;Link;;High;0;Closed;;Michael;Michael/Dieter;;;
+632;;; ITEGO: Overwriting other attributes:;;;Link;;not specified;0;Confirmed;"29.09. seems that ""Overwrite or Add Records"" has been used … advised to use ""Overwrite or Add Attributes""
+25.09. Guess: wrong usage of file upload process. Asked for a step by step documentation ";Shell;Michael;the DE translation of the message is still missing. Will be delivered later;;
+633;;;MDC Model and Generation of DDIC structures in /ITR/ namespace;;;Link;;;0;Closed;Cloud Ready PoC;;Niklas;;;
+634;;;Missing Table entries;;;Link;;High ;0;Closed;it works in ID1, but not so in S02 => Issue;Deloitte;Mike;;;
+635;;;Internal Server-Error (IH2100) in the distribution of Object Sales Office;;;Link;;High ;0;Closed;When replicating from the IH2/100 to the IH2/400 and IR1/200, from the object sales Office, an internal error appears or no IDOC is generated;Gerd;Mike;;;
+636;Dev;;AdressField_Objects-field length limitation;;;Link;;Medium;0;Confirmed;For field length limitation in the address field Name1 to 35 characters for a further 5 objects. Reference to defect 438. ;Gerd;Grigor;The German translation of the message is still missing. But this has no effect on the function.;;
+637;;;Development towards Configurable PF4-Value;;;Link;;not specified;0;Closed;;Michael;Frank;;;
+639;;;Entity Material Group - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+640;;; The Address of the Plant object is not transferred;;;Link;;Medium;0;Confirmed;;Gerd;Frank;The problem in S02 was that the entries for county code and city code were not customized in the T500E and T500S tables in the ERP system.;;
+642;;;Global issues Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+643;;;Unit of Measure - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+644;;;Country - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+645;;;RDM Object Plant PF4 Revise picklist;;;Link;;Medium;0;Confirmed;;Gerd;Mike;The defect can be closed because I have incorrectly interpreted the transfer of city-county code values from the address area. Nevertheless, the display of the texts does not work correctly. I have now opened CR 659.;;
+646;;;Region - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+647;;;Purchasing Group - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+648;;;Purchasing Organization - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+649;;;Account Group - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+650;;;Vendor Account Group - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+651;;;Customer Account Group - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+652;;;Product Hierarchy - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+653;;;Company Code - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+654;;;Plant - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+655;;;Payment Term - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+656;;;Country replication issue;;;Link;;Medium;0;Confirmed;22.11.: Delivered with TA S02K900388;Deloitte;Mike;;;
+658;;;Intel - Not able to install Itego Add-on(receiver) in S4FND 108 (GTS);;;Link;;Very High;0;Confirmed;9.12.2024 (Michael): testing still ongoing;Intel;Günter;;;
+659;;;Plant_PF4-Checkbox­-Country and City_Code no values;;;Link;;Medium;0;Confirmed;;Gerd ;Frank;;;
+660;;;Account Group Customer - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+661;;;Currency Code - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+662;;;Sales Organization - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+663;;;Material type - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+664;;;Storage Location - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+665;;;Division - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+666;;;Factory Calendar - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+667;;;Distribution Channel - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+668;;;Controlling Area - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+669;;;Material Status - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+670;;;Personal Area - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+671;;;Business Area - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+672;;;Functional Area - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+673;;;Incoterm - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+674;;;Sales Group - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+675;;;Shpping Type - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+676;;;Shipping Conditions - Translation to ES (Spanish);;;Link;;Low;0;Confirmed;;Walter;Christine;;;
+677;;;Language updating as blank while loading Country Data ;;;Link;;Very High;0;Confirmed;;Deloitte;Mike;"29.10.24: SPRAS field missing in /ITR/T005; Field implementation in table /ITR/T005 done; SMT-Mapping adjusted accordingly; relevant Cust. in cust. Table /ITR/LSA_TABS_FV needs to be added to BC-Set, but will be delivered in customer note as manual task";;
+678;;;RDM Object Material Group PF4 Revise picklists;;;Link;;Medium;0;Confirmed;;Gerd ;Mike/Frank;Development so far in OK order, retest after successful transaport in IH1/IH2/S01;;
+679;;;Laboratory/office - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+680;;;BOM Usage - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+684;Fix;Int;Text Fields missing;2602;;Link;;Medium;0;New;;Michael;;;;
+681;;;Document Type - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+682;;;Chart of Account - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+683;;;Operating Concern - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+685;;;Data Replication after System Refresh not working;;;Link;;Medium;0;Closed;;Michael;Günter/Andreas;;;
+686;;;VPN connection fails multiple times ;;;Link;;High;0;Confirmed;;Michael;Andreas;08.04. MX von Andreas unersucht Solved;;
+687;;;RDM Object Sales organization PF4 Revise picklists;;;Link;;Medium;0;Confirmed;;Gerd;Frank;"07.11.24:The retest was successful. The UI fields of the RDM object can be switched between the ERP and MDF database via the /ITU/SAPLUI_PF4 table. 
+In the table /ITU/SAPLUI_PF4 the argument “SALESORG /ITR/_S_I1_PP_SALESORG SORGCCODE Sales Organization / Company Code” appears. There is no field with the Company Code input in the UI.";;
+688;;;Language - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+689;;;Location - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+690;;;Exchange Rate - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+691;;;Characteristics - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+692;;;Classes - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+693;;;MRP Type - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+694;;;MRP Profile - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+695;;;MRP Area - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+696;;;Tax Code - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+697;;;Valuation Class - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+701;Fix;Int;Planning Scope, Deletion from Sequence not always possible;2511;;Link;Planning Scope;High;0;Obsolete;04.11.2024 Michael: works in IH2, waiting for Refresh of IH1, needs to be delivered to 2407 Customers like Arcelor Mittal;Michael;Frank;;;
+698;;;Sales Office - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+699;;;Scope of Planning for MRP Unit Test - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+700;;;MRP Controller - Translation to ES (Spanish);;;Link;;Medium;0;Confirmed;;Walter;Christine;;;
+706;Fix;Int;Automatic Filling Attribut Analysis - all object types;2602;;Link;;Medium;0;New;;Michael;Mike;;;
+703;;;Payment Term File Upload fails;;;Link;;High;0;No Error;05.11.2024: The upload of a payment term needs to be finalize by the upload of at least one payment term detail (daylimit), otherwise the search for payment terms does not show anything;Michael;Mike;;;
+704;;;"Direct Replication for Payment Terms from One CR Solution fails
+";;;Link;Payment Term;Medium;0;No Error;;Michael ;Frank;;;
+705;;;RDM Object Sales Organization PF4 Revise picklists Order Type;;;Link;;Low;0;Confirmed;;Gerd;Frank;The error message has been adapted in DE/EN;;
+711;Fix;Int;RDM Object MRP Area PF4-Solution;;;Link;;Medium;0;Confirmed;;Gerd;Frank;Retest ok 25.02.25;;
+707;;;RDM Object Factory Calendar Revise ICON;;;Link;;Medium;0;Confirmed;;Gerd;Frank;The icons are now available and the copy button has been removed;;
+714;Fix;Int;Text field length limitation;2602;;Link;;Medium;0;New;;Gerd;Grigor;;;
+716;Fix;Int;RDM Object Personnel area missing PF4 search help country code;2602;;Link;Personnel Area;Low;0;New;;Gerd;Mike;;;
+718;Fix;Int;RDM Object Controlling Area Change PF4 SearchHelp CoA;;;Link;;High;0;Confirmed;;Gerd;Frank;ReTest 06.02.2025 PF4 CompCode is displayed in the ERP/MDG instead of CoA;;
+708;;;RDM Object Factory Calendar PF4-Solution;;;Link;;Medium;0;Confirmed;;Gerd;Frank;;;
+709;;;Create Payment Term (multi CR) dumps;;;Link;;Medium;0;Confirmed;08.11.: maybe not a valid test at the moment;Michael ;Mike;;;
+713;;;Shipping Point (Itego Custom Object) Replication Issue;;;Link;;High;0;Confirmed;22.11.: Delivered with TA S02K900388;Intel;Mike;;;
+724;Fix;Int;Analayze BP adapter classes for single request and create class for land ;2511;;Link;;Medium;0;Obsolete;Analyze;Niklas;Niklas;;;
+719;;;Holiday Calendar;;;Link;;Very High;0;Confirmed;;Intel, Shell;Michael;08.04. Mx auf Solved gesetzt.;ID1K904573;
+720;;;MDG Upgrade issue with ITEGO Objects;;;Link;;Very High;0;Confirmed;;Shell;Michael/Dieter/Frank;08.04. Mx auf Solved gesetzt.;;
+727;Fix;Int;RDM Object Document Type PF4 Revise picklists Language_Key;;;Link;;Medium;0;Confirmed;;Gerd;Frank;The Translation for the PF4 maintenance UI (TA /ITU/PF4_CHOICE) in English has not yet been implemented.;;
+723;;;Staging Variant Issue;;;Link;;Very High;0;Confirmed;;Intel;Michael/Frank;08.04. Mx Fran und Mike gelöst. BC Set aktivieren;;
+729;Fix;Int;RDM Object Chart Of Accounts PF4 Revise picklists ;2602;;Link;Chart of Account;Medium;0;In Process;;Gerd;Frank;ReTest: The entry in the table /ITU/UI_PF4_SETV for the account group is missing here.;;
+725;;;RDM Object Sales Organization Calling up the change function ;;;Link;;High;0;Confirmed;;Gerd;Frank/Michael;the configuration was changed by Frank, so the CR is solved;;
+726;;;RDM Object Currency PF4 Revise picklists Language_Key;;;Link;;Medium;0;Confirmed;;Gerd;Frank;;;
+735;Fix;Int;RDM Object Class PF4 Revise picklist Language Key;;;Link;;Medium;0;Confirmed;;Gerd;Frank;ReTest ok 26.02.25;;
+728;;;Staging program background job issue;;;Link;;High;0;Confirmed;04.12.2024: As per customer - closed;Intel, Deloitte;Mike;;;
+732;;;RDM Object Currency PF4 Revise picklist Language Key;;;Link;;Medium;0;Confirmed;;Gerd;Frank;ReTest 27/01/25 OK;;
+733;;;RDM Object Division PF4 Revise picklist Language Key;;;Link;;Medium;0;Confirmed;;Gerd;Frank;ReTest 30/01/25 OK;;
+736;;;RDM Object Valuation Class PF4 Revise picklist Language Key;;;Link;;Medium;0;Confirmed;;Gerd;Frank;ReTest ok  30.01.25;;
+737;;;GTS: Uniof of Measure Create fails;;;Link;;High;0;Confirmed;10.12.2024: New defect 738 below;Michael/Intel;Frank;;;
+738;Dev;;UoM Validation: same ISO Code maintained for UoMs in the same dimension;;;Link;;High;0;Confirmed;20.12.2024: can be tested in IH2 now;Gerd;Grigor;ReTest 27/03/25 OK;;
+743;Fix;Int;Textfields missing (all object types to be checked);2602;;Link;;Medium;0;New;;;Grigor;For example: CoA Class missing for Validations;;
+744;Fix;Int;DataFeed Interface Additional checkbox valid the following day;2602;;Link;;Medium;0;New;;Gerd/Thomas;Frank;;;
+740;;;RDM Object Exchange Rate DataFeed Interface;;;Link;;Medium;0;Confirmed;;Gerd/Thomas;Frank;;;
+741;;;RDM Object Exchange Rate DataFeed Interface Notation;;;Link;;Medium;0;Confirmed;;Gerd/Thomas;Frank;It is not possible to control the notation without TCURN;;
+742;;;After Object Processing the object disappears in the search list;2503;;Link;;Very High;0;Confirmed;;Michael;Frank;08.04. Mx Frank gelöst;;
+745;;;RDM Object Incoterms PF4 Revise picklists Language Key;;;Link;;Medium;0;Confirmed;;Gerd;Frank;ReTest 17.02.25 OK;;
+749;Dev;Int;Cloud Ready Implementation PoC;2603;;Link;Cloud Ready;High;0;In Process;;Michael;Maxi;Upate needed from JMs Side;;
+746;;;BC-Set /ITR/MDG_RDM_WORKFLOW_07 includes step types by accident related to ticket 455;;;Link;;;0;Confirmed;;Dieter;Dieter;1;"ID1K904804?
+ID1K904814";
+747;;;DataFeed-extension-TCURN;;;Link;;High;0;Confirmed;;Gerd;Frank;Provided Fix for Bayer as of Jan 25 24th ;;Frank's TR ID1K904077
+748;;;Plant enhancement by Company Code;;;Link;;;0;Closed;;;;;;
+750;;;F4 help inconsistency for plant object;;;Link;;High;0;No Error;17.01.25 Michael: asked them to wait for RDM2503;Shell;Michael;;;
+751;;;RDH send not working;;;Link;;High;0;No Error;20.01.25 Michael: activation flag to be set;Shell;Frank;;;
+756;Fix;Int;RDM 2503 Product Hierarchy Auhorization Issue;;;Link;;High;0;Confirmed;;Michael;Günter;;;
+757;Fix;Int;RDM 2503 Product Hierarchy Workflow Issue;;;Link;;High;0;Confirmed;18.02.2025: Rootcause Editionen? Dieter und Frank schauen es sich mal an. Export/Import scheint ok zu sein.;Michael ;Dieter;;;
+758;Fix;Int;RDM 2503 Chart of Accounts entries not shown in search;;;Link;;High;0;Confirmed;"18.02.25 Nacharbeit notwendig (Report ausführen oder Datenmodell generieren). Frank schaut mal.
+13.02.25 Transport in IH1
+11.02.25 Fix ist hergestellt, wartet auf Transport
+10.02.25 Frank provided a fix / to be transported to IH1";Ulla;Frank;;;
+759;Fix;Int;Transaction /ITR/ADMIN_STAGING Problem;;;Link;;High;0;Confirmed;;Maxi;;;;
+761;Fix;Int;Not authorized to use Import transactions;2602;;Link;;Medium;0;In Process;10.02.25: Niklas und Günter im Kontakt, das meiste scheint gelöst;Niklas;Günter;;;
+762;Fix;Int;MDF: Mandatory fields not working;;;Link;;Medium;0;Confirmed;"10.02.25: Workaround: Create Rule for Company Code - to be verified by Ulla
+
+10.02.25 Duplicate 752 (ExxonMobil)";Ulla;Michael;;ID1K904815;
+763;Fix;Int;Controlling Area - Sender Medium Description =! Receiver  Value Medium Description (Default Value?);;;Link;;High;0;Confirmed;"13.02.25 Maxi ist informiert und kann nachtesten. 
+11.02.25 Ggf kommt dies aus dem ID1. Im BC Set ist dies schon deaktiviert. Müsste im BC Set aktiviert werden. 
+10.02.25 BC Set falsch? Das Attribut war im Local Gov Scope ausgeschaltet?
+
+10.02.25. with Direct Update it works, with LSA the name is not updated. Forwarded to Frank";Maxi;Frank, Dieter;BC-Set Staging_06 korrigiert, BEZEI aktiviert. BC-Set in IH1, IH2, IR1, IR2 aktiviert;;
+764;Fix;Int;Language Key - Cannot Maintain Lang. Key Because it is not in System;;;Link;;Medium;0;Confirmed;"13.02.25 Maxi ist informiert das er Nachtesten kann
+11.2.25 Mike und Frank arbeiten dran, aktuell im Fehler nach Änderung von FRank
+7.2.25: Mike recherchiert schon ";Maxi;Mike;;;
+766;Fix;Int;No arrival of replicated entries;;;Link;;High;0;Confirmed;;Maxi;Michael;;;
+767;Fix;Int;Language Key  - IR1200 - LSA Report Error ;2602;;Link;Language;Medium;0;In Process;"11.2. unklar woran es liegt
+10.2.25 Maxi noch mal gebeten 
+6.2.25 Maxi gebeten dasnoch einmal mit dem SAP ALL user zu testen";Maxi;Frank;;;
+768;Fix;Int;Shipping Conditions - IH1400 - LSA Report Error ;;;Link;;High;0;Confirmed;Important Side Note: Before Fix > IR2  200 worked beforehand;Maxi;Mike / Frank;;;
+769;Fix;Int;DE Translation missing Controlling Area;2507;;Link;;Medium;0;Confirmed;;Ulla;Ulla;10.2.25 Ulla sammelt die Übersetzungsthemen für sich selbst;;
+772;Fix;Int;Upload Lang Dep text fails for Material Group and Chart of Accounts;;;Link;;;0;Confirmed;;Niklas;;;;
+773;FIx;Int;Missing role for MDF configuration;2602;;Link;all object types;Medium;0;In Process;7.2.25: Günter und Ulla im Kontakt;Ulla;;;;
+774;Fix;Int;Missing spanish translation;;;Link;;Medium;0;Confirmed;;Ulla;Dieter;TR from Christine imported to IH1, IR2, IR1,IR2 and IQ1;;
+775;Fix;Int;Shipping Conditions - IR1200 - LSA Report results in Runtime Error;;;Link;Shipping Conditions;High;0;Confirmed;Important Side Note: Before Fix > IR2  200 worked beforehand;Maxi;Mike / Frank;;;
+753;;;"RDM Object Scope of planning Sorting the MRP_PF4_search help values
+";;;Link;;Medium;0;Confirmed;;Gerd;Frank;Retest 05.02.2025 Successful;;
+754;;;RDM Object Sales Office Group PF4 Revise picklists;;;Link;;High;0;Confirmed;;Gerd;Frank;ReTest 06.02.2025 Incorrect sorting of the ERP/MDG language;;
+755;Fix;Ext;RDH - Idocs in Status 30;;;Link;;Very High;0;Confirmed;;Intel ;Frank;4.2.25 Note 755 delivered by Dieter ;;
+779;Dev;Int;UI Properties – only work across change request type if * is set;2603;;Link;;Low;0;New;;Sabine;Michael;automatically fill the * during save if no change request type is maintained. At least it should be mentioned in the documentation that a * should be entered if the rule shall work for all CR types.;;
+776;Fix;Ext;No option to execute start local staging report only for required entries;2503;;Link;several;High;0;Confirmed;;Intel;Frank;"01.04.  Frank Feature und Korrektur EN Language erstellt. Sollte als Fix geliefert werden. Test von Maren. 
+27.03. Mx Ist Bestandteil 2503 mit Frank klären.";;
+781;Fix ;Int;Controlling Area - UI Fiscal Year wont Update based on selected Fiscal Year in Entry Table Element;;;Link;Controlling Area;Medium;0;Confirmed;"13.2.24 Fix wurde transportiert - Retest durch Maxi
+11.2.25 Fix schon gemacht, wartet noch auf Transport
+10.2.25: Mike und Maxi schon im Kontakt?";Maxi;Mike;;;
+782;Fix ;Int;MRP Area Internal Server Error;;;Link;MRP Area;Very High;0;Confirmed;"11.02.25 Tritt im ID1 nicht auf. Tritt nun im IH1 nicht mehr auf. Zurück an Ulla. 
+10.02.25 Michael: verified and forwarded to Mike";Ulla;Ulla;;;
+784;Fix;Int;SENDER IH100 - Transactional RFC Queue not getting Processesed;;;Link;;Very High;0;Confirmed;;Maxi;;;;
+785;Fix;Int;Download and Upload same file for Char. Head is not possible;;;Link;Characteristic;High;0;Confirmed;"14.2.25 Fehlerhafter Derive durch Frank korrigiert
+11.02.25 Currency auf UoM Feld
+10.2.25 Niklas und Mike schon im Austausch. Currency im UoM Feld?";Niklas;Mike / Frank;;;
+787;Fix;Int;RDM Object Country PF4 Revise picklists Currencies;2602;;Link;Country;Medium;0;New;;Gerd;Frank;;;
+789;Fix;Int;Document Type - DE translation for one field missing;2507;;Link;Document Type;Low;0;Confirmed;;Ulla;Ulla;10.2.25 Ulla sammelt die Übersetzungsthemen für sich selbst;;
+790;Fix;Int;IH1100 > IH1100 | IDoc Status 30 - Receiver of IDoc is its own logical system;;;Link;;High;0;Confirmed;;Maxi;Frank;;;
+791;Fix;Int;Interval for source values not evaluated in derivation ;2602;;Link;;Medium;0;In Process;10.02.25: Michael ok, too bad … guess we need to solve this after 2503;Sabine;Michael;;;
+793;Fix;Int;All Receivver - Country - Date Format not present in Receiver Systems;2503;;Link;Country;High;0;Confirmed;;Maxi;Frank;27.03. Mx Retest von Maxi war erfolgreich!;;
+794;Fix;Int;All Receiver - Country - Decimal Format gets Defaulted in Receiver Systems;2503 Fix;;Link;Country;High;0;Confirmed;;Maxi;Mike;"08.04. MX Status Solved.
+31.03: Mx SMT Mapping fehlt. Frank und Mike bearbeiten Fehler.
+27.03. Mx komplexes Problem, Tabelle T005X fehlt in ITR, Datumfeld neueres Objekt ";"ID1K904610
+ID1K904753";
+795;Fix;Int;"Direct Update Storage Location not working
+";2507;;Link;Storage Location ;High;0;Confirmed;;Ulla;Frank;27.03. Rückmeldung von Ulla 24.02. Lösungsvorschlag von Frank funktioniert. Source/Target System, only Target System needed.;;
+798;Fix;Int;Purchasing Group fields telephone and extension missing after replication, ITR T024 field phone to short;2507;;Link;Purchasing Group;High;0;Confirmed;;Sabine;Frank;"10.04. Mx Status Solved Mail Sabine.
+01.04. Mx Korrektur von Frank erstellt.
+31.03. Mx Mail an Frank mit der Bitte zu prüfen.";"ID1K904773
+ID1K904745";
+799;Fix;Int;Material Group - values for purchasing value key missing;2503;;Link;Material Group;High;0;Confirmed;;Sabine;Mike;"31.03 Nachtest von Sabine erfolgreich. 
+ID1K904637 gel. 25.03. 09:13 27.03.
+ Mx Auf Retest und Info,";ID1K904637;
+800;Fix;Int;Exchange Rate - DE translation field missing;2507;;Link;Exchange Rate;Low;0;Confirmed;;Ulla;Ulla;10.2.25 Ulla sammelt die Übersetzungsthemen für sich selbst;;
+801;Fix;Int;Validation for non existing Division assigned in Material Group;;;Link;Material Group;High;0;Confirmed;"11.2.25 Ausschalten des ""No existence check"" auf der Relationship. Nachteil: hier könnte dann auch 02 eingetragen werden auch wenn 02 nicht in der T-Tabelle vorhanden ist. Außer: wir bauen noch eine Validierung ein für jedes Feld was in der Tabelle vorhanden ist. Bedeutet aber auch: Wechselwirkungen wenn der Kunde ein Z-Feld eingefügt hat(?) ... insbesondere wenn das Feld gelöscht wird. 
+10.2.25 mit Mike angeschaut, anscheinend verursacht die Relationship diesen Fehler";Gerd;Frank;The check for the UI field Division on the ERP table TSPA now works. ReTest Ok 18.02.25;;
+804;Fix;Int;MRP Profile - RECEIVER Error Upon Replication;;;Link;MRP Profile;High;0;Confirmed;27.02. Maxi has been informed by Michael;Maxi;Frank;;;
+805;Fix;Int;Classes - characteristic assignment and ind std desc flag get lost;2503 Fix;;Link;Class ;High;0;Confirmed;"25.03. Fixed by Mike will be transported by Dieter and Sabine will be informed by Dieter
+24.03: Retested by Sabine. First part solved, but flag still get lost.
+08.03. Missing SAP Note 3512651 in IH1";Sabine;Mike;"31.03. Nachtest von  Sabine erfolgreich. 
+ID1K904633 gel. 25.03.  09:13 27.03. 
+Mx Auf Retest und Info.";ID1K904633;
+806;Fix;Int;Characterstics - Default Flag in Values leads to no change in edit;;;Link;Characteristic;High;0;Confirmed;;Maxi;Mike;;;
+810;Fix;Int;MRP Area Upload unchanged data fails;;;Link;MRP Area;High;0;Confirmed ;27.02. Frank to provide a transport to Dieter;Niklas;Dieter;Hi Niklas, I could reproducce the error message with provided upload file. I don't know what is wrong with this - special charcaters, not to be seen? I made a download of MRP Area in a file (located at same folder as yours), made a change and added a record. It's workling fine. Bothe of my files have the prefix '810'. Could you please check again?;;
+811;Fix;Int;Upload Tax Code Description with Semikolon fails;;;Link;Tax Code;Low;0;Confirmed;"Once ';' are in conflict to description, other separator could be used";Niklas;Dieter;This is an issue of SAP's coding;;
+812;Fix;Int;Scope of Planning is not active after 1 Step Upload;;;Link;Planning Scope;High;0;Confirmed;"27.02. Bitte an Niklas zu testen.
+Decision tables of CR-Types were missing";Niklas;Dieter;;;
+813;Fix;int;Issue 763 has also wrong desciptions of table /ITR/LSA_TABST. This ticket has been created to split the two topics into two issues;2602;;Link;;Medium;0;In Process;Der Text wurde ursprünglich mal korrekt aus dem ITR übernommen, als das ID1 aufgebaut wurde, wurde alles aus dem ITR übernommen. Vermutlich ist bei der Übersetzung was schief gelaufen. Wie auch immer, die Texte sind falsch und müssen korrigiert werden. ;Frank;Ulla;;;
+814;Fix;Int;Classes 500 Error -Field Symbol has not assigned yet;;;Link;Class ;High;0;Confirmed;;Niklas;Mike;;;
+816;Fix;Int;Classes not active after CR Approve;2503;;Link;Class ;High;0;Confirmed;27.03.Mx Dieter hat nichts im WF gefunden, wird jetzt auf Mike geroutet.14.03. I checked WF decision tables. These tables are there. In word document I have seen that there occurs a dump ;Niklas;Dieter/Mike;;;
+777;Fix;Ext;Address data update issue;2407;;Link;;High;0;on hold;;Intel, Deloitte;Mike;"01.04. On Hold gesetzt. Enhancement Problem, Feature von Frank gebaut, wird von Maren dem Kunden vorgestellt.
+14.02. not clear what Deloitte wants now. Something with a 
+
+This is no issue - the address is part of the main object; separate activation of an address without general activation of the company code is not part of the RDM solution";;
+819;Fix;Int;ES Specific - Missing / Faulty Translations Clustered;2602;;Link;Translation;Low;0;New;;Maxi;Ulla;;;
+820;Fix;Int;Location - Field Key of transfer structure is unknown;2602;;Link;Location;Medium;0;New;;Niklas;Dieter;24.03.25: ID1 and IH1 difference … Plant twice / Address Group does not work. Dieter knows;;
+821;Fix;Int;FR /ES - Missing Translations Clustered;2602;;Link;Translation;Low;0;New;;Maxi;Ulla;;;
+823;Fix;Int;MRP Area;;;Link;MRP Area;Very High;0;Confirmed;not able to create a MRP Area and assign a plant to it, as the selection of plant does not work.I faced this new issue in processing ticket 810 MRP Area File Upload;Dieter;Frank (Dieter);;;
+824;Fix;Int;FR Specific - Missing / Faulty Translations Clustered;2602;;Link;Translation;Low;0;New;;Maxi;;;;
+825;Fix;Int;No archive destination defined for Object type I_SO in the Customizing;;;Link;;Medium;0;Confirmed;;Niklas;Niklas;;;
+826;Fix;Int;MRP-Type XML Transformation Error;;;Link;MRP Type;Medium;0;Confirmed;;Niklas;Niklas;Transport ID1K904309 fix - wrong attribute name in xml file;;
+827;Fix;Int;Product HRY no change is possible for sub-node - missing an active edit button;2507;;Link;Product Hierarchy;High;0;Confirmed;;Michael;Dieter;"08.04. Mx Anfrage an Gerd, ob er testen könnte.
+Transport ID1K904311 fix
+Gerd: ReTest 08.03.25 successfully tested and documented in the defect";;
+828;Fix;Int;RDM Object Shipping Type PF4 Revise picklists Language;2602;;Link;Language;Medium;0;New;;Gerd;Frank;;;
+829;Fix;Int;Upload One Time Account Group Vendor fails;;;Link;Vendor Account Group;Medium;0;Confirmed;;Niklas;Dieter;filter war nicht aktiviert;;
+830;Fix;Int;Customer Account group to many fields in Upload;2602;;Link;Customer Account Group;Low;0;New;;Niklas;Dieter;;;
+831;Fix;Int;Material Type Valuation – Error 500 Field Symbol not assigned;;;Link;Material Type;Medium;0;Confirmed;;Niklas;Dieter;Transport ID1K904329 fix;;
+832;Fix;Int;Sales Organization - Withdrawal of change request does not work;2602;;Link;Sales Organization;Medium;0;New;"8.9.: Problem ist bei allen entitätstypen vorhanden
+04.03. Problem im Workflow BF+.";Sabine;Dieter;;;
+778;Fix;Ext;Entries are not getting properly locked in Transport for table T077S;2407;;Link;;High;0;Confirmed;;Intel, Deloitte;Mike;27.03. MX Geliefert am 19.02.2025 von Mike. Keine Rückmeldung vom Kunden.;;
+834;Fix;Int;Valuation Class Upload Variante 500 error;;;Link;Class ;Low;0;Confirmed;;Niklas;Dieter;;;
+835;Fix;Int;Valuation Class Upload Variante missing;;;Link;Class ;Low;0;Confirmed;The creation of these upload variants ITR_VC, ITR_VCT has been done by Niklas. These variants need to be translated before assignment to BC-Set;Niklas;Ulla;;;
+836;Fix;Int;Sales Organization - missing check for combination storage location plant;2602;;Link;Sales Organization;Medium;0;New;8.9.: Problem existiert noch;Sabine;;;;
+837;Fix;Int;Sales Organization - Purch doc category overwritten with first letter of order type;2503 Fix;;Link;Sales Organization;High;0;Confirmed;;Sabine;Mike;"31.03. Sabine Nachtest erfolgreich, Solved.
+27.03. Kritischer Defect muss ggf. mit 2503 Fix geliefert werden.   ID1K904702 21:00h";;
+839;Fix;Int;Company Code – no check for mandatory field currency – no inconsistency shown;2602;;Link;Company Code;Medium;0;New;;Sabine;;10.11. Sabine: currency is mandatory in spro as well. Could not find customizing for this. Thus we should make it mandatory as well;;
+840;Fix;Int;Operating Concern - Missing Translations in DE / FR / ES;2602;;Link;Operating Concern;Low;0;New;;Maxi;;;;
+780;;;;;;Link;;;0;Closed;;;;;;
+842;Fix;Int;Classes - DE FR ES  Translation Issues;2602;;Link;Class ;Low;0;New;;Maxi;;23.06. Ulla testet nochmal ;;
+844;Fix;Int;FR ES Translation - Tax Code - Missing or Faulty Translations;2602;;Link;Tax Code;Low;0;New;;Maxi;;;;
+845;Fix;Int;RDM Object Region PF4 Revise picklists Language;2602;;Link;Region;Medium;0;New;;Gerd;Frank;;;
+846;Fix;Int;Operating Concern - Missing Field Check for Key;2602;;Link;Operating Concern;Medium;0;New;;Maxi;;;;
+818;Fix;Ext;Sales Office not active after 1 Step Upload;;;Link;Sales Office;Medium;0;Confirmed;;Niklas;;;;
+848;Fix;Int;RDM Object Sales Organization PF4 Revise picklists Storage location;2602;;Link;Sales Organization;Medium;0;New;8.9.: Problem existiert noch;Gerd;Frank;;;
+849;Fix;Int;MDF Validation Internal Server Error for Source field interval ;2602;;Link;several;Medium;0;New;;Ulla;;;;
+851;Fix;Int;Scope of Planning – search criteria plant and MRP area do not work together;2602;;Link;Planning Scope;Low;0;New;;Sabine;;;;
+852;Fix;Int;Characterstics - Replication Error in IR Systems;;;Link;Characteristic;High;0;Confirmed;24.02.2025 Michael: sent to Frank;Maxi;Frank;;;
+853;Fix;Int;Division – copy does not work;;;Link;Division;Medium;0;Confirmed;27.8.: tested by Sabine;Sabine;;;;
+855;Fix;Int;Division – deletion of description in DE not replicated;;;Link;Division;High;0;Confirmed;"27.02. Sabine has been informed by Michael
+24.02.2025 Michael: sent to Frank";Sabine;Frank;;;
+856;Fix;Int;Functional Area - handling of descriptions that are too long - message USMD;2602;;Link;Functional Area;Medium;0;New;;Sabine;;;;
+857;Fix;Int;Characterstics - Currency Format - Negative Values cannot be saved;2503;;Link;Characteristic;High;0;Confirmed;24.03.25: Retested by Maxi - solved! 13.03.25: Retested by Mike for investigation purposes without issues;Maxi;Mike;;;
+858;Fix;Int;Functional Area – Deletion of description not replicated;;;Link;Functional Area;High;0;Confirmed;"27.02. Sabine has been informed by Michael
+24.02.2025 Michael: sent to Frank";Sabine;Frank;;;
+859;Fix;Int;RDM Object Plant PF4 Revise picklists Language Key;2602;;Link;Plant;Medium;0;New;;Gerd;Frank;;;
+860;Fix;Int;MRP Area Deletion of storage location not replicated;2503;;Link;MRP Area;High;0;Confirmed;;Ulla;Frank;"05.05. Mx Ulla leider negativ getested.
+ID1K904641 gel. 25.03. 10:16
+27.03. Mx Auf Retest gestellt und Info.";;
+861;Fix;Int;Sales Group ES/FR missing translations;2507;;Link;Sales Group;Low;0;Confirmed ;;Ulla;Ulla;;;
+862;Fix;Int;Tax Code FR Translation: some fields in german;2602;;Link;Tax Code;Low;0;New;;Ulla;Ulla;;;
+864;Fix;Int;RDM Object Material Type PF4 Revise picklists Language Key;2602;;Link;Language;Medium;0;New;;Gerd;Frank;;;
+865;Fix;Int;RDM Object Material Type PF4 Revise picklists CLASS;2602;;Link;Class ;Medium;0;New;;Gerd;Frank;;;
+866;Fix;Int;Itego RDM - Itego - Tax Code Search list Field approved at;2503;;Link;Tax Code;High;0;Confirmed;13.03.2025: should be fixed too;Sabine;Frank;;;
+868;Fix;Int;IH1100 - Factory Calendar - Validity Area Maintainable outside 2000 - 2050;2602;;Link;Factory Calendar;Medium;0;New;;Maxi;;;;
+869;Fix;Int;RDM Object Unit of Measure PF4- Unit of Measure Picklist UoM ExtTexts;2602;;Link;Unit of Measure;Medium;0;New;;Gerd;Frank ;Internal Error;;
+870;Fix;Int;IH1100 - Factory Calendar - Holiday Calendar maintainable even though no free days;2602;;Link;Factory Calendar;Medium;0;New;;Maxi;;;;
+871;Fix;Int;IH1100 - Unit of Meassure - Small Description Name Issue;2511;;Link;Unit of Measure;Low;0;Closed;UoM Short Text Label Change effected every Translation!;Maxi;Maxi / Mike;;;
+872;Fix;Int;Lab XML Transformation Error;;;Link;Laboratory;Medium;0;Confirmed;;Niklas;Niklas;;;
+873;Fix;Int;;;;Link;;;0;;;;;;;
+874;Fix;Int;IH400 - Planning Scope export missing;;;Link;Planning Scope;High;0;Confirmed;;Niklas;Dieter;;;
+875;Fix;Int;ALL RECEIVER - Unit of Meassure - Direct Table;2602;;Link;Unit of Measure;Medium;0;New;;Maxi;Frank;;;
+876;Fix;Int;ALL RECIEVER - Operating Concern - Direct Table;2602;;Link;several;Medium;0;New;;Maxi;Frank;;;
+877;Fix;Int;IH1100 - Holiday Calendar - Missing Field Checks;2503;;Link;Holiday Calendar;Medium;0;Confirmed;24.03.25: Retested by Maxi - solved!             07.03. Additional Missing Field Check Docuemnted -> Topic Doc and Short Description refreshed 04.03. Transport Problem Z-Objekte inside. Daher vorher Mike spricht mit Farida dazu. Klärung und Basis für Entscheidung!;Maxi;Mike;ID1K904651 (ReTest 26.03.2025 OK);ID1K904651;
+878;Fix;Int;IR1200 - IR1400– Tax Code – update of tax properties fields not replicated;2503 Fix;;Link;Tax Code;High;0;Confirmed;"24.3.25: Error Still exists
+13.03.2025: should be fixed too
+12.05.2025: retest fully successful in all systems (Sabine)";Sabine;Frank;"31.03. Fehler besteht weiterhin Info an Frank.
+ID1K904653 gel. 25.03. 14:53
+27.03. Mx Auf Retest gestellt und Info.";"ID1K904777
+ID1K904771";
+879;Fix;Int;Material Type Replication - Some fields not replicated;2602;;Link;Material Type;Medium;0;In Process;"08.03. Big differences between UI and Spro. Radio Buttons vs. Checkboxes (DM change might be needed); logic might be missing aswell and need to be implemented";Ulla;Mike;;;
+880;Fix;Int;Material Type Translation ES missing fields;2602;;Link;Material Type;Low;0;New;;Ulla;Ulla;;;
+881;Fix;Int;Tax Code – direct table  – field tol.per.rate not written;2602;;Link;Tax Code;Medium;0;New;;Sabine;;;;
+883;Fix;Int;Description and public holiday cant be assigned to new Holiday Calendar ;2503;;Link;Holiday Calendar;Medium;0;Confirmed;"27.03. Mx Mike hat getestet.
+06.03. Implementierung fehlt. Ist noch verschoben. Beide Wege funktionieren nicht (File Up/Down bzw. MDMGX).";Gerd;Dieter;ReTest OK 06.05.2025;;
+884;Fix;Int;Upload for Public Holiday Assignment to holiday calendar missing;;;Link;Public Holiday;High;0;Confirmed;06.03. Implementierung fehlt. Ist noch verschoben. Beide Wege funktionieren nicht (File Up/Down bzw. MDMGX). 10.03. Hier muss man dass Assignment hochladen und dann ist alles gut;Niklas;Dieter;;;
+885;Fix;Int;Incorrect Descprion in Public Holiday tables;;;Link;Public Holiday;Low;0;Confirmed;;Niklas;Niklas;;;
+886;Fix;Int;Exchange Rates roles and authorizations ;2602;;Link;Exchange Rate;Low;0;New;;Thomas ;Günter;;;
+887;Fix;Int;Public Holiday - EN DE FR ES - Missing or Faulty Translations;2602;;Link;Public Holiday;Medium;0;New;;Maxi;;;;
+888;Dev;Int;Upload Vairanten Assigned Public Holiday and Movable dates;2503;;Link;Public Holiday;High;0;Confirmed;;Dieter;Niklas;03.04.MX auf solved gesetzt.;;
+889;Fix;Int;MRP Area Count field missing on UI;2602;;Link;MRP Area;Low;0;In Process;;Niklas;Frank, Dieter;"14.04. Mx Frank muss sich das Thema ansehen, In Process gesetzt.
+03.04. Dieter schaut sich Problem an.
+07.04.Dieter: Es liegt kein eigentlicher Programmfehler vor. Das angemeckerte Feld COUNT wird programmintern versorgt, wenn eine Eingabe gemacht wird, dann wird dieser Index gesetzt. Die Meldung ist allerdings etwas verwirrend. Ich schaue mal da eine bessere Meldung ins GENIL Framework rüberzuschieben";ID1K904812;
+833;Fix;Ext;Issue with Asset Location configurations;2407;;Link;;High;0;Confirmed;;Intel, Deloitte;Mike;25.03. Mx Am 04.03.2025 an Kunden geliefert. Kann geschlossen werden. Keine Rückmeldung vom Kunden.;;
+891;Dev;Int;Implementing Import and Export for Holiday Calendar;2503;;Link;Holiday Calendar;High;0;Confirmed;;Dieter;Niklas;"27.03. Mx Mike hat getestet.
+";;
+892;Dev;Int;Implementing Import and Export for Public Holiday;2503;;Link;Public Holiday;High;0;Confirmed;;Dieter;Niklas;"Niklas hat geschrieben, dass der HOLTYp über Ex- und Import nicht versorgt wird. Ich habe aber auch nicht gesehen, wie dieser exportiert werden kann. Ich habe dazu keine Quelle gefunden.
+03.04. Mx Solved und ID1K904707";;
+893;Fix;Int;Deliver CBAS - Holiday Calendar as a fix, currently standard delivery is not possible ;;;Link;Holiday Calendar;High;0;Confirmed;;Itego;Günter, Dieter, Mike;Fix TR S03K900085;;
+894;Fix;Int;Process create new holiday calendar get error code;;;Link;Holiday Calendar;High;0;Confirmed;;Thomas ;Dieter;20.03. Dieter hat den Fehler schon gefunden und auch gleich behoben.;;
+895;Fix;Int;Field descriptions DE for Objects Classification, Character and Holiday must be revised  ;2602;;Link;several;Medium;0;New;;Thomas ;Dieter;;;
+897;Fix;Int;Itego RDM - Itego - IH1100 - Characterstics - negative values not correctly formatted;2511;;Link;Characteristic;Medium;0;Confirmed;;Gerd;Mike;29.8.25: retest ok (Sabine);;
+899;Fix ;Int;Itego RDM - Itego - IH100 - Holday and Public Calendar attachments can't be created;2503;;Link;Holiday Calendar;High;0;Confirmed;;Gerd;Mike;ReTest 26.03.25 OK!;ID1K904649;
+902;Fix;Int;Itego RDM – Itego – IH1100 – Classes – incorrect characteristic -no error message, activation fails;2503 Fix;;Link;Class ;High;0;Confirmed;;Sabine;Mike;"08.04. Mx Status Solved
+07.04. MX In Process gesetzt. Noch Fehler bei Löschung Merkmal und neu Anlegen.
+ 03.04. Mx Gerd hat positiv getestet. Solved.
+03.04. MX Info Transport ID1K904743 in IH2.
+02.04. MX Info von Mike Lösung transportiert. Gerd soll schon mal testen.
+31.03. Mx Info an Mike Übernahme.";"ID1K904779
+ID1K904743";
+904;Fix;Int;Missed DRF Outbound, Impl. Staging Table incorrect Country;2503;;Link;Country;Very High;0;Confirmed;;Mike/Maxi;Mike;"27.04 Nachtesten von Maxi -> Solved                    25.04. MX Maxi noch einmal angefragt wegen Doku und Abnahmetest.
+15.04. Mx No Docu und evtl. solved. (Maxi angeschrieben und um Hilfe gebeten).
+03.04. Test im IH2 durch Maxi
+01.04. Eröffnet";;
+905;Fix;Int;Itego RDM – Itego – IH1100 – Classes – Creating classes from the Tx CL02 in the RDM;2503;;Link;Class ;Low;0;Confirmed;;Gerd;Mike;Im Reuse Mode ist die Neuanalge von Objekten  aus ERP zum RMD nicht eingeschränkt;;
+906;Fix;Int;Itego RDM - Itego - IH100 - Classes – Assign characteristics with status Released only valid;2503;;Link;Class ;Very High;0;Confirmed;;Gerd;Mike;"08.04. Mx Solved Status
+07.04. MX In Process";ID1K904779;
+909;Fix;Int;Public Holiday ID jump in Result List;2507;;Link;Public holiday;Low;0;Confirmed;;Niklas;;"15.04. MX ""Solved"". ";;
+910;Fix;Int;Upload Material Group - 2x division attribute;2602;;Link;several;Low;0;In Process;;Niklas;Mike;"15.04. Mx Status auf Low und In Process als Merker für den Rückbau.
+15.04. Behaviour is based on the demo for trainings. Entity ZSPART is created as part of this demo and used as a replacement on the UI for a different search help
+14.04. Mx Defect an Mike.";;
+841;Fix;Ext;Payment Term day limit issue ;2407;;Link;Payment Term;High;0;Confirmed;;Shell;Mike, Dieter;25.03. Mx Am 25.02.25 an Kunden geliefert. Kein Rückmeldung kann geschlossen werden.;;
+847;;;skipped?;;;Link;;;0;;;;;;;
+915;Fix;Int;Itego RDM - Itego - IH100 Text translation of the entity types in language DE;2602;;Link;several;Low;0;In Process;;Gerd;Ulla;;;
+918;Fix;Int;Itego RDM - Itego - IH2100 - several objects – incorrect search screen;2602;;Link;several;Low;0;In Process;;Gerd;Mike;24.04. Mx Mike analysiert.;;
+922;Fix;Int;Itego RDM - Itego - ID1100 - WBS launchpad entry;;;Link;Work Breakdown Structure;High;0;Confirmed;;Sabine;Niklas;"MX 26.05. Niklas erstellt für Launch Pad.
+27.05 Dieter hat transporte eralten
+03.06 Günter hat transporte erhalten";;
+923;Fix;Int;Itego RDM - Itego - ID1100 - WBS fields that should not be changed after activation;;;Link;Work Breakdown Structure;High;0;Confirmed;;Sabine;Farida/Mike;"02.06.2025 Change implemented - transport not yet created; will be created after retest in ID1";;
+926;Fix;Int;Itego RDM - Itego - ID1100 - WBS - factory calendar does not trigger checks;;;Link;Work Breakdown Structure;Medium;0;Confirmed;;Sabine;Farida/Mike;13.06.2025 Fixed the Issue;;
+927;Fix;Int;Itego RDM - Itego - ID1100 - WBS - no check for start date and finish date;;;Link;Work Breakdown Structure;Medium;0;Confirmed;;Sabine;Farida/Mike;16.06.2025 Retest OK;;
+928;Fix;Int;Itego RDM - Itego - ID1100 - WBS - project profile values not considered;;;Link;Work Breakdown Structure;Medium;0;Confirmed;;Sabine;Farida/Mike;"02.06.2025 Change implemented - transport not yet created; will be created after retest in ID1
+Retest 04.06.25 ID1 OK ";;
+929;Fix;Int;FR Translation Factory Cal. Not the right translation;2602;;Link;Factory Calendar;Low;0;New;;Ulla;Ulla;;;
+933;Fix;Int;Itego RDM - Itego - ID1100 - WBS - key cannot be changed during creation;;;Link;Work Breakdown Structure;Medium;0;Confirmed;;Sabine;;"13.06.2025 Change implemented - transport not yet created; will be created after retest in ID1
+16.06.2025 Retest OK";;
+934;Fix;Int;Itego RDM - Itego - ID1100 - WBS - error message for mandatory field to early;;;Link;Work Breakdown Structure;Medium;0;Confirmed;;Sabine;Farida/Mike;"02.06. Farida hat defect gefixt.
+02.06.2025 Change implemented - transport not yet created; will be created after retest in ID1
+Retest 04.06.25 ID1 OK";;
+935;Fix;Int;Itego RDM - Itego - ID1100 - WBS - attachments cannot be accessed;;;Link;Work Breakdown Structure;Medium;0;Confirmed;;Sabine;Farida/Mike;"02.06.2025 Change implemented - transport not yet created; will be created after retest in ID1
+Retest 04.06.25 ID1 OK
+02.06. Farida hat defect gefixt. 
+MX. 26.05. Auf Medium ungestellt.";;
+936;Fix;Int;Itego RDM - Itego - ID1100 - WBS - wrong actions on WBS element details screen;;;Link;Work Breakdown Structure;High;0;Confirmed;;Sabine;Farida/Mike;"02.06.2025 Change implemented - transport not yet created; will be created after retest in ID1
+13.06.2025 Fixed the Issue
+16.06.2025 Retest OK02.06. Farida hat defect gefixt.
+Mx 26.05. Farida sollte sich das Thema diese Woche schon einmal ansehen.";;
+941;Fix;Int;Reupload unchanged WBS Element fails ;2509;;Link;Work Breakdown Structure;Low;0;obsolete;;Niklas;;;;
+945;Fix;Int;"Itego RDM - Itego - IH1100 MRP-Area search help Plant selection
+ and MRP-Area Name";2507;;Link;MRP Area;High;0;Confirmed;;Niklas;Frank;"MX 26.05. Missverständnis, Frank hat Nicklas informiert, kein Defect.
+Mx 26.5. Defect an Frank weitergeleitet.";;
+946;Fix;Int;"Itego RDM - Itego - ID1100 - PF4 maintenance - 
+default value missing for PF4 variant.";;;Link;RDM Generell Settings;High;0;Confirmed;;Sabine;Frank;"Mx 26.05. Retest Sabine ok.
+MX 26.05. Frank gelöst und Retest nächster Schritt.
+Mx 26.5. Defect an Frank weitergeleitet.";ID1K905123;
+950;Fix;Int;Itego RDM - Itego - ID1100 - WBS – Dump in hierarchy processing;;;Link;Work Breakdown Structure;Very High;0;Confirmed;;Sabine;Mike;"26.05. Change implemented - transport not yet created; will be created after retest in ID1
+MX 26.05. Defect open";;
+953;Fix;Int; Itego RDM - Itego - IH1100 - classes object component Type for Component 3 (KLART) Not Specified;;;Link;Class;High;0;Confirmed;;Niklas;;;;
+954;Fix;Int;Itego RDM - Itego - ID1100 - WBS – Level information is missing in the distribution;;;Link;Work Breakdown Structure;High;0;Confirmed;;Gerd/Sabine;Farida/Mike;"02.06. Farida hat defect gefixt.
+MX 26.05. Defect open. ReTest  06.05.2025 The levels in the PRPS tab are transferred";;
+955;Fix;Int;Plant name is not mandatory ;2503;;Link;Plant;Medium;0;Closed;;Niklas;;"11.07.25 MB: closed as this is the standard. Customer needs to build a validation
+05.06. SPRO enables creation of plant without name (current design follows SPRO standard)";;
+956;Fix;Int;sales office - Field Country needs to be maintained;2602;;Link;Sales Office;High;0;New;;Niklas;;;;
+963;Fix;Int;Itego RDM - Itego - IH1100 - Upload Location - Field Key of transfer structure is unknown;;;Link;;;0;;;;;;;
+969;Fix;Int;No CR type found if you want to add an attachment to an existing object;2602;;Link;all;Medium;0;New;;Sabine;;;;
+973;Fix;Int;Search UI Configuration in ITU MDFIMG not functional;2602;;Link;all;High;0;New;;Michael;;;;
+980;Fix;Int;Itego RDM - Itego - ID1100 - WBS - Search for WBS element not offered;;;Link;Work Breakdown Structure;Medium;0;Confirmed;;Sabine;Niklas;;;
+890;Fix;Ext; Itego RDM -  Itego  - IH1100 - Exchange rate Idoc issue;2407;;Link;Exchange Rate;High;0;Confirmed;;Bayer ;Günter, Dieter;;;
+984;Fix;Int;Internal Server Error Product Hierarchy when creating CR;2507;;Link;Product Hierarchy;High;0;Confirmed;;Ulla;;;;
+990;Fix;Int;Suppress new creation functions from hierarchy maintenance;2507;;Link;Product Hierarchy;HIgh;0;Confirmed;;Gerd;;New Button entfernt;;
+1054;Fix;Int;Dump beim Öffnen von Classes Tile: component type for KLART not specified;2509;;Link;Class;Very High;;Confirmed;;Sabine;;29.08. Retest ok (Sabine);;
+1086;Dev;Int;Remove tile 'product hierarchy sub nodes' from launchpad;;15.09.2025 11:59:17;Link;Product Hierarchy;High;;Confirmed;;Sabine;Niklas;"25.11. Sabine: retest IH1 ok
+09.10. Mx Niklas hat Defect gelöst und getestet.";;
+1087;Fix;Int;wrong error message if medium text is too long;;22.09.2025 10:12:39;Link;Posting Period Variant;Medium;;Confirmed;;Sabine;Sara;"23.09.2025 Sara: in solution proposal now
+
+same issue for company ID. Proposal: avoid error message by adjusting lenght of UI field as it is implemented for other entity types like MTART";;
+1088;Fix;Int;UI issues - length of fields and error messages;;22.09.2025 10:58:17;Link;Company;High;;Confirmed;;Sabine;Sara;23.09.2025 Sara: in solution proposal now;;
+1092;Dev;Int;ITR_BLART does not exist;2511;24.09.2025 14:51:40;Link;Document Type;Medium;;Solved;;Patrick;Niklas;"09.10. Mx Niclas hat Defect gelöst und getestet.
+06.10. Mx Variante für Upload/Download Belegart fehlt und wird von Niklas angelegt.";;
+1112;Dev;Int;Discrepancy between Data Model CITY Attributes;;16.10.2025 12:02:58;Link;Object Specific Addresses;Very High;;Solved;;Maxi;Maxi;"See Doc for current Status
+17.10.25 Solved";;
+1119;Fix;Int;TIMEFM Format Issue;;22.10.2025 15:26:48;Link;Country;Medium;;New;;Maxi;Maxi;;;
+1123;Fix;Int;UX issues - field length and missing descriptions;2511;27.10.2025 17:54:43;Link;Shipping Point;Medium;;Confirmed;;Sabine;Sara;"03.11.25: Sabine retest
+31.10.25 Mx Solution Proposal delivered from Sara.
+30.10.25 Sara: In solution proposal now";;
+1140;Fix;Int;LSA update to SAP table T880 does not work in IH1/400;2511;05.11.2025 17:22:59;Link;Company;;;Solved;;Gerd;Mike;"06.11.25 Mike und Günter haben das BC-Set erweitert und transportiert
+06.11.25 GS erneuter Test im IH1/IH2 war erfolgreich";;
+913;Dev;Ext ;Release Note 2503;2503;;Link;several;Very High;0;Confirmed;;Michael;Michael;22.04. Mx Docu vom 31.03. zugeordnet.;;
+1158;Fix;Int;search screen: fields missing, labels incorrect;2511;17.11.2025 17:36:17;Link;Company ID;Medium;;Confirmed;;Sabine;Sara;"23.11. Sabine: retest ok
+20.11. Sara: Changes made and shared for retest
+19.11. Sabine: info sent to Sara
+19.11. Sara in Bearbeitung, aber Rückfrage an Sabine.";;
+1175;Fix;Int;Change Documents for some attributes are missing;;08.12.2025 10:20:17;Link;Tax Procedure;Medium;;obsolete;;Sabine;;08.11. Sabine: change documents depend on a flag on data´element level. Issue is obsolete;;
+1176;Fix;Int;Change Documents for two attributes are missing;;08.12.2025 10:22:27;Link;Currency Key;Medium;;obsolete;;Sabine;;08.11. Sabine: change documents depend on a flag on data´element level. Issue is obsolete;;
+1182;Fix;Int;Allow maintenance of two different cities;2603;10.12.2025 10:28:26;Link;Company Code;Medium;;New;;Sabine;Farida;10.12.25 Sabine: follow up of issue 838;;
+1184;Fix;Int;field 'own explanation' not updated correctly;2603;17.12.2025 11:34:41;Link;Payment Term v2;High;;Confirmed;;Sabine;Sara;"13.01.2026; Sabine: retest in ID1 ok
+02.01.2025 Sara: Issue fixed in ID1";;
+914;Fix;Ext;Loading Exchange Rates to the productive system (Performance);2407;;Link;Exchange Rate;High;0;Confirmed;;Bayer ;Dieter/Mike/SAP;"06.05. Hr Wingender: funktioniert nun. SAP Notes haben geholfen
+24.04. Mx Info von Dieter interne Test ergeben kein Verbesserungspotential. Vermutlich liegt Problem im MDG SAP Umfeld.
+22.04. MX Bayer fehlen SAP Hinweise. Spielt diese jetzt erst einmal ein. Meldet sich ggf. .
+16.04. Dieter and Gerd are already investigating the issue; SAP is in contact with cust. aswell as it seems for investigating general performance issues. Case 433423/2025";;
+1199;Fix;Int;Field day limits can be single-digit;2603;16.01.2026 14:32:32;Link;Payment Term v2;low;;Confirmed;;Gerd;;On closer viewing, the issue is a minor cosmetic flaw, so I am closing the defect.I suspect technical reasons.;;
+1200;Fix;Int;Approve_At-Field is equated for the same payment terms;2603;16.01.2026 16:07:30;Link;Payment Term v2;High;;New;;Gerd;Mike;Value for the “Aprove-At” field needs to be revised;;
+983;Fix;Ext;Itego RDM - Itego - CHARHEAD, no filtering was possible using TXTMI;2507;;Link;Characteristic;High;0;Confirmed;;Exxon;Dieter;"31.07. Mx auf Solved gesetzt. 
+26.6. Fix zu Exxon geschickt";;
+1156;Fix;Ext;Non-functional PRODH Export;;14.11.2025 10:59:41;Link;Product Hierarchy;High;;Confirmed;;Jungheinrich;Mike;"24.11.25 MSK: Rückantwort vom Kunden mit positivem Ergebnis; Status Confirmed
+20.11.25 Mx Mike hat Transport und Note an Kunden gesendet. (Solved)
+14.11.25 MSK: Export Report im Kundensystem arbeitet nicht korrekt; Stand aus IH2 wird als separater Transport ausgeliefert; Stand im ID1 ist nicht zu Ende entwickelt";;
+1202;Fix;Ext;Hierarchy Assignment causing issues;2507;19.01.2026 11:07:04;Link;Product Hierarchy;Low;;New;;Bayer;Mike;"27.01.2026: MB: nicht klar warum das ""Low"" ist … nächste Woche klären wir das";;
+1207;Fix;Int;create new class - value help for status field is empty;;23.01.2026 13:41:45;Link;Class;High;;Obsolete;;Sabine;;23.01.2026: Sabine: value help correct when the class type is filled;;
+1208;Fix;Int;combination of search fields does not work correctly;;23.01.2026 14:44:01;Link;Class;High;;New;;Sabine;;23.01.2026 Sabine: follow up issue of customer issue 1189;;
+1205;Fix;Ext;False Positive - Special Rules not available (navigable) from SPRA even though persistent in DB ;2603;;Link;Factory Calendar;;;New;;Intel;;"27.01.2026: wir haben noch kein offizielles Ticket von Intel
+23.01.2026 ME: Fehler wurde im Meeting kommuniziert, Reproduktion wird dokumentiert";;

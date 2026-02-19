@@ -1,0 +1,13 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MATKL
+* Variant: ITR_MATKLT
+* User: IT_ALL_06
+* Date: 20250522 / Time: 111511
+* Selection does not restrict data
+*MATKL;LANGU;TXTSH;TXTLG
+01;DE;Warengruppe 1;;
+01;EN;Material group 1;;
+02;DE;Warengruppe 2;;
+02;EN;Material group 2;;
+V1;DE;de upl;retest de;

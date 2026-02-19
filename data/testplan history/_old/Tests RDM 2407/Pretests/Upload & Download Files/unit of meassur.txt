@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MSSIE
+* Variant: ITR_MSSIE
+* User: IT_ALL_06
+* Date: 20240604 / Time: 125335
+* Selection does not restrict data
+* Fields not in Governance Scope: ADDKO
+*MSSIE;TXTSH;TXTLG;ADDKO;X_MSEH3;KZKEH;DECAN;ANDEC;NENNR;DIMENSION;EXP10;ISOCODE;ZAEHL;PRIMARY;X_MSEH6;FAMUNIT;KZWOB;EXPON
+%;%;Test Case UPL;0,000000;Tes;X;5;5;500;PROPOR;5;P1;5;X;Test C;5;X;5;
+%O;%0;Per mille;0,000000;;X;0;0;1000;PROPOR;0;;1;;;;;0;

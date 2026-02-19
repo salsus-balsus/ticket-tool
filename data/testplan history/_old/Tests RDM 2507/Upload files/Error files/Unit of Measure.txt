@@ -1,0 +1,9 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MSSIE
+* Variant: ITR_MSSIE
+* User: IT_ALL_06
+* Date: 20250410 / Time: 090255
+* Selection does not restrict data
+*MSSIE;TXTSH;TXTLG;ADDKO;X_MSEH3;KZKEH;DECAN;ANDEC;NENNR;DIMENSION;EXP10;ISOCODE;ZAEHL;PRIMARY;X_MSEH6;FAMUNIT;KZWOB;EXPON
+V1;upl test;;0,000000;NVV;X;;0;1;ACBAC;1;_98;1;;NVV;;;0;

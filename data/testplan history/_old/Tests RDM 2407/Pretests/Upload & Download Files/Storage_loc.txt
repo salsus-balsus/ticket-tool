@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: LGORT
+* Variant: ITR_LGORT
+* User: IT_ALL_06
+* Date: 20240531 / Time: 082248
+* Selection does not restrict data
+*PLANT;LGORT;TXTSH;XBLGO;MESBS;LGOBE;LG_VTWEG;LG_SPART;XBUFX;XHUPF;OIG_ITRFL;MESST;OIH_LICNO;XLONG;DISKZ;LG_VKORG;VSTEL;XRESS
+0003;0001;;;;Lager 0001 upl;;;;;;;;;;;;;
+0002;SL01;;;;SL01 Description;;;;;;;;;;;0001;;
+0002;SL02;;;;SL02 Description;;;;X;;;;;;;0001;;

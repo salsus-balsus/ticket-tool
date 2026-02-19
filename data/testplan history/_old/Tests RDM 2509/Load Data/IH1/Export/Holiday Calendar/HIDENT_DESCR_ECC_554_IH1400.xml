@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_HIDENT_DESCR_ECC System="IH1_400">
+	<HIDENT_DESCR_ECC>
+		<IDENT>X1</IDENT>
+		<LANGU>D</LANGU>
+		<TXTLG>Deutschland (Schleswig-Holstein)</TXTLG>
+	</HIDENT_DESCR_ECC>
+	<HIDENT_DESCR_ECC>
+		<IDENT>X1</IDENT>
+		<LANGU>E</LANGU>
+		<TXTLG>Germany (Schleswig-Holstein)</TXTLG>
+	</HIDENT_DESCR_ECC>
+</MDG_HIDENT_DESCR_ECC>

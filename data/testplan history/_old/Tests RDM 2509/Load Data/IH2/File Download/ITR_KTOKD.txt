@@ -1,0 +1,37 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KTOKD
+* Variant: ITR_KTOKD
+* User: IT_ALL_06
+* Date: 20250825 / Time: 084512
+* Selection does not restrict data
+*KTOKD;TXTMI;KALSM_C;XCPDS
+0001;;;;
+0002;;;;
+0003;;;;
+0004;;;;
+0005;;;;
+0006;;;;
+0007;;;;
+0012;;;;
+0020;;DB0001;;
+0042;;DB0001;;
+0100;;;;
+0110;;;;
+0120;;;;
+0130;;;;
+0140;;;;
+0150;;;;
+0160;;;;
+0170;;;;
+CPD;;;X;
+CPDA;;;X;
+DEBI;;;;
+GRP1;;DB0002;;
+J3G;;DB0001;;
+KUNA;;;;
+LCMS;;;;
+LCMX;;;;
+U1;;DB0002;;
+VVD;;;;
+ZBPD;;;;

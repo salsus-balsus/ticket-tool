@@ -1,0 +1,52 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: LANGUAGE
+* Variant: ITR_LANGU
+* User: IT_ALL_06
+* Date: 20250923 / Time: 051258
+* Selection does not restrict data
+*LANGUAGE;TXTSH;LAISO;LASPEZ;LAHQ
+SR;UP Serbian;VX;S;0
+ZH;Chinese;ZH;D;0;
+TH;Thai;TH;M;0;
+KO;Korean;KO;D;0;
+RO;Romanian;RO;S;0;
+SL;Slovenian;SL;S;0;
+HR;Croatian;HR;S;0;
+MS;Malay;MS;S;4;
+UK;Ukrainian;UK;S;0;
+ET;Estonian;ET;S;0;
+AR;Arabic;AR;L;0;
+HE;Hebrew;HE;L;0;
+CS;Czech;CS;S;4;
+DE;German;DE;S;1;
+EN;English;EN;S;1;
+FR;French;FR;S;2;
+EL;Greek;EL;S;0;
+HU;Hungarian;HU;S;4;
+IT;Italian;IT;S;2;
+JA;Japanese;JA;D;2;
+DA;Danish;DA;S;3;
+PL;Polish;PL;S;0;
+ZF;Chinese trad.;ZF;D;0;
+NL;Dutch;NL;S;2;
+NO;Norwegian;NO;S;3;
+PT;Portuguese;PT;S;4;
+SK;Slovak;SK;S;0;
+RU;Russian;RU;S;3;
+ES;Spanish;ES;S;2;
+TR;Turkish;TR;S;0;
+FI;Finnish;FI;S;3;
+SV;Swedish;SV;S;3;
+BG;Bulgarian;BG;S;4;
+LT;Lithuanian;LT;S;0;
+LV;Latvian;LV;S;0;
+Z1;Customer reserve;Z1;S;0;
+AF;Afrikaans;AF;S;0;
+IS;Icelandic;IS;S;0;
+CA;Catalan;CA;S;4;
+SH;Serbian (Latin);SH;S;4;
+ID;Indonesian;ID;S;0;
+HI;Hindi;HI;M;0;
+KK;Kazakh;KK;S;0;
+VI;Vietnamese;VI;S;0;

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_LGORT_ECC System="IH1_400">
+	<LGORT_ECC>
+		<WERKS>0001</WERKS>
+		<LGORT>VV1</LGORT>
+		<LGOBE>Lager 0001</LGOBE>
+		<SPART/>
+		<XLONG/>
+		<XBUFX/>
+		<DISKZ/>
+		<XBLGO/>
+		<XRESS/>
+		<XHUPF/>
+		<VKORG/>
+		<VTWEG/>
+		<VSTEL/>
+		<MESBS/>
+		<MESST/>
+		<OIH_LICNO/>
+		<OIG_ITRFL/>
+		<CFGDEP/>
+	</LGORT_ECC>
+</MDG_LGORT_ECC>

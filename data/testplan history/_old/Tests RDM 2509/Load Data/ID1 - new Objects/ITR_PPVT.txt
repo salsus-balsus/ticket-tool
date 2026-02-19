@@ -1,0 +1,13 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: OPVAR_EN
+* Variant: ITR_PPVT
+* User: VICKN
+* Date: 20250924 / Time: 110113
+* Selection does not restrict data
+*OPVAR_EN;LANGU;TXTMI
+V001;DE;Variante 0001;
+V001;EN;Variant 0001;
+0002;DE;Variante U002;
+0002;EN;Variant U002;
+0003;EN;Test FR-0003;

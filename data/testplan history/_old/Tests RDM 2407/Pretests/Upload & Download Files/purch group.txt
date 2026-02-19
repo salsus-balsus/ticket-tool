@@ -1,0 +1,13 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: EKGRP
+* Variant: ITR_EKGRP
+* User: IT_ALL_06
+* Date: 20240604 / Time: 125819
+* Selection does not restrict data
+*EKGRP;EKNAM;SMTP_ADDR;EKTEL;TEL_NUMBE;TELFX;STATUS_EK;STREMARKS;STVALIDFR;TEL_EXTEN
+001;Einkäufer upl;dieter@Hoewler.com;2222222;;;;;00.00.0000;+49;
+003;Einkäufer 3;;06227/341285;;;;;00.00.0000;;
+010;Einkäufer 10;;06227/341285;;;;;00.00.0000;;
+
+

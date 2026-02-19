@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_COMPANYID_ECC System="ID1_400">
+	<COMPANYID_ECC>
+		<RCOMP>800002</RCOMP>
+		<NAME1>Gesellschaft 800002</NAME1>
+		<CNTRY>DE</CNTRY>
+		<NAME2/>
+		<LANGU>D</LANGU>
+		<STRET>Neurottstrasse 16</STRET>
+		<POBOX/>
+		<PSTLC>69190</PSTLC>
+		<CITY>Walldorf</CITY>
+		<CURR>EUR</CURR>
+		<MCOMP/>
+	</COMPANYID_ECC>
+	<COMPANYID_ECC>
+		<RCOMP>800001</RCOMP>
+		<NAME1>Gesellschaft 800001</NAME1>
+		<CNTRY>DE</CNTRY>
+		<NAME2/>
+		<LANGU>D</LANGU>
+		<STRET>Neurottstrasse 16</STRET>
+		<POBOX/>
+		<PSTLC>69190</PSTLC>
+		<CITY>Walldorf</CITY>
+		<CURR>EUR</CURR>
+		<MCOMP/>
+	</COMPANYID_ECC>
+</MDG_COMPANYID_ECC>

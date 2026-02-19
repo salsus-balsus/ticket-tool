@@ -1,0 +1,13 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: FKBER
+* Variant: ITR_FKBER
+* User: VICKN
+* Date: 20250218 / Time: 132615
+* Selection does not restrict data
+*FKBER;TXTMI;AUTHGRP;DATE_EXP;FNSUB1;FNSUB2;FNSUB3;STR_ID;DATAB;DATBIS
+0001;Functional area 0001;;00.00.0000;;;;;00.00.0000;00.00.0000;
+0002;Functional area 0002;;00.00.0000;;;;;00.00.0000;00.00.0000;
+0003;Functional area 0003;;00.00.0000;;;;;00.00.0000;00.00.0000;
+0004;Functional area 4;;00.00.0000;;;;;00.00.0000;00.00.0000;
+UPL1;FA UPL EN;;00.00.0000;;;;;00.00.0000;00.00.0000;

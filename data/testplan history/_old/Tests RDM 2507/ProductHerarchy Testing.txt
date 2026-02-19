@@ -1,0 +1,17 @@
+
+W1
+ID1, IH2
+Mo: Mike schliesst die Validierung ab
+Di: Aufbau IH2, Abstimmung Niklas&Maxi + Abstimmung mit Gerd&Thomas
+Mi: IH2 Tests mit External Numbering (Gerd, Ulla) => Abstimm-Meeting Status
+Do: 
+Fr:
+
+W2
+Mo: IH1 Tests
+Di: 
+Mi:
+Do:
+Fr:
+
+W3: ...

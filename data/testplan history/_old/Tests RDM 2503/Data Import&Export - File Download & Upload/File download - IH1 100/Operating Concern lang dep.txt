@@ -1,0 +1,21 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: ERKRS
+* Variant: ITR_ERKRST
+* User: VICKN
+* Date: 20250218 / Time: 133118
+* Selection does not restrict data
+*ERKRS;LANGU;TXTMI
+DD;DE;dd;
+OC1;EN;OpConc1;
+OC2;EN;OpConc2;
+S001;DE;Beispiel-Ergebnisbereich 1;
+S001;EN;Example Operating Concern 1;
+S_AL;DE;Template Streckenerfolg;
+S_AL;EN;Route Profitability Template;
+S_CP;DE;Template Konsumgüterindustrie;
+S_CP;EN;Template: Consumer Goods Ind.;
+S_GO;DE;Template Quickstart;
+S_GO;EN;Quickstart Template;
+TEST;EN;Just a test;
+UPL1;DE;UPL Test;

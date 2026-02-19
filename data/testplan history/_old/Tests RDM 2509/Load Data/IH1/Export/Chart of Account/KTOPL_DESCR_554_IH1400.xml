@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_KTOPL_DESCR_ECC System="IH1_400">
+	<KTOPL_DESCR_ECC>
+		<KTOPL>0VV1</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>IS-B Musterbank Deutschland</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>0VV2</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>IS-B Musterbank Deutschland</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>0VV1</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>IS-B M.Bank German</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>BKMG</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Bankenkontenplan Multi-GAAP</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CABE</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Belgien</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CACH</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Schweiz</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CACN</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan China</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CACO</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Musterkontenplan für Kolumbien</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CACZ</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Tschechische Republik</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAES</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Spanien</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAFI</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Finnland</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAFR</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Frankreich</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAHU</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Ungarn</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAJP</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Japan</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAKR</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Korea (Rep.)</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAKZ</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Kasachstan</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CANA</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Nordamerika</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CANO</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Norwegen</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAPE</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Staatlicher Kontenplan Perú (Industrie &amp; Handel)</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAPL</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Polen</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAPT</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Plano Oficial de Contabilidade (PT)valid till 2010</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CARU</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Russland</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CASE</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Schweden BAS99</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CASK</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Slowakei</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CATR</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Musterkontenplan Türkei</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CATW</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Taiwan</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAUA</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Kontenplan Ukraine</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>GKR</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Gemeinschaftskontenrahmen</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>IKR</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Industriekontenrahmen</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>INT</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Muster-Kontenplan</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>SNC</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Plano Oficial de Contabilidade (PT)valid from 2010</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>U1</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>U1</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>WEG</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>Muster-Kontenplan WEG</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>0MB1</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>IS-B Sample bank - Germany</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>BKMG</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Bank Chart of Accounts - Multi-GAAP</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CABE</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Belgium</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CACH</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Switzerland</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CACN</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - China</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CACO</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Sample chart of accounts for Colombia</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CACZ</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Czech Republic</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAES</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Spain</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAFI</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Finland</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAFR</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - France</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAHU</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Hungary</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAJP</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Japan</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAKR</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Republic of Korea</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAKZ</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Kazakhstan</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CANA</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - North America</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CANO</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Norway</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAPE</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>State chart of accounts Peru (Trade &amp; industry)</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAPL</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Poland</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAPT</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Plano Oficial de Contabilidade (PT)valid &apos;til 2010</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CARU</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Russia</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CASE</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Sweden BAS99</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CASK</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Slovakia</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CATR</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Sample chart of accounts - Turkey</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CATW</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Taiwan</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAUA</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - Ukraine</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>GKR</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>German Joint Standard Accounting System</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>IKR</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart of accounts - industry</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>INT</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Sample chart of accounts</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>SNC</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Plano Oficial de Contabilidade (PT)valid from 2010</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>U1</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Chart Of Acc U1</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>WEG</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>Sample Chart of Accounts WEG</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CABE</KTOPL>
+		<LANGU>F</LANGU>
+		<TXTLG>Plan comptable belge</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAES</KTOPL>
+		<LANGU>F</LANGU>
+		<TXTLG>Plan comptable espagnol</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAFR</KTOPL>
+		<LANGU>F</LANGU>
+		<TXTLG>Plan comptable francais</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAJP</KTOPL>
+		<LANGU>F</LANGU>
+		<TXTLG>Plan comptable japonais</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CASE</KTOPL>
+		<LANGU>F</LANGU>
+		<TXTLG>Plan comptable suedois et finlandais</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CABE</KTOPL>
+		<LANGU>N</LANGU>
+		<TXTLG>Rekeningstelsel Belgie</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAES</KTOPL>
+		<LANGU>N</LANGU>
+		<TXTLG>Rekeningstelsel Spanje</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAFR</KTOPL>
+		<LANGU>N</LANGU>
+		<TXTLG>Rekeningstelsel Frankrijk</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAJP</KTOPL>
+		<LANGU>N</LANGU>
+		<TXTLG>Rekeningstelsel Japan</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CASE</KTOPL>
+		<LANGU>N</LANGU>
+		<TXTLG>Rekeningstelsel Zweden</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CABE</KTOPL>
+		<LANGU>S</LANGU>
+		<TXTLG>Plan de cuentas Belgica</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAES</KTOPL>
+		<LANGU>S</LANGU>
+		<TXTLG>Plan de cuentas Espaöa</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAFR</KTOPL>
+		<LANGU>S</LANGU>
+		<TXTLG>Plan de cuentas Francia</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CAJP</KTOPL>
+		<LANGU>S</LANGU>
+		<TXTLG>Plan de cuentas Japon</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>CASE</KTOPL>
+		<LANGU>S</LANGU>
+		<TXTLG>Plan de cuentas Suecia</TXTLG>
+	</KTOPL_DESCR_ECC>
+</MDG_KTOPL_DESCR_ECC>

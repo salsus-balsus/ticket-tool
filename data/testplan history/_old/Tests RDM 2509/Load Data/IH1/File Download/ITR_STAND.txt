@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: STAND
+* Variant: ITR_STAND
+* User: KLOSP
+* Date: 20251008 / Time: 093907
+* Selection does not restrict data
+*PLANT;STAND;TXTMI
+0001;0001;Werk 0001 Standort 0001;
+0002;0002;;
+0003;0003;Werk 0003 Standort 0003;

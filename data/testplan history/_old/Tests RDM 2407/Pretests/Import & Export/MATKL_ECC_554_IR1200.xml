@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_MATKL_ECC System="IR1_200">
+	<MATKL_ECC>
+		<MATKL>ZZ11</MATKL>
+		<SPART/>
+		<BEGRU/>
+		<GEWEI/>
+		<BKLAS/>
+	</MATKL_ECC>
+		<MATKL_ECC>
+		<MATKL>ZZ12</MATKL>
+		<SPART>01</SPART>
+		<BEGRU/>
+		<GEWEI>KGM</GEWEI>
+		<BKLAS>3000</BKLAS>
+	</MATKL_ECC>
+</MDG_MATKL_ECC>

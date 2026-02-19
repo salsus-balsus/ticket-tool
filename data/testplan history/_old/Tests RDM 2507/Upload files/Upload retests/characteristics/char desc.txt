@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CHARDESC
+* Variant: ITR_CHARD
+* User: IT_ALL_06
+* Date: 20250522 / Time: 131509
+* Selection does not restrict data
+*CHARHEAD;ATBEZ;TXTCHAR;CHR_ADZHL;SPRAS_CL
+$29;upl en char;;0000;EN;
+$29;upl de char;;0000;DE;

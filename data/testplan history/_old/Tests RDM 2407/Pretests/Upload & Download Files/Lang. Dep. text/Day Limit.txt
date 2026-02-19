@@ -1,0 +1,11 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: DAYLIMIT
+* Variant: ITR_DLIMT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 173049
+* Selection does not restrict data
+*PAYMNTTRM;DAYLIMIT;LANGU;TXTLG
+0001;55;DE;lang imp;
+0001;55;EN;lang imp;
+T1;10;EN;Test;

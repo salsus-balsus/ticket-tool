@@ -1,0 +1,12 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MMSTA
+* Variant: ITR_MMSTA
+* User: VICKN
+* Date: 20250218 / Time: 132230
+* Selection does not restrict data
+*MMSTA;TXTMI;DSTLK;DSTLP;DLOCK;DPROG;DPBED;DBEST;DLFPL;DDISP;DERZK;DFAPO;DFAKO;DFHMI;DINST;AUPRF;DEINK;DQMPF;DAPLA;DTAUF;DTBED
+01;Blocked for procment/whse;;;;B;;B;;B;;;;;;;B;;;;;
+02;Blocked for task list/BOM;B;B;;;;;;;;;;;;;;;B;;;
+03;Test 03;;;X;;;;;;;;;;;MAT_PRFL1;;;;;;
+UL;Test UPL;;;X;;;;;;;;;;;MAT_PRFL1;;;;;;

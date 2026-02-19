@@ -1,0 +1,17 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: VTWEG
+* Variant: ITR_VTWEG
+* User: IT_ALL_06
+* Date: 20240531 / Time: 140616
+* Selection does not restrict data
+*VTWEG;TXTSH
+01;Distribtn Channel 01;
+DT;TC DU 28.1.2;
+DU;TC DU 19.2;
+MK;Test dist. chan. MK;
+TE;Test dis.cha. TE Chg;
+TS;Team Speak test;
+TY;Test dis.cha. TY Chg;
+U;DistChannel UPLT;
+X;DistChannel X;

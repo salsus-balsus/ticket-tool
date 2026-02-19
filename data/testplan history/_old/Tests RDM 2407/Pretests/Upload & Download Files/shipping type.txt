@@ -1,0 +1,14 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: VSART
+* Variant: ITR_VSART
+* User: IT_ALL_06
+* Date: 20240611 / Time: 134058
+* Selection does not restrict data
+*VSART;TXTSH;VKTRA;VSGRP
+01;Truck;01;0001;
+02;Mail;06;0002;
+03;Rail;02;0003;
+04;Sea;03;0004;
+05;AIR;03;0004;
+S1;Rail;02;0003;

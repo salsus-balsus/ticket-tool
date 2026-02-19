@@ -1,0 +1,62 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MTART
+* Variant: ITR_MTARTT
+* User: VICKN
+* Date: 20250218 / Time: 132028
+* Selection does not restrict data
+*MTART;LANGU;TXTMI
+ABF;DE;r;
+ABF;EN;Waste/Glas;
+BUND;DE;scy;
+BUND;EN;Bundle Product;
+CBAU;EN;Compatible Unit;
+CH00;EN;CH Contract Handling;
+CONT;EN;Kanban Container;
+COUP;EN;Coupons;
+DIEN;EN;Service;
+EPA;EN;Equipment Package;
+ERSA;EN;Spare Parts;
+FERT;EN;Finished Product;
+FFFC;EN;Form-Fit-Function class;
+FGTR;EN;Beverages;
+FHMI;EN;Production Resource/Tool;
+FOOD;EN;Foods (excl. perishables);
+FRIP;EN;Perishables;
+GBRA;EN;ETM usable material;
+HALB;EN;Semifinished Product;
+HAWA;EN;Trading Goods;
+HERB;EN;Interchangeable part;
+HERS;EN;Manufacturer Part;
+HIBE;EN;Operating supplies;
+IBAU;EN;Maintenance assemblies;
+INTR;EN;Intra materials;
+KMAT;EN;Configurable materials;
+LEER;EN;Empties;
+LEIH;DE;test;
+LEIH;EN;Returnable packaging;
+LGUT;EN;Empties (retail);
+MODE;EN;Apparel (seasonal);
+MPO;EN;Material Planning Object;
+NLAG;EN;Non-stock materials;
+NOF1;EN;Nonfoods;
+PIPE;EN;Pipeline materials;
+PLAN;EN;Trading goods (planned);
+PROC;EN;Process materials;
+PROD;EN;Product groups;
+ROH;EN;Raw materials;
+SERV;EN;Service Product;
+SUBC;EN;Subscription Sharing Prd.;
+SUBP;EN;Subscription Partner Prd.;
+SUBS;EN;Subscription Product;
+TEST;EN;Bundle Product;
+UNBW;EN;Nonvaluated materials;
+VBRA;EN;ETM consumption material;
+VERP;EN;Packaging;
+VKHM;EN;Additionals;
+VOLL;EN;Full products;
+VVGR;EN;Competitor Product;
+WERB;EN;Product catalogs;
+WERT;EN;Value-only materials;
+WETT;EN;Competitor products;
+UPL1;DE;UPL Test 1;

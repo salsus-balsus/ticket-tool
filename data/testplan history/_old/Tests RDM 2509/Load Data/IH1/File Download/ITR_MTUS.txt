@@ -1,0 +1,14 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MTART_ST
+* Variant: ITR_MTUS
+* User: IT_ALL_06
+* Date: 20250919 / Time: 072601
+* Selection does not restrict data
+*MTART;DUMMY;STATM
+ABX;;A;
+ABX;;B;
+ABX;;C;
+ABX;;D;
+ABX;;E;
+ABX;;F;

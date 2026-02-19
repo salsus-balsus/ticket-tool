@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: CLKEYWORD
+* Variant: ITR_CLASSK
+* User: IT_ALL_06
+* Date: 20250526 / Time: 110232
+* Selection does not restrict data
+*CLASSHEAD;SPRAS_CL;KLPOS;KSCHL;KSCHL_CL
+0000000001;DE;02;Test DE UPL;Test DE UPL;
+0000000001;EN;02;Test EN UPL;Test EN UPL;

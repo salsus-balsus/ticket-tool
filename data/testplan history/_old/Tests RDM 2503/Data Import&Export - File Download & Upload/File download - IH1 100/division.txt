@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: SPART
+* Variant: ITR_SPART
+* User: IT_ALL_06
+* Date: 20250212 / Time: 142324
+* Selection does not restrict data
+*SPART;TXTSH
+G1;G1 Division Retail;
+UL;Upload Division;

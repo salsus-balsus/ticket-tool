@@ -1,0 +1,15 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MRPAREA
+* Variant: ITR_MRPAR
+* User: HOEWLERD
+* Date: 20250219 / Time: 072714
+* Selection does not restrict data
+*MRPAREA;TXTMI;BERTY;SPE_BNTYP;WERZG;ORTZG
+0001;lang imp;01;;0001;0001;
+0002;0002 Description;01;;0002;0001;
+0003;0003 Description;01;;0003;0001;
+BOTTLE 1;Reserve;02;;0001;0001;
+IMP1;Test MRP Area imp;01;;IMP1;0001;
+TSC3;Planning Scope TSC3;01;;TSC3;;
+Z003;Test MRP Area V02;01;;Z003;;

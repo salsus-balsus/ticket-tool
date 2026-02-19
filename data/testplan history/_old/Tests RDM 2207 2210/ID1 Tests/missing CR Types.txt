@@ -1,0 +1,25 @@
+Sales Org (per Upload einen angelegt)
+Exchange Rate
+Operating Concern
+Tax Code
+Valuation Class
+BoM Usage
+Plant
+Location
+Material Group
+MRP Profile
+MRP Type
+
+To be checked
+MRP Area
+Storage Location
+Classes
+Characteristics
+Distr Channel
+Incotermns
+Payment Terms
+Pod Hrchy
+Sales Grp
+Ship Cond
+Shipping Type
+Personnel Area

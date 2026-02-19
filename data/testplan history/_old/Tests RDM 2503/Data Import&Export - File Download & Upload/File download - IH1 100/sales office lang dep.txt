@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: VKBUR
+* Variant: ITR_SOT
+* User: IT_ALL_06
+* Date: 20250216 / Time: 164513
+* Selection does not restrict data
+*VKBUR;LANGU;TXTSH
+SO01;EN;Sales Office 01;
+SO01;DE;Verkaufsbüro DE 01;

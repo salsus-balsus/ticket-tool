@@ -1,0 +1,55 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: MTART_ST
+* Variant: ITR_MTUS
+* User: VICKN
+* Date: 20250218 / Time: 132108
+* Selection does not restrict data
+*MTART;DUMMY;STATM
+ABF;;A;
+ABF;;B;
+ABF;;C;
+ABF;;D;
+ABF;;E;
+ABF;;F;
+ABF;;G;
+ABF;;K;
+ABF;;L;
+ABF;;P;
+ABF;;Q;
+ABF;;S;
+ABF;;V;
+ABF;;X;
+ABF;;Z;
+UPL1;;A;
+UPL1;;Z;
+BUND;;A;
+BUND;;B;
+BUND;;C;
+BUND;;D;
+BUND;;E;
+BUND;;F;
+BUND;;G;
+BUND;;K;
+BUND;;L;
+BUND;;P;
+BUND;;Q;
+BUND;;S;
+BUND;;V;
+BUND;;X;
+BUND;;Z;
+LEIH;;A;
+LEIH;;B;
+LEIH;;C;
+LEIH;;D;
+LEIH;;E;
+LEIH;;F;
+LEIH;;G;
+LEIH;;K;
+LEIH;;L;
+LEIH;;P;
+LEIH;;Q;
+LEIH;;S;
+LEIH;;V;
+LEIH;;X;
+LEIH;;Z;

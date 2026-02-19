@@ -1,0 +1,98 @@
+
+
+Vorbereitungen
+---------------
+IH1 Installation 2506
+	aktuell IR1 und IR2 mit Einzeltransporten
+	am Ende der Tests: IR1, IR2 Installation
+		Grund: ITG/ITO ... Geringe Anzahl von TransportenS
+		20.05.: Dieter schaut nochmal wg. den Empfängersystemen bei ExxonMobil 
+
+Enhancement-Tests (ggf. unnötig)
+	wenn, dann: S02 
+
+Upgrade-Test
+	Gleiches Szenario
+	S02 - Upgrade Test
+	S03 - Installation / Deinstallation  
+
+IH2
+	Keine gesondenderten Aktionen, Transporte laufen jeweils zunächst dorthin
+
+Sprachen
+	müssten wir kontrollieren, welche Systeme noch ES und PT benötigen (PT aktuell noch nicht übersetzt, ES lückenhaft und FR teilweise zu überarbeiten)
+	Wo fehlen sie noch?
+		20.05. Dieter schaut nach und gibt Andreas Bescheid
+		27.05: Resultat: S01 / S02 / IQ1 
+			=> S02 wäre das wichtigste ... sollte vor dem "Upgrade S02 sein" ... aktuell vor dem 18.06. (oder vor dem 25.06 wenn wir schieben)
+			=> IQ1 zur Sicherheit auch ... können wir jederzeit machen ... könnte ggf. Bernd machen
+				wäre auch gut wg. Aufbau IQ2 
+			=> S01 auch Google Stand ... 
+		
+
+Nacharbeiten
+	Exchange Rates: ok
+	Public Holiday: Daten erzeugen / Nummernkreis anpassen ggf. 
+	Auch für Produkthierarchie
+
+erledigt
+		IR1 Andreas/Bernd/Günter: Rücksicherungsversion erstellen => Start 28.06.
+			Neue Version 2407 01 inkl. allen Sprachen (Andreas, Bernd) erstellen
+			Günter: Upgrade 2503 und ggf. ALE Settings
+			Andreas/Bernd: Einfrieren 
+			Günter: Upgrade 2507 
+			Andreas/Bernd: Einfrieren
+			01.07.2025: 2507 eingespielt, aber aktuell dann wieder auf einer älteren SAP Version
+				Dieter dokumentiert die Backups
+		IR2 Andreas/Bernd/Günter: Rücksicherungsversion erstellen => Start 28.06. 
+			Neue Version 2407 01 (Sprachen sollten drin sein) (Andreas, Bernd) erstellen
+			Günter: Upgrade 2503 und ggf. ALE Settings
+			Andreas/Bernd: Einfrieren 
+			Günter: Upgrade 2507 
+			Andreas/Bernd: Einfrieren
+			01.07.2025: siehe oben, wie bei IR1
+				Dieter dokumentiert die Backups
+		ALE-User in den RFC Verbindungen passt Günter an, wenn nach der Rücksicherung wieder ein User ungleich dem "ALEUSER" drinsteht. Wird dann auch in der Sicherung sein.
+		Test-Verteilung IH1/IR1/IR2 => Günter sagt Michael Bescheid
+
+
+
+Zeitliche Planung
+------------------
+Tests bis 01.08. 16:00 Uhr
+01.08.25 nach 16:00 Uhr 
+	IH1 
+		Refresh und Installation 2507 - (Andreas/Bernd: "wie wöchentliches Rücksetzen")
+	IR1
+		Refresh und Installation 2507
+	IR2
+		Refresh und Installation 2507
+
+Sa 02.08.25 S03 Installation/Deinstallation (Günter, Andreas/Bernd: keine Todos)
+	Smoketest 
+
+Mo 04.08.25 S02 Installation (Bernd: Voll-Backup 2407) 
+	Supportsystem für 2507 / 2503 / 2407
+	RDM Upgrade (Günter/Dieter) - bekanntes Vorgehen
+		auf Sender und Empfänger => auf S02 (da sind beide)
+		=> eigentlich müssten wir das auch separat auf den Receiver-Systemen machen (war aber Dez 2024 kein Problem)
+	// auf 2508 / 2509 verschoben SAP Upgrade (Andreas ab 23.7. im Urlaub) - bekanntes Vorgehen	
+	//	=> zur Not können wir darauf verzichten, bzw. dies nachgelagert machen
+	//	=> mit Maren klären wg. Exxon/Shell. Exxon muss auf 2507, keine Fixes zwischendurch ... ggf. müssen wir hier ein SP
+	"Rücksicherung" (Bernd) - bekanntes Vorgehen
+11.08.2025 Auslieferung 2507
+
+
+
+August "2508" => ggf. PoC auf "900" jedenfalls für Jungheinrich und Liebherr
+- Technische Tests inkl. Upgrade
+	18.08.2025 - 20.08.2025 Installationen etc. von Günter
+	21.08.2025 - 22.08.2024 Upgrade Test auf S02 (inkl. Fixes) von Andreas (oder ggf. auf IH1? Nachteil: keine Fixes, Vorteil: damit kann mam den Upgrade dann evtl. im System belassen)
+29.08. spätester Auslieferungspunkt
+
+
+
+August/September: 
+- Upgrade IR1 (aktuell auf 2021) "SAP 2022->SAP 2023" - oder 
+	sollte keine Probleme geben wenn das mit der Auslieferung bestückt ist
+- Upgrade IH2 "..." (basierend auf einer neuen Auslieferung) - macht das Sinn, bringt das einen Gewinn? Neu aufbauen?	

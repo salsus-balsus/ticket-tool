@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: STAND
+* Variant:
+* User: IT_ALL_06
+* Date: 20240609 / Time: 153515
+* Selection does not restrict data
+*STAND;TXTMI;PLANT
+0001;Werk 0001 Standort 0001;0001;
+0002;Werk 0002 Standort 0002;0001;

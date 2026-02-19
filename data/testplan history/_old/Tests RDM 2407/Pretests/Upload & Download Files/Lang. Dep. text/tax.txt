@@ -1,0 +1,16 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KALSM_TAX
+* Variant: ITR_TAXPT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 175148
+* Selection does not restrict data
+*MWSKZ_TAX;KALSM_TAX;LANGU;TXTLG
+00;TAXB;DE;lang imp;
+00;TAXB;EN;lang imp;
+ZX;TAXKR;DE;10% Allocation of common IT - Tax invoice;
+ZX;TAXKR;EN;10% Allocation of common IT - Tax invoice;
+ZY;TAXKR;DE;10% Allocation of common IT - Cash register;
+ZY;TAXKR;EN;10% Allocation of common IT - Cash register;
+ZZ;TAXKR;DE;10% Allocation of common IT - Credit card;
+ZZ;TAXKR;EN;10% Allocation of common IT - Credit card;

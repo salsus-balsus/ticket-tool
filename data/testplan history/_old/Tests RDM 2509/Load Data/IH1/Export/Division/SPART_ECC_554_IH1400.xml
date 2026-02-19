@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_SPART_ECC System="IH1_400">
+	<SPART_ECC>
+		<SPART>V1</SPART>
+	</SPART_ECC>
+	<SPART_ECC>
+		<SPART>S1</SPART>
+	</SPART_ECC>
+	<SPART_ECC>
+		<SPART>SC</SPART>
+	</SPART_ECC>
+</MDG_SPART_ECC>

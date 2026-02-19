@@ -1,0 +1,47 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: KOKRS
+* Variant: ITR_KOKRS
+* User: IT_ALL_06
+* Date: 20250922 / Time: 134342
+* Selection does not restrict data
+*KOKRS;KHINR_TXT;TXTMI;PCA_ALEMT;PCA_ACC_D;RCL_PRIMA;XBPALE;CVACT;KHINR;KO_KTOPL;KOKFI;KOMP1;KO_WAERS;CTYP;CVPROF;PCACURTP;XWBUK;ALEMT;CO_AUTH_S;KE_AUTH_S;BLART;PCBEL;FIKRS;LMONA;CO_ADD1;KE_ADD1;CO_ADD2;KE_ADD2;BPHINR;PHINR;MD_LOGSYS;LOGSYSTEM;BEZEI;ERKRS;VNAME;KOMP0;PCACUR;PCLDG;RCLAC;KOMP2;PCATRCUR;TP_VALOHB;PCA_VALU
+0004;;;;;;;;K0MB1_HIER;0MB1;2;;EUR;30;;;X;;;;;;;K4;;;;;;;;;IS-B Musterbank Deutschl.;;;;;;;;;0;0;
+AE01;;;;;;;;AE01;INT;2;;EUR;30;;;X;;;;;;;K4;;;;;;;;;Country Template UAE;;;;;;;;;0;0;
+AU01;;;;;;;;;INT;2;;EUR;30;;;X;;;;;;;V6;;;;;;;;;Kostenrechnungskreis AU01;;;;;;;;;0;0;
+BE01;;;;;;;;BE01;CABE;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PBE01;;;Kostenrechnungskreis BE01;S001;;;;;;;X;0;0;
+CA01;;;;;;;;CA01;CANA;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PCA01;;;Kostenrechnungskreis CA01;S001;;;;;;;X;0;0;
+CH01;;;;;;;;CH01;CACH;2;;EUR;30;;30;X;;;;;;;K4;;;;;;;;;Kostenrechnungskreis CH01;S001;;;;;;;X;0;0;
+CN01;;;;;;;;CN01;CACN;2;;EUR;30;;30;X;;;;;;;K1;;;;;;PCN01;;;Kostenrechnungskreis CN01;S001;;;;;;;X;0;0;
+CO01;;;;;;;;CO01;CACO;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PCO01;;;Kostenrechnungskreis CO01;S001;;;;;;;X;0;0;
+CZ01;;;;;;;;CZ01;CACZ;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PCZ01;;;Kostenrechnungskreis CZ01;S001;;;;;;;X;0;0;
+DE01;;;;;;;;DE01;GKR;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PDE01;;;Kostenrechnungskreis DE01;S001;;;;;;;X;0;0;
+DE02;;;;;;;;DE02;IKR;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PDE02;;;Kostenrechnungskreis DE02;S001;;;;;;;X;0;0;
+ES01;;;;;;;;ES01;CAES;2;;EUR;30;;20;X;;;;;X;;K4;;;;;;PES01;;;Kostenrechnungskreis ES01;S001;;;;;;;;0;0;
+FI01;;;;;;;;FI01;CAFI;2;;EUR;30;;;X;;;;;;;K4;;;;;;;;;Kostenrechnungskreis FI01;S001;;;;;;;;0;0;
+FR01;;;;;;;;KFR01_HIER;CAFR;2;;EUR;30;;;X;;;;;;;K4;;;;;;;;;Kostenrechnungskreis FR01;;;;;;;;;0;0;
+HU01;;;;;;;;HU01;CAHU;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PHU01;;;Kostenrechnungskreis HU01;S001;;;;;;;;0;0;
+JP01;;;;;;;;JP01;CAJP;2;;EUR;30;;30;X;;;;;;;V3;;;;;;PJP01;;;Kostenrechnungskreis JP01;S001;;;;;;;X;0;0;
+KR01;;;;;;;;KR01;CAKR;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PKR01;;;Kostenrechnungskreis KR01;S001;;;;;;;X;0;0;
+KW01;;;;;;;;;INT;2;;EUR;30;;;X;;;;;;;K4;;;;;;;;;Controlling Area KW01;;;;;;;;;0;0;
+KZ01;;;;;;;;KZ01;CAKZ;2;;EUR;30;;;X;;;;;;;K4;;;;;;;;;Kostenrechnungskreis KZ01;S001;;;;;;;;0;0;
+MCA;;;;;;;;MCA;BKMG;2;;EUR;30;;30;X;;;;;;;K4;;;;;;MCA;;;Controlling Area MCA;;;;;;;;;0;0;
+NO01;;;;;;;;NO01;CANO;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PNO01;;;Kostenrechnungskreis NO01;S001;;;;;;;X;0;0;
+PE01;;;;;;;;PE01;CAPE;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PPE01;;;Kostenrechnungskreis PE01;S001;;;;;;;X;0;0;
+PL01;;;;;;;;PL01;CAPL;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PPL01;;;Kostenrechnungskreis PL01;S001;;;;;;;X;0;0;
+PT01;;;;;;;;PT01;CAPT;2;;EUR;30;;;X;;;;;;;K4;;;;;;;;;Kostenrechnungskreis PT01;S001;;;;;;;;0;0;
+PT02;;;;;;;;;SNC;2;;EUR;30;;;X;;;;;;;K4;;;;;;;;;Kostenrechnungskreis PT02;;;;;;;;;0;0;
+QA01;;;;;;;;;INT;2;;EUR;30;;;X;;;;;;;K4;;;;;;;;;Kostenrechnungskreis QA01;;;;;;;;;0;0;
+RECO;;;;;;;;RECO;INT;2;;EUR;30;;20;X;;;;;;;K4;;;;;PRECO_HIER;P0001;;;Sondereigentum (WEG);S001;;;;;;;X;0;0;
+REOB;;;;;;;;REOB;INT;2;;EUR;30;;30;X;;;;;;;K4;;;;;PREOB_HIER;P0001;;;RE Objektmandate;S001;;;;;;;X;0;0;
+RERF;;;;;;;;0001;WEG;2;;EUR;30;;20;X;;;;;;;K4;;;;;;P0001;;;WEG Kostenrechnungskreis;;;;;;;;;0;0;
+RS01;;;;;;;;;CARS;2;;EUR;30;;;X;;;;;;;K4;;;;;;;;;Kostenrechnungskreis RS01;;;;;;;;;0;0;
+RU01;;;;;;;;RU01;CARU;2;;EUR;30;;20;X;;;;;;;K4;;;;;;PRU01;;;Kostenrechnungskreis RU01;S001;;;;;;;X;0;0;
+SE01;;;;;;;;SE01;CASE;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PSE01;;;Kostenrechnungskreis SE01;S001;;;;;;;X;0;0;
+SG01;;;;;;;;SG01;INT;2;;EUR;30;;30;X;;;;;;;K4;;;;;PSG01_HIER;P0001;;;Kostenrechnungskreis SG01;S001;;;;;;;X;0;0;
+SK01;;;;;;;;SK01;CASK;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PSK01;;;Kostenrechnungskreis SK01;S001;;;;;;;X;0;0;
+SLE0;;;;;;;;;BKMG;2;;EUR;30;;;X;;;;;;;K4;;;;;;PSK01;;;Kostenrechnungskreis SLE0;;;;;;;;;0;0;
+TR01;;;;;;;;TR01;CATR;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PTR01;;;Kostenrechnungskreis TR01;S001;;;;;;;X;0;0;
+TW01;;;;;;;;TW01;CATW;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PTW01;;;Kostenrechnungskreis TW01;S001;;;;;;;X;0;0;
+UA01;;;;;;;;UA01;CAUA;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PUA01;;;Kostenrechnungskreis UA01;S001;;;;;;;X;0;0;
+US01;;;;;;;;US01;CANA;2;;EUR;30;;30;X;;;;;;;K4;;;;;;PUS01;;;Kostenrechnungskreis US01;S001;;;;;;;X;0;0;

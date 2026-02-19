@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MDG_KTOPL_DESCR_ECC System="IR1_200">
+	<KTOPL_DESCR_ECC>
+		<KTOPL>0MB1</KTOPL>
+		<LANGU>D</LANGU>
+		<TXTLG>IS-B Musterbank Deutschland</TXTLG>
+	</KTOPL_DESCR_ECC>
+		<KTOPL_DESCR_ECC>
+		<KTOPL>0MB1</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>import test</TXTLG>
+	</KTOPL_DESCR_ECC>
+	<KTOPL_DESCR_ECC>
+		<KTOPL>$MB2</KTOPL>
+		<LANGU>E</LANGU>
+		<TXTLG>test import</TXTLG>
+	</KTOPL_DESCR_ECC>
+</MDG_KTOPL_DESCR_ECC>

@@ -1,0 +1,9 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: PLSCO
+* Variant: ITR_PLSCO
+* User: IT_ALL_06
+* Date: 20250826 / Time: 080545
+* Selection does not restrict data
+*PLSCO;PUWTX
+SOP7;Description SOP07;

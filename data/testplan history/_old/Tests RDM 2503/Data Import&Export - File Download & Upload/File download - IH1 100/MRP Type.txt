@@ -1,0 +1,14 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: DISMM_ET1
+* Variant: ITR_MRPTY
+* User: IT_ALL_06
+* Date: 20250217 / Time: 101032
+* Selection does not restrict data
+*DISMM_ET1;TXTMI;PROVB;FXART;PROKZ;ICBED;DISVF;PROOS;A1BED;A2BED;KZREG;CBPPT;U2BED;PRRED;U1BED;KZMEB;RESPL;KZSIB;U4BED;DYFOL;BBBED;RYBED
+DT;ME DT;G;0;*;;B;G;;;X;1;;1;;X;1;X;;MDT;;;
+M1;MRP Type 1;U;3;*;;X;U;;;X;1;;1;;;1;X;;;;;
+M2;MRP Type 2;U;3;*;;X;U;;;X;1;;1;;;1;X;;;;;
+M3;MRP Type 03;U;3;*;;X;U;;;X;1;;1;;;1;X;;;;;
+MU;MRP Type UPL;U;3;*;;X;U;;;X;1;;1;;;1;X;;;;;
+ME;ME 40.1;U;1;+;;C;U;;;;2;;2;;;;;;EME;;;

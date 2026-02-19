@@ -1,0 +1,10 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: EKGRP
+* Variant: ITR_EKGRP
+* User: IT_ALL_06
+* Date: 20250909 / Time: 085503
+* Selection does not restrict data
+*EKGRP;EKNAM;SMTP_ADDR;EKTEL;TEL_NUMBE;TELFX;STATUS_EK;STREMARKS;STVALIDFR;TEL_EXTEN
+001;Einkäufer 01;info@itego.de;06227/341285;0228 181;0228 181 22554;;;00.00.0000;212;
+005;Einkäufer 5;info@itego.de;06227/341285;0228 181;0228 181 22554;;;00.00.0000;212;

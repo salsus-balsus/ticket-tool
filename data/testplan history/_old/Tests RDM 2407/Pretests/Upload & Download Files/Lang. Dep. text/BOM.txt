@@ -1,0 +1,24 @@
+﻿* Download
+* Data Model: I1
+* Entity Type: STLAN
+* Variant: ITR_STLANT
+* User: IT_ALL_06
+* Date: 20240726 / Time: 184623
+* Selection does not restrict data
+*STLAN;LANGU;TXTMI
+1;EN;Production in preparation;
+1;DE;lang imp;
+2;EN;Engineering/Design;
+3;EN;Universal;
+4;EN;Plant Maintenance;
+5;EN;Sales and Distribution;
+6;EN;Costing;
+7;EN;Empties;
+8;EN;Stability Study;
+A;EN;Bom Usg01;
+B;EN;Sales Bundles (IS-HT-SW);
+C;EN;Configuration Control;
+J;EN;JIT production line supply;
+M;EN;External Munitions Display;
+S;EN;Customer Management;
+U;EN;IUID Embedded Items;
